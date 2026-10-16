@@ -1,3 +1,4 @@
+import {APP_NAME} from '../shared/app-config.js';
 import {SCREENS,isQuizScreen,STUDY_LEVELS} from '../../languages/de/js/app-definition.js';
 import {createScreenRenderers} from '../shared/screen-renderers.js';
 import {createStore} from '../../languages/de/js/core/store.js';
@@ -14,13 +15,13 @@ export function createPresentation({navigate,refresh,onPreferences}) {
   settings:{
    values:()=>({...preferences(),hapticEnabled:store.state.preferences.hapticEnabled,autoRemoveResolvedWrongs:store.state.preferences.autoRemoveResolvedWrongs}),
    change:(key,value)=>store.preference(key==='uiLanguage'?'uiLang':key,value),haptic:context.haptic,
-   reportContext:()=>({app:'Learn German',studyLevel:store.state.preferences.studyLevel}),
+   reportContext:()=>({app:APP_NAME,studyLanguage:'de',studyLevel:store.state.preferences.studyLevel}),
    reset:async()=>{stopMedia();if(!store.resetStudy())throw new Error('Could not reset study progress');context.libraryState=undefined;try{await eraseRecordings();return false;}catch{return true;}},
   },
   setStudy(study){if(study===lastStudy)return;lastStudy=study;context.words=study?germanWords(study):[];context.dictionaryCount=context.words.length;},
   setPreferences({theme,uiLanguage}){if(store.state.preferences.theme!==theme)store.preference('theme',theme);if(store.state.preferences.uiLang!==uiLanguage)store.preference('uiLang',uiLanguage);setLocale(uiLanguage);},
   preferences,
-  title(route){return route==='home'?'Learn Language':t(SCREENS[route]?.title||'Study');},
+  title(route){return route==='home'?APP_NAME:t(SCREENS[route]?.title||'Study');},
   tab(route){return t(SCREENS[route].tab);},
   render(route,el){
    if(route==='retest'){context.quizBackRoute='wrong';context.quizReview=null;}

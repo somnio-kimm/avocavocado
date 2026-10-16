@@ -22,5 +22,5 @@ export async function startServer(port = 0) {
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const server = await startServer(Number(process.env.PORT || 4188));
-  console.log(`Learn Language: http://127.0.0.1:${server.address().port}`);
+  console.log(`avocavocado: http://127.0.0.1:${server.address().port}`);
 }

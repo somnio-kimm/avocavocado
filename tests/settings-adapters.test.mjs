@@ -9,6 +9,7 @@ test('Settings adapters preserve separate progress, stable keys and preference d
  try{
   const de=german(dependencies),zh=chinese(dependencies);
   for(const adapter of [de,zh]){
+   assert.equal(adapter.title('home'),'avocavocado');assert.equal(adapter.settings.reportContext().app,'avocavocado');
    assert.equal(adapter.settings.values().theme,'system');assert.equal(adapter.settings.values().autoRemoveResolvedWrongs,false);
    adapter.settings.change('uiLanguage','ko');adapter.settings.change('hapticEnabled',false);
    assert.equal(adapter.preferences().uiLanguage,'ko');assert.equal(adapter.settings.values().hapticEnabled,false);

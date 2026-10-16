@@ -1,3 +1,4 @@
+import {APP_NAME} from './shared/app-config.js';
 import {allowsExplanation} from './shared/language-pairs.js';
 import {createPackageManager} from './packages/manager.js';
 import {createPackageStorage} from './packages/storage.js';
@@ -28,7 +29,7 @@ function updateChrome(){
  const t=label();document.documentElement.lang=uiLanguage()==='en'?'en-GB':'ko';document.documentElement.dataset.theme=theme;
  $('status').textContent=t[phase]||'';$('package-status').dataset.state=phase;$('status').classList.toggle('error',['failed','catalogFailed'].includes(phase));
  $('retry').textContent=t.retry;$('retry').hidden=phase!=='failed';$('package-status').hidden=route!=='settings'||!['failed','catalogFailed'].includes(phase);
- $('header-title').textContent=route==='packages'?t.downloadedPackages:adapter?.title(route)||'Learn Language';
+ $('header-title').textContent=route==='packages'?t.downloadedPackages:adapter?.title(route)||APP_NAME;
  $('back-btn').setAttribute('aria-label',route==='packages'?t.settings:t.backToStudy);$('back-btn').hidden=['home','wrong','settings'].includes(route);
  $('back-btn').onclick=()=>{if(route==='packages'&&packageTarget){packageTarget='';draw();}else navigate(route==='packages'?'settings':'home');};
  const selected=route==='packages'?'settings':['home','wrong','settings'].includes(route)?route:route==='retest'?'wrong':'home';
