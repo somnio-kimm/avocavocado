@@ -1,6 +1,6 @@
 // Archived shared-runtime module; provenance is recorded in docs/archived-ui-source.json.
 // Only non-identifying app/device details are included in the user-reviewed form.
-export const WEB_BUILD = 'unified-preview';
+export const WEB_BUILD = 'avocavocado-preview';
 const text = value => String(value ?? 'Unavailable').replace(/[\r\n]+/g,' ').slice(0,300);
 
 export function browserOS(nav = {}) {
@@ -17,7 +17,7 @@ export function browserOS(nav = {}) {
   return 'Unavailable';
 }
 
-export async function collectBugDiagnostics({app,webVersion,uiLanguage,theme,studyLevel},env=globalThis,timeoutMs=1500) {
+export async function collectBugDiagnostics({app,webVersion,uiLanguage,theme,studyLevel,studyLanguage},env=globalThis,timeoutMs=1500) {
   const nav=env.navigator || {}, cap=env.Capacitor;
   const native=cap?.isNativePlatform?.()===true;
   let info={},status=native?'Unavailable':'Not applicable (web)',timer;
@@ -50,6 +50,7 @@ export async function collectBugDiagnostics({app,webVersion,uiLanguage,theme,stu
     ['Device language',nav.language],
     ['Theme',theme],
     ['System color scheme',env.matchMedia?.('(prefers-color-scheme: dark)').matches?'Dark':'Light'],
+    ['Study language',studyLanguage],
     ['Study level',Array.isArray(studyLevel)?studyLevel.join(', '):studyLevel],
     ['Screen size (CSS px)',`${screen.width ?? '?'} x ${screen.height ?? '?'}`],
     ['Viewport (CSS px)',`${Math.round(view?.width ?? env.innerWidth ?? 0)} x ${Math.round(view?.height ?? env.innerHeight ?? 0)}`],
