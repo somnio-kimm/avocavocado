@@ -1,4 +1,4 @@
-# iPhone simulator preview
+# avocavocado for iPhone and iPad
 
 This is the single unified app wrapper, with bundle identifier `com.somnio.learnlanguage`. It is separate from the retired Chinese/German applications.
 
@@ -12,7 +12,7 @@ npm run sync --prefix mobile
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild \
   -project mobile/ios/App/App.xcodeproj -scheme App -configuration Debug \
   -destination 'platform=iOS Simulator,name=iPhone 18 Pro Max' \
-  -derivedDataPath /tmp/learn-language-ios-build CODE_SIGNING_ALLOWED=NO build
+  -derivedDataPath /tmp/avocavocado-ios-build CODE_SIGNING_ALLOWED=NO build
 ```
 
 `prepare-ios.mjs` generates `mobile/www` from the web shell. It rewrites package URLs to the immutable HTTPS source in `content-source.json`; no language-package data is bundled. The preview pins starter content to a public repository commit, so it does not depend on a local development server. Configure production content hosting and catalog updates before distribution.
@@ -37,3 +37,32 @@ The generated `www` and iOS `public` directories are ignored. Keep `Package.reso
 Capacitor runtime licence text is retained in `THIRD_PARTY_NOTICES.txt`; study packages retain their own notices.
 
 The CLI uses a scoped override to UUID 14.0.3 under its Xcode-project parser. The upstream UUID 7 dependency has an advisory; the current override passes asset synchronisation and the full npm audit.
+
+## Physical iPad development install
+
+The installed display name is **avocavocado**. The bundle identifier remains
+`com.somnio.learnlanguage` and existing learner-storage namespaces are retained
+so a rename does not erase installed study progress. Active project/package names,
+web headings and diagnostics use avocavocado; historical licence credits are not
+rewritten.
+
+After `npm run mobile:sync`, use the connected device identifier from
+`xcrun devicectl list devices` and your Xcode signing team:
+
+```bash
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild \
+  -project mobile/ios/App/App.xcodeproj -scheme App -configuration Debug \
+  -destination 'id=<device-identifier>' \
+  -derivedDataPath /tmp/avocavocado-ipad-build \
+  -allowProvisioningUpdates -allowProvisioningDeviceRegistration \
+  DEVELOPMENT_TEAM=<your-team-id> CODE_SIGN_STYLE=Automatic build
+
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcrun devicectl device install app \
+  --device <device-identifier> /tmp/avocavocado-ipad-build/Build/Products/Debug-iphoneos/App.app
+```
+
+A first installation may require trusting your developer identity on the iPad:
+Settings → General → VPN & Device Management → Developer App. Follow the device's
+Trust/Allow prompt before launching. Development profiles expire; check the
+embedded provisioning profile's expiration date and rebuild/reinstall when needed.
+This is a development installation, not an App Store release.
