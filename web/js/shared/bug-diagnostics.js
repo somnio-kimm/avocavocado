@@ -1,6 +1,6 @@
 // Archived shared-runtime module; provenance is recorded in docs/archived-ui-source.json.
 // Only non-identifying app/device details are included in the user-reviewed form.
-export const WEB_BUILD = 'avocavocado-preview';
+export const WEB_BUILD = 'lingonberry-preview';
 const text = value => String(value ?? 'Unavailable').replace(/[\r\n]+/g,' ').slice(0,300);
 
 export function browserOS(nav = {}) {
