@@ -1,5 +1,5 @@
 import {snapshotQuestion as chineseSnapshot,resolveWrongQuestion} from '../web/languages/zh/js/services/wrong-review.js';
-import {orderStudyModes} from '../web/js/shared/study-modes.js';
+import {DEFAULT_STUDY_MODES,orderStudyModes} from '../web/js/shared/study-modes.js';
 import {HOME_MODES as germanModes} from '../web/languages/de/js/app-definition.js';
 import {HOME_MODES as chineseModes} from '../web/languages/zh/js/app-definition.js';
 import test from 'node:test';
@@ -40,7 +40,33 @@ test('Scramble accepts swapped identical tiles but rejects reusing one tile twic
  const repeated={...q,tokens:['go','go','.']};assert.equal(engine.sentenceAnswerCorrect(repeated,[1,0,2]),true);assert.equal(engine.sentenceAnswerCorrect(repeated,[0,0,2]),false);
 });
 
-test('the five shared defaults lead every menu without removing optional quizzes',()=>{assert.deepEqual(germanModes.slice(0,5),['wordlist','flashcards','cloze','scramble','listening']);assert.deepEqual(chineseModes.slice(0,5),['wordlist','flashcard','cloze','scramble','listening']);assert.deepEqual(orderStudyModes(['vocabinput','scramble','wordlist','flashcards','cloze']),['wordlist','flashcards','cloze','scramble','vocabinput']);});
+test('the seven shared defaults lead menus before language-specific quizzes',()=>{
+ assert.deepEqual(DEFAULT_STUDY_MODES,['wordlist','flashcards','vocabmeaning','vocabinput','cloze','scramble','listening']);
+ assert.deepEqual(germanModes,[...DEFAULT_STUDY_MODES,'articles','verbforms']);
+ assert.deepEqual(chineseModes,[...DEFAULT_STUDY_MODES.map(id=>id==='flashcards'?'flashcard':id),'pinyin','tone']);
+ for(const ids of [germanModes,chineseModes])assert.equal(new Set(ids).size,ids.length);
+ assert.deepEqual(orderStudyModes(['vocabinput','scramble','vocabmeaning','wordlist','flashcards','cloze']),['wordlist','flashcards','vocabmeaning','vocabinput','cloze','scramble']);
+});
+
+test('all five multilingual presentations render the seven defaults in English and Korean',async()=>{
+ const {createPresentation}=await import('../web/js/presentation/multilingual.js');
+ const previous=globalThis.localStorage;
+ globalThis.localStorage={getItem:()=>null,setItem:()=>{}};
+ try{
+  for(const language of ['ja','ko','en','es','fr']){
+   const presentation=createPresentation({language,navigate:()=>{},refresh:()=>{},onPreferences:()=>{}});
+   for(const uiLanguage of ['en','ko']){
+    presentation.setPreferences({theme:'system',uiLanguage});
+    const host={dataset:{},innerHTML:'',querySelectorAll:()=>[]};presentation.render('home',host);
+    const routes=[...host.innerHTML.matchAll(/data-route="([^"]+)"/g)].map(match=>match[1]);
+    assert.deepEqual(routes,DEFAULT_STUDY_MODES,`${language}/${uiLanguage}`);
+    assert.match(host.innerHTML,uiLanguage==='en'?/Meaning Quiz/:/뜻 선택/);
+    assert.match(host.innerHTML,uiLanguage==='en'?/Word Input/:/단어 입력/);
+    assert.ok(presentation.screens.vocabmeaning&&presentation.screens.vocabinput);
+   }
+  }
+ }finally{if(previous===undefined)delete globalThis.localStorage;else globalThis.localStorage=previous;}
+});
 
 test('Chinese sentence review retains a non-English/Korean explanation snapshot',()=>{
  const word={id:'book',hanzi:'书',hskLevel:1,syllables:[{hanzi:'书',base:'shu',tone:1}],studyMeaning:'本',studyExplanationLanguage:'ja'};
