@@ -1,4 +1,4 @@
-# Avocavocado
+# Lingonberry
 
 One offline-first language-learning app with downloadable study-language packages.
 

@@ -1,4 +1,4 @@
-# avocavocado for iPhone and iPad
+# Lingonberry for iPhone and iPad
 
 This is the single unified app wrapper, with bundle identifier `com.somnio.learnlanguage`. It is separate from the retired Chinese/German applications.
 
@@ -40,10 +40,10 @@ The CLI uses a scoped override to UUID 14.0.3 under its Xcode-project parser. Th
 
 ## Physical iPad development install
 
-The installed display name is **avocavocado**. The bundle identifier remains
+The installed display name is **Lingonberry**. The bundle identifier remains
 `com.somnio.learnlanguage` and existing learner-storage namespaces are retained
 so a rename does not erase installed study progress. Active project/package names,
-web headings and diagnostics use avocavocado; historical licence credits are not
+web headings and diagnostics use Lingonberry; historical licence credits are not
 rewritten.
 
 After `npm run mobile:sync`, use the connected device identifier from

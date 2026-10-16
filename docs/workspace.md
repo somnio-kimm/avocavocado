@@ -3,7 +3,7 @@
 Use `avocavocado` as the only active checkout. It is connected to
 `git@github.com:somnio-kimm/avocavocado.git`.
 
-The app is named avocavocado and keeps its existing app ID and learner
+The app is named Lingonberry and keeps its existing app ID and learner
 storage keys. Renaming the repository does not reset installed users' progress.
 The imported source is the integrated `learn_language` commit
 `c6c97e8b29351e9a64a7032770d18285ec80cfed`. All language-source branch patches are
