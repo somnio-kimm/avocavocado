@@ -1,0 +1,6 @@
+[
+ {"name":"uninflected adverb cannot become synonym ages","task":{"entryId":"long","studyLanguage":"en","task":"native_example","entry":{"word":"long","partOfSpeech":"adverb"}},"draft":{"text":"We waited for ages.","focus":{"text":"ages"}},"hardError":"uninflected_target_missing"},
+ {"name":"German female owner and French floor conventions","task":{"entryId":"office","studyLanguage":"de","task":"example_translation","locale":"ja","text":"Ihr Büro befindet sich im zweiten Stock.","context":"The building is in France and the office belongs to a woman."},"draft":{"text":"あなたのオフィスは2階にあります。"},"flags":["floor_numbering_context","participant_reference_mismatch"]},
+ {"name":"three additional chairs mistranslated","task":{"entryId":"chairs","studyLanguage":"en","task":"example_translation","locale":"ko","text":"We need three more chairs for the guests."},"draft":{"text":"손님들을 위해 더 이상 세 개의 의자를 더 필요합니다."},"flags":["additive_quantity_check"]},
+ {"name":"arithmetic definition needs semantic result check","task":{"entryId":"three","studyLanguage":"es","task":"meaning","locale":"ja","entry":{"word":"tres","partOfSpeech":"numeral"},"selectedSense":{"en":"Amounting to one added with two"}},"draft":{"text":"一つ足して二"},"flags":["arithmetic_definition_review"]}
+]
