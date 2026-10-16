@@ -1,0 +1,13 @@
+German reference dictionary
+
+English, German and Korean Wiktionary contributors, for each edition used by a record.
+Extracted with Kaikki/Wiktextract. https://kaikki.org/dictionary/rawdata.html
+
+Text adapted under Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+Each record retains the source editions, article URLs and contributor-history URLs.
+Changes: records compacted and grammatical facts normalized; primary Korean matches and separately labelled Korean source senses added. Original Korean glossary adaptations by learn_german contributors are marked editorial-draft and retain CC-BY-SA 4.0; qualified language review is pending. Sense numbers belong to their source edition.
+Examples, quotations, audio and images are not imported. No endorsement is implied.
+
+Recipients retain all rights under CC-BY-SA 4.0; project publication checks do not limit those rights.
+App code and original lessons retain their separate MIT license.

@@ -1,0 +1,87 @@
+{
+  "review": "editorial-draft; native-speaker-review-pending",
+  "notes": [
+    {
+      "id": "fr-lex-6bb7bff073d4e1644c8c",
+      "word": "prise",
+      "status": "sense-verified-original-example-added",
+      "note": "Canadian baseball sense retained. Factual terminology check only; original example and translations were not copied.",
+      "sources": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871799/retirer-sur-des-prises",
+        "https://baseball.ca/uploads/files/2026%20Rules/2026%20MLB%20Official%20Rules%20-%20FR.pdf"
+      ]
+    },
+    {
+      "id": "fr-lex-8040fc910b59087646f6",
+      "word": "un",
+      "status": "corrected",
+      "note": "Numeric noun uses le un, not elided article. Original game example added; dictionary examples not reused.",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9U0056"
+      ]
+    },
+    {
+      "id": "fr-lex-e8cceb964db0eb43b0f6",
+      "word": "van",
+      "status": "sense-verified-original-example-added",
+      "note": "Agricultural basket sense verified; original usage sentence and translations.",
+      "sources": [
+        "https://www.larousse.fr/dictionnaires/francais/van/81024"
+      ]
+    },
+    {
+      "id": "fr-lex-77868a6fe9d9179e2df9",
+      "word": "marine",
+      "status": "sense-verified-original-example-added",
+      "note": "Masculine borrowed noun for a US marine retained, distinct from feminine marine.",
+      "sources": [
+        "https://www.larousse.fr/dictionnaires/francais/marine/49494"
+      ]
+    },
+    {
+      "id": "fr-lex-cdbb6449063fb72341e7",
+      "word": "porter",
+      "status": "sense-verified-original-example-added",
+      "note": "Beer sense verified; original brewery example retained.",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A7P2046"
+      ]
+    },
+    {
+      "id": "fr-lex-a333bc36e418c9b47d54",
+      "word": "baiser",
+      "status": "sense-verified-original-example-added",
+      "note": "Kissing sense retained with literary/formal qualifier to distinguish everyday sexual sense. Original sentence and six translations.",
+      "sources": [
+        "https://www.dictionnaire-academie.fr/article/A9B0148"
+      ]
+    }
+  ],
+  "generalNotes": [
+    "A1 labels are inherited frequency tiers, not reviewed sense-level difficulty. Literary or specialist senses such as moi, mise and prise may need later level review.",
+    "Existing 1181 pre-matrix examples and first 121 correction rows require coordinated language-matrix backfill. Older examples also need explicit exercise focus where lemma inflection or ambiguity prevents inference.",
+    "All content is an AI-assisted editorial draft with native review pending. Source facts were consulted for selected rare senses, without reusing external example sentences.",
+    "Do not reuse corrected rows by NIKL concept ID alone; some fixes deliberately replace a wrong French sense inversion."
+  ],
+  "checkpoint": {
+    "examples": 1932,
+    "completeMatrixExamples": 751,
+    "legacyExamplesNeedBackfill": 1181,
+    "corrections": 241,
+    "completeMatrixCorrections": 120,
+    "legacyCorrectionsNeedBackfill": 121,
+    "levels": {
+      "A1": 363,
+      "A2": 669,
+      "B1": 900
+    },
+    "initialCandidateCount": 7789,
+    "remainingInitialCandidateCount": 5857,
+    "nextInitialIndex": 1932,
+    "nextId": "fr-lex-e031ed4947a194771e43",
+    "nextWord": "mademoiselle",
+    "nextLevel": "B1",
+    "status": "writing-paused-for-integration",
+    "validation": "JSON parsing, known unique IDs, contiguous initial prefix, nonempty required text, complete new translation maps, exact unique whole-word focus, zero duplicate French sentences"
+  }
+}

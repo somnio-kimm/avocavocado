@@ -1,0 +1,807 @@
+{
+  "status": "AI-editorial-focus-review",
+  "reviewedAtUtc": "2026-10-15T02:36:15.976723+00:00",
+  "nativeReview": false,
+  "input": "/private/tmp/ja-focus-pending.json",
+  "reviewedCandidateCount": 57,
+  "focusOnlyRowsChanged": 47,
+  "deferredCount": 0,
+  "sourceExamplesBefore": 1977,
+  "sourceExamplesAfter": 1976,
+  "beforeSha256": "c0a52224e1cbc93e4f9515cc29c72a1c55ff2ff17cf634dd30cd918fdaee5c5b",
+  "afterSha256": "d59b2b88b55726b6ac0c99e9a2de975d74f1fef6754c6d346b513d268b8a6bcd",
+  "changesRestrictedTo": "Initial pass added focus only. The separately authorised resolution pass replaced or completed 11 scoped examples, updated/added 7 scoped corrections, and quarantined one compound-only example. All unrelated rows and the four root-applied peer corrections were preserved.",
+  "added": [
+    {
+      "id": "ja-lex-93f6f1a601471c55d614",
+      "word": "それ",
+      "sourceLineOneBased": 9,
+      "focus": {
+        "text": "それ",
+        "start": 10
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-29322bea594568ba8535",
+      "word": "思う",
+      "sourceLineOneBased": 14,
+      "focus": {
+        "text": "思います",
+        "start": 9
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-bcca5400c69d1d2ebca5",
+      "word": "先",
+      "sourceLineOneBased": 51,
+      "focus": {
+        "text": "先",
+        "start": 2
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-1bf40cd690705b5c05dd",
+      "word": "絶対",
+      "sourceLineOneBased": 99,
+      "focus": {
+        "text": "絶対",
+        "start": 7
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-818513ff42fe46ee88e7",
+      "word": "実際",
+      "sourceLineOneBased": 104,
+      "focus": {
+        "text": "実際",
+        "start": 13
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-14eb55a1e99b9c191235",
+      "word": "使う",
+      "sourceLineOneBased": 140,
+      "focus": {
+        "text": "使います",
+        "start": 12
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-7798d0b03e9f82020014",
+      "word": "作る",
+      "sourceLineOneBased": 197,
+      "focus": {
+        "text": "作りました",
+        "start": 7
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-ee3d874b0cd49d22fdd4",
+      "word": "面白い",
+      "sourceLineOneBased": 203,
+      "focus": {
+        "text": "面白かった",
+        "start": 7
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-f3651acaa413ba192cfe",
+      "word": "終わり",
+      "sourceLineOneBased": 235,
+      "focus": {
+        "text": "終わり",
+        "start": 4
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-fb240e344850d1dc6d8e",
+      "word": "一方",
+      "sourceLineOneBased": 256,
+      "focus": {
+        "text": "一方",
+        "start": 2
+      },
+      "note": "First 一方 explicitly selected; the sentence contains two occurrences with the same side/direction sense."
+    },
+    {
+      "id": "ja-lex-0cf76ea90fb410c27c7e",
+      "word": "感じる",
+      "sourceLineOneBased": 260,
+      "focus": {
+        "text": "感じました",
+        "start": 12
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-2555487699c0e132f7ba",
+      "word": "出す",
+      "sourceLineOneBased": 296,
+      "focus": {
+        "text": "出しました",
+        "start": 8
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-8a390ca127b951a80f8f",
+      "word": "長い",
+      "sourceLineOneBased": 323,
+      "focus": {
+        "text": "長すぎる",
+        "start": 5
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-9487373f71c9e01778bb",
+      "word": "入れる",
+      "sourceLineOneBased": 361,
+      "focus": {
+        "text": "入れました",
+        "start": 5
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-04d7f6cca42f56aef765",
+      "word": "美しい",
+      "sourceLineOneBased": 422,
+      "focus": {
+        "text": "美しかった",
+        "start": 6
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-cf481266030b074ce20d",
+      "word": "受ける",
+      "sourceLineOneBased": 443,
+      "focus": {
+        "text": "受けました",
+        "start": 10
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-24cb56b5d591edfade93",
+      "word": "食",
+      "sourceLineOneBased": 451,
+      "focus": {
+        "text": "食",
+        "start": 3
+      },
+      "note": "Select the meal counter 食 in 三食; do not select 食 in 食べています, which has a different reading and POS."
+    },
+    {
+      "id": "ja-lex-57503a45aa6454d6f760",
+      "word": "安い",
+      "sourceLineOneBased": 481,
+      "focus": {
+        "text": "安く",
+        "start": 14
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-3190e3b9179762a05c49",
+      "word": "得る",
+      "sourceLineOneBased": 507,
+      "focus": {
+        "text": "得ました",
+        "start": 11
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-68642df6dad1342dec0b",
+      "word": "終わる",
+      "sourceLineOneBased": 516,
+      "focus": {
+        "text": "終わったら",
+        "start": 3
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-12385dcb6f2923aa28f9",
+      "word": "続く",
+      "sourceLineOneBased": 533,
+      "focus": {
+        "text": "続いて",
+        "start": 8
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-e9dd4b44e002e172e2f2",
+      "word": "呼ぶ",
+      "sourceLineOneBased": 573,
+      "focus": {
+        "text": "呼びました",
+        "start": 7
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-16e7666d41dd6d0dbe23",
+      "word": "含む",
+      "sourceLineOneBased": 616,
+      "focus": {
+        "text": "含みます",
+        "start": 7
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-09d6705afc6fc7eb58e7",
+      "word": "守る",
+      "sourceLineOneBased": 617,
+      "focus": {
+        "text": "守って",
+        "start": 8
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-ac4d5010157eb93552e6",
+      "word": "求める",
+      "sourceLineOneBased": 759,
+      "focus": {
+        "text": "求めて",
+        "start": 6
+      },
+      "note": "求めて is a valid seeking-verb surface. Separate inherited reading typo recorded below for root correction."
+    },
+    {
+      "id": "ja-lex-09105b087d289487efdc",
+      "word": "章",
+      "sourceLineOneBased": 761,
+      "focus": {
+        "text": "章",
+        "start": 6
+      },
+      "note": "Numeric/ordinal construction preserves the selected chapter, counted victory, or vote-counter sense; not an unrelated lexical compound."
+    },
+    {
+      "id": "ja-lex-9652bc040d5027e1282b",
+      "word": "残る",
+      "sourceLineOneBased": 777,
+      "focus": {
+        "text": "残った",
+        "start": 5
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-f5b3f4c40d44fb772407",
+      "word": "動く",
+      "sourceLineOneBased": 821,
+      "focus": {
+        "text": "動き始めました",
+        "start": 13
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-9db976e5e4604d7d640e",
+      "word": "頼む",
+      "sourceLineOneBased": 890,
+      "focus": {
+        "text": "頼みました",
+        "start": 14
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-1af9204d181e8d63790a",
+      "word": "向かう",
+      "sourceLineOneBased": 923,
+      "focus": {
+        "text": "向かって",
+        "start": 8
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-3f152b78d8849a7ae0f6",
+      "word": "増える",
+      "sourceLineOneBased": 925,
+      "focus": {
+        "text": "増えます",
+        "start": 13
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-f135a4fbb93f078055ca",
+      "word": "売る",
+      "sourceLineOneBased": 926,
+      "focus": {
+        "text": "売っています",
+        "start": 13
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-21826490cf7d87fb00cb",
+      "word": "描く",
+      "sourceLineOneBased": 931,
+      "focus": {
+        "text": "描きました",
+        "start": 10
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-9327522c5063b763e7b8",
+      "word": "示す",
+      "sourceLineOneBased": 968,
+      "focus": {
+        "text": "示しました",
+        "start": 11
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-ae99a2f067b01d1cc434",
+      "word": "勝",
+      "sourceLineOneBased": 1002,
+      "focus": {
+        "text": "勝",
+        "start": 10
+      },
+      "note": "Numeric/ordinal construction preserves the selected chapter, counted victory, or vote-counter sense; not an unrelated lexical compound."
+    },
+    {
+      "id": "ja-lex-c757de5c629eff62719d",
+      "word": "置く",
+      "sourceLineOneBased": 1018,
+      "focus": {
+        "text": "置いて",
+        "start": 6
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-dde726e248dafbb14919",
+      "word": "上がる",
+      "sourceLineOneBased": 1030,
+      "focus": {
+        "text": "上がりました",
+        "start": 6
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-7cdc9ae589a5c1ed3139",
+      "word": "戻る",
+      "sourceLineOneBased": 1034,
+      "focus": {
+        "text": "戻りました",
+        "start": 9
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-f98aa59d87ddb94ac64c",
+      "word": "落ちる",
+      "sourceLineOneBased": 1063,
+      "focus": {
+        "text": "落ちました",
+        "start": 10
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-7262328d0fa2b771ce83",
+      "word": "恥ずかしい",
+      "sourceLineOneBased": 1076,
+      "focus": {
+        "text": "恥ずかしかった",
+        "start": 14
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-a8124a4c0156cc9bc4c7",
+      "word": "順",
+      "sourceLineOneBased": 1107,
+      "focus": {
+        "text": "順",
+        "start": 4
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-3d1cf82974a20f183b9a",
+      "word": "同時",
+      "sourceLineOneBased": 1156,
+      "focus": {
+        "text": "同時",
+        "start": 3
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-21d7bbb02eeba16fcfa2",
+      "word": "票",
+      "sourceLineOneBased": 1193,
+      "focus": {
+        "text": "票",
+        "start": 7
+      },
+      "note": "Numeric/ordinal construction preserves the selected chapter, counted victory, or vote-counter sense; not an unrelated lexical compound."
+    },
+    {
+      "id": "ja-lex-f3b305bb698f0b4036e1",
+      "word": "立つ",
+      "sourceLineOneBased": 1194,
+      "focus": {
+        "text": "立っています",
+        "start": 11
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-8af72d72838b8ded0ea8",
+      "word": "凄く",
+      "sourceLineOneBased": 1336,
+      "focus": {
+        "text": "凄く",
+        "start": 11
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-e02f4658f961cf9f2795",
+      "word": "根",
+      "sourceLineOneBased": 1489,
+      "focus": {
+        "text": "根",
+        "start": 2
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    },
+    {
+      "id": "ja-lex-a21a56d9e6d7d9e63c74",
+      "word": "おまけ",
+      "sourceLineOneBased": 1706,
+      "focus": {
+        "text": "おまけ",
+        "start": 4
+      },
+      "note": "Selected independent noun/adverb or a valid conjugated surface."
+    }
+  ],
+  "deferred": [],
+  "additionalMetadataFindings": [
+    {
+      "id": "ja-lex-ac4d5010157eb93552e6",
+      "word": "求める",
+      "observedPronunciation": "もどめる",
+      "proposedCorrection": {
+        "id": "ja-lex-ac4d5010157eb93552e6",
+        "pronunciation": "もとめる",
+        "aliases": [
+          "もとめる"
+        ],
+        "meaningEn": "to look for; to seek",
+        "meaningKo": "구하다; 찾다",
+        "meanings": {
+          "de": "suchen; nach etwas streben",
+          "es": "buscar; procurar",
+          "fr": "chercher; rechercher",
+          "zh": "寻找；寻求"
+        },
+        "reason": "Correct the inherited reading typo もどめる to もとめる, verified in the Kanjipedia dictionary entry. The existing sentence uses the seeking sense.",
+        "provenance": {
+          "kind": "editorial-sense-correction",
+          "license": "CC-BY-SA-4.0",
+          "review": "AI-assisted; native-review-pending"
+        }
+      },
+      "sources": [
+        {
+          "title": "Kanjipedia — 求める",
+          "url": "https://www.kanjipedia.jp/kotoba/0001382700",
+          "supports": "Headword reading もとめる; sense 1 is searching."
+        },
+        {
+          "title": "Shogakukan Digital Daijisen — 求める, hosted by Kotobank",
+          "url": "https://kotobank.jp/word/%E6%B1%82%E3%82%81%E3%82%8B-646092",
+          "supports": "Reading もとめる and the seeking/searching sense."
+        }
+      ],
+      "applied": true,
+      "appliedVia": "ja-corrections.jsonl"
+    }
+  ],
+  "limits": [
+    "This remains AI editorial work; native-speaker review is pending.",
+    "All nine retained deferred cases now have deliberate standalone or grammatically inflected target spans. カー remains quarantined and is not counted as an authored example.",
+    "Existing examples outside the scoped 11 rows were not re-reviewed or translated in this pass.",
+    "The earlier ja-peer-review.json is a historical review snapshot; applied changes are recorded in this resolution checkpoint.",
+    "The scope did not include writing or publishing generated packages."
+  ],
+  "validation": {
+    "node": "v26.11.1",
+    "icu": "78.3",
+    "allAuthoredRowsPassSchema": true,
+    "allCorrectionsPassSchema": true,
+    "totalRows": 1976,
+    "totalCorrections": 79,
+    "focusEligible": 1976,
+    "remainingFocusExcluded": 0,
+    "completeTranslationReplacements": 11,
+    "completeMeaningCorrections": 7,
+    "quarantinedRows": 1,
+    "quarantineExcludedFromAuthored": true,
+    "seekingReadingAndAliasApplied": true,
+    "highLevelAdjectivePosApplied": true,
+    "uniqueIdsAndTexts": true,
+    "fullSixTranslationRows": 751,
+    "rowsStillNeedingTranslationBackfill": 1225
+  },
+  "deferredHistory": [
+    {
+      "id": "ja-lex-eb45cd9e5642abdc2b4a",
+      "word": "神",
+      "sourceLineOneBased": 70,
+      "category": "selected-sense-needs-review",
+      "reason": "山の神 is a local mountain deity, while the selected definition restricts 神 to a universe-creating/world-ruling being. Broaden the deity gloss or rewrite for the selected narrower sense before enabling focus."
+    },
+    {
+      "id": "ja-lex-7671bfee3d907f925af3",
+      "word": "ドル",
+      "sourceLineOneBased": 369,
+      "category": "compound-boundary-review",
+      "reason": "ドル appears only inside 米ドル. This is semantically the US dollar, but the conservative focus pass leaves the compound component for a standalone-use rewrite or an explicitly reviewed alias policy."
+    },
+    {
+      "id": "ja-lex-3826ddc813b42535725a",
+      "word": "類",
+      "sourceLineOneBased": 565,
+      "category": "compound-and-reading-mismatch",
+      "reason": "類 occurs only in 衣類, pronounced るい there, not the selected independent noun reading たぐい. Do not mask this component."
+    },
+    {
+      "id": "ja-lex-3d362d372792a88d9626",
+      "word": "業",
+      "sourceLineOneBased": 622,
+      "category": "embedded-compound",
+      "reason": "業 occurs only as part of 農業. Rewrite to demonstrate the selected independent work/business noun rather than masking the agriculture compound."
+    },
+    {
+      "id": "ja-lex-62dadee5399205250635",
+      "word": "券",
+      "sourceLineOneBased": 632,
+      "category": "embedded-compound",
+      "reason": "券 occurs only in 入場券. Use an independent ticket/voucher noun sentence or explicitly review compound policy; no forced component focus added."
+    },
+    {
+      "id": "ja-lex-191072133ad565b2c48b",
+      "word": "世",
+      "sourceLineOneBased": 749,
+      "category": "lexicalised-expression-and-sense-review",
+      "reason": "世 appears inside 世の中, whose social-world reading is not a transparent independent demonstration of the selected entire-earth/space gloss. Rewrite or reconcile the selected sense first."
+    },
+    {
+      "id": "ja-lex-abf4d8c1ebb0f98729b5",
+      "word": "カー",
+      "sourceLineOneBased": 835,
+      "category": "embedded-compound",
+      "reason": "カー appears only inside レンタカー. Do not treat the rental-car compound fragment as the selected independent car noun."
+    },
+    {
+      "id": "ja-lex-33f8f8f991bc77a849fb",
+      "word": "泣き",
+      "sourceLineOneBased": 1493,
+      "category": "embedded-compound",
+      "reason": "泣き occurs only in 泣き声, a cry/crying-voice compound, rather than an independent use of the selected crying-act noun."
+    },
+    {
+      "id": "ja-lex-6545f3a126a55f0fd7db",
+      "word": "ヘア",
+      "sourceLineOneBased": 1860,
+      "category": "embedded-compound",
+      "reason": "ヘア appears only in ヘアスタイル. Do not mask the hair component of hairstyle as an independent hair noun example."
+    },
+    {
+      "id": "ja-lex-fc142aa31f822908d837",
+      "word": "高等",
+      "sourceLineOneBased": 1917,
+      "category": "compound-and-pos-review",
+      "reason": "高等 occurs attributively in 高等教育, not as the selected independent noun denoting a high grade or level. Reconcile POS/sense or rewrite before focus."
+    }
+  ],
+  "resolvedDeferredCount": 9,
+  "quarantinedCount": 1,
+  "quarantined": [
+    {
+      "id": "ja-lex-abf4d8c1ebb0f98729b5",
+      "word": "カー",
+      "file": "ja-deferred-examples.jsonl",
+      "reason": "The sentence demonstrates レンタカー (hire car), not an independent カー. No confidently natural standalone learner example was selected without metalinguistic wording or a marked advertising context. Preserve the original draft but exclude it from publishable authored examples."
+    }
+  ],
+  "resolvedDeferred": [
+    {
+      "id": "ja-lex-eb45cd9e5642abdc2b4a",
+      "word": "神",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "神",
+        "start": 7
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-7671bfee3d907f925af3",
+      "word": "ドル",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "ドル",
+        "start": 11
+      },
+      "senseOrPosCorrectionApplied": false,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-3826ddc813b42535725a",
+      "word": "類",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "類",
+        "start": 2
+      },
+      "senseOrPosCorrectionApplied": false,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-3d362d372792a88d9626",
+      "word": "業",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "業",
+        "start": 7
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-62dadee5399205250635",
+      "word": "券",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "券",
+        "start": 2
+      },
+      "senseOrPosCorrectionApplied": false,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-191072133ad565b2c48b",
+      "word": "世",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "世",
+        "start": 5
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-33f8f8f991bc77a849fb",
+      "word": "泣き",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "泣き",
+        "start": 7
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-6545f3a126a55f0fd7db",
+      "word": "ヘア",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "ヘア",
+        "start": 8
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    },
+    {
+      "id": "ja-lex-fc142aa31f822908d837",
+      "word": "高等",
+      "status": "resolved-with-reviewed-sentence-and-focus",
+      "focus": {
+        "text": "高等な",
+        "start": 12
+      },
+      "senseOrPosCorrectionApplied": true,
+      "allSixTranslations": true
+    }
+  ],
+  "resolutionCheckpoint": {
+    "status": "validated",
+    "sourceExamplesBefore": 1977,
+    "sourceExamplesAfter": 1976,
+    "exampleRowsReplacedOrCompleted": 11,
+    "deferredCasesResolved": 9,
+    "examplesQuarantined": 1,
+    "correctionsBefore": 74,
+    "correctionsAfter": 79,
+    "correctionRowsUpdated": 2,
+    "correctionRowsAdded": 5,
+    "priorPeerCorrectionIdsPreserved": [
+      "ja-lex-3fa31b89fc90f15bb958",
+      "ja-lex-a9c842bd89541a80ed5c",
+      "ja-lex-e5d8c5dee6f613bc4773",
+      "ja-lex-0a3c1797c966e3548f40"
+    ],
+    "additionalAppliedFixes": [
+      "求める pronunciation and alias -> もとめる",
+      "二 contextual replacement from peer review"
+    ],
+    "beforeExampleSha256": "9dbb5a6f6f3334715c169293cdedaed1b7a85dccc75f3c1743e5a142ca7dc27a",
+    "beforeCorrectionSha256": "a0b7e3cb72bd06b2d288e7e9c9bcf07218be846b94058127749b220db762f43b",
+    "afterCorrectionSha256": "bb3e9644c00bae135da5a71589d2ccf735f9d5637dd907eb2ddfa49aca0cdb61",
+    "nativeReview": false,
+    "dictionaryChecks": [
+      {
+        "word": "神",
+        "url": "https://www.kanjipedia.jp/kotoba/0003607600",
+        "supports": "Generic deity sense encompassing religion and folk belief."
+      },
+      {
+        "word": "類",
+        "url": "https://www.kanjipedia.jp/kotoba/0007234500",
+        "supports": "Independent noun たぐい; the spelling 類 without trailing い is accepted."
+      },
+      {
+        "word": "業",
+        "url": "https://kotobank.jp/word/%E6%A5%AD-61354",
+        "supports": "Shogakukan Digital Daijisen: standalone ぎょう occupation/livelihood noun and the 業とする construction."
+      },
+      {
+        "word": "世",
+        "url": "https://kotobank.jp/word/%E4%B8%96-85461",
+        "supports": "Shogakukan Digital Daijisen: よ sense 6 denotes human society/the world."
+      },
+      {
+        "word": "泣き",
+        "url": "https://kotobank.jp/word/%E6%B3%A3%E3%81%8D-588269",
+        "supports": "Shogakukan Digital Daijisen: noun denoting crying, used here before の rather than inside 泣き声."
+      },
+      {
+        "word": "ヘア",
+        "url": "https://dictionary.goo.ne.jp/word/%E3%83%98%E3%82%A2/",
+        "supports": "Shogakukan Digital Daijisen entry lists head hair as sense 1; read via the indexed dictionary page."
+      },
+      {
+        "word": "高等",
+        "url": "https://kotobank.jp/word/%E9%AB%98%E7%AD%89-496823",
+        "supports": "Shogakukan Digital Daijisen lists adjectival use for high level, including 技術 contexts."
+      },
+      {
+        "word": "求める",
+        "url": "https://www.kanjipedia.jp/kotoba/0001382700",
+        "supports": "Reading もとめる and the seeking sense."
+      }
+    ],
+    "authoredFileSha256": "d59b2b88b55726b6ac0c99e9a2de975d74f1fef6754c6d346b513d268b8a6bcd"
+  }
+}

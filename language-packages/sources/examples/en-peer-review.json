@@ -1,0 +1,1103 @@
+{
+  "schemaVersion": 1,
+  "status": "AI-editorial-batch-review",
+  "reviewDate": "2026-10-15",
+  "nativeReviewStatus": "native-review-pending",
+  "nativeSpeakerReview": false,
+  "sourceSnapshot": {
+    "authoredPath": "language-packages/sources/examples/en-authored.jsonl",
+    "authoredCount": 89,
+    "authoredSha256": "b3271c85f5bf9d907b73b3ba2ecb70550481277e437a7d8e4fcac02b28890018",
+    "correctionsPath": "language-packages/sources/examples/en-corrections.jsonl",
+    "correctionCount": 48,
+    "correctionsSha256": "76ad41c28f9cbd2c9f1bee60d716fdb3d970351639bda34d4e90c8c93812a35e",
+    "dictionaryPaths": [
+      "language-packages/en-core-2.0.0.json",
+      "language-packages/en-en-2.0.0.json",
+      "language-packages/en-ko-2.0.0.json"
+    ],
+    "unchangedAtReportWrite": true
+  },
+  "scope": {
+    "examplesReviewed": 89,
+    "correctionsReviewed": 48,
+    "fullCurrentSidecarBatchReviewed": true,
+    "languagesReviewed": [
+      "en",
+      "ko",
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "zh"
+    ],
+    "criteria": [
+      "UK English sentence usage",
+      "Selected sense and part of speech",
+      "English and Korean definitions",
+      "All six example translations and available translated correction glosses",
+      "meaningDe",
+      "Explicit focus spans and local schema validation"
+    ]
+  },
+  "summary": {
+    "targetedCorrections": 3,
+    "optionalEditorialImprovements": 3,
+    "UKEnglish": "All 89 authored sentences are grammatical and suitable for the stated British-English target; no sentence-level UK usage rewrite is required.",
+    "corrections": "All 48 correction rows were read. Two existing correction glosses have targeted or optional translation findings; additional inherited-definition/POS fixes are suggested for last and something.",
+    "focus": "All 89 focus spans resolve correctly.",
+    "verdict": "Apply the targeted fixes and consider the optional refinements before describing this batch as editorially checked; native review remains pending."
+  },
+  "validation": {
+    "runtime": "Node v26.11.1",
+    "validateExampleRecordPassed": 89,
+    "validateCorrectionPassed": 48,
+    "findSentenceFocusResolved": 89,
+    "EnglishSelfAliasesMatch": true,
+    "KoreanAliasesMatchTranslationMap": true,
+    "sourceFilesModified": false,
+    "fullProjectTestsRun": false,
+    "commitsOrPushes": false
+  },
+  "findings": [
+    {
+      "findingId": "EN-PEER-001",
+      "id": "en-lex-28a2e861eafdbbbe7916",
+      "sourceRow": 79,
+      "headword": "last",
+      "priority": 2,
+      "category": "part-of-speech",
+      "title": "Classify final last as an adjective",
+      "problem": "In the last train, last modifies train after the article the and is the ordinary final-in-a-sequence adjective. The current determiner tag is inconsistent with the learner categories used for only and best. Cambridge lists this last use under adjective; there is no existing en last/adjective entry in the inspected core.",
+      "suggestedFix": {
+        "correction": {
+          "partOfSpeech": "adjective",
+          "meaningEn": "final in a sequence; coming after all the others",
+          "meaningKo": "순서에서 맨 마지막의",
+          "meanings": {
+            "ko": "순서에서 맨 마지막의",
+            "de": "letzter; nach allen anderen kommend",
+            "es": "último; posterior a todos los demás",
+            "fr": "dernier ; qui vient après tous les autres",
+            "ja": "順序の最後の",
+            "zh": "最后的；排在其他所有之后的"
+          },
+          "reason": "Use the adjective category for last modifying train after the article the."
+        }
+      },
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/last"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "EN-PEER-002",
+      "id": "en-lex-00ad3f8df2958c4cac46",
+      "sourceRow": 85,
+      "headword": "something",
+      "priority": 2,
+      "category": "inherited-English-definition",
+      "title": "Replace the circular something gloss",
+      "problem": "Anything; something repeats the headword and treats anything as an unqualified equivalent. The sentence uses an unspecified or unidentified thing, not a free-choice anything. Its Korean definition and example translations already communicate the intended sense.",
+      "suggestedFix": {
+        "correction": {
+          "meaningEn": "an unspecified or unidentified thing",
+          "meaningKo": "이름을 밝히지 않았거나 정체를 모르는 것; 무언가",
+          "meanings": {
+            "ko": "이름을 밝히지 않았거나 정체를 모르는 것; 무언가",
+            "de": "etwas; eine nicht näher bezeichnete oder unbekannte Sache",
+            "es": "algo; una cosa no especificada o desconocida",
+            "fr": "quelque chose ; une chose non précisée ou inconnue",
+            "ja": "何か；特定されていない、または分からないもの",
+            "zh": "某物；未指明或身份不明的事物"
+          },
+          "reason": "Define the indefinite pronoun directly instead of equating it with anything or repeating itself."
+        }
+      },
+      "sources": [
+        "https://www.collinsdictionary.com/dictionary/english/something"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "EN-PEER-003",
+      "id": "en-lex-fb168cab21aa94a28ccb",
+      "sourceRow": 54,
+      "headword": "most",
+      "priority": 2,
+      "category": "Japanese-quantity-alignment",
+      "title": "Avoid strengthening most to almost all",
+      "problem": "The correction explicitly says most is a majority and need not be almost all. Its Japanese gloss includes ほとんど, and the example uses 客のほとんど, which readily suggests nearly all. 大半 preserves majority without that added near-total implication.",
+      "suggestedFix": {
+        "example": {
+          "translations": {
+            "ja": "客の大半は昼食前に到着しました。"
+          }
+        },
+        "correction": {
+          "meanings": {
+            "ja": "大半、過半数；全体の半分を超える部分や数"
+          }
+        }
+      },
+      "sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/most-the-most-mostly"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "EN-PEER-004",
+      "id": "en-lex-816f32318b8b2b76edb9",
+      "sourceRow": 7,
+      "headword": "this",
+      "priority": 3,
+      "category": "translation-specificity",
+      "title": "Make the sister age consistent explicitly",
+      "problem": "Korean 언니, Japanese 姉 and Chinese 姐姐 specify an older sister, whereas the English, German, Spanish and French remain age-neutral. This is a minor unavoidable kinship choice in some languages, but making older explicit in the source produces a more tightly aligned matrix.",
+      "suggestedFix": {
+        "example": {
+          "text": "This mug belongs to my older sister.",
+          "en": "This mug belongs to my older sister.",
+          "translations": {
+            "de": "Diese Tasse gehört meiner älteren Schwester.",
+            "es": "Esta taza es de mi hermana mayor.",
+            "fr": "Cette tasse appartient à ma sœur aînée."
+          },
+          "focus": {
+            "text": "This",
+            "start": 0
+          }
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "EN-PEER-005",
+      "id": "en-lex-4573cc39b962cb1803f6",
+      "sourceRow": 70,
+      "headword": "why",
+      "priority": 3,
+      "category": "Spanish-naturalness",
+      "title": "Use a more idiomatic surprise response",
+      "problem": "¡Vaya, nunca esperaba verte aquí! is understandable, but no me esperaba verte aquí is the more natural way to express the unexpected encounter in this dialogue. The source English is acceptable, though stylistically marked, for the selected interjection sense.",
+      "suggestedFix": {
+        "example": {
+          "translations": {
+            "es": "¡Vaya, no me esperaba verte aquí!"
+          }
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "EN-PEER-006",
+      "id": "en-lex-61e1ec12f582637f6dab",
+      "sourceRow": 82,
+      "headword": "best",
+      "priority": 3,
+      "category": "French-definition-naturalness",
+      "title": "Avoid son mieux as a detached learner gloss",
+      "problem": "The example correctly uses faire de mon mieux. In the correction definition, son mieux is an awkward standalone fragment of that idiom. A direct learner gloss for maximum effort or ability is clearer.",
+      "suggestedFix": {
+        "correction": {
+          "meanings": {
+            "fr": "le maximum de ses efforts ou de ses capacités"
+          }
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    }
+  ],
+  "reviewedIds": [
+    "en-lex-04731d20e31ce8aa94ad",
+    "en-lex-cb12c8a15cbeef9b61fb",
+    "en-lex-62a91713ba52c75dc039",
+    "en-lex-8f5d97f290e03b0e2321",
+    "en-lex-092892d66fe77714fe3f",
+    "en-lex-64494b56e695d73185ec",
+    "en-lex-816f32318b8b2b76edb9",
+    "en-lex-b08fafbcb14dbe19498f",
+    "en-lex-5967a97370f02a39c63c",
+    "en-lex-f49179c6bcc12189fa69",
+    "en-lex-4e01bc35c8922620cbd8",
+    "en-lex-8b90bfc1bb19b512e511",
+    "en-lex-bf96d76c22ca690f0589",
+    "en-lex-5aaa5e7bbf0293adc741",
+    "en-lex-680b9defa346fefa017d",
+    "en-lex-7fb34fe8d33aae3f927c",
+    "en-lex-785b4235d56ba59af098",
+    "en-lex-8e1f4a640752ccfacdae",
+    "en-lex-ffc5ef26aa852c986972",
+    "en-lex-1560fd9affb8ee44bbf2",
+    "en-lex-501263a8feae754e8d95",
+    "en-lex-904921690a0639b6c2d3",
+    "en-lex-86b1e95239ae6f58efb4",
+    "en-lex-3e080f4e41349dfb384d",
+    "en-lex-d616c8f7d442c2763f4b",
+    "en-lex-eb2e691368101535aa82",
+    "en-lex-f40a860278a824c0465c",
+    "en-lex-2c0c2b0b1913fba49050",
+    "en-lex-5d9599eb58be0dde3093",
+    "en-lex-a683e1a0cad7fed847bc",
+    "en-lex-135e135daced6775aeba",
+    "en-lex-21510beae799cbaa72ef",
+    "en-lex-454fbba9f2bcd172705c",
+    "en-lex-72642e2d6606166905ea",
+    "en-lex-347599d9bc38a5bad153",
+    "en-lex-4f3b80787f465d550ece",
+    "en-lex-3fa2619d27631ba444cf",
+    "en-lex-9616cdeea0f07038a62e",
+    "en-lex-552b03cb82ba6d614780",
+    "en-lex-53d07f16a650e4bd2ccb",
+    "en-lex-874bcb75fc952c581aae",
+    "en-lex-2746d08ae6192b64ebbd",
+    "en-lex-8669fec2a310f163d231",
+    "en-lex-d969e46eb176ef294736",
+    "en-lex-4819298023758063067a",
+    "en-lex-9bb07ab2ec7187420283",
+    "en-lex-de55332057b6ab6f8339",
+    "en-lex-9e8a1bd4b74c1631bc0a",
+    "en-lex-8f3fee0fad2681cb0b28",
+    "en-lex-82a418d2136fb31bff73",
+    "en-lex-f4c77e859990082324f4",
+    "en-lex-6d221b81722605ef0cb6",
+    "en-lex-f1bc94ecd3074d721d89",
+    "en-lex-fb168cab21aa94a28ccb",
+    "en-lex-fae1193c01a952f43491",
+    "en-lex-cb83fe9336f85a6d74dd",
+    "en-lex-046baed8bbda1e111ec9",
+    "en-lex-8ff3af1ffed7785e858b",
+    "en-lex-c5df4ac5f7d133b870d1",
+    "en-lex-639425b81ede8c33a3dd",
+    "en-lex-766054bdc4dc37145202",
+    "en-lex-5e9dfb8343ee571cb18d",
+    "en-lex-ccdcdc33dbc8e98b5fb5",
+    "en-lex-4987607e2d428d0cec82",
+    "en-lex-586ea38426cbe0b5b31b",
+    "en-lex-ce2c727d550b85b9861c",
+    "en-lex-a52dcb0303c95a4f5f07",
+    "en-lex-e9b47774ab55a6fd6150",
+    "en-lex-83a5ba4b9de215b769c6",
+    "en-lex-4573cc39b962cb1803f6",
+    "en-lex-c419e96cf9fb0cf32992",
+    "en-lex-683b167cbbb722ab1864",
+    "en-lex-5986a38ce0276811dc13",
+    "en-lex-2ff0c68ffa419a7a26e2",
+    "en-lex-fdc864e91e711dcb1eb3",
+    "en-lex-5358d4ed7b741836a05a",
+    "en-lex-167040e6ac9a6d730b6f",
+    "en-lex-05f5b387519505d30617",
+    "en-lex-28a2e861eafdbbbe7916",
+    "en-lex-66690e3a462579b7f474",
+    "en-lex-0bc944f16fe4fb78824f",
+    "en-lex-61e1ec12f582637f6dab",
+    "en-lex-4ead16846790294c859e",
+    "en-lex-237e585bfc8c529be8fb",
+    "en-lex-00ad3f8df2958c4cac46",
+    "en-lex-dbc71e10e0e11a7364ff",
+    "en-lex-9953f5494b8381c354a3",
+    "en-lex-1dc9fb35983ecbb677f0",
+    "en-lex-73ad9775e2efca036018"
+  ],
+  "reviewedCorrectionIds": [
+    "en-lex-04731d20e31ce8aa94ad",
+    "en-lex-cb12c8a15cbeef9b61fb",
+    "en-lex-62a91713ba52c75dc039",
+    "en-lex-8f5d97f290e03b0e2321",
+    "en-lex-64494b56e695d73185ec",
+    "en-lex-816f32318b8b2b76edb9",
+    "en-lex-b08fafbcb14dbe19498f",
+    "en-lex-5967a97370f02a39c63c",
+    "en-lex-f49179c6bcc12189fa69",
+    "en-lex-4e01bc35c8922620cbd8",
+    "en-lex-8b90bfc1bb19b512e511",
+    "en-lex-5aaa5e7bbf0293adc741",
+    "en-lex-680b9defa346fefa017d",
+    "en-lex-7fb34fe8d33aae3f927c",
+    "en-lex-8e1f4a640752ccfacdae",
+    "en-lex-ffc5ef26aa852c986972",
+    "en-lex-501263a8feae754e8d95",
+    "en-lex-d616c8f7d442c2763f4b",
+    "en-lex-eb2e691368101535aa82",
+    "en-lex-5d9599eb58be0dde3093",
+    "en-lex-135e135daced6775aeba",
+    "en-lex-72642e2d6606166905ea",
+    "en-lex-4f3b80787f465d550ece",
+    "en-lex-3fa2619d27631ba444cf",
+    "en-lex-9616cdeea0f07038a62e",
+    "en-lex-552b03cb82ba6d614780",
+    "en-lex-d969e46eb176ef294736",
+    "en-lex-de55332057b6ab6f8339",
+    "en-lex-9e8a1bd4b74c1631bc0a",
+    "en-lex-82a418d2136fb31bff73",
+    "en-lex-f4c77e859990082324f4",
+    "en-lex-f1bc94ecd3074d721d89",
+    "en-lex-fb168cab21aa94a28ccb",
+    "en-lex-fae1193c01a952f43491",
+    "en-lex-046baed8bbda1e111ec9",
+    "en-lex-8ff3af1ffed7785e858b",
+    "en-lex-c5df4ac5f7d133b870d1",
+    "en-lex-639425b81ede8c33a3dd",
+    "en-lex-586ea38426cbe0b5b31b",
+    "en-lex-a52dcb0303c95a4f5f07",
+    "en-lex-83a5ba4b9de215b769c6",
+    "en-lex-5986a38ce0276811dc13",
+    "en-lex-2ff0c68ffa419a7a26e2",
+    "en-lex-167040e6ac9a6d730b6f",
+    "en-lex-66690e3a462579b7f474",
+    "en-lex-61e1ec12f582637f6dab",
+    "en-lex-4ead16846790294c859e",
+    "en-lex-237e585bfc8c529be8fb"
+  ],
+  "reviewedRows": [
+    {
+      "id": "en-lex-04731d20e31ce8aa94ad",
+      "sourceRow": 1,
+      "word": "to",
+      "partOfSpeech": "preposition",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-cb12c8a15cbeef9b61fb",
+      "sourceRow": 2,
+      "word": "that",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-62a91713ba52c75dc039",
+      "sourceRow": 3,
+      "word": "that",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8f5d97f290e03b0e2321",
+      "sourceRow": 4,
+      "word": "you",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-092892d66fe77714fe3f",
+      "sourceRow": 5,
+      "word": "it",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-64494b56e695d73185ec",
+      "sourceRow": 6,
+      "word": "on",
+      "partOfSpeech": "preposition",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-816f32318b8b2b76edb9",
+      "sourceRow": 7,
+      "word": "this",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": true,
+      "findingIds": [
+        "EN-PEER-004"
+      ]
+    },
+    {
+      "id": "en-lex-b08fafbcb14dbe19498f",
+      "sourceRow": 8,
+      "word": "this",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5967a97370f02a39c63c",
+      "sourceRow": 9,
+      "word": "but",
+      "partOfSpeech": "conjunction",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-f49179c6bcc12189fa69",
+      "sourceRow": 10,
+      "word": "my",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-4e01bc35c8922620cbd8",
+      "sourceRow": 11,
+      "word": "your",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8b90bfc1bb19b512e511",
+      "sourceRow": 12,
+      "word": "all",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-bf96d76c22ca690f0589",
+      "sourceRow": 13,
+      "word": "all",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5aaa5e7bbf0293adc741",
+      "sourceRow": 14,
+      "word": "all",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-680b9defa346fefa017d",
+      "sourceRow": 15,
+      "word": "so",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-7fb34fe8d33aae3f927c",
+      "sourceRow": 16,
+      "word": "his",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-785b4235d56ba59af098",
+      "sourceRow": 17,
+      "word": "one",
+      "partOfSpeech": "numeral",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8e1f4a640752ccfacdae",
+      "sourceRow": 18,
+      "word": "can",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-ffc5ef26aa852c986972",
+      "sourceRow": 19,
+      "word": "just",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-1560fd9affb8ee44bbf2",
+      "sourceRow": 20,
+      "word": "just",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-501263a8feae754e8d95",
+      "sourceRow": 21,
+      "word": "about",
+      "partOfSpeech": "preposition",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-904921690a0639b6c2d3",
+      "sourceRow": 22,
+      "word": "what",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-86b1e95239ae6f58efb4",
+      "sourceRow": 23,
+      "word": "what",
+      "partOfSpeech": "interjection",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-3e080f4e41349dfb384d",
+      "sourceRow": 24,
+      "word": "what",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-d616c8f7d442c2763f4b",
+      "sourceRow": 25,
+      "word": "when",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-eb2e691368101535aa82",
+      "sourceRow": 26,
+      "word": "more",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-f40a860278a824c0465c",
+      "sourceRow": 27,
+      "word": "do",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-2c0c2b0b1913fba49050",
+      "sourceRow": 28,
+      "word": "there",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5d9599eb58be0dde3093",
+      "sourceRow": 29,
+      "word": "her",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-a683e1a0cad7fed847bc",
+      "sourceRow": 30,
+      "word": "which",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-135e135daced6775aeba",
+      "sourceRow": 31,
+      "word": "she",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-21510beae799cbaa72ef",
+      "sourceRow": 32,
+      "word": "new",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-454fbba9f2bcd172705c",
+      "sourceRow": 33,
+      "word": "how",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-72642e2d6606166905ea",
+      "sourceRow": 34,
+      "word": "also",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-347599d9bc38a5bad153",
+      "sourceRow": 35,
+      "word": "other",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-4f3b80787f465d550ece",
+      "sourceRow": 36,
+      "word": "good",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-3fa2619d27631ba444cf",
+      "sourceRow": 37,
+      "word": "only",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-9616cdeea0f07038a62e",
+      "sourceRow": 38,
+      "word": "only",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-552b03cb82ba6d614780",
+      "sourceRow": 39,
+      "word": "him",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-53d07f16a650e4bd2ccb",
+      "sourceRow": 40,
+      "word": "see",
+      "partOfSpeech": "interjection",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-874bcb75fc952c581aae",
+      "sourceRow": 41,
+      "word": "see",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-2746d08ae6192b64ebbd",
+      "sourceRow": 42,
+      "word": "two",
+      "partOfSpeech": "numeral",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8669fec2a310f163d231",
+      "sourceRow": 43,
+      "word": "make",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-d969e46eb176ef294736",
+      "sourceRow": 44,
+      "word": "over",
+      "partOfSpeech": "interjection",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-4819298023758063067a",
+      "sourceRow": 45,
+      "word": "think",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-9bb07ab2ec7187420283",
+      "sourceRow": 46,
+      "word": "any",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-de55332057b6ab6f8339",
+      "sourceRow": 47,
+      "word": "then",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-9e8a1bd4b74c1631bc0a",
+      "sourceRow": 48,
+      "word": "back",
+      "partOfSpeech": "verb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8f3fee0fad2681cb0b28",
+      "sourceRow": 49,
+      "word": "want",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-82a418d2136fb31bff73",
+      "sourceRow": 50,
+      "word": "because",
+      "partOfSpeech": "conjunction",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-f4c77e859990082324f4",
+      "sourceRow": 51,
+      "word": "well",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-6d221b81722605ef0cb6",
+      "sourceRow": 52,
+      "word": "well",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-f1bc94ecd3074d721d89",
+      "sourceRow": 53,
+      "word": "most",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-fb168cab21aa94a28ccb",
+      "sourceRow": 54,
+      "word": "most",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": [
+        "EN-PEER-003"
+      ]
+    },
+    {
+      "id": "en-lex-fae1193c01a952f43491",
+      "sourceRow": 55,
+      "word": "much",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-cb83fe9336f85a6d74dd",
+      "sourceRow": 56,
+      "word": "very",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-046baed8bbda1e111ec9",
+      "sourceRow": 57,
+      "word": "where",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-8ff3af1ffed7785e858b",
+      "sourceRow": 58,
+      "word": "even",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-c5df4ac5f7d133b870d1",
+      "sourceRow": 59,
+      "word": "should",
+      "partOfSpeech": "verb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-639425b81ede8c33a3dd",
+      "sourceRow": 60,
+      "word": "may",
+      "partOfSpeech": "verb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-766054bdc4dc37145202",
+      "sourceRow": 61,
+      "word": "need",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5e9dfb8343ee571cb18d",
+      "sourceRow": 62,
+      "word": "really",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-ccdcdc33dbc8e98b5fb5",
+      "sourceRow": 63,
+      "word": "really",
+      "partOfSpeech": "interjection",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-4987607e2d428d0cec82",
+      "sourceRow": 64,
+      "word": "right",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-586ea38426cbe0b5b31b",
+      "sourceRow": 65,
+      "word": "right",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-ce2c727d550b85b9861c",
+      "sourceRow": 66,
+      "word": "work",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-a52dcb0303c95a4f5f07",
+      "sourceRow": 67,
+      "word": "years",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-e9b47774ab55a6fd6150",
+      "sourceRow": 68,
+      "word": "being",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-83a5ba4b9de215b769c6",
+      "sourceRow": 69,
+      "word": "before",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-4573cc39b962cb1803f6",
+      "sourceRow": 70,
+      "word": "why",
+      "partOfSpeech": "interjection",
+      "correctionReviewed": false,
+      "findingIds": [
+        "EN-PEER-005"
+      ]
+    },
+    {
+      "id": "en-lex-c419e96cf9fb0cf32992",
+      "sourceRow": 71,
+      "word": "still",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-683b167cbbb722ab1864",
+      "sourceRow": 72,
+      "word": "take",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5986a38ce0276811dc13",
+      "sourceRow": 73,
+      "word": "many",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-2ff0c68ffa419a7a26e2",
+      "sourceRow": 74,
+      "word": "many",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-fdc864e91e711dcb1eb3",
+      "sourceRow": 75,
+      "word": "never",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-5358d4ed7b741836a05a",
+      "sourceRow": 76,
+      "word": "say",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-167040e6ac9a6d730b6f",
+      "sourceRow": 77,
+      "word": "say",
+      "partOfSpeech": "verb",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-05f5b387519505d30617",
+      "sourceRow": 78,
+      "word": "world",
+      "partOfSpeech": "noun",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-28a2e861eafdbbbe7916",
+      "sourceRow": 79,
+      "word": "last",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": [
+        "EN-PEER-001"
+      ]
+    },
+    {
+      "id": "en-lex-66690e3a462579b7f474",
+      "sourceRow": 80,
+      "word": "best",
+      "partOfSpeech": "adjective",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-0bc944f16fe4fb78824f",
+      "sourceRow": 81,
+      "word": "best",
+      "partOfSpeech": "adverb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-61e1ec12f582637f6dab",
+      "sourceRow": 82,
+      "word": "best",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": [
+        "EN-PEER-006"
+      ]
+    },
+    {
+      "id": "en-lex-4ead16846790294c859e",
+      "sourceRow": 83,
+      "word": "love",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-237e585bfc8c529be8fb",
+      "sourceRow": 84,
+      "word": "man",
+      "partOfSpeech": "noun",
+      "correctionReviewed": true,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-00ad3f8df2958c4cac46",
+      "sourceRow": 85,
+      "word": "something",
+      "partOfSpeech": "pronoun",
+      "correctionReviewed": false,
+      "findingIds": [
+        "EN-PEER-002"
+      ]
+    },
+    {
+      "id": "en-lex-dbc71e10e0e11a7364ff",
+      "sourceRow": 86,
+      "word": "use",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-9953f5494b8381c354a3",
+      "sourceRow": 87,
+      "word": "both",
+      "partOfSpeech": "determiner",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-1dc9fb35983ecbb677f0",
+      "sourceRow": 88,
+      "word": "come",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    },
+    {
+      "id": "en-lex-73ad9775e2efca036018",
+      "sourceRow": 89,
+      "word": "part",
+      "partOfSpeech": "verb",
+      "correctionReviewed": false,
+      "findingIds": []
+    }
+  ],
+  "checkedNonFindings": [
+    {
+      "id": "en-lex-092892d66fe77714fe3f",
+      "word": "it",
+      "decision": "Retain noun for the player in a children’s game; Collins explicitly supports this noun use.",
+      "source": "https://www.collinsdictionary.com/dictionary/english/it"
+    },
+    {
+      "id": "en-lex-fb168cab21aa94a28ccb",
+      "word": "most",
+      "decision": "Retain pronoun in most of the guests; Cambridge supports most used without a following noun as a pronoun.",
+      "source": "https://dictionary.cambridge.org/grammar/british-grammar/most-the-most-mostly"
+    }
+  ],
+  "limits": [
+    "This covers the entire current 89-row authored sidecar and 48-row correction sidecar, not the remaining English dictionary or later additions.",
+    "All judgments are AI editorial judgments, not native-speaker certification.",
+    "No audio, rendered UI, complete source-provenance audit, or full project tests were performed.",
+    "The three priority-3 items are optional refinements; they do not imply the source English sentences are ungrammatical.",
+    "Suggested fields are patches to merge, not whole-record replacements. No suggested patch was applied."
+  ],
+  "resolution": "Three targeted fixes and three optional improvements applied. All 89 examples and 48 original corrections received AI editorial review; native review remains pending."
+}

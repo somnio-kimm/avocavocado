@@ -1,0 +1,290 @@
+{
+  "reviewer": "root",
+  "scope": "25 examples; 22 checked reuses and 3 original replacements for POS-mismatched candidate examples",
+  "independentPeerReview": "en-new-peer-review.json; findings resolved",
+  "nativeSpeakerReview": false,
+  "rows": [
+    {
+      "id": "en-lex-f45e0204f798d212741b",
+      "word": "we",
+      "partOfSpeech": "pronoun",
+      "sourceCandidateDigest": "10f077dd2ce880b442901db2fbf9afeaccc030762fd1bdc10bb2457a6d1ee498",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "ko",
+      "sourceEntryId": "ko-lex-a86366d258f3f53d5c7a",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-228106f0bcc6c0b43048",
+      "word": "when",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "908d9bb87e7f4f7f3799962be7ed6924fdb2de5a93e2fd5b0167fe78b5283fec",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-84a9eaa1301ea9290ac0",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-7adb1e2985d3f61a370a",
+      "word": "do",
+      "partOfSpeech": "verb",
+      "sourceCandidateDigest": "309416b18d3e95c425ce931a86f2974148a50ffffa98e2ef6257a4566e32bed2",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-c44cff1d12d8733e630d",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-5306dbaa2603c6e066d9",
+      "word": "time",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "d05cc4a8c6308a0aeb4d6b0cb6a865c1762ca84eaba3ff0778204efc4a216783",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-f5001993c915153c32ef",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-ce271625f12541414b2e",
+      "word": "first",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "a79fdececd0f6b374fb0a38dd42cbf9a47ce16a22cc0ee99b6e0fbfdb778aa52",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-717dd57a4d7b6e80df89",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-2fbaeb0c8cbaea889e92",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "sourceCandidateDigest": "7ca0ee131dfb389f7d1c6987f9181d5e6ddaf88b492dac0c5962850317e43d64",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-5ac78dc9f6c07d257956",
+      "translationChanges": {
+        "de": "Es ist wichtig, vor der Benutzung der Maschine die Regeln zu kennen."
+      },
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-a3f8787263b963858838",
+      "word": "want",
+      "partOfSpeech": "verb",
+      "sourceCandidateDigest": "1e4ac0544361aa02fa88cd3183179f54b604de927adc45159d1867101491d9c4",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-7f7d1e9c5e0cd85c2af9",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-6ca0ab6104d1a8b3241c",
+      "word": "well",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "4b8ca6bdf7665f43bced31a0fb8e523a3076d58b0debee2af4a643c67d86a752",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-9fecd36d8f464f9b92fc",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-2a926b97617aade0da58",
+      "word": "even",
+      "partOfSpeech": "adjective",
+      "sourceCandidateDigest": "c6861ceca162efc16540af0319dea0ae1352e7c466404d7ae30bdbb7621390ab",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-d184adee39bc5edb01d2",
+      "translationChanges": {
+        "ja": "ペンキを均一な厚さに塗ってください。",
+        "ko": "페인트를 일정한 두께로 고르게 펴 바르세요."
+      },
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-d7854ccf5b9d52da8cab",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "832fb9739cc5809324bda21ec830e03bce38c1cf3b50e508da2d709114e98f29",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-64a2fe77764e7ef4c297",
+      "translationChanges": {
+        "en": "Come here; I will show you the photo."
+      },
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-3ceba8f5a1a3a42a2fef",
+      "word": "right",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "13dd5dd9f636195738e87c80157116504d802076adc80f74830f441d4730ddb7",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-46f12e35e8ed063b3b77",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-e331b804a68f99fd5919",
+      "word": "work",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "5badc6a50d6251c5a7bf6bca74425ef788100cf9a70397a798aaa53f1ed88aac",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-b181d8ba8bad1c2d54f4",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-8939fd4d40d4f451a150",
+      "word": "year",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "68c32e93df85d82ec5cc77f0139e4fd87e9082d78c018c4c8fdff7aaf7f5a9ef",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-fca2d3e8f044f78a78ce",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-8774d18857a0d8baf062",
+      "word": "day",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "19e3105d74ca6b32ae9ed959e1179efe28d9bc7922346f415d27f201bb9e2e7e",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-6307032dbe2dda1eeae7",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-689bfd6280c9fc9e8772",
+      "word": "too",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "18a2fbe91ba426399e97aca4752565c7f3a1ca12c0eaf7265277ee0a8b07d87d",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-5c8560bc4f5cdaeaa9bf",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-26a2d07e459c8341aa0f",
+      "word": "why",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "e1210a7efb53660ad9c0abe5046b960752fae9d8d38ccd498a180a7d49cea93c",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-4136e8522451e66d77cc",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-628f7ee9dfb65a9d9eab",
+      "word": "still",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "be4ee203cb29208d989e8443b2770c73689640a128df3cd6ddf4edb7e0813717",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-89c8365c13c8bd723639",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-2357a8abf00b78febf30",
+      "word": "life",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "93e0692ee607ff605c7a44e954599a5feb3dce18551ef1e232345f37a7c00962",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-e65de4190b5a9815e1bd",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-e3709cb7c21f8fca0556",
+      "word": "long",
+      "partOfSpeech": "adjective",
+      "sourceCandidateDigest": "053ec1e5492152f8b50466d3e787be28447d53e0760778687677c4b6ca392a54",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-aaab1b4d6f5f7fd9fbcc",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-25aa9300ba52d8824fb8",
+      "word": "long",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "361a1ea6bc948de012e4ef16d2e02fcca2008f092783562907d1a32e730045d3",
+      "decision": "new original example after POS mismatch",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-fbe0cb5ace054792cdb8",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-633f3ba6f96474e587e1",
+      "word": "use",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "13998b3f5af5a5ada1191b65bae15404a363abc3107eda648e07b2c7ae9ad43c",
+      "decision": "new original example after POS mismatch",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-c83962a9b545ea66bfd0",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-ffd442626c35e560e616",
+      "word": "same",
+      "partOfSpeech": "adjective",
+      "sourceCandidateDigest": "2811ba2869a8b6a212fdb203a422f47dbb096c13a83a45900ff7aeedc95249e5",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-adade21aa9a8b5aa5445",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-26f4ee7d2d37e6ba6cbd",
+      "word": "same",
+      "partOfSpeech": "adverb",
+      "sourceCandidateDigest": "30c5e2c393bc015868cd3c6407de64fb0f328df30508ec2284abbc22f107209e",
+      "decision": "new original example after POS mismatch",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-abc63928a79ba154d0a8",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-32cbf5c04d9e51bed603",
+      "word": "state",
+      "partOfSpeech": "noun",
+      "sourceCandidateDigest": "01fdbf146c5e70e73d6c18c66e901923c2e875ed82ed23e23e7e78890571fdec",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-ebc3832f06ac671a20fe",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    },
+    {
+      "id": "en-lex-c9f5a6e3b8067b0973ee",
+      "word": "three",
+      "partOfSpeech": "numeral",
+      "sourceCandidateDigest": "ab09b16d1f375a13099c2337f866d175fa54e05759b17dfc5f6b4640c9634a9f",
+      "decision": "sense-and-translation-checked reuse",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-14195f3a6160de64b055",
+      "translationChanges": {},
+      "nativeSpeakerReview": false
+    }
+  ]
+}

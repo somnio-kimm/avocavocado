@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "recover_french-independent-peer",
+  "status": "AI-editorial-review-complete; inherited-gloss-fixes-recommended",
+  "nativeSpeakerReview": false,
+  "nativeReviewStatus": "native-speaker-review-pending",
+  "scope": {
+    "firstRow": 64,
+    "lastRow": 98,
+    "rowsReviewed": 35,
+    "sentenceLocales": [
+      "ko",
+      "en",
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "zh"
+    ],
+    "meaningLocales": [
+      "en",
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "zh"
+    ],
+    "selectedSenseAndPOSComparedAgainst": [
+      "ko-core-3.0.0.json",
+      "ko-en-3.0.0.json"
+    ]
+  },
+  "snapshot": {
+    "path": "language-packages/sources/examples/ko-authored.jsonl",
+    "count": 98,
+    "sha256": "02caf871a9147ba6a71f7a9c4dd4c3c6b41f8439aff355e1c505b75102564700",
+    "reusedSourceHashes": {
+      "language-packages/sources/examples/es-authored.jsonl": "bfa71db5791b04bf725f72a67eb51809448a062482c9e463facc9716af2be711",
+      "language-packages/sources/examples/fr-authored.jsonl": "47cabdaa6b566f95dbb5f55afdf31a1c47d09599dbc0989765ef34b3876d9eb0",
+      "language-packages/sources/examples/ja-authored.jsonl": "d1cb04c79cad542c80da5aeeaeee9b7566c58989528373f2944ee662489eb637"
+    }
+  },
+  "summary": {
+    "selectedSenseOrPOSReuseErrors": 0,
+    "exampleTranslationBlockingErrors": 0,
+    "inheritedEnglishMeaningIssues": 3,
+    "optionalRegisterAlignments": 1,
+    "licenceMismatches": 0,
+    "verdict": "The 35 reused examples match the selected Korean senses and noun/pronoun/determiner/adverb categories. Three inherited English glosses deserve correction; the Spanish address-register refinement is optional."
+  },
+  "validation": {
+    "runtime": "v26.11.1",
+    "validateExampleRecordPassed": 35,
+    "allSixMeanings": true,
+    "focusResolved": 35,
+    "originalKoreanReusePreserved": 35,
+    "currentEnglishMeaningMatchesInstalled": 35,
+    "appAuthoredReuseLicensePreserved": 35,
+    "allMeaningSourcesAttributed": true,
+    "sourceFilesModified": false,
+    "fullProjectTestsRun": false
+  },
+  "findings": [
+    {
+      "findingId": "KO-REUSE-PEER-001",
+      "sourceRow": 87,
+      "id": "ko-lex-e25334f0788b1bd9621b",
+      "word": "몸",
+      "priority": 2,
+      "category": "inherited-English-meaning",
+      "title": "Define the body rather than its length",
+      "problem": "The English meaning says the entire length of the body, which describes a measurement. The Korean 몸 example and all five other glosses denote the body itself. This wording is inherited from ko-en-3.0.0 and carried unchanged into the new meaning map.",
+      "suggestedFix": {
+        "meaningEn": "The whole physical structure of a person or animal.",
+        "note": "Record the change in the correction sidecar before replacing the English meaning; retain NIKL adaptation attribution."
+      },
+      "applied": true
+    },
+    {
+      "findingId": "KO-REUSE-PEER-002",
+      "sourceRow": 86,
+      "id": "ko-lex-60c2d83f479637666e1f",
+      "word": "노래",
+      "priority": 2,
+      "category": "inherited-English-part-of-speech",
+      "title": "Keep both senses of 노래 nominal",
+      "problem": "The English meaning joins the noun music to the verb phrase or sing such music out loud, although the entry is a noun. Song and the act of singing are both valid noun senses; all other glosses and the example are aligned.",
+      "suggestedFix": {
+        "meaningEn": "Music with lyrics; or the act of singing such music.",
+        "note": "Record a correction rather than silently diverging from the installed English meaning."
+      },
+      "applied": true
+    },
+    {
+      "findingId": "KO-REUSE-PEER-003",
+      "sourceRow": 82,
+      "id": "ko-lex-dc637c00ddc613d03b3d",
+      "word": "계획",
+      "priority": 3,
+      "category": "inherited-English-grammar",
+      "title": "Repair parallel wording in the planning definition",
+      "problem": "Thinking in detail ... and make arrangements breaks gerund parallelism. The Korean example and all translations are otherwise aligned.",
+      "suggestedFix": {
+        "meaningEn": "The act of thinking in detail about future events and making arrangements for them."
+      },
+      "applied": true
+    },
+    {
+      "findingId": "KO-REUSE-PEER-004",
+      "sourceRow": 94,
+      "id": "ko-lex-9c23453a9310102301d9",
+      "word": "여러분",
+      "priority": 3,
+      "category": "optional-Spanish-register",
+      "title": "Align the Spanish example with its respectful-address gloss",
+      "problem": "The Spanish meaning explicitly says ustedes / tratamiento respetuoso, while the example uses vosotros forms comprobad and os. The current sentence is a polite request and is understandable; formal plural verb forms make the example directly illustrate the supplied gloss.",
+      "suggestedFix": {
+        "translations": {
+          "es": "Por favor, comprueben todos que no se dejan nada."
+        }
+      },
+      "applied": true
+    }
+  ],
+  "acceptedSourceAdaptations": [
+    {
+      "id": "ko-lex-8d3588c420efc0ccbfbc",
+      "locale": "es",
+      "from": "Toda mi familia se reúne los domingos para comer.",
+      "to": "Toda mi familia se reúne los domingos para almorzar.",
+      "decision": "Accept: explicit root translationChanges record; almorzar preserves the Korean lunch meaning."
+    }
+  ],
+  "reviewedRows": [
+    {
+      "sourceRow": 64,
+      "id": "ko-lex-8bca9b9de93641d5b253",
+      "word": "손",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 65,
+      "id": "ko-lex-eece006096e3d5e71b9e",
+      "word": "영화",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 66,
+      "id": "ko-lex-542de0b57144d4e8477a",
+      "word": "뒤",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 67,
+      "id": "ko-lex-397e7c7a2b8c8de379a3",
+      "word": "여기",
+      "partOfSpeech": "pronoun",
+      "findings": []
+    },
+    {
+      "sourceRow": 68,
+      "id": "ko-lex-0e81aaa4637b324763f6",
+      "word": "돈",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 69,
+      "id": "ko-lex-2965db46279da1fdc509",
+      "word": "어떤",
+      "partOfSpeech": "determiner",
+      "findings": []
+    },
+    {
+      "sourceRow": 70,
+      "id": "ko-lex-4047aec4818ee1d2930a",
+      "word": "눈",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 71,
+      "id": "ko-lex-b165af7682f3ad721851",
+      "word": "이번",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 72,
+      "id": "ko-lex-aa29416f36479a6efeda",
+      "word": "이야기",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 73,
+      "id": "ko-lex-7c0340e9dd609fe675c9",
+      "word": "이유",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 74,
+      "id": "ko-lex-6ef9ef0e927d48b321c2",
+      "word": "밖",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 75,
+      "id": "ko-lex-3f9401ab4b8b30324396",
+      "word": "키",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 76,
+      "id": "ko-lex-fa1fb84d3ba4c1b26169",
+      "word": "불",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 77,
+      "id": "ko-lex-9722ae0416da5ffd1f02",
+      "word": "아직",
+      "partOfSpeech": "adverb",
+      "findings": []
+    },
+    {
+      "sourceRow": 78,
+      "id": "ko-lex-b50d9e3b3ed1f444bbad",
+      "word": "나라",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 79,
+      "id": "ko-lex-1fb99c9b9577644bca2f",
+      "word": "준비",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 80,
+      "id": "ko-lex-961c3437a17da785e526",
+      "word": "방",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 81,
+      "id": "ko-lex-8d3588c420efc0ccbfbc",
+      "word": "가족",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 82,
+      "id": "ko-lex-dc637c00ddc613d03b3d",
+      "word": "계획",
+      "partOfSpeech": "noun",
+      "findings": [
+        "KO-REUSE-PEER-003"
+      ]
+    },
+    {
+      "sourceRow": 83,
+      "id": "ko-lex-5de47e770c85c73a297d",
+      "word": "문",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 84,
+      "id": "ko-lex-c5246f2c33e7cd45c664",
+      "word": "문화",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 85,
+      "id": "ko-lex-fe577386ed4c3fcd0d85",
+      "word": "사이",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 86,
+      "id": "ko-lex-60c2d83f479637666e1f",
+      "word": "노래",
+      "partOfSpeech": "noun",
+      "findings": [
+        "KO-REUSE-PEER-002"
+      ]
+    },
+    {
+      "sourceRow": 87,
+      "id": "ko-lex-e25334f0788b1bd9621b",
+      "word": "몸",
+      "partOfSpeech": "noun",
+      "findings": [
+        "KO-REUSE-PEER-001"
+      ]
+    },
+    {
+      "sourceRow": 88,
+      "id": "ko-lex-7cf2a32866515943e435",
+      "word": "프로그램",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 89,
+      "id": "ko-lex-eebfd95a0549104b0482",
+      "word": "글",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 90,
+      "id": "ko-lex-e6de5d32cb674f98eb4f",
+      "word": "머리",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 91,
+      "id": "ko-lex-d1708f9ee3a830095048",
+      "word": "이것",
+      "partOfSpeech": "pronoun",
+      "findings": []
+    },
+    {
+      "sourceRow": 92,
+      "id": "ko-lex-0bed27a377e32928fc82",
+      "word": "대학",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 93,
+      "id": "ko-lex-30fd6ad11c9eceab7d1c",
+      "word": "하루",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 94,
+      "id": "ko-lex-9c23453a9310102301d9",
+      "word": "여러분",
+      "partOfSpeech": "pronoun",
+      "findings": [
+        "KO-REUSE-PEER-004"
+      ]
+    },
+    {
+      "sourceRow": 95,
+      "id": "ko-lex-b19c702262e7497e987f",
+      "word": "아버지",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 96,
+      "id": "ko-lex-b31a73fb4822b1e3e143",
+      "word": "회사",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 97,
+      "id": "ko-lex-47975e11e1109edd1dc1",
+      "word": "인터넷",
+      "partOfSpeech": "noun",
+      "findings": []
+    },
+    {
+      "sourceRow": 98,
+      "id": "ko-lex-ea4f642545f4a54c3a14",
+      "word": "기분",
+      "partOfSpeech": "noun",
+      "findings": []
+    }
+  ],
+  "limits": [
+    "This is an independent AI editorial pass, not native-speaker certification.",
+    "Only rows64–98 of the current Korean authored sidecar are covered.",
+    "Suggested English changes require explicit correction records; no source content was edited.",
+    "English translational wording is sometimes more explicit than Korean omitted subjects; these expansions were coherent with the other locale texts."
+  ],
+  "resolutionNote": "All four findings applied after the recorded review snapshot."
+}

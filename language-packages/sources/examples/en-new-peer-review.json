@@ -1,0 +1,368 @@
+{
+  "reviewedOn": "2026-10-15",
+  "reviewer": "independent Japanese recovery agent",
+  "reviewType": "AI-assisted independent editorial review",
+  "nativeSpeakerReview": false,
+  "scope": {
+    "file": "language-packages/sources/examples/en-authored.jsonl",
+    "oneBasedRows": [
+      90,
+      114
+    ],
+    "count": 25
+  },
+  "checks": [
+    "English selected sense and part of speech",
+    "six translation locales: de es fr ja ko zh",
+    "seven meaning locales including en",
+    "per-locale attribution presence",
+    "22 reused authorship provenance objects compared with source sidecars"
+  ],
+  "structuralErrors": [],
+  "reuseProvenanceChecks": [
+    {
+      "id": "en-lex-f45e0204f798d212741b",
+      "sourceLanguage": "ko",
+      "sourceEntryId": "ko-lex-a86366d258f3f53d5c7a",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-228106f0bcc6c0b43048",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-84a9eaa1301ea9290ac0",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-7adb1e2985d3f61a370a",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-c44cff1d12d8733e630d",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-5306dbaa2603c6e066d9",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-f5001993c915153c32ef",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-ce271625f12541414b2e",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-717dd57a4d7b6e80df89",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-2fbaeb0c8cbaea889e92",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-5ac78dc9f6c07d257956",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-a3f8787263b963858838",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-7f7d1e9c5e0cd85c2af9",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-6ca0ab6104d1a8b3241c",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-9fecd36d8f464f9b92fc",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-2a926b97617aade0da58",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-d184adee39bc5edb01d2",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-d7854ccf5b9d52da8cab",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-64a2fe77764e7ef4c297",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-3ceba8f5a1a3a42a2fef",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-46f12e35e8ed063b3b77",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-e331b804a68f99fd5919",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-b181d8ba8bad1c2d54f4",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-8939fd4d40d4f451a150",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-fca2d3e8f044f78a78ce",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-8774d18857a0d8baf062",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-6307032dbe2dda1eeae7",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-689bfd6280c9fc9e8772",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-5c8560bc4f5cdaeaa9bf",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-26a2d07e459c8341aa0f",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-4136e8522451e66d77cc",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-628f7ee9dfb65a9d9eab",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-89c8365c13c8bd723639",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-2357a8abf00b78febf30",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-e65de4190b5a9815e1bd",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-e3709cb7c21f8fca0556",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-aaab1b4d6f5f7fd9fbcc",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-ffd442626c35e560e616",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-adade21aa9a8b5aa5445",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-32cbf5c04d9e51bed603",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-ebc3832f06ac671a20fe",
+      "originalProvenancePreserved": true
+    },
+    {
+      "id": "en-lex-c9f5a6e3b8067b0973ee",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-14195f3a6160de64b055",
+      "originalProvenancePreserved": true
+    }
+  ],
+  "reviewedRows": [
+    {
+      "id": "en-lex-f45e0204f798d212741b",
+      "word": "we",
+      "partOfSpeech": "pronoun",
+      "sha256": "78c274a96be3864ec31dcdaca2e91e6a5c56be23cc94b30abefa629ba1029e71"
+    },
+    {
+      "id": "en-lex-228106f0bcc6c0b43048",
+      "word": "when",
+      "partOfSpeech": "adverb",
+      "sha256": "5e1a5ea7adf3e0fb4e60276da566ef37c936bfaa985cb6ffea6effbd0bbc0af5"
+    },
+    {
+      "id": "en-lex-7adb1e2985d3f61a370a",
+      "word": "do",
+      "partOfSpeech": "verb",
+      "sha256": "6d7a272652152d1dccf1ef695b852d8e814fd0409b48ca51ab0756a51813f2cf"
+    },
+    {
+      "id": "en-lex-5306dbaa2603c6e066d9",
+      "word": "time",
+      "partOfSpeech": "noun",
+      "sha256": "f648ccdafce87e271f59fddd74eaf072bd880fe1a112d9cd31df924a1950ac56"
+    },
+    {
+      "id": "en-lex-ce271625f12541414b2e",
+      "word": "first",
+      "partOfSpeech": "noun",
+      "sha256": "4497f44601bec2351fe55654a79aefbd7f5ef59cb04bacf339b39dca27b61eb4"
+    },
+    {
+      "id": "en-lex-2fbaeb0c8cbaea889e92",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "sha256": "98a6aa5f3ba64ccbc1635fb0b3dc6fbffe24fd4f9d13ce2d5ca07d68af4115b1"
+    },
+    {
+      "id": "en-lex-a3f8787263b963858838",
+      "word": "want",
+      "partOfSpeech": "verb",
+      "sha256": "5436b12908d567f3abc9b9be50060a669fb43ddb6e21b47671bc4b594f599c45"
+    },
+    {
+      "id": "en-lex-6ca0ab6104d1a8b3241c",
+      "word": "well",
+      "partOfSpeech": "noun",
+      "sha256": "83d5d0c91cc73e5ccac8f446437ce7e5884da0ec260b8ee2a3ee1d496a9dd020"
+    },
+    {
+      "id": "en-lex-2a926b97617aade0da58",
+      "word": "even",
+      "partOfSpeech": "adjective",
+      "sha256": "7c0ce4e968bd0227868419b6b0a0675a222270df63d871c1c6360ccc19898b8a"
+    },
+    {
+      "id": "en-lex-d7854ccf5b9d52da8cab",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "sha256": "d22100f65a2150a4e12fbbee402d24bc9b25d07d14ab13b2247d8a79c729f333"
+    },
+    {
+      "id": "en-lex-3ceba8f5a1a3a42a2fef",
+      "word": "right",
+      "partOfSpeech": "noun",
+      "sha256": "3301b35018e1380510d498f9565fb8d53efb696691965eed373d0e1cde62e4b8"
+    },
+    {
+      "id": "en-lex-e331b804a68f99fd5919",
+      "word": "work",
+      "partOfSpeech": "noun",
+      "sha256": "f52139f4df7cf370504428010503ac6b4540d7e8c935d73cb2ab000b10440c09"
+    },
+    {
+      "id": "en-lex-8939fd4d40d4f451a150",
+      "word": "year",
+      "partOfSpeech": "noun",
+      "sha256": "3af80bce7793911f7c05f10a459a56e0b5084eb467e2e2489de315ccbb1a39e5"
+    },
+    {
+      "id": "en-lex-8774d18857a0d8baf062",
+      "word": "day",
+      "partOfSpeech": "noun",
+      "sha256": "6d5a8f307c836accfaf942b78b365e411f679302bf2aaa5bf39a35d962501b2b"
+    },
+    {
+      "id": "en-lex-689bfd6280c9fc9e8772",
+      "word": "too",
+      "partOfSpeech": "adverb",
+      "sha256": "0ca9b5a27e226c2fcc4efd52cdb406fe3fc13048657507d0d83078fcff6e29fb"
+    },
+    {
+      "id": "en-lex-26a2d07e459c8341aa0f",
+      "word": "why",
+      "partOfSpeech": "adverb",
+      "sha256": "7a19a47cf46175591560378364a1713315ddcffe729f9153478fbcd4a114c690"
+    },
+    {
+      "id": "en-lex-628f7ee9dfb65a9d9eab",
+      "word": "still",
+      "partOfSpeech": "adverb",
+      "sha256": "e42e86f85ae797000a5389a0674aade8fe1e735cfaa69226879415350c4f060c"
+    },
+    {
+      "id": "en-lex-2357a8abf00b78febf30",
+      "word": "life",
+      "partOfSpeech": "noun",
+      "sha256": "a5af3c80ac702ddfd2df27dcdaf62075386c76c690da2251067a16e2cc804687"
+    },
+    {
+      "id": "en-lex-e3709cb7c21f8fca0556",
+      "word": "long",
+      "partOfSpeech": "adjective",
+      "sha256": "2a128b90d7ba27f802aac5c9d02ccc1aa7bc83932e2beccfd27d127eb458dd09"
+    },
+    {
+      "id": "en-lex-25aa9300ba52d8824fb8",
+      "word": "long",
+      "partOfSpeech": "adverb",
+      "sha256": "7d3cbeda256ef3b984815d491954f30a216054e5b30144e290ccca7df960fbbe"
+    },
+    {
+      "id": "en-lex-633f3ba6f96474e587e1",
+      "word": "use",
+      "partOfSpeech": "noun",
+      "sha256": "78eceacdee585e3e2d1c0316e4412233f3e353679321c00c4213f0a278903eac"
+    },
+    {
+      "id": "en-lex-ffd442626c35e560e616",
+      "word": "same",
+      "partOfSpeech": "adjective",
+      "sha256": "82af5d8138e8ddec5a27fe5b6e72dd3d985ef47f17b446ee9e4f1463258d78a6"
+    },
+    {
+      "id": "en-lex-26f4ee7d2d37e6ba6cbd",
+      "word": "same",
+      "partOfSpeech": "adverb",
+      "sha256": "8b41d9404ef266e8e87ba274b1c258c2cf8fd58e862d8ee062ebed7f0a9bcc50"
+    },
+    {
+      "id": "en-lex-32cbf5c04d9e51bed603",
+      "word": "state",
+      "partOfSpeech": "noun",
+      "sha256": "a56406f47ac1b7b23ab7fdbb708655fa7e00f0ed0cb4bdebf943a599a389a573"
+    },
+    {
+      "id": "en-lex-c9f5a6e3b8067b0973ee",
+      "word": "three",
+      "partOfSpeech": "numeral",
+      "sha256": "41548ca1a8bfbc058309af898969fe19c7f6f83a4a0a8b4476a30b7dd9532fac"
+    }
+  ],
+  "requiredChanges": [
+    {
+      "id": "en-lex-26f4ee7d2d37e6ba6cbd",
+      "word": "same",
+      "priority": 2,
+      "field": "meanings.en",
+      "issue": "Without anything new or special does not accurately define adverbial same in It still works the same after ten years. All six other meaning locales correctly express unchanged manner, but the English definition can instead describe an unremarkable experience.",
+      "suggestedValue": "In the same way or manner; without change.",
+      "action": "Add an explicit correction for the English gloss so installed native explanations cannot override the repaired sidecar meaning. Preserve the adverb POS and the original sentence.",
+      "evidence": "Local multilingual-broad-facts.json en same adverb: The same way; in the same manner; to the same extent, unchanged; equally.",
+      "resolution": "applied; explicit correction prevents old installed gloss from winning"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "en-lex-689bfd6280c9fc9e8772",
+      "word": "too",
+      "field": "translations.ja",
+      "issue": "この道で走るには、運転が速すぎます is understandable but awkward: Japanese normally predicates excessive speed of the speed or vehicle, not of 運転.",
+      "suggestedValue": "この道では、スピードを出しすぎています。",
+      "severity": "fluency",
+      "resolution": "applied"
+    },
+    {
+      "id": "en-lex-ffd442626c35e560e616",
+      "word": "same",
+      "field": "translations.de",
+      "issue": "Without realising it implies separately bought presents of the same type. The strict German distinction favours das gleiche Geschenk over dasselbe Geschenk, which denotes the identical physical item.",
+      "suggestedValue": "Wir kauften das gleiche Geschenk, ohne es zu wissen.",
+      "severity": "precision",
+      "resolution": "applied"
+    }
+  ],
+  "specificDecisions": [
+    {
+      "id": "en-lex-ce271625f12541414b2e",
+      "word": "first",
+      "decision": "accepted",
+      "reason": "The first is nominalised, referring to the person in first position; local Wiktionary records that noun sense explicitly. He is the first and all six translations align with the selected sense. More context could improve teaching, but no POS correction is required."
+    },
+    {
+      "id": "en-lex-f45e0204f798d212741b",
+      "word": "we",
+      "decision": "accepted for selected inclusive sense",
+      "reason": "The maps explicitly select inclusive we, attested separately in local lexical facts. English also has exclusive we; do not reinterpret this row as claiming that all we uses include the listener."
+    },
+    {
+      "id": "en-lex-25aa9300ba52d8824fb8",
+      "word": "long",
+      "decision": "accepted",
+      "reason": "Long modifies wait as a duration adverb. The six translations preserve the negated duration."
+    },
+    {
+      "id": "en-lex-633f3ba6f96474e587e1",
+      "word": "use",
+      "decision": "accepted",
+      "reason": "Use is nominal after the preposition after. All six translations retain the after-use instruction."
+    }
+  ],
+  "conclusion": "One required English meaning correction; two translation polish suggestions. Remaining examples, target POS choices, meaning maps and translations have no material issue found in this review. Native-speaker review remains pending."
+}

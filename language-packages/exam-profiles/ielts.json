@@ -1,0 +1,10 @@
+{
+  "id": "ielts", "targetLanguage": "en", "title": "IELTS",
+  "levels": ["1.0","1.5","2.0","2.5","3.0","3.5","4.0","4.5","5.0","5.5","6.0","6.5","7.0","7.5","8.0","8.5","9.0"],
+  "levelKind": "target-score", "vocabularyMembership": "editorial",
+  "variants": ["academic", "general-training"],
+  "vocabularyTiers": ["foundation","everyday","independent","advanced","precision"],
+  "notice": {"en": "IELTS bands measure language performance, not completion of a vocabulary list. Target bands include half bands; vocabulary tiers are editorial and do not predict or guarantee a score.", "ko": "IELTS 밴드는 단어 목록을 외운 양이 아니라 언어 수행 능력을 평가합니다. 목표 점수는 0.5점 단위로 선택하며, 어휘 학습 단계는 편집 기준으로 점수를 예측하거나 보장하지 않습니다."},
+  "sources": [{"url":"https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail","role":"official score scale and performance criteria"},{"url":"https://ielts.org/organisations/ielts-for-organisations/compare-ielts/ielts-and-the-cefr","role":"official limits of IELTS–CEFR comparisons"}],
+  "checked": "2026-10-15"
+}

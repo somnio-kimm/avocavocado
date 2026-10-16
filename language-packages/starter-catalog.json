@@ -1,0 +1,64 @@
+[
+  {
+    "id": "de-core",
+    "kind": "study",
+    "targetLanguage": "de",
+    "version": "1.0.0",
+    "url": "/language-packages/de-core-1.0.0.json",
+    "bytes": 1744,
+    "sha256": "a27f522cf1ed7dc0d2619aff21ead2052873853770549995dc14841fd2fef38c"
+  },
+  {
+    "id": "de-en",
+    "kind": "explanation",
+    "targetLanguage": "de",
+    "version": "1.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "1.0.0",
+    "url": "/language-packages/de-en-1.0.0.json",
+    "bytes": 1699,
+    "sha256": "1b81be34a143975dc65f88919e57f7d0804bdd09b748d779763a91ea1125be3d"
+  },
+  {
+    "id": "de-ko",
+    "kind": "explanation",
+    "targetLanguage": "de",
+    "version": "1.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "1.0.0",
+    "url": "/language-packages/de-ko-1.0.0.json",
+    "bytes": 1706,
+    "sha256": "73598d114bd8c376cbe6d40ebebc887b3f7c699da3ca42ae9b941e8954a7d0aa"
+  },
+  {
+    "id": "zh-core",
+    "kind": "study",
+    "targetLanguage": "zh",
+    "version": "1.0.0",
+    "url": "/language-packages/zh-core-1.0.0.json",
+    "bytes": 1785,
+    "sha256": "d450c2e6e200d6c1ddd022af230214e89250d53afa4b8d39c0d83fa25dfdd3ee"
+  },
+  {
+    "id": "zh-en",
+    "kind": "explanation",
+    "targetLanguage": "zh",
+    "version": "1.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "1.0.0",
+    "url": "/language-packages/zh-en-1.0.0.json",
+    "bytes": 1711,
+    "sha256": "e713a2f5b86d40a3c30c5ca72957cf72568970afb70c1d274fd23bdab50dc28d"
+  },
+  {
+    "id": "zh-ko",
+    "kind": "explanation",
+    "targetLanguage": "zh",
+    "version": "1.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "1.0.0",
+    "url": "/language-packages/zh-ko-1.0.0.json",
+    "bytes": 1740,
+    "sha256": "20292baf56bece97715c0d6fa21b691508cd498a46c0d22ddad7aecb8c056026"
+  }
+]

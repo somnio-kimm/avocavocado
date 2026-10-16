@@ -1,0 +1,1521 @@
+{
+  "schemaVersion": 1,
+  "status": "validated-focus-checkpoint",
+  "reviewDate": "2026-10-15",
+  "nativeReviewStatus": "native-review-pending",
+  "sourcePath": "language-packages/sources/examples/fr-authored.jsonl",
+  "pendingListPath": "/private/tmp/fr-focus-pending.json",
+  "sourceSha256Before": "a0b906373084afc99c57df9119cf6631c9caa9cc0a2d1ab939d9ebaef442f2b6",
+  "sourceSha256After": "a57e1fc242dafe5221ee8ccfe4390b06e52fe9ccb40100c845f735662a475523",
+  "requestedCount": 113,
+  "changedCount": 112,
+  "deferredCount": 1,
+  "changedIds": [
+    "fr-lex-c5d24974babbae43b412",
+    "fr-lex-fb0be015982a94137be9",
+    "fr-lex-8be6dce69e1d96e36e32",
+    "fr-lex-bfb7d16cb6802f09f17d",
+    "fr-lex-7dd873bb8ba180070c3d",
+    "fr-lex-86c7acbd34ee45bb7618",
+    "fr-lex-91f661ecd172fb3816a8",
+    "fr-lex-eac69a0b4858ac45e186",
+    "fr-lex-19e4095e6edf4e0c9c5d",
+    "fr-lex-70a87af375b10612256e",
+    "fr-lex-8040fc910b59087646f6",
+    "fr-lex-6bb7bff073d4e1644c8c",
+    "fr-lex-1dc1dcaf0e7673432ac1",
+    "fr-lex-ddab0f95f66467644d23",
+    "fr-lex-108a79160842ff5a2468",
+    "fr-lex-5c41fcbb7140e4458567",
+    "fr-lex-ffee2138a11c22a819c7",
+    "fr-lex-3b78fc1eae58cb3e8fe5",
+    "fr-lex-ec2c55ec67a9640506d2",
+    "fr-lex-a2c89f21415783f849b6",
+    "fr-lex-a8ee2fdf8607907dbbbe",
+    "fr-lex-55e28dc82a87afc001d6",
+    "fr-lex-2c05b212d47480c0aebd",
+    "fr-lex-b58ae5e62001d583e556",
+    "fr-lex-3d9125f59768651595d6",
+    "fr-lex-48d40f8022b33cedd4b2",
+    "fr-lex-ab0389fdee74611dd7a0",
+    "fr-lex-347a12743e26cc67f0aa",
+    "fr-lex-af24eb56d491b2cf9675",
+    "fr-lex-d9d2d6328788be99e7c3",
+    "fr-lex-f4848e0de760e922b2a1",
+    "fr-lex-5a6f6ea5683be7092516",
+    "fr-lex-b69820b79a44c75d387a",
+    "fr-lex-7c6d4f8a55f2f224bc67",
+    "fr-lex-753fb39194357c28bc4d",
+    "fr-lex-b59e83fed79b9ace4089",
+    "fr-lex-1470ca73a6420c11f44a",
+    "fr-lex-d22dd814e7685d857663",
+    "fr-lex-a085fb675074c00f8a02",
+    "fr-lex-c7d1cab55737355e5059",
+    "fr-lex-7e9c1aef430e2ddbed66",
+    "fr-lex-d04f5e24364920fafef5",
+    "fr-lex-828cf7d2784ed7c54d75",
+    "fr-lex-0288fc50645e850c5322",
+    "fr-lex-706bc9d3459688b75634",
+    "fr-lex-ac5501d60f43bb68f3de",
+    "fr-lex-9eafa2df3a1a6a78840b",
+    "fr-lex-fe7d86aff466f62cc1ae",
+    "fr-lex-187697a49267ff5ad231",
+    "fr-lex-6e10e06b5b56987fa732",
+    "fr-lex-a177a0f4f4663319e1fa",
+    "fr-lex-7adf9bde2bf1108a628c",
+    "fr-lex-c525a9b79539cc1689e8",
+    "fr-lex-0e256101d78749389e44",
+    "fr-lex-695cdea17006575c51a2",
+    "fr-lex-86b0ecb5b7c9704853c7",
+    "fr-lex-7a471ccc0df57fa0bddd",
+    "fr-lex-5587b880f64e4b07152b",
+    "fr-lex-03cfd6f91784182adfcc",
+    "fr-lex-82241aca543690667a6a",
+    "fr-lex-666a0b9c99ca26a40512",
+    "fr-lex-fc8903a6d4bac508706a",
+    "fr-lex-d137ed54a337efe53f46",
+    "fr-lex-befbc46157b7dda00fb9",
+    "fr-lex-1de611873ef7f7513a5a",
+    "fr-lex-ce22efb44e15b48d21c6",
+    "fr-lex-0174b9325b7468123d9d",
+    "fr-lex-d54dd661a8ef19a27b77",
+    "fr-lex-7b5e5d834f4563344d0d",
+    "fr-lex-2100f5321d8e8a7d71fa",
+    "fr-lex-4b6e8abf296cdd75c956",
+    "fr-lex-70d788438cd22b48e6c6",
+    "fr-lex-e5169ea6e4597c9e2242",
+    "fr-lex-6b881f3dced3a813afc7",
+    "fr-lex-d3a13065b29d1da2507d",
+    "fr-lex-751b4a5499cbf930c533",
+    "fr-lex-da8f8884ad33b074c0ff",
+    "fr-lex-d604119df96c0a5482dc",
+    "fr-lex-7a42d1f1364259f9c4d1",
+    "fr-lex-9ddbc1f8fa8d394641cd",
+    "fr-lex-1f842de580000e086a27",
+    "fr-lex-1fd5cd0201921c6f8bcf",
+    "fr-lex-597680796c1d71418750",
+    "fr-lex-7825dc3d3896950a88c9",
+    "fr-lex-bd3037538e5dde6788bf",
+    "fr-lex-d7527acecc394e6a7e96",
+    "fr-lex-5325113cad2086f550a2",
+    "fr-lex-9d1f75b8ae2d36c5d079",
+    "fr-lex-459afb2bfd471f515001",
+    "fr-lex-6d3bab83747f9d507755",
+    "fr-lex-ec4610c15d5cb3124dcf",
+    "fr-lex-564bbcd485d3a1838fc1",
+    "fr-lex-f845007dcda3807d1fad",
+    "fr-lex-ec5c7e00e5971ac5a762",
+    "fr-lex-cc7ad153ceba068405bf",
+    "fr-lex-67017e10cde8a349ecd9",
+    "fr-lex-2bad39fe0982ddd709e4",
+    "fr-lex-2d7f509ff476768fe995",
+    "fr-lex-fcbfc82554355f2e3357",
+    "fr-lex-1182e555fecc42cffb73",
+    "fr-lex-88a9b72f12d05261d117",
+    "fr-lex-64ba386bdf9fd6916f9d",
+    "fr-lex-fc4fef41cccb5282c4be",
+    "fr-lex-6a4916b642b21f19e8f5",
+    "fr-lex-d119627f6dac154c5dde",
+    "fr-lex-f451c0ed56afbd4ae666",
+    "fr-lex-f54f2dd54ffaa789e96a",
+    "fr-lex-056347d972b373a2c4c0",
+    "fr-lex-f942530f775fd15659d9",
+    "fr-lex-2d9762e3d97e460a682e",
+    "fr-lex-8fc4a7e2bc118451b479",
+    "fr-lex-97c125efefe391c836f7"
+  ],
+  "changes": [
+    {
+      "id": "fr-lex-c5d24974babbae43b412",
+      "pendingIndex": 0,
+      "headword": "petit",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "petits",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-fb0be015982a94137be9",
+      "pendingIndex": 1,
+      "headword": "point",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "points",
+        "start": 6
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-8be6dce69e1d96e36e32",
+      "pendingIndex": 2,
+      "headword": "mettre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Mets",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-bfb7d16cb6802f09f17d",
+      "pendingIndex": 3,
+      "headword": "partir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "partent",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7dd873bb8ba180070c3d",
+      "pendingIndex": 4,
+      "headword": "main",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "mains",
+        "start": 29
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-86c7acbd34ee45bb7618",
+      "pendingIndex": 5,
+      "headword": "lire",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "lis",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-91f661ecd172fb3816a8",
+      "pendingIndex": 6,
+      "headword": "écrit",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "écrits",
+        "start": 25
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-eac69a0b4858ac45e186",
+      "pendingIndex": 7,
+      "headword": "produit",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "produits",
+        "start": 20
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-19e4095e6edf4e0c9c5d",
+      "pendingIndex": 8,
+      "headword": "arrêter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "arrête",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-70a87af375b10612256e",
+      "pendingIndex": 9,
+      "headword": "perdre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "perdu",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-8040fc910b59087646f6",
+      "pendingIndex": 10,
+      "headword": "un",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "un",
+        "start": 17
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-6bb7bff073d4e1644c8c",
+      "pendingIndex": 11,
+      "headword": "prise",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "prises",
+        "start": 24
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1dc1dcaf0e7673432ac1",
+      "pendingIndex": 12,
+      "headword": "devoir",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "devoirs",
+        "start": 17
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ddab0f95f66467644d23",
+      "pendingIndex": 13,
+      "headword": "pièce",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "pièces",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-108a79160842ff5a2468",
+      "pendingIndex": 14,
+      "headword": "entendre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "entends",
+        "start": 2
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-5c41fcbb7140e4458567",
+      "pendingIndex": 15,
+      "headword": "heureux",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "heureuse",
+        "start": 9
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ffee2138a11c22a819c7",
+      "pendingIndex": 16,
+      "headword": "porter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "porte",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-3b78fc1eae58cb3e8fe5",
+      "pendingIndex": 17,
+      "headword": "créer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "créent",
+        "start": 12
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ec2c55ec67a9640506d2",
+      "pendingIndex": 18,
+      "headword": "faux",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "fausse",
+        "start": 15
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-a2c89f21415783f849b6",
+      "pendingIndex": 19,
+      "headword": "note",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "notes",
+        "start": 14
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-a8ee2fdf8607907dbbbe",
+      "pendingIndex": 20,
+      "headword": "montrer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "montrée",
+        "start": 11
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-55e28dc82a87afc001d6",
+      "pendingIndex": 21,
+      "headword": "espèce",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "espèces",
+        "start": 25
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-2c05b212d47480c0aebd",
+      "pendingIndex": 22,
+      "headword": "ouvert",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "ouverts",
+        "start": 20
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-b58ae5e62001d583e556",
+      "pendingIndex": 23,
+      "headword": "tenir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Tiens",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-3d9125f59768651595d6",
+      "pendingIndex": 24,
+      "headword": "étranger",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "étrangers",
+        "start": 20
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-48d40f8022b33cedd4b2",
+      "pendingIndex": 25,
+      "headword": "pauvre",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "pauvres",
+        "start": 46
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ab0389fdee74611dd7a0",
+      "pendingIndex": 26,
+      "headword": "poser",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Pose",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-347a12743e26cc67f0aa",
+      "pendingIndex": 27,
+      "headword": "victime",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "victimes",
+        "start": 25
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-af24eb56d491b2cf9675",
+      "pendingIndex": 28,
+      "headword": "découvrir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "découvre",
+        "start": 26
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d9d2d6328788be99e7c3",
+      "pendingIndex": 29,
+      "headword": "supérieur",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "supérieure",
+        "start": 27
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-f4848e0de760e922b2a1",
+      "pendingIndex": 30,
+      "headword": "recevoir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "reçu",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-5a6f6ea5683be7092516",
+      "pendingIndex": 31,
+      "headword": "candidat",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "candidats",
+        "start": 6
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-b69820b79a44c75d387a",
+      "pendingIndex": 32,
+      "headword": "présenter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "présente",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7c6d4f8a55f2f224bc67",
+      "pendingIndex": 33,
+      "headword": "nul",
+      "partOfSpeech": "determiner",
+      "before": null,
+      "after": {
+        "text": "Nulle",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-753fb39194357c28bc4d",
+      "pendingIndex": 34,
+      "headword": "remettre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Remettez",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-b59e83fed79b9ace4089",
+      "pendingIndex": 35,
+      "headword": "tirer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Tire",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1470ca73a6420c11f44a",
+      "pendingIndex": 36,
+      "headword": "content",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "contente",
+        "start": 9
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d22dd814e7685d857663",
+      "pendingIndex": 37,
+      "headword": "quitter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "quittons",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-a085fb675074c00f8a02",
+      "pendingIndex": 38,
+      "headword": "atteindre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "atteint",
+        "start": 17
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-c7d1cab55737355e5059",
+      "pendingIndex": 39,
+      "headword": "empêcher",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "empêche",
+        "start": 14
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7e9c1aef430e2ddbed66",
+      "pendingIndex": 40,
+      "headword": "génération",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "générations",
+        "start": 55
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d04f5e24364920fafef5",
+      "pendingIndex": 41,
+      "headword": "ajouter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Ajoute",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-828cf7d2784ed7c54d75",
+      "pendingIndex": 42,
+      "headword": "défendre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "défendent",
+        "start": 12
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-0288fc50645e850c5322",
+      "pendingIndex": 43,
+      "headword": "monter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "montons",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-706bc9d3459688b75634",
+      "pendingIndex": 44,
+      "headword": "reprendre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "reprend",
+        "start": 27
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ac5501d60f43bb68f3de",
+      "pendingIndex": 45,
+      "headword": "réaliser",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "réalise",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-9eafa2df3a1a6a78840b",
+      "pendingIndex": 46,
+      "headword": "construire",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "construisent",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-fe7d86aff466f62cc1ae",
+      "pendingIndex": 47,
+      "headword": "préparer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "prépare",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-187697a49267ff5ad231",
+      "pendingIndex": 48,
+      "headword": "lancer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Lance",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-6e10e06b5b56987fa732",
+      "pendingIndex": 49,
+      "headword": "sentir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "sens",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-a177a0f4f4663319e1fa",
+      "pendingIndex": 50,
+      "headword": "sourire",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "sourit",
+        "start": 8
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7adf9bde2bf1108a628c",
+      "pendingIndex": 51,
+      "headword": "différent",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "différentes",
+        "start": 31
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-c525a9b79539cc1689e8",
+      "pendingIndex": 52,
+      "headword": "gérer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "gère",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-0e256101d78749389e44",
+      "pendingIndex": 53,
+      "headword": "profiter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "profitons",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-695cdea17006575c51a2",
+      "pendingIndex": 54,
+      "headword": "sauver",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "sauvé",
+        "start": 11
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-86b0ecb5b7c9704853c7",
+      "pendingIndex": 55,
+      "headword": "augmenter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "augmente",
+        "start": 11
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7a471ccc0df57fa0bddd",
+      "pendingIndex": 56,
+      "headword": "champion",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "championne",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-5587b880f64e4b07152b",
+      "pendingIndex": 57,
+      "headword": "soutenir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "soutient",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-03cfd6f91784182adfcc",
+      "pendingIndex": 58,
+      "headword": "défaut",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "défauts",
+        "start": 19
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-82241aca543690667a6a",
+      "pendingIndex": 59,
+      "headword": "produire",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "produit",
+        "start": 12
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-666a0b9c99ca26a40512",
+      "pendingIndex": 60,
+      "headword": "sale",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "sales",
+        "start": 20
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-fc8903a6d4bac508706a",
+      "pendingIndex": 61,
+      "headword": "disparu",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "disparus",
+        "start": 33
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d137ed54a337efe53f46",
+      "pendingIndex": 62,
+      "headword": "apporter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "apporte",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-befbc46157b7dda00fb9",
+      "pendingIndex": 63,
+      "headword": "euro",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "euros",
+        "start": 22
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1de611873ef7f7513a5a",
+      "pendingIndex": 64,
+      "headword": "invité",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "invités",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ce22efb44e15b48d21c6",
+      "pendingIndex": 65,
+      "headword": "menace",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "menaces",
+        "start": 27
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-0174b9325b7468123d9d",
+      "pendingIndex": 66,
+      "headword": "occuper",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "occupe",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d54dd661a8ef19a27b77",
+      "pendingIndex": 67,
+      "headword": "toucher",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "touche",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7b5e5d834f4563344d0d",
+      "pendingIndex": 68,
+      "headword": "discuter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "discutent",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-2100f5321d8e8a7d71fa",
+      "pendingIndex": 69,
+      "headword": "aspect",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "aspects",
+        "start": 30
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-4b6e8abf296cdd75c956",
+      "pendingIndex": 70,
+      "headword": "original",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "originale",
+        "start": 27
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-70d788438cd22b48e6c6",
+      "pendingIndex": 71,
+      "headword": "exprimer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "exprime",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-e5169ea6e4597c9e2242",
+      "pendingIndex": 72,
+      "headword": "prouver",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "prouve",
+        "start": 8
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-6b881f3dced3a813afc7",
+      "pendingIndex": 73,
+      "headword": "puissant",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "puissante",
+        "start": 41
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d3a13065b29d1da2507d",
+      "pendingIndex": 74,
+      "headword": "réfléchir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "réfléchit",
+        "start": 10
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-751b4a5499cbf930c533",
+      "pendingIndex": 75,
+      "headword": "former",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "forment",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-da8f8884ad33b074c0ff",
+      "pendingIndex": 76,
+      "headword": "avancer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Avancez",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d604119df96c0a5482dc",
+      "pendingIndex": 77,
+      "headword": "génial",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "géniale",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7a42d1f1364259f9c4d1",
+      "pendingIndex": 78,
+      "headword": "plainte",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "plaintes",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-9ddbc1f8fa8d394641cd",
+      "pendingIndex": 79,
+      "headword": "fondation",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "fondations",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1f842de580000e086a27",
+      "pendingIndex": 80,
+      "headword": "imposer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "impose",
+        "start": 9
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1fd5cd0201921c6f8bcf",
+      "pendingIndex": 81,
+      "headword": "jeter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "jette",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-597680796c1d71418750",
+      "pendingIndex": 82,
+      "headword": "actif",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "active",
+        "start": 27
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-7825dc3d3896950a88c9",
+      "pendingIndex": 83,
+      "headword": "civil",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "civils",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-bd3037538e5dde6788bf",
+      "pendingIndex": 84,
+      "headword": "lourd",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "lourde",
+        "start": 22
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d7527acecc394e6a7e96",
+      "pendingIndex": 85,
+      "headword": "appliquer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "Appliquez",
+        "start": 0
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-5325113cad2086f550a2",
+      "pendingIndex": 86,
+      "headword": "courir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "court",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-9d1f75b8ae2d36c5d079",
+      "pendingIndex": 87,
+      "headword": "employé",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "employée",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-459afb2bfd471f515001",
+      "pendingIndex": 88,
+      "headword": "voisin",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "voisines",
+        "start": 43
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-6d3bab83747f9d507755",
+      "pendingIndex": 89,
+      "headword": "étudier",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "étudie",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ec4610c15d5cb3124dcf",
+      "pendingIndex": 90,
+      "headword": "détruire",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "détruit",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-564bbcd485d3a1838fc1",
+      "pendingIndex": 92,
+      "headword": "majeur",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "majeurs",
+        "start": 10
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-f845007dcda3807d1fad",
+      "pendingIndex": 93,
+      "headword": "poursuivre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "poursuit",
+        "start": 9
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-ec5c7e00e5971ac5a762",
+      "pendingIndex": 94,
+      "headword": "pousse",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "pousses",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-cc7ad153ceba068405bf",
+      "pendingIndex": 95,
+      "headword": "raconter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "raconte",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-67017e10cde8a349ecd9",
+      "pendingIndex": 96,
+      "headword": "accueillir",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "accueillons",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-2bad39fe0982ddd709e4",
+      "pendingIndex": 97,
+      "headword": "noter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "note",
+        "start": 14
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-2d7f509ff476768fe995",
+      "pendingIndex": 98,
+      "headword": "citoyen",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "citoyens",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-fcbfc82554355f2e3357",
+      "pendingIndex": 99,
+      "headword": "outil",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "outils",
+        "start": 10
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-1182e555fecc42cffb73",
+      "pendingIndex": 100,
+      "headword": "contrôler",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "contrôle",
+        "start": 14
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-88a9b72f12d05261d117",
+      "pendingIndex": 101,
+      "headword": "patient",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "patiente",
+        "start": 11
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-64ba386bdf9fd6916f9d",
+      "pendingIndex": 102,
+      "headword": "pur",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "pure",
+        "start": 20
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-fc4fef41cccb5282c4be",
+      "pendingIndex": 103,
+      "headword": "ski",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "skis",
+        "start": 10
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-6a4916b642b21f19e8f5",
+      "pendingIndex": 104,
+      "headword": "supporter",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "supporte",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-d119627f6dac154c5dde",
+      "pendingIndex": 105,
+      "headword": "supprimer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "supprime",
+        "start": 5
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-f451c0ed56afbd4ae666",
+      "pendingIndex": 106,
+      "headword": "considérer",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "considère",
+        "start": 3
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-f54f2dd54ffaa789e96a",
+      "pendingIndex": 107,
+      "headword": "engager",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "engagent",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-056347d972b373a2c4c0",
+      "pendingIndex": 108,
+      "headword": "combattre",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "combattent",
+        "start": 13
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-f942530f775fd15659d9",
+      "pendingIndex": 109,
+      "headword": "fidèle",
+      "partOfSpeech": "noun",
+      "before": null,
+      "after": {
+        "text": "fidèles",
+        "start": 4
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-2d9762e3d97e460a682e",
+      "pendingIndex": 110,
+      "headword": "ramener",
+      "partOfSpeech": "verb",
+      "before": null,
+      "after": {
+        "text": "ramène",
+        "start": 17
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-8fc4a7e2bc118451b479",
+      "pendingIndex": 111,
+      "headword": "parallèle",
+      "partOfSpeech": "adjective",
+      "before": null,
+      "after": {
+        "text": "parallèles",
+        "start": 24
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    },
+    {
+      "id": "fr-lex-97c125efefe391c836f7",
+      "pendingIndex": 112,
+      "headword": "conte",
+      "partOfSpeech": "noun",
+      "before": {
+        "text": "conte"
+      },
+      "after": {
+        "text": "conte",
+        "start": 16
+      },
+      "senseReview": "surface-and-selected-sense-confirmed"
+    }
+  ],
+  "deferred": [
+    {
+      "id": "fr-lex-6e34e224c2b14f0360e3",
+      "pendingIndex": 91,
+      "headword": "enfer",
+      "sentence": "Dans ce récit, le héros descend aux enfers.",
+      "selectedMeaningEn": "A place where a person who has sinned is sent and punished after death.",
+      "reason": "The plural enfers is used as the mythological underworld, explicitly translated as underworld and 저승. The selected dictionary sense is hell where sinners are punished after death. A matching surface exists, but this pass must not mark an unrelated selected sense as checked.",
+      "suggestedNextAction": "Retain the selected dictionary sense and author a matching hell example in a separate content-edit pass. Do not apply this proposal during the focus-only pass.",
+      "proposedExampleForLaterReview": {
+        "text": "Dans ce conte, le personnage redoute d’aller en enfer après sa mort.",
+        "en": "In this tale, the character fears going to hell after death.",
+        "ko": "이 이야기에서 그 인물은 죽은 뒤 지옥에 갈까 봐 두려워해요.",
+        "focus": {
+          "text": "enfer",
+          "start": 48
+        }
+      },
+      "resolution": "Root replaced the underworld example with the proposed punitive-hell example and added all six translations; focus validated."
+    }
+  ],
+  "validation": {
+    "nonFocusFieldsUnchanged": true,
+    "recordOrderUnchanged": true,
+    "rowCountUnchanged": 1932,
+    "explicitOffsetsUse": "JavaScript UTF-16 code-unit offsets",
+    "selectedNounUn": "Second whole-word un selected; the first is its indefinite article.",
+    "selectedNounConte": "Standalone conte selected, not the substring inside raconte.",
+    "engineCheck": "passed",
+    "runtime": "v26.11.1",
+    "validatorPassCount": 1932,
+    "changedSpansResolved": 112,
+    "totalFocusResolved": 1931,
+    "remainingGaps": [
+      {
+        "id": "fr-lex-6e34e224c2b14f0360e3",
+        "word": "enfer",
+        "text": "Dans ce récit, le héros descend aux enfers."
+      }
+    ]
+  },
+  "limits": [
+    "Focus editing only: no source sentence, translation, meaning, provenance, identity, or order was changed.",
+    "Morphology and sense checks are AI editorial checks, not native-speaker certification.",
+    "One sense mismatch remains intentionally unresolved."
+  ]
+}

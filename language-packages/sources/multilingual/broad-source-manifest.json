@@ -1,0 +1,106 @@
+{
+  "verified": "2026-10-15",
+  "nikl": {
+    "revision": "42c0d01889f34536e9cf94fe57f62bd2055b1bde",
+    "exportDate": "2026-06-19",
+    "files": [
+      {
+        "file": "nikl-001.xml",
+        "bytes": 35392707,
+        "sha256": "6afb7140dba366f26cd0ea9939e988b9cd7e92ad791cdf48882d9a970461542b",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/001.xml"
+      },
+      {
+        "file": "nikl-002.xml",
+        "bytes": 37465175,
+        "sha256": "767c025e635ff564f069f9883a9c7f90f11a90027539dc3f91ef86145d9d6a59",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/002.xml"
+      },
+      {
+        "file": "nikl-003.xml",
+        "bytes": 37904619,
+        "sha256": "4f4e9cc63335552f0328823ea5ce71ded3235638036bfa9ba55f8f55c092bba8",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/003.xml"
+      },
+      {
+        "file": "nikl-004.xml",
+        "bytes": 36639953,
+        "sha256": "8f81f9746d1f36002a3b70f2b709e3fa4d0aab97f2d8a2e0f6db4e75fe1c4970",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/004.xml"
+      },
+      {
+        "file": "nikl-005.xml",
+        "bytes": 35255124,
+        "sha256": "d4335b24fb3cc6de4b738dd1ebd91b866f201b0949ebb76ee3eb78022e988dbb",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/005.xml"
+      },
+      {
+        "file": "nikl-006.xml",
+        "bytes": 34337097,
+        "sha256": "91f6624556499121907c7aba5e04542b2b4493e95a11ebc46a80ffe8f53d55fa",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/006.xml"
+      },
+      {
+        "file": "nikl-007.xml",
+        "bytes": 35752932,
+        "sha256": "eb13f91d3560d2a5542eeb67e99d2382df18b4e4811c460d97e816b54ca41254",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/007.xml"
+      },
+      {
+        "file": "nikl-008.xml",
+        "bytes": 34828439,
+        "sha256": "e2ecaa74595a74b4bea7b8e1f84a61c095772a6f7153290c7af9c9f633ed69e3",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/008.xml"
+      },
+      {
+        "file": "nikl-009.xml",
+        "bytes": 35891857,
+        "sha256": "66508a3725cbd572777bfc9130304f90e2cadd6d2372a8cbdd2e73572160b23b",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/009.xml"
+      },
+      {
+        "file": "nikl-010.xml",
+        "bytes": 36579799,
+        "sha256": "c79c3835fc50f16fbec8a465631d16d382823789edc7b0f0ba287424d9d1f36b",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/010.xml"
+      },
+      {
+        "file": "nikl-011.xml",
+        "bytes": 26415723,
+        "sha256": "5129db19f52b58970a8eea7614824ef7a1fe1ab0edced7aa8f72f2c7912aa7d6",
+        "url": "https://raw.githubusercontent.com/spellcheck-ko/korean-dict-nikl/42c0d01889f34536e9cf94fe57f62bd2055b1bde/krdict/011.xml"
+      }
+    ],
+    "licence": "CC-BY-SA-2.0-KR",
+    "policy": "https://krdict.korean.go.kr/kor/kboardPolicy/copyRightTermsInfo"
+  },
+  "curriculum": {
+    "page": "https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=207&report_seq=932",
+    "file": "nikl-curriculum.xlsx",
+    "sha256": "2cde28ab90e04728513e65ef5df4baaa400a4055fe2abd1856889cb983c4c3ac",
+    "licence": "KOGL-1"
+  },
+  "wiktionary": {
+    "file": "en-extract.jsonl.gz",
+    "bytes": 2981058381,
+    "sha256": "3dac8a09e57827bef493e2e6b552fe917bf3b1fc55dee05c4e4a3702aff5dbdb",
+    "source": "https://kaikki.org/dictionary/rawdata.html",
+    "edition": "existing cached snapshot; precise dump date not recorded",
+    "verified": "2026-10-15"
+  },
+  "frequency": {
+    "tool": "wordfreq",
+    "version": "3.1.1",
+    "dataLicence": "CC-BY-SA-4.0",
+    "creator": "Robyn Speer and contributors",
+    "source": "https://github.com/rspeer/wordfreq",
+    "purpose": "editorial ordering, not exam membership"
+  },
+  "prepared": {
+    "ja": "1737d74a6f032cd7ad6c3016e2ee852a9efa2746fb94ccd231b0279b12ca267b",
+    "ko": "91451e59ed0e2267df383a4644da61a841f1dabee82b94d6fe778c4002495152",
+    "en": "8fe3673e9e2e8bccf510a87bc410fd1d9ce246b595820e484690bcd18a53bfcc",
+    "es": "8712d9b8aaf66de5c6d2c14e3f44fb0454d94077d4b897d96da68c7d5afb5d16",
+    "fr": "4f7e1b01f046390e17498e4d4524de504336f4d7bab581dd151c3034ee8dd9f7"
+  }
+}

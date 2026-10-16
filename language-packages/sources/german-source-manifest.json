@@ -1,0 +1,1150 @@
+{
+  "archive": "learn_language_legacy_20261014",
+  "sourceFiles": [
+    {
+      "path": "apps/german/web/data/reference/entries/00.json",
+      "sha256": "ce4148011fae0cd28af7fa8d131ee0cf5e846388c9d443aac7776e269cc5e062"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/01.json",
+      "sha256": "752b2eeebeea92dcb0e1ac85edc946fcc49ad08b49c12a00b00d79d6aa708d39"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/02.json",
+      "sha256": "0a69ab5e569acea47877da5d7400ce13dc751865f2aeed01ce61d0577f7130a8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/03.json",
+      "sha256": "dd908ea91b0aef28bd26fb999be3af6fc5558f19f61767e9d04ad873eb07ffbc"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/04.json",
+      "sha256": "d43c54edba8b224717e1195221f2ec55a687d8f4ec2c55d561b6635f05fec348"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/05.json",
+      "sha256": "97d08bd5ba130aaf1940273d00be22f179f50a53619f18f81797dcf1cc83d257"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/06.json",
+      "sha256": "4b0942a809d956e17306a7127b5baca088347eb0ce7a9121b66538ccc1cf6c26"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/07.json",
+      "sha256": "732f37c3b796313433b9b8378d13ead85370353c1c13d351d59bc27bbf604462"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/08.json",
+      "sha256": "ab63f16b61cfc36392542a745debc93d44af350cd1c7ad8d9e8790d202933e4a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/09.json",
+      "sha256": "59e40c4bba768e42d1cb5218059c1263449e4c0861995ed0708a983bcd536c1c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0a.json",
+      "sha256": "76df66195be10427ee9163f2f0a30d6113129d4f99083e78d53e789ce00b26f9"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0b.json",
+      "sha256": "8010f64740eda61375c4da07014725afbe2e32f4c414802bc6d441ae35c7fae4"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0c.json",
+      "sha256": "edfcdf23c4e2f011d35c62154008974acabb5885a17a4d44fc9bb424427e390d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0d.json",
+      "sha256": "2ddd4200f1c73a4208b6e4ad08882fa7745aea2a9c2e37e22ebeed0e62c83fe4"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0e.json",
+      "sha256": "93b9f6e52032bae7b5bf867bad0ff6439a59ecd15763107aa17ef30e34cdbb34"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/0f.json",
+      "sha256": "5377aac00b79644d6e2c5fb39a9bf33dd24832dba44d4036d7d9cbe302d68911"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/10.json",
+      "sha256": "8e2169a23bae3851277da8a8471e53ba0d81e109d424e6d1a12cabc9687633f4"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/11.json",
+      "sha256": "6d92e73bdd6a5fc3a2e40dd87d36556537d1c76c556612f36689d1254406a333"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/12.json",
+      "sha256": "9a9cd32b3b10942164cc2bb424943c1cf21ffa37277c99153d0e26ff82a4c865"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/13.json",
+      "sha256": "14ce162ba7e2e2d46f99e6da40b9464bb9cc56880f6921543e769a75ab23f91c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/14.json",
+      "sha256": "fb3344a97f53e2fd0c83cdec61fb5a2771a481cb48207ea1f2c4ef79c1468c62"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/15.json",
+      "sha256": "9c79c2930f8c1970168dc9697639a1f61211ad01c38b9ffce886b4bc7af8513b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/16.json",
+      "sha256": "f313f25b80a1850f8a82a4efaf44a1e041050198b61bb9a5910da5a0005da6b0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/17.json",
+      "sha256": "078971773a8e999ed2241347613897405f6b798f9056b8df1f533989618e583b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/18.json",
+      "sha256": "89e1f51cdd6abee28116d1856c89b2c445b4a24b0b410e2b6ffedbf9c2e4a29d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/19.json",
+      "sha256": "065c7b942df934783db78ce1d09da0a24a9d233a428824419508f04fafbf30d2"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1a.json",
+      "sha256": "4ddaa90787dcf886fe40827af55a65b1b52228161903ab69e0178a2bfcbd4b67"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1b.json",
+      "sha256": "3b46403251307059bf3fc8b23132d5e1933b5a90d992e9f036fc87efb72d5eaf"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1c.json",
+      "sha256": "f2b43e3136a5c6fcdea2ce5c4ca6eb3516419e4ebc40bcc3c762b99814a266c0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1d.json",
+      "sha256": "655a80b3e16d0162f197629e81dc8d71619d926076890d5971baccf7aaea52fc"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1e.json",
+      "sha256": "07f24382a2e4a78bb4b0697638531b44db56ca52a4a89f4c0b7196d1d88109eb"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/1f.json",
+      "sha256": "e7a1216b5a0bb0827ef8d1b1d0de668fb32cb54ca88691831e77ba3e3453c1ad"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/20.json",
+      "sha256": "2f9e09a61483a7ec2b4f3000c8a8a4f54c59e46309fce778a69fdfc116d9de9d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/21.json",
+      "sha256": "b4bc431cb787eed6d9aafa796be2c924c0e2e77a561671cfba8fc0504954712e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/22.json",
+      "sha256": "4ccd88b1ee1986e40338a00928a89af70093ff60e079face8c1ba17fbb277151"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/23.json",
+      "sha256": "2e3274c9f98188764b9a97632466d75e37bba99df75321cfedcb1aa3d7334d3d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/24.json",
+      "sha256": "fcc35095e9fd7e8f1537e53e7d71bebf18e71054815273508ddcecde0654fb68"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/25.json",
+      "sha256": "b3340fae9aee0cb06cd1c5936bde62df49dd437530b75c670fd4cb6bb9c9ca41"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/26.json",
+      "sha256": "219a83ff8071f679caadacd45fa6c98cdbe23b52ef720248079a055e9cd6d511"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/27.json",
+      "sha256": "ef022689c5d1e027b32c0fa16d18436db41219bcdd70f986945feab3ed810e95"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/28.json",
+      "sha256": "0f87556908a3790e87705757dd2837cb08b1471327a6d4e93c44b893bc082012"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/29.json",
+      "sha256": "622c3a34b7ff0d8f7a7108c80d85b9103f6654168c8c1645b9c426b89af26318"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2a.json",
+      "sha256": "66be3b3443b8b8e635c0cc5496c0f2cc27c08c3664a928fe00eecc8c2c0b4555"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2b.json",
+      "sha256": "f9b80232af622fd032f30b319dbfa69646199cca4038ecea6a16acd78d34dd93"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2c.json",
+      "sha256": "1a2d38bec7b16203db416b80f3ffb54f06128b379d058956174eb08b55c51dd7"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2d.json",
+      "sha256": "337e4a7d4765ede3af31d7ae74a6dae9916d82edb19d48a6a84a08aea71b4b47"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2e.json",
+      "sha256": "d62898d991d6697849de162efcc5e3362fb413490ab7f4f93d65b678f8aa7fa7"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/2f.json",
+      "sha256": "c94cb94b98723e90a500e2920f1792a76160e9d4419618049e04a5aaa10d683f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/30.json",
+      "sha256": "21017678e13123ce4777d51073d21367ff243b9181bd708c6ceed0ddb77f6654"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/31.json",
+      "sha256": "1cd83b5d344f990ed0a22f8cbc7ffe990b8d7c4948de712ca5e50232c86f130f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/32.json",
+      "sha256": "123d71ac5a7a463bb35ec00928b69575dfe598596fe6ed45fcbf8e2ca5c4d387"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/33.json",
+      "sha256": "0f57ea4ebd145d0ca087329d2ba612c1d0f2e66d7d8725b1ecaf645127dc81f4"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/34.json",
+      "sha256": "c1cb8cfb8b1e96b61fbe014e014c1fde24d8235b3b947dff11bd35ce4d10f4ff"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/35.json",
+      "sha256": "b33a05bdc566889e509c754ddfbd22b638a75469d3109fef505e50f95db399b3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/36.json",
+      "sha256": "032e9f4d30d99a1edb9851903ae3e8aa23f65f0a70c8ace3c5f31b922e65ed52"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/37.json",
+      "sha256": "94c7e4540094eb5b5990c65a7d0a59a9e4b797d20a27aef81f6ffa864b395d12"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/38.json",
+      "sha256": "1be64284702955ab25a26afb829f2ed801e8cf76457ed2ea9d3711c35aa22de1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/39.json",
+      "sha256": "323be14471e93e38164fbbc9133ca8faab54bf2e58f74901bd54902a30ce9f1f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3a.json",
+      "sha256": "0d7eee9ba067fd03443723526fcaa9fe7b2ad3ef5d8ec8879b82707315398be9"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3b.json",
+      "sha256": "42d2b186564bf1add2e03534f33bcc2b1a95f938c66b20ab294b147497e913d5"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3c.json",
+      "sha256": "beb17e732b71587a95c170ef73441d9e6d694fabdf893aa45d17c1e5a93ff8fc"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3d.json",
+      "sha256": "180a5b3d6e2c5ff0b2908657a58ef63a10422ab7b80f5c6f677a3dc296976c6b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3e.json",
+      "sha256": "255bf21236d319129ba8487a7627972573c40a607171bdd77ff05199e3e4fd40"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/3f.json",
+      "sha256": "bce56a2e07a587f287a6b168492193b59d6c66d0ea364e86a90eb31ea36bcbf2"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/40.json",
+      "sha256": "42207acfed1304a3fc845ec4def5c30b7c77845109a65f1e38334c108cdd8ed3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/41.json",
+      "sha256": "92592824fe43aae5219429cb17221e6cac3227c6581bc2ec922b57b24c30c5ed"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/42.json",
+      "sha256": "fa663ca8f3ca24ab042dec5d4bfff09962fee928c0c241056ef3fef3c177bbf2"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/43.json",
+      "sha256": "516537424ac14a81be92fdb0d3bd446fbee2a561564942e8f125a0e1dfbc2746"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/44.json",
+      "sha256": "3c8b953348197dcc84ff3dae079df21f98b85b4cff568bc24d720f70f6d30394"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/45.json",
+      "sha256": "305e7b75db11b153819ea7fc952068493dba59b079b2f0e529a93a59d927a013"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/46.json",
+      "sha256": "761213e73e404d11b6e13d6235f2c3e1b5661ea2fa8bdc71245fd7bc7b3dca8b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/47.json",
+      "sha256": "1504dadac9408ad8a4e374d194bf1acda099b65891272d34bc54e5a49e314bb4"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/48.json",
+      "sha256": "222b249f598c88f668a67b741c9187ffe6c0e24889422b278720e8c081fb1dda"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/49.json",
+      "sha256": "be9af215cb2310950b7fa0f8b3bd26f3cc46683162367965195cf4c8765c42a1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4a.json",
+      "sha256": "9d6253cf0ca120748f797226a7d4a34ac3b71b29cf12e58ab0badd924b679105"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4b.json",
+      "sha256": "e86673caaf1ddef9161c6edb950a1e757b6f1a0d6bfc1cd479acd5ac88af82e7"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4c.json",
+      "sha256": "9d4578ac53a0778f1193de480977d033a0a68c4d04f0efcb2b21db1c0ebfba9e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4d.json",
+      "sha256": "874ae717085626a1577fc4ca15d5bd5aaca3de84bfa0b6d4691f8d40a75ac625"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4e.json",
+      "sha256": "e81374ceb9fe6414a2e6075b51699f530ee6e626d38d91e691a39c288c39e49f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/4f.json",
+      "sha256": "2ae3ac5391594a146b335dd6806c89fa8e76f42cc89be221a67c68e48ec2efd0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/50.json",
+      "sha256": "f20d826f39be3e0c85e1d6c49c18a677586d08011d556657458431eb1846dc06"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/51.json",
+      "sha256": "e105d44ba26e58ce49335f3aab66fa16942b2ad06f23ade6155bd0d4507e6f9e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/52.json",
+      "sha256": "05eb12a1832355b7d74aee9cec94e4d708a020fa2d0561e9cf79c5832c156545"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/53.json",
+      "sha256": "cb492b35e92761a021ed58954619c40c91f601251c91666cfc743d933d16f81c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/54.json",
+      "sha256": "9534a8a0d2d6a25e9b78eb791b1c9ae5007b48402afade414951efa0fd25f4b6"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/55.json",
+      "sha256": "42b27090ee51335e3bf2cba9d1e2c1ec620d0d4afee04f01ac821aca477cb0ec"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/56.json",
+      "sha256": "44807b7bb7f891d63c84deffb7432f5bf476f42ed9fd7ce0e36ab16106ffd442"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/57.json",
+      "sha256": "d21ee0bd0cd42521e16d02c543274f9b37b8c6179dc1c98ea150066d170501ff"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/58.json",
+      "sha256": "bfbf6d07a9db41d8cb983a7b12ce2a09856946503bbc0be15227d9066d8a7570"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/59.json",
+      "sha256": "0d36bea704dd08e9d03763fe76e1f405f2c1cd33cadbeadb5f83dca91185c293"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5a.json",
+      "sha256": "de748305a59a191ab8b9eae1785c98fe6e5713258d6c4b3a432f5c861d9d100a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5b.json",
+      "sha256": "1410198533a1271fe0d10da9968db8172a73beb42cef57fed18bb9de429c5141"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5c.json",
+      "sha256": "e5d712ce421785fe816d0c6a6ec9e61af46eced2149eb4f0f8c1bf6a5f43d157"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5d.json",
+      "sha256": "bc50b3527b1af198734edf4233dfab7b619859c4274fb7d7946348c32905e4fe"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5e.json",
+      "sha256": "0bb551aaa958db05e011867346a336137922a3172373725b836c8240eb27ad11"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/5f.json",
+      "sha256": "730fd39e27fdf8057d7fc4408dbde3d0a8404b3fabecb1854cd378e0c79bc656"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/60.json",
+      "sha256": "257b588eefd6e724b89be4b73c246ab4bd767d4d1748795e293a1fa1fc57371b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/61.json",
+      "sha256": "6a1555ccfd5e15bd9c4e6601d9e3d769711620908141d4332dab6601a7816aee"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/62.json",
+      "sha256": "1cdb9484dba6eaf6640b9706613a54740169c9cffde5d6b2e08c5cbdb5eb5ae8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/63.json",
+      "sha256": "1a42a19ab14c05bef91cb4bceb1f9df000a269d590fe283af887ab56b47c6478"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/64.json",
+      "sha256": "301dc6dfe2bc182c517532015e79e740d251e8e9326f6de4bf0180926420abc3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/65.json",
+      "sha256": "a3d4c550535deed86f0a3c033e8129fe1b429167e205da8c06eb469610953049"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/66.json",
+      "sha256": "2f88981644327b6a868b5ceb92116642a2d65e190c7c4bb92c9f75e870c4d9d0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/67.json",
+      "sha256": "eddda9759e4a1041ef2dee6979d7ad68061dd0d2c211c993d86a1c5615cae1a3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/68.json",
+      "sha256": "54b5c4d339e0baf920bf91646df87e9b4d9c7b27f62273c1a8606bc319301c13"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/69.json",
+      "sha256": "2e71803d9f7ae75be35fb51504460bb3181e20465856cbb8a3e5fe0027dd1431"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6a.json",
+      "sha256": "34431066a8093a1ecdd88997a31f48034dfe8a30808ee63ad2e7654e0138e3b9"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6b.json",
+      "sha256": "1db0a48e0096fc36bd352a7b089586b9ed0c5d7474b2e2155615b54944e405c7"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6c.json",
+      "sha256": "923ed6352ad270468528d0c78149c2f1c94f5c4a79709ded04aed15bd4e6da02"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6d.json",
+      "sha256": "3c41fe51e6ba9588ba7b7c2912bba9a431a7f4742cffde65621b10f8dd69d512"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6e.json",
+      "sha256": "903f53a0e091f585ca57b309598a541da8c89a4e0822eec291ebd5ae8ef479b3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/6f.json",
+      "sha256": "db519e66451d8af581b6d3592bd1890098bb57a9d4097d2e38e48ae951e7efd0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/70.json",
+      "sha256": "cb9ae3affb24ad9d0374beffd215d4a764301c1f15d8513b665d0086276e5a5b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/71.json",
+      "sha256": "0c4101a6971ba80dc8b9839c9aa2c0df665d3e74ce5976874730c61631b8a325"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/72.json",
+      "sha256": "bb86e0e1dd1324fab8c3c9101eb50ee410bb04bad4b5207a82bc8e7d992a91ec"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/73.json",
+      "sha256": "57b6d6a05263804f1790f815f5de53044f7c356b161a2cc087e07bfc3a2a8816"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/74.json",
+      "sha256": "69268d4ddc0bb563261114245d90016143c7465986a1a3ab12dd870693e7578c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/75.json",
+      "sha256": "593a947695194e2b9eea6d8e26b15e1b3333c22b233014871ae3bdf2485bc027"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/76.json",
+      "sha256": "b97f124c0e6af460ceab1a17f915de333ceb8b0f0080b38a39e7f2edb098e6b1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/77.json",
+      "sha256": "25b9d884b72ac175dbf7c9972457883b3c4db94c4e336d2ca5a0eadae3603582"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/78.json",
+      "sha256": "d387b307579a9733eb7e65b251478c25cce389a8573c9302ddc5b718b7a3714f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/79.json",
+      "sha256": "62dbd20ff0f050c6fadb5127c13c51e56ddad78e8dcb133d985a506fee098f0b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7a.json",
+      "sha256": "47ef06b468b3b72570ba73f982534381918555cc57932b450bc65bb714077b63"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7b.json",
+      "sha256": "a2fd1a3173e9e4d823af9e2510f92fe519fa212b763a5c857f15179c035f3751"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7c.json",
+      "sha256": "4af732d82cbc4f655c7161c75afb4e60e8d1683c725ae6fa1232db457c73fded"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7d.json",
+      "sha256": "39fc54dd8e5a927c16d4e8cf57b1da695d738017cf67f590c2e18cfb1cf37ac3"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7e.json",
+      "sha256": "1f2795794a55d89bdf249500eb583b766b3313552fde8cc0729f45e07d7a8fcd"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/7f.json",
+      "sha256": "08bca735a7941d60c4941df5b66676f67a920f68cae8f8db13b511976388dd27"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/80.json",
+      "sha256": "ae42a3f0c5b5bf0ff99d70d375fb0ff6827caa900fc8365e7fc649f4e63f6780"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/81.json",
+      "sha256": "58fa3a69b6d346bae45c9c5c9beae69dffa33c52102858fa756f285b827a894d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/82.json",
+      "sha256": "ef7559c8370cdcb921d9e175a3ffccf49684eb49d1c9e61929200e025d6d8fc8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/83.json",
+      "sha256": "eb22f56dc26add23e74ffee8842b13125bce80a9a7f3e10bdf21a3b58b063a9d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/84.json",
+      "sha256": "495488bc220358f78f0b720fea3a3cfdd0167f48bd7005297023de911ef2212c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/85.json",
+      "sha256": "38b0e04c35ec0694cd2be80293495fa7131584e2752b02a062c681a9acb6c12c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/86.json",
+      "sha256": "f84ee0b50599680f65e96d62fec239894c680b68ec50a4a0382ec196fdfb1f69"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/87.json",
+      "sha256": "3e361b283e7063e96072022cf59c4f5bfa5be589e53163fe712089a3c7099415"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/88.json",
+      "sha256": "a8d3779930b40f4af2eca41a68b108f250110ed939f3317538e859e34a1a0f80"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/89.json",
+      "sha256": "097f5873327b88c27d406f36015773545bfe0dba0d1ff0214151faf6127a939e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8a.json",
+      "sha256": "843397c13538d1fb34770ce374f40cc5fa82e4092db4f5e80976b234dc91b968"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8b.json",
+      "sha256": "ab2d1374327fb77d158833fde949664d765a001390c0c6e723de5d27bd644319"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8c.json",
+      "sha256": "ac6ce88c2c26074d1a8dfe169c63bedb84c08b4b2383eeaf033a5a10eae0d9ea"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8d.json",
+      "sha256": "d8431725cdcc2a5ae01f9401cd20b31e36f72ada26002034458d855317868b6b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8e.json",
+      "sha256": "c87ce507861f58e3fad8916888f9c699bec638826520a7a10598ba8bd54b9a47"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/8f.json",
+      "sha256": "5fee5d0498f13cc04d8e2a5bb2727fdf859e85d8dcc2c67a3e7acf59e62a9672"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/90.json",
+      "sha256": "39209e9306d13452f1c20f33df33436fe7e2f342ae35fc7cbca4409959ddff2b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/91.json",
+      "sha256": "816aca27a2cff32fde5ea1a78460c5695b662b26d87372d713a699191cb7dc92"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/92.json",
+      "sha256": "4d61f42bc1ef506b155ad06631e7cd1f8ebf917b862c289cdf7983a8aa723784"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/93.json",
+      "sha256": "03768e11a25a558fc677780687c5f33d8ca7e2e8897da5830078618b967c0684"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/94.json",
+      "sha256": "33f77e2cd421d1a54eb3592370a288676149d4972f033ad56624f4741b5ab35d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/95.json",
+      "sha256": "437bc883b7e2e51b1614b4f65e8c910ab91e90f188944421c6cd542f15be303e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/96.json",
+      "sha256": "1f986247ebb158130d59125dd1e1edeb1198fcbc1df5eb7fdcf46d597dff482e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/97.json",
+      "sha256": "11c8f0b84eadde2ebd43c7a065d8a009134138992545258b4b41f5736969bc1e"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/98.json",
+      "sha256": "af9d04ee79bb11172f810c3e65bb5e9b0159384bff2a23fd0703d7afce0aa94f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/99.json",
+      "sha256": "173087b3703d7ca9008858a257ace47631ffc59cd6a70601bbe6e72576ac9610"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9a.json",
+      "sha256": "964bc018fe274c74282efcffd884ac09f4b561acda6b12047f25d5562b0c99cc"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9b.json",
+      "sha256": "ee01ef5c6c2f8b188138f6ef52fbfc338652589d2fdab88e4f73036b692f01c1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9c.json",
+      "sha256": "1686dc798d882e91f54670767c25ae9faa37bf488585f5224a640586a783aa51"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9d.json",
+      "sha256": "2194549c995ed5f7f239c8bea551c58dc773830e9073bff391ef4398c8e85619"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9e.json",
+      "sha256": "423705d1e8252ff1d998c04ff6bb162ddf54f882496f29fbc41e6a1e67322604"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/9f.json",
+      "sha256": "35b7ca141e1aefca9092818e3a5ba33ca3b39c157085a77f9f72208d90a3da9d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a0.json",
+      "sha256": "6f297425b3fe44b52f0a43d7ca80fefd21adf7a32a745e07c4c9686e88c1d361"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a1.json",
+      "sha256": "4a545d5801515e31ca2e444017d24a380c9b8a74fa1f9305df3b4bd0ba575d1c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a2.json",
+      "sha256": "6d8159a44ec1162fcb619d8307a9bcc51cf8067e99a281822d7b7484009be975"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a3.json",
+      "sha256": "6ac1e2bf5bfe736c751e8ad5052539d6ebade2e1f43c56ad6203da4b4d6befcf"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a4.json",
+      "sha256": "d3cd629f7bc66e621f684707275c06e8b735ba68bec7dc5af905ee9c014b8a88"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a5.json",
+      "sha256": "21445553e1fede31d0ac89dc71eca219081512f6b9d9b16b1fab1a734d83a05d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a6.json",
+      "sha256": "c798884a4ecd2ba69cd247a75019f05b4d07650ef3566a3648b324b4feae30ca"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a7.json",
+      "sha256": "13e000e0ac93a724331167b1a3438a54356bc4dedd6f32f7c7aad943c4b2e0f5"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a8.json",
+      "sha256": "95481e21fb68ba2024cb7e053f13cdd9b2f3d22be75975d88097375400e3a7e0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/a9.json",
+      "sha256": "b3330e0f5b0fe19af239628dc2da0619740940b439af20b881f03d0a243094e5"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/aa.json",
+      "sha256": "0cb77dc9aadb411e2d25107255054ee7609329c44c8c02665dbb82d0c4ab14a9"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ab.json",
+      "sha256": "e30659461c683c2567a39b2646ab02ec8edec97c2563bb2b87b30c9a613d1cf9"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ac.json",
+      "sha256": "a999f8ef31b0c114b8e1e8e1507f5474f2b511e5602c8f9096d9126184a8e5c0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ad.json",
+      "sha256": "c7f294e64c477860e468bcb1854f1e74e27cceb042a3fdb3e54fecb5ceb9ad15"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ae.json",
+      "sha256": "e99c20151346996ad89d9cafcc88bd7cef824658eb94e098ccf7949eaacdf332"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/af.json",
+      "sha256": "0d01ced9790fa781a8c060f85e148c215111f921005c5fc31f470c21a08b87bb"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b0.json",
+      "sha256": "f50df6c16e40c04e333a6400416aa5d1e1e55f7dbc6aac6b4dc9221bae239f75"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b1.json",
+      "sha256": "90df984cd5a98cd14942ddd204d4c179016308d1adc05271da43f30c66bcc091"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b2.json",
+      "sha256": "6d97bc95c4d0eb0d645b2d10255c95e716e6ea0d2618edd346a67adc94186634"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b3.json",
+      "sha256": "005344f443908a13bfc056fb2c6fa15b430e862cbc2890e6db818ae3ecf62d86"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b4.json",
+      "sha256": "75eb21047dc3fcaf05f10250e21dff3a434e53652a0d4c379c457c8b4113c381"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b5.json",
+      "sha256": "b9f165acef8b74925caafc57f41c0f9770abd69a308d97b4ccadde258e970d5a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b6.json",
+      "sha256": "230df6af0864ab40744b6fb6442d4247656e6a78f2d524d9b26d93bd67345f94"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b7.json",
+      "sha256": "f86168b0ea1a8d3841c092fa01dc46cb8464658c6bf6c118535535f07ac481ba"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b8.json",
+      "sha256": "df3a8f8619a22ab7b04cd6ff724fa4fcdad2fc86f08306466f0464f6517a3502"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/b9.json",
+      "sha256": "72a0fa5d27f791f3a79da01ce59726a63dec0047d52dec22cd41847d2c5074c5"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ba.json",
+      "sha256": "9f4858e24bfef522200e46a9bbfefcc8e6d6ca7f4fbb60cbc0747fdde13f2152"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/bb.json",
+      "sha256": "4bca1d7384f950edbe3bfcbd9bf95e2fd93f40786b447a9dccf7f1f87b479f73"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/bc.json",
+      "sha256": "b74b162a613d4b5d2f01e8bad53a7fffa127c73bd14f3521af50967c06542ba5"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/bd.json",
+      "sha256": "40ecfc81dc6bf2301fe546d7867d34b62f34d77154c581ed330fb197b303b718"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/be.json",
+      "sha256": "012e2da8ef5d8509181b3611f7f96460ec648afd8364f3b8d9b2bd991a0bed3b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/bf.json",
+      "sha256": "471a8bc7e6665edbeb77bf8d3362671800055911bd882ab7c62732e2e836388d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c0.json",
+      "sha256": "1fb3df5d2e6b2443e6d8c554506a47c54e5d0b3c4ac6550cd0f49e62a89ba9cd"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c1.json",
+      "sha256": "d142374e9c5cface7ccb80f1e532c4e3f9fc32536e198179f3908c9f04851d73"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c2.json",
+      "sha256": "813b68afc215c67fa0843685cff9d1e7cb5a4e78ffd6ec546d84f0ee8fe81243"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c3.json",
+      "sha256": "4337e272fd461ef34f3ea378af8bb1a92902a6488f1d8bbb400356943af9c532"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c4.json",
+      "sha256": "0126b8d4f4ae73363558abcc54f798e42cabe18955b3f78ef12b704c27589e3f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c5.json",
+      "sha256": "966368741cdea0b7297095a03aac0318f3e5d8a3ff1d8f030d5bb8a1a04b585c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c6.json",
+      "sha256": "a5e5f392ff90a187d67d7d2adae3ed6944ffe0f6d5a52431e9a797a59981b0b0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c7.json",
+      "sha256": "6b573ee3dfa43c050ad700bf1105be0d8efeac1bdedc8e4ec89a387ece1f2e17"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c8.json",
+      "sha256": "ab07477b9a4b5563de9b9e4eef4f8638f8094d9e153cb4c578e93069d9d86b07"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/c9.json",
+      "sha256": "945d14b5e0617dc0a9e913ab4a347163ac7facb4a9e26019958a5378ddcf03c6"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ca.json",
+      "sha256": "6581142395695e0c69c64c8b86253e288a19c5b68ae75707161225f330b68725"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/cb.json",
+      "sha256": "3e772cd971524a7afc020eb6a25c12234c7ef82d4bd889ce41b8668494d4fe62"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/cc.json",
+      "sha256": "8c2acbe80fb437e50d2ae1bd8212b77b239c37e4aab06510e290bd3eadc76210"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/cd.json",
+      "sha256": "285164acbe70876b822ddd8c691880c899fb78704400a0e92e2842da6f5d8f54"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ce.json",
+      "sha256": "f6406c4f14c96a02754e863bc77a808e33fdd2ce06a725285ef5b18b1443bd9a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/cf.json",
+      "sha256": "86b0121b9550fe293c6d230e90740131b3d1aad25f6b1db97f4f4a5cf99d0dc8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d0.json",
+      "sha256": "b68a2ce3584bf5285dd3fbce0ef98806f8a6a7d1a8dbfe6b11c924fd067bbab7"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d1.json",
+      "sha256": "37892f417889af1b87617d893908ec8516d73005359ca1fed82ebbc1470a723c"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d2.json",
+      "sha256": "4fdb53e4494b554090a811a92541c8bb8d7df89e3f10098a0098d6fee5ad339d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d3.json",
+      "sha256": "017cbfd22926d3b9d46b11e619fed4bf5c9e9c21b97fcb217f0945b5dedf5d3f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d4.json",
+      "sha256": "a3389e0d23a50d45227cccde1d873f84233036ce74119cd16f52af6f836b5fb6"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d5.json",
+      "sha256": "4cae961969aa2b3c6f9237e56f54f12cb1d807cd78c32e4ccf2cc97edfd77b88"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d6.json",
+      "sha256": "28b7968e14b4367e8a3fb8e71680ab8f6f913cffe040f989c4807186ec310ce2"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d7.json",
+      "sha256": "359e0e319b3844bf8ed4419d0edf3191b11bbca5a606d7e1d8d380473c4763a8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d8.json",
+      "sha256": "1adc3f1f01e12ace55759b8a5a4e0a6d39b206967423eca5bec4fbb86ddc1eb8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/d9.json",
+      "sha256": "deb972382f8d1c60ff7c701cd9a6f1191175e3d1f7f72c6eecbf0e8d456a6442"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/da.json",
+      "sha256": "0bcb278233d00f8c537a6fd8b6399d058249612773da8b2ec8a36f671cef788f"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/db.json",
+      "sha256": "71201a9e123f7f4feecfa2976e18b8df96223c42933df8de44ab0a9ebacda00d"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/dc.json",
+      "sha256": "255bb62583b4b7a830f9b8f3a6e101386af7c92bb2065ce092b309a784167412"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/dd.json",
+      "sha256": "ef449050cc4a7de73cded42a3faa6db18b8a0e30686e5c6648ab7d17c0d59b70"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/de.json",
+      "sha256": "fdbc509cb0b40126d30255c3f0204c98e1ad0f03ef4bb477f8dbff3836167881"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/df.json",
+      "sha256": "89e3762d58bbc05ea4f5b75f3e36a7742d122829169447df2896f922786ac0f8"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e0.json",
+      "sha256": "60080ffde093fe718718eec65d7fa321f8cddd652d43cb03f71d52395e173759"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e1.json",
+      "sha256": "ccfb71ed5461ebcaaefc9d23aa63b01bce622129cd6af064956f2f7cd65e4fb0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e2.json",
+      "sha256": "e99f2bcc17738c3953fe0db2d2a2267de2d34eb2c0b910eaff61c7f02ce1b25a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e3.json",
+      "sha256": "613019a87e673efd9bdd5dd9d8afcfd52c2b0d0c27dea81645d87767cb1c3619"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e4.json",
+      "sha256": "899448f6f270a7199f0c9eb0f9634337591aad58cab0a480bf3a9c1821907797"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e5.json",
+      "sha256": "07c940e3202766438fdad8fbcac2b34b81c8be61aa0dd7536069e4e6db8b677a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e6.json",
+      "sha256": "f3c948b615ad4d7fa77a04eea1918debc00370c48ae6e3379872191660605cdc"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e7.json",
+      "sha256": "3895d7af14ecfdbeabbdd2f3d6bb6e1c7a04c351aa65f4c648a20e9a8536ac43"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e8.json",
+      "sha256": "ed8aacdf1dedae40c61e1dd8421edfb3bb76293696686f4e5d2b53c1bb368620"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/e9.json",
+      "sha256": "2770475547d8837cde87d0d18e3d8936789649ac937d64bc321c0ff998b98e18"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ea.json",
+      "sha256": "baaf58bd4eeb4110206f85c8a85c32e2862f0921c2b95960304b9f57455bc0c0"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/eb.json",
+      "sha256": "ea1e3df3a4a3f06724c37cc340d34ee4eb8a9d2224b86262fd03f4024b191f3b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ec.json",
+      "sha256": "759ed98faf7356ed1fe345ddbd8166e27c3854ba79bc46664670fa9ab139c970"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ed.json",
+      "sha256": "41fef0eba576142b183b57a5d494588f9d1fb54459e5ec2caa78c6218ec692ed"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ee.json",
+      "sha256": "e5633124ba143329560d92512e13614299302e4c24b8cccb29dd9808fdb3649a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ef.json",
+      "sha256": "72b6b4bdac3b34239000f68134e7674bebd60f934ed056abe8283e01410cad4b"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f0.json",
+      "sha256": "daf9da047828e8f47dff3eaf68f2e6ee05292b0b173664c3f98e38bf2cdddd99"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f1.json",
+      "sha256": "2568b58a545a9445c106709caf2bbf846ce7755ea2544bf7e46533db16bbd5c1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f2.json",
+      "sha256": "60a8f3f583ec104d0e1bbf3779cfff78218d7376789742d39cba4edb62d21a22"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f3.json",
+      "sha256": "9a264be5cfb155693bc52ae01a93a3394d9a0533a7bcbb0b6259a5ef2e855aa1"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f4.json",
+      "sha256": "197c90b361b0c85c2755abb4158a46b84a12114036751277b675422296f6ebdb"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f5.json",
+      "sha256": "9971310a89ea62e2e9c016980eee1025eacbc4b0da7d119fc86c25f88775f027"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f6.json",
+      "sha256": "496831427512108a3cef4bd8cd6a385b393a36830690399892ce254921203058"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f7.json",
+      "sha256": "3a40da94b4c1473d866ebb058f9839b614f2762b58c71b8b7114ccf1f46982c2"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f8.json",
+      "sha256": "0a5896392390668a3f7ee865ac3f77131be50ba79d701f8dc908f3d50db3969a"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/f9.json",
+      "sha256": "06caae3f9ad67f6c7df31ca6573a9137e9dfbcb7329d86b2269645d948e30fbf"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/fa.json",
+      "sha256": "f5829dab3ddc6124e93a1805f48de08a4eabe6d0d1a2b75fb701e1f4c6e37384"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/fb.json",
+      "sha256": "83ed08461729a8c82b07be98b80ad092ff8ac4cf86c28b8fbb8139faaa1670bb"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/fc.json",
+      "sha256": "a536f7faa1cbd9daf15ccfbb1970f70e2a7f44cc201a20a1a3bdb59663127666"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/fd.json",
+      "sha256": "a958e68c14ecc1e138ad48fd4b41f10fac5f0900ed963e40f3c895011769d647"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/fe.json",
+      "sha256": "ef574165d3186cc324fa8bbac1664a387231861ba75f39c65f211bcd683c5261"
+    },
+    {
+      "path": "apps/german/web/data/reference/entries/ff.json",
+      "sha256": "bfc18a0acc56d9def7fc769dac366e98b5a0bfb8c70dd06fe6441f5df09f5083"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/adjectives.json",
+      "sha256": "5d5a3b92c3cede1ca30a82334ea387586db41e0dd6c81ba00d8ae640e1bf460c"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/functional.json",
+      "sha256": "846ddcfd7595084520f37d78410b29b24b0c8a2b1f7241b6bf9bc3a02cddb0b6"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/nouns.json",
+      "sha256": "7f49059ce44abad5e8234ea4e9997a0be1ecfcf0d62c89223006a41f22639370"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/verbs.json",
+      "sha256": "366bb30bda7c4676bfb67b73b9e1e5e594bfbdb0ac254d8138919696d874ab07"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/adjectives.json",
+      "sha256": "a9f632b1abcdf19abefb558263f05055af71bb760e061796975135cbfd00efbb"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/functional.json",
+      "sha256": "5ff7de00293a8a3f9da7ea78db4afa9878c89fdc0bac531212db5262ec853025"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/nouns.json",
+      "sha256": "f3bbcec03e717aa5f0a8509a17ff82fd16d1eb45e29f0a7884ac7ca20ba85c82"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/verbs.json",
+      "sha256": "344b177ce8e9a1452cfb049d9abc7d791b0d79d9a6542691061355b12d9d884b"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/adjectives.json",
+      "sha256": "f826c860a71028dc684f3c990071831d84b6c2c41329115191bb02ce3fde2165"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/functional.json",
+      "sha256": "0757facc1426386cf9aa75a12740d9f94014399ba14471ba90375a791842823a"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/nouns.json",
+      "sha256": "af1b567a6796b2370f4053497b2a4d961d9153c5acef7476e6057225cc3e5c2b"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/verbs.json",
+      "sha256": "a2054488da99bb22f56cc2bc1ba3b28689d15f74f2b75b931a4754bf9ecc84f9"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/adjectives.json",
+      "sha256": "5185f140dedec1ec2f19c39e99b7efc0b565ca3c75b046345297ba419a5f9996"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/functional.json",
+      "sha256": "6db4fcd8264b71264924ef0211bafa117d1289e05adbce233752db2e20c31101"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/nouns.json",
+      "sha256": "62347a7429162ac1c52cf16b817b7da5e473b6bc413886c83a6b24762bf43bd8"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/verbs.json",
+      "sha256": "bc112c8f783fcfbbd13cda07186077273d4b5242c9f2a30e3606f9023e5baa07"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/adjectives.json",
+      "sha256": "c4023cea13baf6e9f7871027963a439d437814d85a84b23898c3cee91791e644"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/functional.json",
+      "sha256": "045cd491a563fc129e93281d3f6153e593717ba597f0c27b4a92a4bf8b6ee427"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/nouns.json",
+      "sha256": "3c879b214b5092945d8e6f893ad220336f0949f858146891aacdffbe0571cd55"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/verbs.json",
+      "sha256": "5f60d2ea9a45e2f647b21d3efdfe0a20eba9a898ec4e665426317a68f32c3586"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/adjectives.json",
+      "sha256": "67f27bca2d48c8f5eac0da03d7790acdf4dd451a36f0d234c2d8b7687b2bc93d"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/functional.json",
+      "sha256": "f67fdb87f1dce69c42452598684ee3fcd4a01ca7b281b310e3070a10b0816731"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/nouns.json",
+      "sha256": "9651627a1c3bb82c9969f840f94af39d48bf930193065eea72d608f8ca5ad317"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/verbs.json",
+      "sha256": "45014a62700d0858624c94f619a5c5f24c81a27fd71139eb8e141b72e59cf4f6"
+    }
+  ],
+  "referenceLicence": "CC-BY-SA-4.0",
+  "exampleExtraction": {
+    "sources": [
+      "English Wiktionary",
+      "German Wiktionary",
+      "Korean Wiktionary"
+    ],
+    "tool": "Kaikki/Wiktextract",
+    "url": "https://kaikki.org/dictionary/rawdata.html",
+    "filter": "Non-quotation usage examples only; reject ref and non-example types, mixed-script German text, and unsuitable lengths. English senses must match the selected gloss; German senses match the reference definition or a single lexical sense. Examples still require editorial checking."
+  },
+  "software": {
+    "wordfreq": "3.1.1",
+    "mlx-lm": "0.31.3",
+    "mlx": "0.32.3",
+    "transformers": "5.19.0"
+  },
+  "model": {
+    "id": "Qwen/Qwen3-4B-Instruct-2507",
+    "conversion": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "license": "Apache-2.0",
+    "runtime": "local build tooling only; not distributed in app"
+  },
+  "rejectedTool": "M2M100-418M drafts are not used in the output packages because sample quality was inadequate."
+}

@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "status": "AI-editorial-batch-review",
+  "reviewDate": "2026-10-15",
+  "nativeSpeakerReview": false,
+  "nativeReviewStatus": "native-review-pending",
+  "scope": {
+    "authoredRowsReviewed": 30,
+    "authoredRowsAtSnapshot": 30,
+    "fullBatchReviewed": true,
+    "languagesReviewed": [
+      "ko",
+      "en",
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "zh"
+    ],
+    "dictionaryMeaningsChecked": [
+      "ko-core-2.0.0.json",
+      "ko-en-2.0.0.json"
+    ],
+    "meaningDeChecked": 30,
+    "reviewDoesNotCover": "the remaining Korean dictionary or any later authored rows"
+  },
+  "sourceSnapshot": {
+    "path": "language-packages/sources/examples/ko-authored.jsonl",
+    "sha256": "6e4349e40e3c2f0cef866d374a8a712aed7178669014a950c5f2d0fdf48afdfc",
+    "unchangedAtReportWrite": true
+  },
+  "summary": {
+    "requiredCorrections": 1,
+    "optionalEditorialImprovements": 2,
+    "koreanUsage": "All 30 sentences are grammatical and usable. 좀 has a selected-sense ambiguity noted below.",
+    "translations": "No meaning-reversing error found in the six-language example matrices. One German wording improvement is suggested.",
+    "focus": "All 30 explicit offsets resolve to the intended headword.",
+    "meaningDe": "All 30 concise glosses align with the selected senses."
+  },
+  "validation": {
+    "runtime": "Node v26.11.1",
+    "validateExampleRecordPassed": 30,
+    "findSentenceFocusResolved": 30,
+    "nativeKoAliasMatchesText": 30,
+    "sourceFilesModified": false,
+    "commitsOrPushes": false
+  },
+  "findings": [
+    {
+      "findingId": "KO-PEER-001",
+      "id": "ko-lex-caa75c54b7e3f38ae707",
+      "sourceRow": 18,
+      "headword": "못",
+      "priority": 2,
+      "category": "inherited-English-gloss",
+      "title": "Keep inability distinct from general negation",
+      "problem": "The current ko-en gloss says only that 못 negates a verb. The selected NIKL sense states that the action cannot be carried out. The new sentence and every translation correctly express inability; the inherited English gloss is the part to fix. This also prevents confusion with the separately authored 안 entry.",
+      "suggestedFix": {
+        "correction": {
+          "meaningEn": "cannot; used before a verb when an action cannot be carried out because of ability or circumstances",
+          "meanings": {
+            "de": "nicht können; eine Handlung ist wegen fehlender Fähigkeit oder der Umstände nicht möglich",
+            "es": "no poder; indica que una acción no puede realizarse por falta de capacidad o por las circunstancias",
+            "fr": "ne pas pouvoir ; l’action est empêchée par les capacités ou les circonstances",
+            "ja": "〜できない；能力や事情によって動作を行えないことを表す",
+            "zh": "不能；表示因能力或客观情况而无法进行某个动作"
+          },
+          "reason": "Restore the inability meaning present in the Korean source definition; the authored example is already aligned."
+        }
+      },
+      "sources": [
+        "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=17254"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "KO-PEER-002",
+      "id": "ko-lex-68c59cfe089aeef90778",
+      "sourceRow": 6,
+      "headword": "말",
+      "priority": 3,
+      "category": "German-naturalness",
+      "title": "Use a simpler idiomatic listening construction",
+      "problem": "The German clause Ich habe bis zum Ende zugehört, was ... is awkward. A dative listener construction conveys the Korean naturally without changing the event or the younger-brother relation. This is a wording improvement, not a Korean sense error.",
+      "suggestedFix": {
+        "example": {
+          "translations": {
+            "de": "Ich habe meinem jüngeren Bruder bis zum Ende zugehört."
+          }
+        }
+      },
+      "sources": [
+        "https://www.duden.de/rechtschreibung/zuhoeren"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "KO-PEER-003",
+      "id": "ko-lex-45c38f6d6bb042216250",
+      "sourceRow": 30,
+      "headword": "좀",
+      "priority": 3,
+      "category": "sense-disambiguation",
+      "title": "Make the small-degree sense unambiguous",
+      "problem": "창문을 좀 열어 주세요 is grammatical and can mean opening the window a little, but 좀 also commonly softens requests. The selected dictionary sense is small amount or degree. A non-request comparative sentence teaches that selected sense more clearly. The existing row is not an unambiguous translation error.",
+      "suggestedFix": {
+        "example": {
+          "text": "오늘은 어제보다 좀 따뜻해요.",
+          "ko": "오늘은 어제보다 좀 따뜻해요.",
+          "en": "It is a little warmer today than yesterday.",
+          "translations": {
+            "de": "Heute ist es etwas wärmer als gestern.",
+            "es": "Hoy hace un poco más de calor que ayer.",
+            "fr": "Il fait un peu plus chaud aujourd’hui qu’hier.",
+            "ja": "今日は昨日より少し暖かいです。",
+            "zh": "今天比昨天暖和一点。"
+          },
+          "meaningDe": "ein wenig; etwas",
+          "focus": {
+            "text": "좀",
+            "start": 9
+          }
+        }
+      },
+      "sources": [
+        "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=75798",
+        "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=308978"
+      ],
+      "status": "applied; native-review-pending"
+    }
+  ],
+  "reviewedIds": [
+    "ko-lex-deede044196c7749dd71",
+    "ko-lex-f3477d0c31d2fe7fd3e8",
+    "ko-lex-cb1c155b3c94e435323e",
+    "ko-lex-04468782cf7bde1006c4",
+    "ko-lex-aa8331e8ef7a609dd7cb",
+    "ko-lex-68c59cfe089aeef90778",
+    "ko-lex-a9bcb4aeb908f4529cda",
+    "ko-lex-24b35bacccaaaca16690",
+    "ko-lex-27555a63a0143ec279f3",
+    "ko-lex-3bdfa8cee1f0a40e7727",
+    "ko-lex-642c17310810b625ec02",
+    "ko-lex-a86366d258f3f53d5c7a",
+    "ko-lex-b16b149ea0cdba35a300",
+    "ko-lex-f5d3ca7b0f3993ad6945",
+    "ko-lex-0b2925961ee9504cbebd",
+    "ko-lex-193ac93caf8f36c22504",
+    "ko-lex-c10d7ea89d0ad051c7c8",
+    "ko-lex-caa75c54b7e3f38ae707",
+    "ko-lex-99d276bf0f6837b1a38c",
+    "ko-lex-c5f2637ac645ac3c378b",
+    "ko-lex-2681691a912c43b8f356",
+    "ko-lex-18e2b53f3d74c592f6f5",
+    "ko-lex-2a47a9fc7f34584bebfe",
+    "ko-lex-e278ded47d4d46a6ea39",
+    "ko-lex-4fa7ce30007378af6cd1",
+    "ko-lex-7e91f1c9fd297be6b32b",
+    "ko-lex-0ceeae9963c992125143",
+    "ko-lex-6c7187203c82bf6c4b02",
+    "ko-lex-21d700359b7328e2b99a",
+    "ko-lex-45c38f6d6bb042216250"
+  ],
+  "reviewedRows": [
+    {
+      "sourceRow": 1,
+      "id": "ko-lex-deede044196c7749dd71",
+      "headword": "한",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 2,
+      "id": "ko-lex-f3477d0c31d2fe7fd3e8",
+      "headword": "아",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 3,
+      "id": "ko-lex-cb1c155b3c94e435323e",
+      "headword": "와",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 4,
+      "id": "ko-lex-04468782cf7bde1006c4",
+      "headword": "안",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 5,
+      "id": "ko-lex-aa8331e8ef7a609dd7cb",
+      "headword": "안",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 6,
+      "id": "ko-lex-68c59cfe089aeef90778",
+      "headword": "말",
+      "findingIds": [
+        "KO-PEER-002"
+      ]
+    },
+    {
+      "sourceRow": 7,
+      "id": "ko-lex-a9bcb4aeb908f4529cda",
+      "headword": "내",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 8,
+      "id": "ko-lex-24b35bacccaaaca16690",
+      "headword": "제",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 9,
+      "id": "ko-lex-27555a63a0143ec279f3",
+      "headword": "입",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 10,
+      "id": "ko-lex-3bdfa8cee1f0a40e7727",
+      "headword": "더",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 11,
+      "id": "ko-lex-642c17310810b625ec02",
+      "headword": "사람",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 12,
+      "id": "ko-lex-a86366d258f3f53d5c7a",
+      "headword": "우리",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 13,
+      "id": "ko-lex-b16b149ea0cdba35a300",
+      "headword": "때",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 14,
+      "id": "ko-lex-f5d3ca7b0f3993ad6945",
+      "headword": "네",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 15,
+      "id": "ko-lex-0b2925961ee9504cbebd",
+      "headword": "네",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 16,
+      "id": "ko-lex-193ac93caf8f36c22504",
+      "headword": "저",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 17,
+      "id": "ko-lex-c10d7ea89d0ad051c7c8",
+      "headword": "잘",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 18,
+      "id": "ko-lex-caa75c54b7e3f38ae707",
+      "headword": "못",
+      "findingIds": [
+        "KO-PEER-001"
+      ]
+    },
+    {
+      "sourceRow": 19,
+      "id": "ko-lex-99d276bf0f6837b1a38c",
+      "headword": "생각",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 20,
+      "id": "ko-lex-c5f2637ac645ac3c378b",
+      "headword": "개",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 21,
+      "id": "ko-lex-2681691a912c43b8f356",
+      "headword": "두",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 22,
+      "id": "ko-lex-18e2b53f3d74c592f6f5",
+      "headword": "분",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 23,
+      "id": "ko-lex-2a47a9fc7f34584bebfe",
+      "headword": "살",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 24,
+      "id": "ko-lex-e278ded47d4d46a6ea39",
+      "headword": "다른",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 25,
+      "id": "ko-lex-4fa7ce30007378af6cd1",
+      "headword": "어서",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 26,
+      "id": "ko-lex-7e91f1c9fd297be6b32b",
+      "headword": "왜",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 27,
+      "id": "ko-lex-0ceeae9963c992125143",
+      "headword": "여자",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 28,
+      "id": "ko-lex-6c7187203c82bf6c4b02",
+      "headword": "뭐",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 29,
+      "id": "ko-lex-21d700359b7328e2b99a",
+      "headword": "위",
+      "findingIds": []
+    },
+    {
+      "sourceRow": 30,
+      "id": "ko-lex-45c38f6d6bb042216250",
+      "headword": "좀",
+      "findingIds": [
+        "KO-PEER-003"
+      ]
+    }
+  ],
+  "limits": [
+    "This review covers all 30 rows present in ko-authored.jsonl at the recorded hash, not the full Korean corpus.",
+    "Review was performed by an AI editorial peer, not a native-speaker reviewer.",
+    "No UI rendering, speech output or full project test suite was reviewed.",
+    "The two priority-3 suggestions improve naturalness or teaching clarity; they are not claims that the existing Korean sentences are invalid.",
+    "Suggested changes were not applied to source sidecars."
+  ],
+  "resolution": "One required correction and two optional improvements applied; all 30 rows received AI editorial review, not native-speaker review."
+}

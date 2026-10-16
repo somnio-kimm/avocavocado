@@ -1,0 +1,60 @@
+1	한국	-	noun	South Korea	한반도 남쪽에 있는 나라, 대한민국	저는 한국에서 살아요.	I live in South Korea.	저는 한국에서 살아요.
+1	저	-	pronoun	I; me, used politely	말하는 사람이 자신을 낮추어 가리키는 말	저는 학생이에요.	I am a student.	저는 학생이에요.
+1	가다	-	verb	to go	한 곳에서 다른 곳으로 이동하다	내일 학교에 가요.	I am going to school tomorrow.	내일 학교에 가요.
+1	먹다	-	verb	to eat	음식을 입에 넣어 삼키다	아침에 빵을 먹어요.	I eat bread in the morning.	아침에 빵을 먹어요.
+1	마시다	-	verb	to drink	물이나 음료를 입으로 넘기다	물을 조금 마실게요.	I will drink a little water.	물을 조금 마실게요.
+1	읽다	익따	verb	to read	글을 보고 내용을 이해하거나 소리 내어 말하다	도서관에서 책을 읽어요.	I read books in the library.	도서관에서 책을 읽어요.
+1	좋다	-	adjective	good; pleasant	마음에 들거나 상태가 바람직하다	오늘은 날씨가 좋아요.	The weather is nice today.	오늘은 날씨가 좋아요.
+1	크다	-	adjective	big; large	길이, 넓이 또는 부피가 보통보다 많다	이 가방은 너무 커요.	This bag is too big.	이 가방은 너무 커요.
+1	지금	-	adverb	now	말하는 바로 이때	지금 집에 있어요.	I am at home now.	지금 집에 있어요.
+1	감사합니다	-	expression	thank you, said politely	고마움을 정중하게 표현하는 말	도와주셔서 감사합니다.	Thank you for helping me.	도와주셔서 감사합니다.
+2	계획하다	-	verb	to plan	앞으로 할 일의 방법과 순서를 미리 정하다	친구들과 여행을 계획하고 있어요.	I am planning a trip with my friends.	친구들과 여행을 계획하고 있어요.
+2	이해하다	-	verb	to understand	말이나 상황의 뜻을 알아듣다	설명을 듣고 내용을 이해했어요.	I understood the content after hearing the explanation.	설명을 듣고 내용을 이해했어요.
+2	약속하다	-	verb	to promise; to arrange	어떤 일을 하기로 다른 사람과 정하다	내일 다시 만나기로 약속했어요.	We arranged to meet again tomorrow.	내일 다시 만나기로 약속했어요.
+2	걱정하다	-	verb	to worry	좋지 않은 일이 생길까 마음을 쓰다	부모님은 제 건강을 걱정하세요.	My parents worry about my health.	부모님은 제 건강을 걱정하세요.
+2	편리하다	-	adjective	convenient	쓰거나 이용하기에 쉽고 편하다	이곳은 교통이 편리해요.	Transport is convenient here.	이곳은 교통이 편리해요.
+2	비슷하다	-	adjective	similar	서로 닮은 점이 많다	두 가방의 색이 비슷해요.	The two bags are similar in colour.	두 가방의 색이 비슷해요.
+2	미리	-	adverb	in advance	어떤 일이 생기기 전에 앞서	표를 미리 샀어요.	I bought the ticket in advance.	표를 미리 샀어요.
+2	벌써	-	adverb	already	생각한 것보다 이른 때에	벌써 점심시간이네요.	It is already lunchtime.	벌써 점심시간이네요.
+2	경험	-	noun	experience	직접 겪거나 해 본 일	처음 해 보는 좋은 경험이었어요.	It was a good first experience.	처음 해 보는 좋은 경험이었어요.
+2	그래서	-	conjunction	so; therefore	앞말이 뒤에 오는 일의 이유임을 나타내는 말	비가 와요. 그래서 집에 있어요.	It is raining, so I am staying at home.	비가 와요. 그래서 집에 있어요.
+3	참여하다	-	verb	to participate	어떤 활동이나 일에 함께하다	많은 학생이 행사에 참여했어요.	Many students took part in the event.	많은 학생이 행사에 참여했어요.
+3	비교하다	-	verb	to compare	둘 이상을 살펴 공통점과 차이점을 알아보다	두 방법의 장단점을 비교했어요.	I compared the advantages and disadvantages of the two methods.	두 방법의 장단점을 비교했어요.
+3	해결하다	-	verb	to solve; to resolve	문제나 어려움을 처리하여 없애다	함께 노력해서 문제를 해결했어요.	We solved the problem by working together.	함께 노력해서 문제를 해결했어요.
+3	선택하다	-	verb	to choose	여러 가지 중에서 하나를 고르다	자신에게 맞는 방법을 선택하세요.	Choose the method that suits you.	자신에게 맞는 방법을 선택하세요.
+3	적절하다	-	adjective	appropriate	상황이나 목적에 알맞다	상황에 적절한 표현을 써야 해요.	You should use expressions appropriate to the situation.	상황에 적절한 표현을 써야 해요.
+3	꾸준하다	-	adjective	steady; consistent	오랫동안 쉬지 않고 한결같다	실력을 늘리려면 꾸준한 연습이 필요해요.	Steady practice is needed to improve your skills.	실력을 늘리려면 꾸준한 연습이 필요해요.
+3	점차	-	adverb	gradually	시간이 흐르면서 조금씩	새로운 환경에 점차 익숙해졌어요.	I gradually became used to the new environment.	새로운 환경에 점차 익숙해졌어요.
+3	오히려	-	adverb	rather; contrary to expectations	예상이나 일반적인 생각과 반대로	비가 그치자 오히려 더 추워졌어요.	Contrary to expectations, it became colder after the rain stopped.	비가 그치자 오히려 더 추워졌어요.
+3	영향	-	noun	influence; effect	다른 것의 상태나 행동을 바꾸는 작용	생활 습관은 건강에 영향을 줘요.	Lifestyle habits affect health.	생활 습관은 건강에 영향을 줘요.
+3	반면에	-	conjunction	on the other hand; whereas	앞의 내용과 대조되는 내용을 이끄는 말	이 방법은 빠른 반면에 비용이 많이 들어요.	This method is quick, but it costs a lot.	이 방법은 빠른 반면에 비용이 많이 들어요.
+4	분석하다	-	verb	to analyse	내용을 여러 요소로 나누어 자세히 살피다	설문 결과를 항목별로 분석했어요.	We analysed the survey results by category.	설문 결과를 항목별로 분석했어요.
+4	제안하다	-	verb	to propose; to suggest	생각이나 방법을 다른 사람에게 내놓다	그는 새로운 해결책을 제안했어요.	He proposed a new solution.	그는 새로운 해결책을 제안했어요.
+4	주장하다	-	verb	to argue; to claim	자신의 의견이 옳다고 내세우다	발표자는 제도를 바꿔야 한다고 주장했어요.	The speaker argued that the system should be changed.	발표자는 제도를 바꿔야 한다고 주장했어요.
+4	반영하다	-	verb	to reflect; to incorporate	의견이나 상황을 결과에 담아 나타내다	계획에 주민들의 의견을 반영했어요.	We incorporated residents' opinions into the plan.	계획에 주민들의 의견을 반영했어요.
+4	객관적	-	adjective	objective; based on evidence rather than personal feelings	개인의 감정에 치우치지 않고 사실에 근거한	객관적인 자료를 바탕으로 판단해야 해요.	We should judge on the basis of objective evidence.	객관적인 자료를 바탕으로 판단해야 해요.
+4	효율적	-	adjective	efficient	적은 시간이나 노력으로 좋은 결과를 얻는	업무를 효율적으로 나누었어요.	We divided the work efficiently.	업무를 효율적으로 나누었어요.
+4	반드시	-	adverb	without fail; necessarily	틀림없이 꼭	신청서를 반드시 기한 안에 제출하세요.	Make sure you submit the application by the deadline.	신청서를 반드시 기한 안에 제출하세요.
+4	상당히	-	adverb	considerably; quite	정도가 꽤 높게	새 장비를 쓰니 시간이 상당히 줄었어요.	Using the new equipment reduced the time considerably.	새 장비를 쓰니 시간이 상당히 줄었어요.
+4	근거	-	noun	basis; grounds; supporting evidence	생각이나 판단을 뒷받침하는 사실	주장을 뒷받침할 근거가 필요해요.	Evidence is needed to support the claim.	주장을 뒷받침할 근거가 필요해요.
+4	그럼에도 불구하고	-	expression	nevertheless; despite that	앞의 상황과 관계없이 뒤의 일이 성립함을 나타내는 말	어려움이 많았어요. 그럼에도 불구하고 끝까지 노력했어요.	There were many difficulties. Nevertheless, we kept trying until the end.	어려움이 많았어요. 그럼에도 불구하고 끝까지 노력했어요.
+5	입증하다	-	verb	to prove; to substantiate	증거로 사실임을 밝히다	연구팀은 실험으로 가설을 입증했어요.	The research team substantiated the hypothesis through experiments.	연구팀은 실험으로 가설을 입증했어요.
+5	타협하다	-	verb	to compromise	서로 조금씩 양보하여 의견을 맞추다	양측은 조건을 조정하며 타협했어요.	Both sides compromised by adjusting their terms.	양측은 조건을 조정하며 타협했어요.
+5	지향하다	-	verb	to aim towards; to pursue	어떤 목표나 방향을 향해 나아가다	이 사업은 장기적인 변화를 지향해요.	This project aims for long-term change.	이 사업은 장기적인 변화를 지향해요.
+5	간과하다	-	verb	to overlook	중요한 것을 알아보지 못하고 지나치다	작은 차이라고 해서 간과해서는 안 돼요.	A small difference should not be overlooked merely because it is small.	작은 차이라고 해서 간과해서는 안 돼요.
+5	타당하다	-	adjective	valid; reasonable	이치에 맞고 근거가 충분하다	그 설명은 충분히 타당해 보여요.	That explanation seems quite reasonable.	그 설명은 충분히 타당해 보여요.
+5	불가피하다	-	adjective	unavoidable	피하거나 막을 수 없다	안전 점검을 위해 일정 변경이 불가피해요.	A change of schedule is unavoidable for the safety inspection.	안전 점검을 위해 일정 변경이 불가피해요.
+5	일관되게	-	adverb	consistently	처음부터 끝까지 같은 원칙으로	그는 일관되게 같은 입장을 유지했어요.	He consistently maintained the same position.	그는 일관되게 같은 입장을 유지했어요.
+5	잠정적으로	-	adverb	provisionally	최종 결정 전까지 임시로	회의 날짜를 잠정적으로 정했어요.	We provisionally set the meeting date.	회의 날짜를 잠정적으로 정했어요.
+5	관점	-	noun	perspective; standpoint	사물을 보고 판단하는 입장	서로 다른 관점에서 문제를 살펴봤어요.	We examined the issue from different perspectives.	서로 다른 관점에서 문제를 살펴봤어요.
+5	뿐만 아니라	-	expression	not only; as well as	앞의 내용에 다른 내용을 더하는 말	이 책은 흥미로울 뿐만 아니라 내용도 정확해요.	This book is not only interesting but also accurate.	이 책은 흥미로울 뿐만 아니라 내용도 정확해요.
+6	함축하다	-	verb	to imply; to contain an unstated meaning	겉으로 드러내지 않은 뜻을 속에 담다	그 표현은 여러 의미를 함축하고 있어요.	That expression carries several implicit meanings.	그 표현은 여러 의미를 함축하고 있어요.
+6	일축하다	-	verb	to dismiss outright	의견이나 요구를 단번에 물리치다	위원회는 근거 없는 주장을 일축했어요.	The committee dismissed the unsupported claim outright.	위원회는 근거 없는 주장을 일축했어요.
+6	조율하다	-	verb	to coordinate; to reconcile differences	서로 다른 의견이나 조건을 맞추다	담당자는 여러 부서의 일정을 조율했어요.	The coordinator reconciled the schedules of several departments.	담당자는 여러 부서의 일정을 조율했어요.
+6	도출하다	-	verb	to derive; to draw a conclusion	자료나 논의에서 결과를 이끌어 내다	자료를 검토한 뒤 결론을 도출했어요.	We drew a conclusion after examining the evidence.	자료를 검토한 뒤 결론을 도출했어요.
+6	첨예하다	-	adjective	acute; sharply opposed	의견 차이나 대립이 매우 날카롭다	그 사안을 둘러싼 의견 대립이 첨예해요.	Opinions on that issue are sharply divided.	그 사안을 둘러싼 의견 대립이 첨예해요.
+6	개연성	-	noun	plausibility; likelihood	어떤 일이 실제로 일어날 만한 가능성	설명에 논리적인 개연성이 부족해요.	The explanation lacks logical plausibility.	설명에 논리적인 개연성이 부족해요.
+6	상충하다	-	verb	to conflict	서로 맞지 않거나 충돌하다	두 목표가 서로 상충할 수 있어요.	The two objectives may conflict.	두 목표가 서로 상충할 수 있어요.
+6	비단	-	adverb	not merely, used with a negative	단지 그것만은 아님을 나타내는 말	이는 비단 한 지역만의 문제가 아니에요.	This is not merely a problem affecting one region.	이는 비단 한 지역만의 문제가 아니에요.
+6	궁극적으로	-	adverb	ultimately	여러 과정을 거쳐 마지막에	이 정책은 궁극적으로 삶의 질을 높이려는 것이에요.	Ultimately, this policy aims to improve quality of life.	이 정책은 궁극적으로 삶의 질을 높이려는 것이에요.
+6	여지를 남기다	-	expression	to leave room for something	나중에 다른 판단이나 행동을 할 가능성을 남기다	결론을 내리되 추가 논의의 여지를 남겼어요.	We reached a conclusion while leaving room for further discussion.	결론을 내리되 추가 논의의 여지를 남겼어요.
