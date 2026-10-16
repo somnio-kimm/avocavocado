@@ -1,4 +1,4 @@
-export const DEFAULT_STUDY_MODES=Object.freeze(['wordlist','flashcards','cloze','scramble','listening']);
+export const DEFAULT_STUDY_MODES=Object.freeze(['wordlist','flashcards','vocabmeaning','vocabinput','cloze','scramble','listening']);
 /** Preserve adapter-specific route IDs and retain optional quizzes after the shared defaults. */
 export function orderStudyModes(ids){
  const canonical=id=>id==='flashcard'?'flashcards':id;
