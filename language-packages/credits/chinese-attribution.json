@@ -1,0 +1,2279 @@
+{
+  "sources": {
+    "syllabus": {
+      "title": "HSK 考试大纲 / Syllabus for the Chinese Proficiency Test",
+      "publisher": "中外语言交流合作中心 / Center for Language Education and Cooperation",
+      "published": "2025-11",
+      "effective": "2026-07",
+      "retrieved": "2026-10-02",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+      "landingPage": "https://www.chinesetest.cn/syllabus",
+      "pdfSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+      "extraction": "Factual table fields only. Large watermark characters excluded; homograph sense numbers retained. No explanatory prose, tasks, or sample exam questions copied."
+    },
+    "dictionary": {
+      "title": "CC-CEDICT",
+      "creator": "CC-CEDICT contributors",
+      "publisher": "MDBG",
+      "sourceUrl": "https://www.mdbg.net/chinese/dictionary?page=cedict",
+      "downloadUrl": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceDate": "2026-10-01T07:35:40Z",
+      "sha256": "247c8951fff6ff4019cc06e88632f6c6d93f0567de466893c27859ca40ee41bb",
+      "changes": "Selected pronunciations for the official syllabus; treated neutral-tone dictionary variants as closer than conflicting lexical tones; preferred ordinary forms over proper names, rare variants and reference-only forms; omitted surname/variant-only entries, classifier annotations, and cross-reference pinyin; converted entries into JSON. Editorial sense corrections are maintained separately.",
+      "referencedWork": "CEDICT, Copyright (C) 1997, 1998 Paul Andrew Denisowski"
+    },
+    "examples": {
+      "title": "Tatoeba sentence collection",
+      "creator": "Tatoeba contributors; individual authors and sentence IDs recorded on each example",
+      "url": "https://tatoeba.org/en/downloads",
+      "license": "CC-BY-2.0-FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "retrieved": "2026-10-02",
+      "selection": "Direct translation links; self-declared native Chinese and English contributors (and Korean when present); exact target token and lexical pronunciation; ambiguous homographs excluded for separate editorial treatment.",
+      "review": "Corpus-selected examples, not a claim of professional editorial review. Automatically generated sentence pinyin requires a final spoken-language check before commercial release.",
+      "sha256": {
+        "cmn-details.tsv": "22da1d94ce6ab418613cbcbfac1e3cd89dc47fdab03559f6d76f582da6a2b570",
+        "kor-details.tsv": "92f487c011d1fa4739a97d985193273116dbcb18640a9ed01d44325014b3a886",
+        "english-details-subset.json": "97b8425cce7e72e49977ef7e6552ac9e88052914a325fa8ef92dfeb4c6d833f2",
+        "cmn-useful-links.json": "497a5c3d310cd7bbbe24e7506e068bcf9f0694f3e2a01141e7de2928428db896"
+      }
+    },
+    "editorial": {
+      "title": "learn_chinese editorial corrections",
+      "date": "2026-10-03",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "description": "Original teaching glosses and examples, plus editorial translations and corrections. Tatoeba adaptations retain original author IDs and licenses on each sentence. Sense numbers follow the official syllabus. AI-assisted content."
+    }
+  },
+  "licenseScope": {
+    "appCode": "MIT (see the repository LICENSE).",
+    "dictionaryAndEditorial": "CC-BY-SA-4.0. Attribution and ShareAlike apply to this adapted content.",
+    "tatoebaSentences": "CC-BY-2.0-FR; individual contributors, original links and modifications listed below.",
+    "syllabus": "Source: www.chinesetest.cn. Official vocabulary facts used for membership, levels, senses and readings. No open commercial license is asserted for the official publication."
+  },
+  "editorialReview": {
+    "definitionEntries": 11000,
+    "exampleEntries": 11000,
+    "legacyKoreanEntries": 0,
+    "method": "AI-assisted editorial review; fluent-speaker QA remains before commercial release."
+  },
+  "sentences": [
+    {
+      "id": 2405,
+      "author": "CK",
+      "language": "english",
+      "text": "I have to give back the book before Saturday.",
+      "url": "https://tatoeba.org/en/sentences/show/2405",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 21227,
+      "author": "CK",
+      "language": "english",
+      "text": "I need a bag. Will you lend me one?",
+      "url": "https://tatoeba.org/en/sentences/show/21227",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 30621,
+      "author": "CK",
+      "language": "english",
+      "text": "If I were you, I wouldn't do it.",
+      "url": "https://tatoeba.org/en/sentences/show/30621",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 39986,
+      "author": "CK",
+      "language": "english",
+      "text": "Can you help me a little?",
+      "url": "https://tatoeba.org/en/sentences/show/39986",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 40122,
+      "author": "CK",
+      "language": "english",
+      "text": "Just as he was going out, there was a great earthquake.",
+      "url": "https://tatoeba.org/en/sentences/show/40122",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 40171,
+      "author": "CK",
+      "language": "english",
+      "text": "Just then, the bus stopped.",
+      "url": "https://tatoeba.org/en/sentences/show/40171",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 41222,
+      "author": "CM",
+      "language": "english",
+      "text": "Her failure in the exam made me very sad.",
+      "url": "https://tatoeba.org/en/sentences/show/41222",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 46833,
+      "author": "CM",
+      "language": "english",
+      "text": "The car pulled up in front of the bank.",
+      "url": "https://tatoeba.org/en/sentences/show/46833",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 57207,
+      "author": "CK",
+      "language": "english",
+      "text": "Can I catch a taxi near here?",
+      "url": "https://tatoeba.org/en/sentences/show/57207",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 70882,
+      "author": "CK",
+      "language": "english",
+      "text": "Let me get you a ticket to the concert.",
+      "url": "https://tatoeba.org/en/sentences/show/70882",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 73655,
+      "author": "CM",
+      "language": "english",
+      "text": "\"I think so, too,\" she chimed in.",
+      "url": "https://tatoeba.org/en/sentences/show/73655",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 249006,
+      "author": "CM",
+      "language": "english",
+      "text": "We have to fix the date for our trip quickly.",
+      "url": "https://tatoeba.org/en/sentences/show/249006",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 249214,
+      "author": "CK",
+      "language": "english",
+      "text": "We skipped his turn on purpose.",
+      "url": "https://tatoeba.org/en/sentences/show/249214",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 249454,
+      "author": "CK",
+      "language": "english",
+      "text": "We went out for a walk after dinner.",
+      "url": "https://tatoeba.org/en/sentences/show/249454",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 253853,
+      "author": "CK",
+      "language": "english",
+      "text": "I prefer walking to cycling.",
+      "url": "https://tatoeba.org/en/sentences/show/253853",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 256354,
+      "author": "CK",
+      "language": "english",
+      "text": "I felt something moving on my back.",
+      "url": "https://tatoeba.org/en/sentences/show/256354",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 257263,
+      "author": "CK",
+      "language": "english",
+      "text": "I saw a stranger enter that house.",
+      "url": "https://tatoeba.org/en/sentences/show/257263",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 258137,
+      "author": "CK",
+      "language": "english",
+      "text": "I bought a watch.",
+      "url": "https://tatoeba.org/en/sentences/show/258137",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 258906,
+      "author": "CK",
+      "language": "english",
+      "text": "I like swimming, but I don't want to swim here.",
+      "url": "https://tatoeba.org/en/sentences/show/258906",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 259409,
+      "author": "CK",
+      "language": "english",
+      "text": "I go to school by subway.",
+      "url": "https://tatoeba.org/en/sentences/show/259409",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 261029,
+      "author": "CK",
+      "language": "english",
+      "text": "I saw her swim.",
+      "url": "https://tatoeba.org/en/sentences/show/261029",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 264672,
+      "author": "CK",
+      "language": "english",
+      "text": "It's sometimes difficult to control our feelings.",
+      "url": "https://tatoeba.org/en/sentences/show/264672",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 266340,
+      "author": "sundown",
+      "language": "english",
+      "text": "The whole mountain turns red in autumn.",
+      "url": "https://tatoeba.org/en/sentences/show/266340",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 272957,
+      "author": "Dejo",
+      "language": "english",
+      "text": "The teacher tells us to clean our classroom every day.",
+      "url": "https://tatoeba.org/en/sentences/show/272957",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 286325,
+      "author": "CK",
+      "language": "english",
+      "text": "His black coat blended into the darkness.",
+      "url": "https://tatoeba.org/en/sentences/show/286325",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 288235,
+      "author": "CK",
+      "language": "english",
+      "text": "He hid himself behind a large rock.",
+      "url": "https://tatoeba.org/en/sentences/show/288235",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 288716,
+      "author": "CK",
+      "language": "english",
+      "text": "He looked around, but he saw no one.",
+      "url": "https://tatoeba.org/en/sentences/show/288716",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 293354,
+      "author": "CK",
+      "language": "english",
+      "text": "He carried a bag full of apples.",
+      "url": "https://tatoeba.org/en/sentences/show/293354",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 310894,
+      "author": "CM",
+      "language": "english",
+      "text": "She fell down the ladder.",
+      "url": "https://tatoeba.org/en/sentences/show/310894",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 313446,
+      "author": "CK",
+      "language": "english",
+      "text": "She gave birth on Monday to her first child.",
+      "url": "https://tatoeba.org/en/sentences/show/313446",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 316164,
+      "author": "CK",
+      "language": "english",
+      "text": "She is dressed in white.",
+      "url": "https://tatoeba.org/en/sentences/show/316164",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 401955,
+      "author": "CM",
+      "language": "english",
+      "text": "I bought a pen like yours yesterday.",
+      "url": "https://tatoeba.org/en/sentences/show/401955",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 401958,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "我昨天买了一支像你那样的笔。",
+      "url": "https://tatoeba.org/en/sentences/show/401958",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 417724,
+      "author": "FeuDRenais",
+      "language": "english",
+      "text": "Today's mission: milk tea with mochi.",
+      "url": "https://tatoeba.org/en/sentences/show/417724",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 417726,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "今天的使命：奶茶跟麻糬。",
+      "url": "https://tatoeba.org/en/sentences/show/417726",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 432958,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "好像我成电灯泡了。我该走了。",
+      "url": "https://tatoeba.org/en/sentences/show/432958",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 432960,
+      "author": "FeuDRenais",
+      "language": "english",
+      "text": "Seems like I'm the third wheel here. I should go.",
+      "url": "https://tatoeba.org/en/sentences/show/432960",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 561128,
+      "author": "kebukebu",
+      "language": "english",
+      "text": "What time was it when you entered the building?",
+      "url": "https://tatoeba.org/en/sentences/show/561128",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 570996,
+      "author": "FeuDRenais",
+      "language": "english",
+      "text": "I gave my dad a tambourine as a gift.",
+      "url": "https://tatoeba.org/en/sentences/show/570996",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 570998,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "我给我的老爸送了一个铃鼓。",
+      "url": "https://tatoeba.org/en/sentences/show/570998",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 596726,
+      "author": "CK",
+      "language": "english",
+      "text": "Not every child likes apples.",
+      "url": "https://tatoeba.org/en/sentences/show/596726",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 614776,
+      "author": "CLARET",
+      "language": "chinese",
+      "text": "我更愿意走路，而不是骑自行车。",
+      "url": "https://tatoeba.org/en/sentences/show/614776",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 727525,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "用字典查出下面词组的意思。",
+      "url": "https://tatoeba.org/en/sentences/show/727525",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 727526,
+      "author": "CM",
+      "language": "english",
+      "text": "Use a dictionary to find the meanings of the phrases below.",
+      "url": "https://tatoeba.org/en/sentences/show/727526",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 803282,
+      "author": "Source_VOA",
+      "language": "english",
+      "text": "He spent his sixtieth birthday in the hospital.",
+      "url": "https://tatoeba.org/en/sentences/show/803282",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 953599,
+      "author": "CK",
+      "language": "english",
+      "text": "I shouldn't have eaten the whole bag of potato chips.",
+      "url": "https://tatoeba.org/en/sentences/show/953599",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1026573,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom couldn't hold back his anger.",
+      "url": "https://tatoeba.org/en/sentences/show/1026573",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1027838,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom used to live near Mary.",
+      "url": "https://tatoeba.org/en/sentences/show/1027838",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 1029523,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom can run as fast as Mary.",
+      "url": "https://tatoeba.org/en/sentences/show/1029523",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 1221043,
+      "author": "tsayng",
+      "language": "chinese",
+      "text": "有时我们很难控制自己的情绪。",
+      "url": "https://tatoeba.org/en/sentences/show/1221043",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1241329,
+      "author": "tsayng",
+      "language": "chinese",
+      "text": "我想住在机场附近的旅馆里。",
+      "url": "https://tatoeba.org/en/sentences/show/1241329",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1242858,
+      "author": "alec",
+      "language": "english",
+      "text": "I want to stay in a hotel near the airport.",
+      "url": "https://tatoeba.org/en/sentences/show/1242858",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1454438,
+      "author": "sadhen",
+      "language": "chinese",
+      "text": "不是每一个孩子都喜欢吃苹果。",
+      "url": "https://tatoeba.org/en/sentences/show/1454438",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 1490534,
+      "author": "sadhen",
+      "language": "chinese",
+      "text": "他是个画家，但他不会画国画。",
+      "url": "https://tatoeba.org/en/sentences/show/1490534",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1493269,
+      "author": "weihaiping",
+      "language": "english",
+      "text": "He's a painter, but he doesn't do traditional Chinese painting.",
+      "url": "https://tatoeba.org/en/sentences/show/1493269",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1522032,
+      "author": "CM",
+      "language": "english",
+      "text": "His watch is ten minutes slow.",
+      "url": "https://tatoeba.org/en/sentences/show/1522032",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1522035,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "他的手表慢了十分钟。",
+      "url": "https://tatoeba.org/en/sentences/show/1522035",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1750348,
+      "author": "sadhen",
+      "language": "chinese",
+      "text": "这些裤子我穿起来很合身。",
+      "url": "https://tatoeba.org/en/sentences/show/1750348",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1776640,
+      "author": "sadhen",
+      "language": "chinese",
+      "text": "我必须在礼拜六之前把书还回去。",
+      "url": "https://tatoeba.org/en/sentences/show/1776640",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 1785963,
+      "author": "sadhen",
+      "language": "chinese",
+      "text": "虽然她有缺点，但我喜欢她。",
+      "url": "https://tatoeba.org/en/sentences/show/1785963",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 1830450,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom used to eat a lot of junk food.",
+      "url": "https://tatoeba.org/en/sentences/show/1830450",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 1886872,
+      "author": "CK",
+      "language": "english",
+      "text": "Is Tom with you?",
+      "url": "https://tatoeba.org/en/sentences/show/1886872",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2301951,
+      "author": "CK",
+      "language": "english",
+      "text": "I can't believe your parents let you come here by yourself.",
+      "url": "https://tatoeba.org/en/sentences/show/2301951",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2308060,
+      "author": "CK",
+      "language": "english",
+      "text": "I could barely get out of bed yesterday.",
+      "url": "https://tatoeba.org/en/sentences/show/2308060",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2361305,
+      "author": "CK",
+      "language": "english",
+      "text": "I don't know why Tom would do this.",
+      "url": "https://tatoeba.org/en/sentences/show/2361305",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 2406061,
+      "author": "CK",
+      "language": "english",
+      "text": "I saw a helicopter flying overhead.",
+      "url": "https://tatoeba.org/en/sentences/show/2406061",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2410220,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "会议很快就开始了，我们进去看看有谁来了。",
+      "url": "https://tatoeba.org/en/sentences/show/2410220",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2424266,
+      "author": "CK",
+      "language": "english",
+      "text": "I studied French when I was in high school.",
+      "url": "https://tatoeba.org/en/sentences/show/2424266",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 2442208,
+      "author": "ydcok",
+      "language": "chinese",
+      "text": "这辆车在银行前面停下来了。",
+      "url": "https://tatoeba.org/en/sentences/show/2442208",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2642829,
+      "author": "CK",
+      "language": "english",
+      "text": "We're ready for the next step.",
+      "url": "https://tatoeba.org/en/sentences/show/2642829",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2712535,
+      "author": "CK",
+      "language": "english",
+      "text": "It's been three years since I began studying French.",
+      "url": "https://tatoeba.org/en/sentences/show/2712535",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2737442,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "这条项链是我奶奶送给我的。",
+      "url": "https://tatoeba.org/en/sentences/show/2737442",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 2757173,
+      "author": "cienias",
+      "language": "chinese",
+      "text": "就在他要出门的时候，发生了强震。",
+      "url": "https://tatoeba.org/en/sentences/show/2757173",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 2806358,
+      "author": "cienias",
+      "language": "chinese",
+      "text": "我感冒了，所以吃不出味道来。",
+      "url": "https://tatoeba.org/en/sentences/show/2806358",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2835611,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom quietly closed the bedroom door.",
+      "url": "https://tatoeba.org/en/sentences/show/2835611",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 2958360,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom took the concert ticket Mary offered him.",
+      "url": "https://tatoeba.org/en/sentences/show/2958360",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 2976130,
+      "author": "patgfisher",
+      "language": "english",
+      "text": "Apples are usually green, yellow, or red.",
+      "url": "https://tatoeba.org/en/sentences/show/2976130",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3034142,
+      "author": "CK",
+      "language": "english",
+      "text": "Soccer is the most popular sport in Brazil.",
+      "url": "https://tatoeba.org/en/sentences/show/3034142",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3158537,
+      "author": "cienias",
+      "language": "chinese",
+      "text": "当我小的时候，我不能够吃鱼。",
+      "url": "https://tatoeba.org/en/sentences/show/3158537",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 3365336,
+      "author": "go_oo",
+      "language": "chinese",
+      "text": "他背疼，不能弯腰。",
+      "url": "https://tatoeba.org/en/sentences/show/3365336",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 3378090,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "我给你介绍介绍我的朋友。",
+      "url": "https://tatoeba.org/en/sentences/show/3378090",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 3417419,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom and his friends played basketball all afternoon.",
+      "url": "https://tatoeba.org/en/sentences/show/3417419",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 3431047,
+      "author": "CK",
+      "language": "english",
+      "text": "I hear you're an artist.",
+      "url": "https://tatoeba.org/en/sentences/show/3431047",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3493168,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "让我们现在回到正题上好不好？",
+      "url": "https://tatoeba.org/en/sentences/show/3493168",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3513571,
+      "author": "Hybrid",
+      "language": "english",
+      "text": "What's your natural hair color?",
+      "url": "https://tatoeba.org/en/sentences/show/3513571",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Chinese wording edited by learn_chinese to remove a redundant hair-color phrase; sentence pinyin regenerated and reviewed, 2026-10-03. English and Korean meanings retained."
+    },
+    {
+      "id": 3728731,
+      "author": "CM",
+      "language": "english",
+      "text": "Only an expert can tell them apart.",
+      "url": "https://tatoeba.org/en/sentences/show/3728731",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3736211,
+      "author": "CK",
+      "language": "english",
+      "text": "I forget where I put my hat.",
+      "url": "https://tatoeba.org/en/sentences/show/3736211",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 3975728,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom and Mary work in the same office.",
+      "url": "https://tatoeba.org/en/sentences/show/3975728",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4017087,
+      "author": "CK",
+      "language": "english",
+      "text": "I'll stay with Tom until you get back.",
+      "url": "https://tatoeba.org/en/sentences/show/4017087",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4132521,
+      "author": "CK",
+      "language": "english",
+      "text": "I'm on my way to meet Tom at the station right now.",
+      "url": "https://tatoeba.org/en/sentences/show/4132521",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 4267419,
+      "author": "notabene",
+      "language": "chinese",
+      "text": "我需要个包。你能借我一个吗？",
+      "url": "https://tatoeba.org/en/sentences/show/4267419",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4630079,
+      "author": "Amastan",
+      "language": "english",
+      "text": "Tom's ordeal was far from over.",
+      "url": "https://tatoeba.org/en/sentences/show/4630079",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4732056,
+      "author": "egg0073",
+      "language": "chinese",
+      "text": "他看向四周，但没看到任何人。",
+      "url": "https://tatoeba.org/en/sentences/show/4732056",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4757669,
+      "author": "ryanwoo",
+      "language": "chinese",
+      "text": "玛丽是班里面长得最漂亮的女孩。",
+      "url": "https://tatoeba.org/en/sentences/show/4757669",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 4757675,
+      "author": "garborg",
+      "language": "english",
+      "text": "Mary is the prettiest girl in class.",
+      "url": "https://tatoeba.org/en/sentences/show/4757675",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 4789637,
+      "author": "400S",
+      "language": "chinese",
+      "text": "我喜欢游泳，但我不想在这里游。",
+      "url": "https://tatoeba.org/en/sentences/show/4789637",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 4813082,
+      "author": "Hybrid",
+      "language": "english",
+      "text": "I don't know his last name.",
+      "url": "https://tatoeba.org/en/sentences/show/4813082",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4815106,
+      "author": "McMeao",
+      "language": "chinese",
+      "text": "我不知道他的姓。",
+      "url": "https://tatoeba.org/en/sentences/show/4815106",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4833223,
+      "author": "derpapottamus",
+      "language": "english",
+      "text": "There are daisies next to the steel building.",
+      "url": "https://tatoeba.org/en/sentences/show/4833223",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4844806,
+      "author": "pig8322",
+      "language": "chinese",
+      "text": "在钢铁大厦的旁边有许多的雏菊。",
+      "url": "https://tatoeba.org/en/sentences/show/4844806",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4845009,
+      "author": "pig8322",
+      "language": "chinese",
+      "text": "我看见一架直升飞机在头顶飞。",
+      "url": "https://tatoeba.org/en/sentences/show/4845009",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 4875869,
+      "author": "shekitten",
+      "language": "english",
+      "text": "Follow your own path and let people talk.",
+      "url": "https://tatoeba.org/en/sentences/show/4875869",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5018817,
+      "author": "AlanF_US",
+      "language": "english",
+      "text": "What's making you laugh so hard?",
+      "url": "https://tatoeba.org/en/sentences/show/5018817",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 5397080,
+      "author": "AlanF_US",
+      "language": "english",
+      "text": "He worked too hard and destroyed his health.",
+      "url": "https://tatoeba.org/en/sentences/show/5397080",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5471934,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom put a lot of honey on his toast.",
+      "url": "https://tatoeba.org/en/sentences/show/5471934",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5556108,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "汤姆拿了玛丽给他的音乐会票。",
+      "url": "https://tatoeba.org/en/sentences/show/5556108",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5558511,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "汤姆的严酷考验远没有结束。",
+      "url": "https://tatoeba.org/en/sentences/show/5558511",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5632419,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "你回来之前我会跟汤姆在一起。",
+      "url": "https://tatoeba.org/en/sentences/show/5632419",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5636480,
+      "author": "CK",
+      "language": "english",
+      "text": "I know Tom may have to do that.",
+      "url": "https://tatoeba.org/en/sentences/show/5636480",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5670781,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我不敢相信你父母让你自己过来。",
+      "url": "https://tatoeba.org/en/sentences/show/5670781",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5670801,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我们必须快点定下旅游日期。",
+      "url": "https://tatoeba.org/en/sentences/show/5670801",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5689557,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "他踢了一个乌龙球。",
+      "url": "https://tatoeba.org/en/sentences/show/5689557",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5751919,
+      "author": "CM",
+      "language": "english",
+      "text": "I'm getting choked up.",
+      "url": "https://tatoeba.org/en/sentences/show/5751919",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 5780548,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "汤姆和朋友们打了整个下午篮球。",
+      "url": "https://tatoeba.org/en/sentences/show/5780548",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 5780585,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我现在在去车站见汤姆的路上。",
+      "url": "https://tatoeba.org/en/sentences/show/5780585",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 5800371,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "明天就要过年了。",
+      "url": "https://tatoeba.org/en/sentences/show/5800371",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5819710,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "汤姆以前跟玛丽住得近。",
+      "url": "https://tatoeba.org/en/sentences/show/5819710",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 5851163,
+      "author": "CK",
+      "language": "english",
+      "text": "I've rented a room not far from here.",
+      "url": "https://tatoeba.org/en/sentences/show/5851163",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5909463,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "我打开盒子的时候，它是空的。",
+      "url": "https://tatoeba.org/en/sentences/show/5909463",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 5919373,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "我今天买了一个新书包。",
+      "url": "https://tatoeba.org/en/sentences/show/5919373",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5920120,
+      "author": "Sethlang",
+      "language": "english",
+      "text": "I bought a new schoolbag today.",
+      "url": "https://tatoeba.org/en/sentences/show/5920120",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5936325,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom didn't have enough time to answer all the questions on the test.",
+      "url": "https://tatoeba.org/en/sentences/show/5936325",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 5957635,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "你去跑步的时候叫我一声。",
+      "url": "https://tatoeba.org/en/sentences/show/5957635",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 6089773,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我感到背上有东西动。",
+      "url": "https://tatoeba.org/en/sentences/show/6089773",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 6098440,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "他在医院里过了六十岁生日。",
+      "url": "https://tatoeba.org/en/sentences/show/6098440",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6109339,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我能在这附近打车吗？",
+      "url": "https://tatoeba.org/en/sentences/show/6109339",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6111924,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我忘了我把我的帽子放在哪里了。",
+      "url": "https://tatoeba.org/en/sentences/show/6111924",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6128460,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "汤姆静静地关上了卧室的门。",
+      "url": "https://tatoeba.org/en/sentences/show/6128460",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 6142580,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "城堡外面的河叫做护城河。",
+      "url": "https://tatoeba.org/en/sentences/show/6142580",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6142976,
+      "author": "snowxvi",
+      "language": "english",
+      "text": "The river outside of the castle is called a moat.",
+      "url": "https://tatoeba.org/en/sentences/show/6142976",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6246935,
+      "author": "CK",
+      "language": "english",
+      "text": "I didn't recognize anyone in the house.",
+      "url": "https://tatoeba.org/en/sentences/show/6246935",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 6309831,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我租了一间离这里不远的屋子。",
+      "url": "https://tatoeba.org/en/sentences/show/6309831",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6315382,
+      "author": "yuiyu",
+      "language": "chinese",
+      "text": "令我非常伤心的是她考砸了。",
+      "url": "https://tatoeba.org/en/sentences/show/6315382",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 6559062,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "请你出示你的机票和护照。",
+      "url": "https://tatoeba.org/en/sentences/show/6559062",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6559105,
+      "author": "ren",
+      "language": "english",
+      "text": "Please show your flight ticket and passport.",
+      "url": "https://tatoeba.org/en/sentences/show/6559105",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6633868,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "我昨天几乎下不了床。",
+      "url": "https://tatoeba.org/en/sentences/show/6633868",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6635897,
+      "author": "verdastelo9604",
+      "language": "chinese",
+      "text": "如果我是你，我就不做那件事。",
+      "url": "https://tatoeba.org/en/sentences/show/6635897",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6655835,
+      "author": "CK",
+      "language": "english",
+      "text": "Tom is a very bad person.",
+      "url": "https://tatoeba.org/en/sentences/show/6655835",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6660690,
+      "author": "CK",
+      "language": "english",
+      "text": "I don't eat meat as much as I used to.",
+      "url": "https://tatoeba.org/en/sentences/show/6660690",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6662493,
+      "author": "CK",
+      "language": "english",
+      "text": "We all got up and started dancing.",
+      "url": "https://tatoeba.org/en/sentences/show/6662493",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6741752,
+      "author": "Hybrid",
+      "language": "english",
+      "text": "Is that why you don't like her?",
+      "url": "https://tatoeba.org/en/sentences/show/6741752",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 6774607,
+      "author": "basilhan",
+      "language": "chinese",
+      "text": "你的头发本来是什么颜色？",
+      "url": "https://tatoeba.org/en/sentences/show/6774607",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Chinese wording edited by learn_chinese to remove a redundant hair-color phrase; sentence pinyin regenerated and reviewed, 2026-10-03. English and Korean meanings retained."
+    },
+    {
+      "id": 6845272,
+      "author": "CK",
+      "language": "english",
+      "text": "It's not as easy to do that as people think.",
+      "url": "https://tatoeba.org/en/sentences/show/6845272",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 6999509,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "这辆车曾有一个外国牌照。",
+      "url": "https://tatoeba.org/en/sentences/show/6999509",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7136874,
+      "author": "CK",
+      "language": "english",
+      "text": "I think what you're doing is wrong.",
+      "url": "https://tatoeba.org/en/sentences/show/7136874",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7497326,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "祭祀结束之后，天就晴了。",
+      "url": "https://tatoeba.org/en/sentences/show/7497326",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7518951,
+      "author": "CK",
+      "language": "english",
+      "text": "I know Tom knows I should do that.",
+      "url": "https://tatoeba.org/en/sentences/show/7518951",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7681634,
+      "author": "potatoindespair",
+      "language": "english",
+      "text": "Although she has flaws, I still like her.",
+      "url": "https://tatoeba.org/en/sentences/show/7681634",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 7765194,
+      "author": "Amastan",
+      "language": "english",
+      "text": "I used the bathroom in Berber class.",
+      "url": "https://tatoeba.org/en/sentences/show/7765194",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7767808,
+      "author": "sharris123",
+      "language": "english",
+      "text": "This car once had a foreign licence.",
+      "url": "https://tatoeba.org/en/sentences/show/7767808",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7768337,
+      "author": "jiangche",
+      "language": "chinese",
+      "text": "我的爱好是开车和弹吉他。",
+      "url": "https://tatoeba.org/en/sentences/show/7768337",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 7771870,
+      "author": "jiangche",
+      "language": "chinese",
+      "text": "走自己的路，让别人去说吧。",
+      "url": "https://tatoeba.org/en/sentences/show/7771870",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7772608,
+      "author": "jiangche",
+      "language": "chinese",
+      "text": "她从梯子上摔了下来。",
+      "url": "https://tatoeba.org/en/sentences/show/7772608",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7772884,
+      "author": "sharris123",
+      "language": "english",
+      "text": "He has back pain and cannot bend over.",
+      "url": "https://tatoeba.org/en/sentences/show/7772884",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 7774760,
+      "author": "jiangche",
+      "language": "chinese",
+      "text": "我们队进了第一个球。",
+      "url": "https://tatoeba.org/en/sentences/show/7774760",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7799616,
+      "author": "sharris123",
+      "language": "english",
+      "text": "Give me a ring when you go running.",
+      "url": "https://tatoeba.org/en/sentences/show/7799616",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 7817527,
+      "author": "CK",
+      "language": "english",
+      "text": "Why are you still at school?",
+      "url": "https://tatoeba.org/en/sentences/show/7817527",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 7829881,
+      "author": "sharris123",
+      "language": "english",
+      "text": "Our team scored the first goal.",
+      "url": "https://tatoeba.org/en/sentences/show/7829881",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8018060,
+      "author": "AlanF_US",
+      "language": "english",
+      "text": "My left eyelid is twitching.",
+      "url": "https://tatoeba.org/en/sentences/show/8018060",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8056694,
+      "author": "jameslin011",
+      "language": "english",
+      "text": "I'm sick, so I can't taste anything.",
+      "url": "https://tatoeba.org/en/sentences/show/8056694",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8085426,
+      "author": "jenny5752",
+      "language": "chinese",
+      "text": "只有专家能区分出它们的不同。",
+      "url": "https://tatoeba.org/en/sentences/show/8085426",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8133576,
+      "author": "marioo",
+      "language": "english",
+      "text": "Tom doesn't care about protecting his personal information online.",
+      "url": "https://tatoeba.org/en/sentences/show/8133576",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8249384,
+      "author": "francaisr0wlet",
+      "language": "english",
+      "text": "My hobbies are driving and playing the guitar.",
+      "url": "https://tatoeba.org/en/sentences/show/8249384",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 8269241,
+      "author": "CK",
+      "language": "english",
+      "text": "A permanent job is better than a temporary one.",
+      "url": "https://tatoeba.org/en/sentences/show/8269241",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8271827,
+      "author": "shekitten",
+      "language": "english",
+      "text": "I'm very tired, but I can't seem to bring myself to go to sleep.",
+      "url": "https://tatoeba.org/en/sentences/show/8271827",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8388686,
+      "author": "wangchou",
+      "language": "chinese",
+      "text": "我看见她游泳。",
+      "url": "https://tatoeba.org/en/sentences/show/8388686",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8414373,
+      "author": "Hybrid",
+      "language": "english",
+      "text": "Mary is addicted to coffee.",
+      "url": "https://tatoeba.org/en/sentences/show/8414373",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8517159,
+      "author": "gumblex",
+      "language": "chinese",
+      "text": "你进这幢楼的时候是几点？",
+      "url": "https://tatoeba.org/en/sentences/show/8517159",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 8555762,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "我的左眼皮在跳。",
+      "url": "https://tatoeba.org/en/sentences/show/8555762",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8591278,
+      "author": "easononizuka",
+      "language": "chinese",
+      "text": "房子里面的人我一个也不认得。",
+      "url": "https://tatoeba.org/en/sentences/show/8591278",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 8631002,
+      "author": "ZeroAurora",
+      "language": "chinese",
+      "text": "汤姆往他的吐司上放了许多蜂蜜。",
+      "url": "https://tatoeba.org/en/sentences/show/8631002",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8686664,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "他拿着一个装满了苹果的袋子。",
+      "url": "https://tatoeba.org/en/sentences/show/8686664",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8686667,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "这并不像一般人觉得的那么容易。",
+      "url": "https://tatoeba.org/en/sentences/show/8686667",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8686691,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "汤姆没法压抑自己的怒火了。",
+      "url": "https://tatoeba.org/en/sentences/show/8686691",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8686695,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "他藏到一个大石头后面了。",
+      "url": "https://tatoeba.org/en/sentences/show/8686695",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8696319,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "玛丽是咖啡成瘾者。",
+      "url": "https://tatoeba.org/en/sentences/show/8696319",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8696351,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "你能帮我一点忙吗？",
+      "url": "https://tatoeba.org/en/sentences/show/8696351",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8715879,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "正式工比临时工要好。",
+      "url": "https://tatoeba.org/en/sentences/show/8715879",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8727903,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "汤姆是个非常坏的人。",
+      "url": "https://tatoeba.org/en/sentences/show/8727903",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8738757,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "她穿着白色的衣服。",
+      "url": "https://tatoeba.org/en/sentences/show/8738757",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8742427,
+      "author": "RobOwenKing",
+      "language": "english",
+      "text": "Do you remember which year it happened?",
+      "url": "https://tatoeba.org/en/sentences/show/8742427",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8744640,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "我快要激动得说不出话来了。",
+      "url": "https://tatoeba.org/en/sentences/show/8744640",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 8744824,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "夜晚是我一天中最喜欢的时候。",
+      "url": "https://tatoeba.org/en/sentences/show/8744824",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8744914,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "你记得这是在哪一年发生的吗？",
+      "url": "https://tatoeba.org/en/sentences/show/8744914",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8753049,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "我不该把一整包薯片都吃完的。",
+      "url": "https://tatoeba.org/en/sentences/show/8753049",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8765223,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "“我也那样觉得。”她附和道。",
+      "url": "https://tatoeba.org/en/sentences/show/8765223",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 8778515,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "在秋天，整座山都会变成红色。",
+      "url": "https://tatoeba.org/en/sentences/show/8778515",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8795139,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "我搭地铁上学。",
+      "url": "https://tatoeba.org/en/sentences/show/8795139",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8795145,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "我觉得你正在做的是错的。",
+      "url": "https://tatoeba.org/en/sentences/show/8795145",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8795193,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "是什么让你笑得这么开心？",
+      "url": "https://tatoeba.org/en/sentences/show/8795193",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 8854613,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "你为什么还在学校？",
+      "url": "https://tatoeba.org/en/sentences/show/8854613",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8883773,
+      "author": "Rebecca",
+      "language": "chinese",
+      "text": "轮到他时，我们故意跳过了他。",
+      "url": "https://tatoeba.org/en/sentences/show/8883773",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8931400,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "汤姆以前经常吃很多垃圾食品。",
+      "url": "https://tatoeba.org/en/sentences/show/8931400",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 8947255,
+      "author": "crescat",
+      "language": "chinese",
+      "text": "我们在吃过晚餐后出去散步了。",
+      "url": "https://tatoeba.org/en/sentences/show/8947255",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 9054805,
+      "author": "xjjAstrus",
+      "language": "chinese",
+      "text": "这个词字典里面怎么查不到？",
+      "url": "https://tatoeba.org/en/sentences/show/9054805",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 9401997,
+      "author": "BobbyLee",
+      "language": "english",
+      "text": "He scored an own goal.",
+      "url": "https://tatoeba.org/en/sentences/show/9401997",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 9408777,
+      "author": "BobbyLee",
+      "language": "english",
+      "text": "Tomorrow is the start of the new year.",
+      "url": "https://tatoeba.org/en/sentences/show/9408777",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 9415012,
+      "author": "BobbyLee",
+      "language": "english",
+      "text": "Why can't I find it in this dictionary?",
+      "url": "https://tatoeba.org/en/sentences/show/9415012",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 9961357,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "您不喜欢她就是因为那件事吗？",
+      "url": "https://tatoeba.org/en/sentences/show/9961357",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 9969238,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "足球在巴西是最受欢迎的运动。",
+      "url": "https://tatoeba.org/en/sentences/show/9969238",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 9981707,
+      "author": "francaisr0wlet",
+      "language": "english",
+      "text": "Can we get back to the topic?",
+      "url": "https://tatoeba.org/en/sentences/show/9981707",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 9981711,
+      "author": "francaisr0wlet",
+      "language": "english",
+      "text": "Let me introduce my friends to you.",
+      "url": "https://tatoeba.org/en/sentences/show/9981711",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 9991996,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "他们已经开学了。",
+      "url": "https://tatoeba.org/en/sentences/show/9991996",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10041925,
+      "author": "slo_oth",
+      "language": "chinese",
+      "text": "正规的考试不允许使用涂改液。",
+      "url": "https://tatoeba.org/en/sentences/show/10041925",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10047707,
+      "author": "zhoudoufu",
+      "language": "chinese",
+      "text": "我上高中的时候学过法语。",
+      "url": "https://tatoeba.org/en/sentences/show/10047707",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 10157039,
+      "author": "yeyue",
+      "language": "chinese",
+      "text": "汤姆和你在一起吗？",
+      "url": "https://tatoeba.org/en/sentences/show/10157039",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10219984,
+      "author": "GlossaMatik",
+      "language": "chinese",
+      "text": "汤姆考试时没时间答完所有题。",
+      "url": "https://tatoeba.org/en/sentences/show/10219984",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10240201,
+      "author": "LimeGreenTeknii",
+      "language": "english",
+      "text": "He hurt me without meaning to.",
+      "url": "https://tatoeba.org/en/sentences/show/10240201",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10276069,
+      "author": "sundown",
+      "language": "english",
+      "text": "The meeting's about to start. Let's go inside and see who's there.",
+      "url": "https://tatoeba.org/en/sentences/show/10276069",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 10294819,
+      "author": "ryq1212",
+      "language": "chinese",
+      "text": "我看到一个陌生人进了那间屋子。",
+      "url": "https://tatoeba.org/en/sentences/show/10294819",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 11239873,
+      "author": "klzlueylx",
+      "language": "chinese",
+      "text": "他干活太用功，把身体弄垮了。",
+      "url": "https://tatoeba.org/en/sentences/show/11239873",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 11272848,
+      "author": "Aphima",
+      "language": "english",
+      "text": "A proper test does not allow the use of correction fluid.",
+      "url": "https://tatoeba.org/en/sentences/show/11272848",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 11274738,
+      "author": "Aphima",
+      "language": "english",
+      "text": "When I was little, I couldn't eat fish.",
+      "url": "https://tatoeba.org/en/sentences/show/11274738",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 11530114,
+      "author": "Amastan",
+      "language": "english",
+      "text": "John saved Jessica from the lake.",
+      "url": "https://tatoeba.org/en/sentences/show/11530114",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 11545922,
+      "author": "Aphima",
+      "language": "english",
+      "text": "The sky cleared up after the ritual was over.",
+      "url": "https://tatoeba.org/en/sentences/show/11545922",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 11674965,
+      "author": "weihaiping",
+      "language": "english",
+      "text": "When I opened the box, it was empty.",
+      "url": "https://tatoeba.org/en/sentences/show/11674965",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 11979265,
+      "author": "Luornu",
+      "language": "english",
+      "text": "The plates are still wet because I just washed them.",
+      "url": "https://tatoeba.org/en/sentences/show/11979265",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 12231564,
+      "author": "sundown",
+      "language": "english",
+      "text": "Nighttime is my favourite time of day.",
+      "url": "https://tatoeba.org/en/sentences/show/12231564",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 12231649,
+      "author": "sundown",
+      "language": "english",
+      "text": "My nan gave me this necklace.",
+      "url": "https://tatoeba.org/en/sentences/show/12231649",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 12278240,
+      "author": "FishlandicFishy",
+      "language": "chinese",
+      "text": "我买了一只手表。",
+      "url": "https://tatoeba.org/en/sentences/show/12278240",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 12422353,
+      "author": "jkyochen",
+      "language": "chinese",
+      "text": "正好那个时候，公交车停下来了。",
+      "url": "https://tatoeba.org/en/sentences/show/12422353",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 12510955,
+      "author": "sundown",
+      "language": "english",
+      "text": "These trousers fit me well.",
+      "url": "https://tatoeba.org/en/sentences/show/12510955",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 12615417,
+      "author": "Enzo",
+      "language": "chinese",
+      "text": "我知道汤姆知道我应该这样做",
+      "url": "https://tatoeba.org/en/sentences/show/12615417",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 12882943,
+      "author": "sundown",
+      "language": "english",
+      "text": "School has already started for them.",
+      "url": "https://tatoeba.org/en/sentences/show/12882943",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 12997181,
+      "author": "araneo",
+      "language": "english",
+      "text": "I prefer coffee to black tea.",
+      "url": "https://tatoeba.org/en/sentences/show/12997181",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13071571,
+      "author": "maina",
+      "language": "chinese",
+      "text": "我听说你是位艺术家。",
+      "url": "https://tatoeba.org/en/sentences/show/13071571",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13108766,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我不知道汤姆为什么会这么做。",
+      "url": "https://tatoeba.org/en/sentences/show/13108766",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. English translation edited for accuracy."
+    },
+    {
+      "id": 13109458,
+      "author": "maina",
+      "language": "chinese",
+      "text": "我很累，但无法让自己入睡。",
+      "url": "https://tatoeba.org/en/sentences/show/13109458",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13138088,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "他没想伤害我，但是伤害了我。",
+      "url": "https://tatoeba.org/en/sentences/show/13138088",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13155925,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "汤姆和玛莉在同一间办公室工作。",
+      "url": "https://tatoeba.org/en/sentences/show/13155925",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13524049,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "他的黑色外套与黑暗融为一体。",
+      "url": "https://tatoeba.org/en/sentences/show/13524049",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13524177,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "汤姆上网时并不在乎个人资讯的保护。",
+      "url": "https://tatoeba.org/en/sentences/show/13524177",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13532077,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "从我开始学法文，已经过去三年了。",
+      "url": "https://tatoeba.org/en/sentences/show/13532077",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13532082,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我们都从座位上站起来，开始跳舞。",
+      "url": "https://tatoeba.org/en/sentences/show/13532082",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13533604,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "汤姆可以和玛莉跑得一样快。",
+      "url": "https://tatoeba.org/en/sentences/show/13533604",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13539388,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "这些盘子我刚洗，所以还是湿的。",
+      "url": "https://tatoeba.org/en/sentences/show/13539388",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13539405,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "苹果通常是绿色、黄色或红色。",
+      "url": "https://tatoeba.org/en/sentences/show/13539405",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13544370,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "比起红茶我更喜欢咖啡。",
+      "url": "https://tatoeba.org/en/sentences/show/13544370",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription."
+    },
+    {
+      "id": 13549535,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我现在吃肉的次数不如以前多了。",
+      "url": "https://tatoeba.org/en/sentences/show/13549535",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13556475,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "她于周一生下了她的第一个孩子。",
+      "url": "https://tatoeba.org/en/sentences/show/13556475",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance. Sentence pinyin checked against fixed official lexical readings and reviewed context overrides; phonetic sandhi is not a full transcription. Sentence pinyin edited by learn_chinese for contextual pronunciation, 2026-10-03."
+    },
+    {
+      "id": 13556584,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我在柏柏语课上上了洗手间。",
+      "url": "https://tatoeba.org/en/sentences/show/13556584",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13573252,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "约翰把洁西卡从湖里救了出来。",
+      "url": "https://tatoeba.org/en/sentences/show/13573252",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13573512,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "老师要求我们每天都打扫教室。",
+      "url": "https://tatoeba.org/en/sentences/show/13573512",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13573871,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我来帮你弄张演唱会门票吧。",
+      "url": "https://tatoeba.org/en/sentences/show/13573871",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13575714,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我知道汤姆可能不得不这么做。",
+      "url": "https://tatoeba.org/en/sentences/show/13575714",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    },
+    {
+      "id": 13795594,
+      "author": "LeviHighway",
+      "language": "chinese",
+      "text": "我们已经准备好进入下一步了。",
+      "url": "https://tatoeba.org/en/sentences/show/13795594",
+      "license": "CC-BY-2.0-FR",
+      "changes": "Chinese converted to Simplified; pinyin generated automatically with pypinyin. Text translations are directly linked Tatoeba contributions. Korean translated by learn_chinese with AI assistance."
+    }
+  ]
+}

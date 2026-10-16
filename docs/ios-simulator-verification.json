@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "appId": "com.somnio.learnlanguage",
+  "device": "iPhone 18 Pro Max",
+  "os": "iOS 27.0",
+  "xcode": "27.0",
+  "capacitor": "8.5.3",
+  "swiftLanguageMode": "6.0",
+  "swiftPackageTools": "6.4",
+  "build": "passed",
+  "nativeOnlinePairs": ["de-ko", "de-en", "zh-en", "zh-ko"],
+  "nativeOfflineRelaunchPairs": ["de-ko", "de-en", "zh-en", "zh-ko"],
+  "offlineMethod": "HTTP and HTTPS fetches rejected at document start in the debug-only smoke check",
+  "origin": "capacitor://localhost",
+  "placeholders": ["Study Language", "Explanation Language"],
+  "content": "two original starter entries per study language",
+  "storeSigned": false
+}

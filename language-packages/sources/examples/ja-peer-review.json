@@ -1,0 +1,2143 @@
+{
+  "status": "AI-editorial-sample-review",
+  "language": "ja",
+  "reviewedAtUtc": "2026-10-15T02:22:42.258543+00:00",
+  "reviewer": "Independent Spanish authoring agent; Japanese peer review",
+  "nativeReview": false,
+  "sourceFilesModified": false,
+  "sample": {
+    "authoredPopulation": 1977,
+    "sampleSize": 120,
+    "method": "First 30 rows, last 30 rows, and 60 evenly spaced rows from the remaining interior; 0-based indices sorted and deduplicated.",
+    "reproduction": {
+      "first": "0..29 inclusive",
+      "last": "N-30..N-1 inclusive",
+      "interiorFormula": "30 + floor(i * (N - 61) / 59), for i = 0..59",
+      "N": 1977
+    },
+    "indicesZeroBased": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      62,
+      94,
+      127,
+      159,
+      192,
+      224,
+      257,
+      289,
+      322,
+      354,
+      387,
+      419,
+      452,
+      484,
+      517,
+      549,
+      582,
+      614,
+      647,
+      679,
+      711,
+      744,
+      776,
+      809,
+      841,
+      874,
+      906,
+      939,
+      971,
+      1004,
+      1036,
+      1069,
+      1101,
+      1134,
+      1166,
+      1199,
+      1231,
+      1264,
+      1296,
+      1328,
+      1361,
+      1393,
+      1426,
+      1458,
+      1491,
+      1523,
+      1556,
+      1588,
+      1621,
+      1653,
+      1686,
+      1718,
+      1751,
+      1783,
+      1816,
+      1848,
+      1881,
+      1913,
+      1946,
+      1947,
+      1948,
+      1949,
+      1950,
+      1951,
+      1952,
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975,
+      1976
+    ],
+    "sourceSha256": {
+      "ja-authored.jsonl": "c0a52224e1cbc93e4f9515cc29c72a1c55ff2ff17cf634dd30cd918fdaee5c5b",
+      "ja-corrections.jsonl": "90406c5ba6390f54a0df1f34c7708654d94e54c7b928e48962e82226d744af75"
+    },
+    "sourceHashesUnchangedAtCompletion": true
+  },
+  "scope": {
+    "sentenceRowsReviewed": 120,
+    "EnglishAndKoreanTranslationsReviewed": 120,
+    "rowsWithAdditionalTranslationsReviewed": 52,
+    "additionalTranslationLanguages": [
+      "de",
+      "es",
+      "fr",
+      "zh"
+    ],
+    "matchingCorrectionRowsReviewed": 3,
+    "matchingCorrectionIds": [
+      "ja-lex-3fa31b89fc90f15bb958",
+      "ja-lex-1bd2dcbf8f1d6d12eec8",
+      "ja-lex-44dc00ef741ce24cb14c"
+    ],
+    "dimensions": [
+      "Japanese naturalness",
+      "English and Korean sentence fidelity",
+      "all supplied extra-language sentence translations",
+      "German meaning gloss where supplied",
+      "selected sense and part of speech",
+      "reading where relevant",
+      "focus and current Cloze eligibility"
+    ]
+  },
+  "summary": {
+    "actionableFindingGroups": 6,
+    "rowsWithActionableFindings": 9,
+    "optionalSuggestions": 2,
+    "rowsWithoutRecordedFindingsOrSuggestions": 109,
+    "sampleFocusEligibleBeforeFixes": 116,
+    "sampleFocusExcludedBeforeFixes": 4
+  },
+  "findings": [
+    {
+      "findingId": "JA-PEER-001",
+      "priority": "high",
+      "category": "pronunciation-and-alias",
+      "origin": "inherited-core-metadata-not-updated-by-correction",
+      "affected": [
+        {
+          "id": "ja-lex-3fa31b89fc90f15bb958",
+          "sourceIndexZeroBased": 159,
+          "sourceLineOneBased": 160,
+          "word": "件"
+        }
+      ],
+      "finding": "The existing correction changes 件 to matter/case, and 先日の件 uses けん. The study entry still teaches くだり and accepts only くだり as a reading alias. That reading belongs to another lexical use.",
+      "observed": {
+        "pronunciation": "くだり",
+        "aliases": [
+          "くだり"
+        ]
+      },
+      "suggestedCorrection": {
+        "id": "ja-lex-3fa31b89fc90f15bb958",
+        "pronunciation": "けん",
+        "aliases": [
+          "けん"
+        ],
+        "meaningEn": "a matter; an affair; a case",
+        "meaningKo": "건; 일이나 사안",
+        "meanings": {
+          "de": "Angelegenheit; Sache; Fall",
+          "es": "asunto; cuestión; caso",
+          "fr": "affaire; question; cas",
+          "zh": "事情；事项；案件"
+        },
+        "reason": "The selected matter/case noun 件 is read けん, as verified in Kanjipedia and Shogakukan Digital Daijisen. Replace the inherited passage-reading alias くだり for this selected sense.",
+        "provenance": {
+          "kind": "editorial-sense-correction",
+          "license": "CC-BY-SA-4.0",
+          "review": "AI-assisted; native-review-pending"
+        }
+      },
+      "sources": [
+        {
+          "title": "Kanjipedia — 件 (Japan Kanji Aptitude Testing Foundation; dictionary entry)",
+          "url": "https://www.kanjipedia.jp/kanji/0001895200/",
+          "supports": "Lists the on-reading ケン and the matter/affair meaning."
+        },
+        {
+          "title": "Shogakukan Digital Daijisen — 件, けん noun section (hosted by Kotobank)",
+          "url": "https://kotobank.jp/word/%E4%BB%B6-483869",
+          "supports": "Separates the けん matter/case noun from くだり passage and くだん usages. The selected example belongs to けん."
+        }
+      ],
+      "exampleChangeNeeded": false,
+      "implementationNote": "At review time, applyEntryCorrection copied only word/partOfSpeech/article/level and grammar; pronunciation and aliases need supported correction handling. Root has acknowledged this implementation task.",
+      "status": "correction applied; native-review-pending"
+    },
+    {
+      "findingId": "JA-PEER-002",
+      "priority": "high",
+      "category": "pronunciation-and-sense",
+      "origin": "inherited-core-reading-and-gloss",
+      "affected": [
+        {
+          "id": "ja-lex-a9c842bd89541a80ed5c",
+          "sourceIndexZeroBased": 971,
+          "sourceLineOneBased": 972,
+          "word": "辺"
+        }
+      ],
+      "finding": "The authored sentence uses a side of a quadrilateral. Geometric 辺 is へん, not inherited へ; the general perimeter/outer-edge gloss should become the selected geometric side sense.",
+      "observed": {
+        "pronunciation": "へ",
+        "aliases": [
+          "へ"
+        ],
+        "example": "四角形の一つの辺を赤く塗りました。"
+      },
+      "suggestedCorrection": {
+        "id": "ja-lex-a9c842bd89541a80ed5c",
+        "pronunciation": "へん",
+        "aliases": [
+          "へん"
+        ],
+        "meaningEn": "a side of a polygon; a line segment forming its boundary",
+        "meaningKo": "변; 다각형의 둘레를 이루는 선분",
+        "meanings": {
+          "de": "Seite eines Vielecks; eine begrenzende Strecke",
+          "es": "lado de un polígono; segmento que forma su contorno",
+          "fr": "côté d’un polygone ; segment qui en forme le contour",
+          "zh": "多边形的边；构成其边界的线段"
+        },
+        "reason": "The selected geometric noun 辺 is read へん. Kanjipedia and Shogakukan Digital Daijisen distinguish this polygon-side sense from other edge/vicinity readings.",
+        "provenance": {
+          "kind": "editorial-sense-correction",
+          "license": "CC-BY-SA-4.0",
+          "review": "AI-assisted; native-review-pending"
+        }
+      },
+      "sources": [
+        {
+          "title": "Kanjipedia — 辺 (Japan Kanji Aptitude Testing Foundation; dictionary entry)",
+          "url": "https://www.kanjipedia.jp/kanji/0006256500",
+          "supports": "Lists ヘン and meaning 5: the line segments forming a polygon."
+        },
+        {
+          "title": "Shogakukan Digital Daijisen — 辺, へん sense 6 (hosted by Kotobank)",
+          "url": "https://kotobank.jp/word/%E8%BE%BA-623666",
+          "supports": "The へん headword includes the geometric line-segment or ray sense. This supports polygon-side usage in the authored example."
+        }
+      ],
+      "exampleChangeNeeded": false,
+      "implementationNote": "Apply pronunciation and aliases through the corrected-entry pipeline and retain the authored sentence.",
+      "status": "correction applied; native-review-pending"
+    },
+    {
+      "findingId": "JA-PEER-003",
+      "priority": "medium",
+      "category": "cloze-focus",
+      "origin": "authored-example-metadata",
+      "affected": [
+        {
+          "id": "ja-lex-93f6f1a601471c55d614",
+          "sourceIndexZeroBased": 8,
+          "sourceLineOneBased": 9,
+          "word": "それ"
+        },
+        {
+          "id": "ja-lex-29322bea594568ba8535",
+          "sourceIndexZeroBased": 13,
+          "sourceLineOneBased": 14,
+          "word": "思う"
+        },
+        {
+          "id": "ja-lex-8a390ca127b951a80f8f",
+          "sourceIndexZeroBased": 322,
+          "sourceLineOneBased": 323,
+          "word": "長い"
+        },
+        {
+          "id": "ja-lex-9652bc040d5027e1282b",
+          "sourceIndexZeroBased": 776,
+          "sourceLineOneBased": 777,
+          "word": "残る"
+        }
+      ],
+      "finding": "The current findSentenceFocus implementation returns null for these four sampled examples on Node 26.11.1 / ICU 78.3. Three targets are inflected; それ is grouped with なら by the segmenter. These valid sentences need explicit focus to enter Cloze.",
+      "suggestedExamplePatches": [
+        {
+          "id": "ja-lex-93f6f1a601471c55d614",
+          "focus": {
+            "text": "それ",
+            "start": 10
+          }
+        },
+        {
+          "id": "ja-lex-29322bea594568ba8535",
+          "focus": {
+            "text": "思います",
+            "start": 9
+          }
+        },
+        {
+          "id": "ja-lex-8a390ca127b951a80f8f",
+          "focus": {
+            "text": "長すぎる",
+            "start": 5
+          }
+        },
+        {
+          "id": "ja-lex-9652bc040d5027e1282b",
+          "focus": {
+            "text": "残った",
+            "start": 5
+          }
+        }
+      ],
+      "validation": "All four suggested spans occur once and match the specified offsets. Offsets here are identical in Unicode code points and UTF-16 because the prefixes contain only BMP characters.",
+      "sourceCode": "web/js/shared/lexicon-sentences.js:17",
+      "translationsChangeNeeded": false
+    },
+    {
+      "findingId": "JA-PEER-004",
+      "priority": "medium",
+      "category": "definition-alignment",
+      "origin": "inherited-explanation-gloss",
+      "affected": [
+        {
+          "id": "ja-lex-e5d8c5dee6f613bc4773",
+          "sourceIndexZeroBased": 1523,
+          "sourceLineOneBased": 1524,
+          "word": "せめて"
+        }
+      ],
+      "finding": "The sentence correctly uses せめて as at least / the minimum hoped for. The inherited English Even in the worst case and Korean 가장 나쁜 경우라고 하더라도 do not teach that minimum-request sense. All four extra sentence translations and meaningDe already express the correct sense.",
+      "suggestedCorrection": {
+        "id": "ja-lex-e5d8c5dee6f613bc4773",
+        "meaningEn": "at least; expressing the minimum one hopes for or asks for",
+        "meaningKo": "적어도; 최소한; 바라는 가장 작은 정도를 나타내는 말",
+        "meanings": {
+          "de": "wenigstens; zumindest; das erhoffte Mindestmaß",
+          "es": "al menos; por lo menos; el mínimo que se desea o pide",
+          "fr": "au moins ; le minimum que l’on espère ou demande",
+          "zh": "至少；起码；表示希望或要求的最低限度"
+        },
+        "reason": "Align the inherited definition with the minimum-request sense of せめて used naturally in the authored example.",
+        "provenance": {
+          "kind": "editorial-sense-correction",
+          "license": "CC-BY-SA-4.0",
+          "review": "AI-assisted; native-review-pending"
+        }
+      },
+      "exampleChangeNeeded": false,
+      "status": "correction applied; native-review-pending"
+    },
+    {
+      "findingId": "JA-PEER-005",
+      "priority": "medium",
+      "category": "definition-alignment",
+      "origin": "inherited-English-gloss",
+      "affected": [
+        {
+          "id": "ja-lex-0a3c1797c966e3548f40",
+          "sourceIndexZeroBased": 1967,
+          "sourceLineOneBased": 1968,
+          "word": "枝"
+        }
+      ],
+      "finding": "The English gloss requires a twig to have broken off, while the Korean definition and the perched-bird sentence describe a branch growing from the plant. Being detached is not part of this sense of 枝.",
+      "suggestedCorrection": {
+        "id": "ja-lex-0a3c1797c966e3548f40",
+        "meaningEn": "a branch or twig growing from the trunk or a larger branch of a plant",
+        "meaningKo": "가지; 식물의 큰 줄기나 굵은 가지에서 뻗어 나온 줄기",
+        "meanings": {
+          "de": "Ast; Zweig einer Pflanze",
+          "es": "rama; tallo que sale del tronco o de otra rama",
+          "fr": "branche ; rameau issu du tronc ou d’une autre branche",
+          "zh": "树枝；从主干或较大枝条长出的部分"
+        },
+        "reason": "Remove the incorrect broken-off requirement from the inherited English gloss; retain the attached-branch usage in the example.",
+        "provenance": {
+          "kind": "editorial-sense-correction",
+          "license": "CC-BY-SA-4.0",
+          "review": "AI-assisted; native-review-pending"
+        }
+      },
+      "exampleChangeNeeded": false,
+      "status": "correction applied; native-review-pending"
+    },
+    {
+      "findingId": "JA-PEER-006",
+      "priority": "medium",
+      "category": "example-quality",
+      "origin": "authored-example",
+      "affected": [
+        {
+          "id": "ja-lex-3bce14f8a389c120bafe",
+          "sourceIndexZeroBased": 16,
+          "sourceLineOneBased": 17,
+          "word": "二"
+        }
+      ],
+      "finding": "The example One plus one makes two directly restates the entry definition The number that is the sum of one and one. It is grammatically correct but falls short of the authoring requirement to supply a contextual example rather than paraphrase the definition.",
+      "suggestedExamplePatch": {
+        "id": "ja-lex-3bce14f8a389c120bafe",
+        "text": "番号札に「二」と書かれていました。",
+        "en": "The numbered ticket was marked “two”.",
+        "ko": "번호표에 ‘이’라고 적혀 있었어요.",
+        "focus": {
+          "text": "二",
+          "start": 5
+        }
+      },
+      "note": "This is a content-quality finding, not a claim that the original arithmetic or Japanese grammar is wrong."
+    }
+  ],
+  "suggestions": [
+    {
+      "findingId": "JA-PEER-S01",
+      "priority": "low",
+      "category": "standalone-target-clarity",
+      "affected": [
+        {
+          "id": "ja-lex-01a67f8b54de50a26ab7",
+          "sourceIndexZeroBased": 7,
+          "sourceLineOneBased": 8,
+          "word": "中"
+        }
+      ],
+      "finding": "The target 中 is embedded in 中ほど. The segmenter still offers 中 as a Cloze answer, but this is less transparent for a beginner than an independent noun use. The phrasing about the middle of two chairs is also less direct than the ordinary 間 expression.",
+      "suggestedExamplePatch": {
+        "id": "ja-lex-01a67f8b54de50a26ab7",
+        "text": "箱の中に小さな時計があります。",
+        "en": "There is a small clock inside the box.",
+        "ko": "상자 안에 작은 시계가 있어요.",
+        "focus": {
+          "text": "中",
+          "start": 2
+        }
+      },
+      "requiredCompanionSenseUpdate": {
+        "meaningEn": "the inside or interior of something",
+        "meaningKo": "안; 어떤 것의 내부",
+        "meanings": {
+          "de": "Inneres; Innenraum",
+          "es": "interior; parte de dentro",
+          "fr": "intérieur",
+          "zh": "里面；内部"
+        }
+      },
+      "note": "Optional clarity rewrite. If adopted, update the selected sense alongside the sentence rather than silently switching a between/middle gloss to an inside example."
+    },
+    {
+      "findingId": "JA-PEER-S02",
+      "priority": "low",
+      "category": "translation-ambiguity",
+      "affected": [
+        {
+          "id": "ja-lex-8d1448619cc3e11fbdf7",
+          "sourceIndexZeroBased": 1686,
+          "sourceLineOneBased": 1687,
+          "word": "一族"
+        }
+      ],
+      "finding": "Korean 설 can suggest Lunar New Year, while the Japanese 正月 and other translations leave the statement as New Year. A calendar-neutral 새해 avoids an unnecessary cultural assumption.",
+      "suggestedExamplePatch": {
+        "id": "ja-lex-8d1448619cc3e11fbdf7",
+        "ko": "새해에 온 집안 식구가 할아버지 댁에 모였어요."
+      },
+      "note": "This is an ambiguity-reduction suggestion, not a claim that 설 can never translate 正月."
+    }
+  ],
+  "structuralChecks": {
+    "node": "v26.11.1",
+    "authoredRows": 1977,
+    "correctionRows": 71,
+    "uniqueExampleIds": 1977,
+    "uniqueExampleTexts": 1977,
+    "uniqueCorrectionIds": 71,
+    "examplesMissingAdditionalTranslations": 1234,
+    "errors": []
+  },
+  "focusRuntime": {
+    "node": "v26.11.1",
+    "icu": "78.3"
+  },
+  "reviewedIds": [
+    "ja-lex-bf34024de345f475795e",
+    "ja-lex-fc502a30a393838adcbb",
+    "ja-lex-59e66b2b0874df7ad4cb",
+    "ja-lex-e7bca3f3208cb6d1cc02",
+    "ja-lex-a012e461123dc66cc425",
+    "ja-lex-b13a7d4133d421abc7c3",
+    "ja-lex-d00438c90bd070ba0664",
+    "ja-lex-01a67f8b54de50a26ab7",
+    "ja-lex-93f6f1a601471c55d614",
+    "ja-lex-fea38afed227ffde092e",
+    "ja-lex-120b88295260f7d1337f",
+    "ja-lex-d5557c6be9380a183297",
+    "ja-lex-9c6bb96146dac8498c78",
+    "ja-lex-29322bea594568ba8535",
+    "ja-lex-ba0186260f5f8fb4a526",
+    "ja-lex-2c93daa8ecdc1a826eff",
+    "ja-lex-3bce14f8a389c120bafe",
+    "ja-lex-977ca9d65cd88f92f61c",
+    "ja-lex-bb7a2dbdc6da6323c02d",
+    "ja-lex-bcd0ecd8e59ce081e2c0",
+    "ja-lex-a63cd9c58f9cd087fe11",
+    "ja-lex-07d2e56cc9e491c0f4d0",
+    "ja-lex-85a28e1683cdc0d09603",
+    "ja-lex-ba2ce05bc3f8d519dc45",
+    "ja-lex-9e16b7663d12f9486ec2",
+    "ja-lex-0d592e7e268f87e47f5d",
+    "ja-lex-e87c5f023f128dd66a0e",
+    "ja-lex-fe28165a0a3e930d27d2",
+    "ja-lex-bae8cac5078fced49663",
+    "ja-lex-e2cf8e1421bdca4ddae2",
+    "ja-lex-6c738e43c2f92c50c0e6",
+    "ja-lex-c4eba3cc3d6339ded729",
+    "ja-lex-f67ef4e0dbc4b49ee7d8",
+    "ja-lex-bd2ac056cb6ff2a4576c",
+    "ja-lex-3fa31b89fc90f15bb958",
+    "ja-lex-fdd59f518f10d03d5b2c",
+    "ja-lex-6779b097648b8a428721",
+    "ja-lex-c49fa23a8f3d4e7d25c1",
+    "ja-lex-63d420fca4c57f830d90",
+    "ja-lex-8a390ca127b951a80f8f",
+    "ja-lex-b505bd3217d3575f105e",
+    "ja-lex-be8ee6186d00bafa7a11",
+    "ja-lex-002726005769444c8cc7",
+    "ja-lex-c73ad013a1f730613ba4",
+    "ja-lex-61d07d1186fe57ce4203",
+    "ja-lex-202b045a7fd4ee4355c0",
+    "ja-lex-fccb31f923f163e47077",
+    "ja-lex-6f756243dc8b2684e1c5",
+    "ja-lex-7a99f5204fadb1321dad",
+    "ja-lex-e58863ab9ba475afa5ba",
+    "ja-lex-d4fd92e0e9f957d620f7",
+    "ja-lex-d6f2bcfeb51672a2114f",
+    "ja-lex-e5d0adfd66cb952d79a3",
+    "ja-lex-9652bc040d5027e1282b",
+    "ja-lex-56d20bf21b4e215d3a97",
+    "ja-lex-d9f1ec7acb8ebcbe3885",
+    "ja-lex-83a7555f3c37437e08ce",
+    "ja-lex-691f8a568bd4935fe969",
+    "ja-lex-1a0d9d90d868db4efbcc",
+    "ja-lex-a9c842bd89541a80ed5c",
+    "ja-lex-138c7197c17879d9711f",
+    "ja-lex-6453879a1eb3e132b39f",
+    "ja-lex-3b3a66491a835e993fe0",
+    "ja-lex-d6f29b28a8e227d4f50e",
+    "ja-lex-18b1333aee2145f5a85f",
+    "ja-lex-d3b2ae6224364a500616",
+    "ja-lex-ffbe8dc44bc8397cd733",
+    "ja-lex-fd9203642e2b871541dd",
+    "ja-lex-eb52315deb1151ea2db3",
+    "ja-lex-cdd8186a6791c9389571",
+    "ja-lex-d7992fa4f8b7ae8439a7",
+    "ja-lex-c48d97614ec8e8f64c23",
+    "ja-lex-1bd2dcbf8f1d6d12eec8",
+    "ja-lex-110fd77cd80276c6867e",
+    "ja-lex-7eb66a3bdd9945e761c5",
+    "ja-lex-cb9fe76fae6c930f31a9",
+    "ja-lex-e5d8c5dee6f613bc4773",
+    "ja-lex-07db15c7b0230b058da7",
+    "ja-lex-6abb9794d6b90ad312c1",
+    "ja-lex-8f7216b5b58804aec37a",
+    "ja-lex-010d94301c7f0abb6f06",
+    "ja-lex-8d1448619cc3e11fbdf7",
+    "ja-lex-86c67056694e2ca7bf82",
+    "ja-lex-afc6945e89c121cb9138",
+    "ja-lex-6d510b16130cc6b33c7a",
+    "ja-lex-40729954b84f40b30e65",
+    "ja-lex-e1ddb3514e43bf71b070",
+    "ja-lex-afdbc30582a386326179",
+    "ja-lex-44dc00ef741ce24cb14c",
+    "ja-lex-bce53d18e81482bc0bf9",
+    "ja-lex-dc90fb5dd043fc3a965b",
+    "ja-lex-18724a3598f9bdd49af6",
+    "ja-lex-b8cf0f28ed9166d71025",
+    "ja-lex-69d65274bafc0c8fcff4",
+    "ja-lex-03fda8c921ffeecc1df2",
+    "ja-lex-42025a981e424f1e37c4",
+    "ja-lex-1006c5f11f1c12ccbef5",
+    "ja-lex-6376c6ffabea3d1dcc7f",
+    "ja-lex-32c57d839389ad5150a6",
+    "ja-lex-24b66554f2e1cfdf697b",
+    "ja-lex-b9023f547b0c00f1358d",
+    "ja-lex-38d0f9161f83ae0bf1c7",
+    "ja-lex-7d9c723395083132cbdc",
+    "ja-lex-68a7c89252a48f78a0c4",
+    "ja-lex-2fc24052ae1800cb2d95",
+    "ja-lex-57eeab466246198ebe7c",
+    "ja-lex-9bb78dbfed8ff7547420",
+    "ja-lex-9a2da367fec8b41ef493",
+    "ja-lex-bb6f851e2b8e4caf8c6c",
+    "ja-lex-82a4eaaa680275afc7cf",
+    "ja-lex-0a3c1797c966e3548f40",
+    "ja-lex-4115fc49bc58c0b74cec",
+    "ja-lex-f79604ab3f0cf7f4b837",
+    "ja-lex-a22cfdd8144d176d2ff3",
+    "ja-lex-deeee32eddde2e235a5f",
+    "ja-lex-5de2d17979bed894b7fc",
+    "ja-lex-ae020dca4dee2e0e6459",
+    "ja-lex-898bc760cd7c30c80a4e",
+    "ja-lex-1fff5769144538b73653",
+    "ja-lex-85ec712f73cfc4ef0a18"
+  ],
+  "reviewedRows": [
+    {
+      "id": "ja-lex-bf34024de345f475795e",
+      "word": "人",
+      "sourceIndexZeroBased": 0,
+      "sourceLineOneBased": 1,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-fc502a30a393838adcbb",
+      "word": "日",
+      "sourceIndexZeroBased": 1,
+      "sourceLineOneBased": 2,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-59e66b2b0874df7ad4cb",
+      "word": "そう",
+      "sourceIndexZeroBased": 2,
+      "sourceLineOneBased": 3,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e7bca3f3208cb6d1cc02",
+      "word": "これ",
+      "sourceIndexZeroBased": 3,
+      "sourceLineOneBased": 4,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-a012e461123dc66cc425",
+      "word": "年",
+      "sourceIndexZeroBased": 4,
+      "sourceLineOneBased": 5,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-b13a7d4133d421abc7c3",
+      "word": "者",
+      "sourceIndexZeroBased": 5,
+      "sourceLineOneBased": 6,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d00438c90bd070ba0664",
+      "word": "月",
+      "sourceIndexZeroBased": 6,
+      "sourceLineOneBased": 7,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-01a67f8b54de50a26ab7",
+      "word": "中",
+      "sourceIndexZeroBased": 7,
+      "sourceLineOneBased": 8,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-S01"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-93f6f1a601471c55d614",
+      "word": "それ",
+      "sourceIndexZeroBased": 8,
+      "sourceLineOneBased": 9,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-003"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-fea38afed227ffde092e",
+      "word": "何",
+      "sourceIndexZeroBased": 9,
+      "sourceLineOneBased": 10,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-120b88295260f7d1337f",
+      "word": "何",
+      "sourceIndexZeroBased": 10,
+      "sourceLineOneBased": 11,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d5557c6be9380a183297",
+      "word": "一",
+      "sourceIndexZeroBased": 11,
+      "sourceLineOneBased": 12,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-9c6bb96146dac8498c78",
+      "word": "今",
+      "sourceIndexZeroBased": 12,
+      "sourceLineOneBased": 13,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-29322bea594568ba8535",
+      "word": "思う",
+      "sourceIndexZeroBased": 13,
+      "sourceLineOneBased": 14,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-003"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-ba0186260f5f8fb4a526",
+      "word": "家",
+      "sourceIndexZeroBased": 14,
+      "sourceLineOneBased": 15,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-2c93daa8ecdc1a826eff",
+      "word": "円",
+      "sourceIndexZeroBased": 15,
+      "sourceLineOneBased": 16,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-3bce14f8a389c120bafe",
+      "word": "二",
+      "sourceIndexZeroBased": 16,
+      "sourceLineOneBased": 17,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-006"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-977ca9d65cd88f92f61c",
+      "word": "良い",
+      "sourceIndexZeroBased": 17,
+      "sourceLineOneBased": 18,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bb7a2dbdc6da6323c02d",
+      "word": "ここ",
+      "sourceIndexZeroBased": 18,
+      "sourceLineOneBased": 19,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bcd0ecd8e59ce081e2c0",
+      "word": "性",
+      "sourceIndexZeroBased": 19,
+      "sourceLineOneBased": 20,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-a63cd9c58f9cd087fe11",
+      "word": "上",
+      "sourceIndexZeroBased": 20,
+      "sourceLineOneBased": 21,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-07d2e56cc9e491c0f4d0",
+      "word": "回",
+      "sourceIndexZeroBased": 21,
+      "sourceLineOneBased": 22,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-85a28e1683cdc0d09603",
+      "word": "考え",
+      "sourceIndexZeroBased": 22,
+      "sourceLineOneBased": 23,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-ba2ce05bc3f8d519dc45",
+      "word": "感じ",
+      "sourceIndexZeroBased": 23,
+      "sourceLineOneBased": 24,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-9e16b7663d12f9486ec2",
+      "word": "必要",
+      "sourceIndexZeroBased": 24,
+      "sourceLineOneBased": 25,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-0d592e7e268f87e47f5d",
+      "word": "ああ",
+      "sourceIndexZeroBased": 25,
+      "sourceLineOneBased": 26,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e87c5f023f128dd66a0e",
+      "word": "市",
+      "sourceIndexZeroBased": 26,
+      "sourceLineOneBased": 27,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-fe28165a0a3e930d27d2",
+      "word": "度",
+      "sourceIndexZeroBased": 27,
+      "sourceLineOneBased": 28,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bae8cac5078fced49663",
+      "word": "みんな",
+      "sourceIndexZeroBased": 28,
+      "sourceLineOneBased": 29,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e2cf8e1421bdca4ddae2",
+      "word": "ゲーム",
+      "sourceIndexZeroBased": 29,
+      "sourceLineOneBased": 30,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6c738e43c2f92c50c0e6",
+      "word": "思い",
+      "sourceIndexZeroBased": 30,
+      "sourceLineOneBased": 31,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-c4eba3cc3d6339ded729",
+      "word": "代",
+      "sourceIndexZeroBased": 62,
+      "sourceLineOneBased": 63,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-f67ef4e0dbc4b49ee7d8",
+      "word": "得",
+      "sourceIndexZeroBased": 94,
+      "sourceLineOneBased": 95,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bd2ac056cb6ff2a4576c",
+      "word": "発表",
+      "sourceIndexZeroBased": 127,
+      "sourceLineOneBased": 128,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-3fa31b89fc90f15bb958",
+      "word": "件",
+      "sourceIndexZeroBased": 159,
+      "sourceLineOneBased": 160,
+      "correctionReviewed": true,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-001"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-fdd59f518f10d03d5b2c",
+      "word": "最終",
+      "sourceIndexZeroBased": 192,
+      "sourceLineOneBased": 193,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6779b097648b8a428721",
+      "word": "絵",
+      "sourceIndexZeroBased": 224,
+      "sourceLineOneBased": 225,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-c49fa23a8f3d4e7d25c1",
+      "word": "保護",
+      "sourceIndexZeroBased": 257,
+      "sourceLineOneBased": 258,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-63d420fca4c57f830d90",
+      "word": "自然",
+      "sourceIndexZeroBased": 289,
+      "sourceLineOneBased": 290,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-8a390ca127b951a80f8f",
+      "word": "長い",
+      "sourceIndexZeroBased": 322,
+      "sourceLineOneBased": 323,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-003"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-b505bd3217d3575f105e",
+      "word": "役",
+      "sourceIndexZeroBased": 354,
+      "sourceLineOneBased": 355,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-be8ee6186d00bafa7a11",
+      "word": "機関",
+      "sourceIndexZeroBased": 387,
+      "sourceLineOneBased": 388,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-002726005769444c8cc7",
+      "word": "小説",
+      "sourceIndexZeroBased": 419,
+      "sourceLineOneBased": 420,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-c73ad013a1f730613ba4",
+      "word": "ママ",
+      "sourceIndexZeroBased": 452,
+      "sourceLineOneBased": 453,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-61d07d1186fe57ce4203",
+      "word": "そろそろ",
+      "sourceIndexZeroBased": 484,
+      "sourceLineOneBased": 485,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-202b045a7fd4ee4355c0",
+      "word": "どんどん",
+      "sourceIndexZeroBased": 517,
+      "sourceLineOneBased": 518,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-fccb31f923f163e47077",
+      "word": "支配",
+      "sourceIndexZeroBased": 549,
+      "sourceLineOneBased": 550,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6f756243dc8b2684e1c5",
+      "word": "ダンス",
+      "sourceIndexZeroBased": 582,
+      "sourceLineOneBased": 583,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-7a99f5204fadb1321dad",
+      "word": "到着",
+      "sourceIndexZeroBased": 614,
+      "sourceLineOneBased": 615,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e58863ab9ba475afa5ba",
+      "word": "法人",
+      "sourceIndexZeroBased": 647,
+      "sourceLineOneBased": 648,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d4fd92e0e9f957d620f7",
+      "word": "接続",
+      "sourceIndexZeroBased": 679,
+      "sourceLineOneBased": 680,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d6f2bcfeb51672a2114f",
+      "word": "閲覧",
+      "sourceIndexZeroBased": 711,
+      "sourceLineOneBased": 712,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e5d0adfd66cb952d79a3",
+      "word": "お腹",
+      "sourceIndexZeroBased": 744,
+      "sourceLineOneBased": 745,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-9652bc040d5027e1282b",
+      "word": "残る",
+      "sourceIndexZeroBased": 776,
+      "sourceLineOneBased": 777,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-003"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-56d20bf21b4e215d3a97",
+      "word": "診断",
+      "sourceIndexZeroBased": 809,
+      "sourceLineOneBased": 810,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d9f1ec7acb8ebcbe3885",
+      "word": "案",
+      "sourceIndexZeroBased": 841,
+      "sourceLineOneBased": 842,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-83a7555f3c37437e08ce",
+      "word": "衝撃",
+      "sourceIndexZeroBased": 874,
+      "sourceLineOneBased": 875,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-691f8a568bd4935fe969",
+      "word": "殺す",
+      "sourceIndexZeroBased": 906,
+      "sourceLineOneBased": 907,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-1a0d9d90d868db4efbcc",
+      "word": "荷物",
+      "sourceIndexZeroBased": 939,
+      "sourceLineOneBased": 940,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-a9c842bd89541a80ed5c",
+      "word": "辺",
+      "sourceIndexZeroBased": 971,
+      "sourceLineOneBased": 972,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [
+        "JA-PEER-002"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-138c7197c17879d9711f",
+      "word": "報酬",
+      "sourceIndexZeroBased": 1004,
+      "sourceLineOneBased": 1005,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6453879a1eb3e132b39f",
+      "word": "歌詞",
+      "sourceIndexZeroBased": 1036,
+      "sourceLineOneBased": 1037,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-3b3a66491a835e993fe0",
+      "word": "化学",
+      "sourceIndexZeroBased": 1069,
+      "sourceLineOneBased": 1070,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d6f29b28a8e227d4f50e",
+      "word": "縁",
+      "sourceIndexZeroBased": 1101,
+      "sourceLineOneBased": 1102,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-18b1333aee2145f5a85f",
+      "word": "回数",
+      "sourceIndexZeroBased": 1134,
+      "sourceLineOneBased": 1135,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d3b2ae6224364a500616",
+      "word": "遠い",
+      "sourceIndexZeroBased": 1166,
+      "sourceLineOneBased": 1167,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-ffbe8dc44bc8397cd733",
+      "word": "違法",
+      "sourceIndexZeroBased": 1199,
+      "sourceLineOneBased": 1200,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-fd9203642e2b871541dd",
+      "word": "競馬",
+      "sourceIndexZeroBased": 1231,
+      "sourceLineOneBased": 1232,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-eb52315deb1151ea2db3",
+      "word": "パー",
+      "sourceIndexZeroBased": 1264,
+      "sourceLineOneBased": 1265,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-cdd8186a6791c9389571",
+      "word": "爪",
+      "sourceIndexZeroBased": 1296,
+      "sourceLineOneBased": 1297,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-d7992fa4f8b7ae8439a7",
+      "word": "ナイト",
+      "sourceIndexZeroBased": 1328,
+      "sourceLineOneBased": 1329,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-c48d97614ec8e8f64c23",
+      "word": "ギフト",
+      "sourceIndexZeroBased": 1361,
+      "sourceLineOneBased": 1362,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-1bd2dcbf8f1d6d12eec8",
+      "word": "アピール",
+      "sourceIndexZeroBased": 1393,
+      "sourceLineOneBased": 1394,
+      "correctionReviewed": true,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-110fd77cd80276c6867e",
+      "word": "コミュニケーション",
+      "sourceIndexZeroBased": 1426,
+      "sourceLineOneBased": 1427,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-7eb66a3bdd9945e761c5",
+      "word": "塗り",
+      "sourceIndexZeroBased": 1458,
+      "sourceLineOneBased": 1459,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-cb9fe76fae6c930f31a9",
+      "word": "汚染",
+      "sourceIndexZeroBased": 1491,
+      "sourceLineOneBased": 1492,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e5d8c5dee6f613bc4773",
+      "word": "せめて",
+      "sourceIndexZeroBased": 1523,
+      "sourceLineOneBased": 1524,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [
+        "JA-PEER-004"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-07db15c7b0230b058da7",
+      "word": "反省",
+      "sourceIndexZeroBased": 1556,
+      "sourceLineOneBased": 1557,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6abb9794d6b90ad312c1",
+      "word": "糸",
+      "sourceIndexZeroBased": 1588,
+      "sourceLineOneBased": 1589,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-8f7216b5b58804aec37a",
+      "word": "皮膚",
+      "sourceIndexZeroBased": 1621,
+      "sourceLineOneBased": 1622,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-010d94301c7f0abb6f06",
+      "word": "集める",
+      "sourceIndexZeroBased": 1653,
+      "sourceLineOneBased": 1654,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-8d1448619cc3e11fbdf7",
+      "word": "一族",
+      "sourceIndexZeroBased": 1686,
+      "sourceLineOneBased": 1687,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [
+        "JA-PEER-S02"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-86c67056694e2ca7bf82",
+      "word": "処刑",
+      "sourceIndexZeroBased": 1718,
+      "sourceLineOneBased": 1719,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-afc6945e89c121cb9138",
+      "word": "校長",
+      "sourceIndexZeroBased": 1751,
+      "sourceLineOneBased": 1752,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6d510b16130cc6b33c7a",
+      "word": "結成",
+      "sourceIndexZeroBased": 1783,
+      "sourceLineOneBased": 1784,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-40729954b84f40b30e65",
+      "word": "装着",
+      "sourceIndexZeroBased": 1816,
+      "sourceLineOneBased": 1817,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-e1ddb3514e43bf71b070",
+      "word": "軒",
+      "sourceIndexZeroBased": 1848,
+      "sourceLineOneBased": 1849,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-afdbc30582a386326179",
+      "word": "移植",
+      "sourceIndexZeroBased": 1881,
+      "sourceLineOneBased": 1882,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-44dc00ef741ce24cb14c",
+      "word": "誘惑",
+      "sourceIndexZeroBased": 1913,
+      "sourceLineOneBased": 1914,
+      "correctionReviewed": true,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bce53d18e81482bc0bf9",
+      "word": "遠征",
+      "sourceIndexZeroBased": 1946,
+      "sourceLineOneBased": 1947,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-dc90fb5dd043fc3a965b",
+      "word": "零",
+      "sourceIndexZeroBased": 1947,
+      "sourceLineOneBased": 1948,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-18724a3598f9bdd49af6",
+      "word": "アドレス",
+      "sourceIndexZeroBased": 1948,
+      "sourceLineOneBased": 1949,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-b8cf0f28ed9166d71025",
+      "word": "グルメ",
+      "sourceIndexZeroBased": 1949,
+      "sourceLineOneBased": 1950,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-69d65274bafc0c8fcff4",
+      "word": "チャート",
+      "sourceIndexZeroBased": 1950,
+      "sourceLineOneBased": 1951,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-03fda8c921ffeecc1df2",
+      "word": "パスタ",
+      "sourceIndexZeroBased": 1951,
+      "sourceLineOneBased": 1952,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-42025a981e424f1e37c4",
+      "word": "プロセス",
+      "sourceIndexZeroBased": 1952,
+      "sourceLineOneBased": 1953,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-1006c5f11f1c12ccbef5",
+      "word": "ボート",
+      "sourceIndexZeroBased": 1953,
+      "sourceLineOneBased": 1954,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-6376c6ffabea3d1dcc7f",
+      "word": "兄貴",
+      "sourceIndexZeroBased": 1954,
+      "sourceLineOneBased": 1955,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-32c57d839389ad5150a6",
+      "word": "全般",
+      "sourceIndexZeroBased": 1955,
+      "sourceLineOneBased": 1956,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-24b66554f2e1cfdf697b",
+      "word": "友情",
+      "sourceIndexZeroBased": 1956,
+      "sourceLineOneBased": 1957,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-b9023f547b0c00f1358d",
+      "word": "告発",
+      "sourceIndexZeroBased": 1957,
+      "sourceLineOneBased": 1958,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-38d0f9161f83ae0bf1c7",
+      "word": "売買",
+      "sourceIndexZeroBased": 1958,
+      "sourceLineOneBased": 1959,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-7d9c723395083132cbdc",
+      "word": "射撃",
+      "sourceIndexZeroBased": 1959,
+      "sourceLineOneBased": 1960,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-68a7c89252a48f78a0c4",
+      "word": "帰国",
+      "sourceIndexZeroBased": 1960,
+      "sourceLineOneBased": 1961,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-2fc24052ae1800cb2d95",
+      "word": "改良",
+      "sourceIndexZeroBased": 1961,
+      "sourceLineOneBased": 1962,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-57eeab466246198ebe7c",
+      "word": "整形",
+      "sourceIndexZeroBased": 1962,
+      "sourceLineOneBased": 1963,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-9bb78dbfed8ff7547420",
+      "word": "時給",
+      "sourceIndexZeroBased": 1963,
+      "sourceLineOneBased": 1964,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-9a2da367fec8b41ef493",
+      "word": "暗黒",
+      "sourceIndexZeroBased": 1964,
+      "sourceLineOneBased": 1965,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-bb6f851e2b8e4caf8c6c",
+      "word": "服装",
+      "sourceIndexZeroBased": 1965,
+      "sourceLineOneBased": 1966,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-82a4eaaa680275afc7cf",
+      "word": "果て",
+      "sourceIndexZeroBased": 1966,
+      "sourceLineOneBased": 1967,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-0a3c1797c966e3548f40",
+      "word": "枝",
+      "sourceIndexZeroBased": 1967,
+      "sourceLineOneBased": 1968,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [
+        "JA-PEER-005"
+      ],
+      "result": "action-or-suggestion-recorded"
+    },
+    {
+      "id": "ja-lex-4115fc49bc58c0b74cec",
+      "word": "目立つ",
+      "sourceIndexZeroBased": 1968,
+      "sourceLineOneBased": 1969,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-f79604ab3f0cf7f4b837",
+      "word": "粉",
+      "sourceIndexZeroBased": 1969,
+      "sourceLineOneBased": 1970,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-a22cfdd8144d176d2ff3",
+      "word": "聖書",
+      "sourceIndexZeroBased": 1970,
+      "sourceLineOneBased": 1971,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-deeee32eddde2e235a5f",
+      "word": "花粉",
+      "sourceIndexZeroBased": 1971,
+      "sourceLineOneBased": 1972,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-5de2d17979bed894b7fc",
+      "word": "融合",
+      "sourceIndexZeroBased": 1972,
+      "sourceLineOneBased": 1973,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-ae020dca4dee2e0e6459",
+      "word": "講義",
+      "sourceIndexZeroBased": 1973,
+      "sourceLineOneBased": 1974,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-898bc760cd7c30c80a4e",
+      "word": "階級",
+      "sourceIndexZeroBased": 1974,
+      "sourceLineOneBased": 1975,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-1fff5769144538b73653",
+      "word": "アカデミー",
+      "sourceIndexZeroBased": 1975,
+      "sourceLineOneBased": 1976,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    },
+    {
+      "id": "ja-lex-85ec712f73cfc4ef0a18",
+      "word": "カジノ",
+      "sourceIndexZeroBased": 1976,
+      "sourceLineOneBased": 1977,
+      "correctionReviewed": false,
+      "extraTranslationsReviewed": [
+        "de",
+        "es",
+        "fr",
+        "zh"
+      ],
+      "findingIds": [],
+      "result": "no-actionable-issue-observed-in-this-sample"
+    }
+  ],
+  "limits": [
+    "This is an AI editorial sample review, not native-speaker review or certification.",
+    "Only 120 of 1,977 authored examples received linguistic review. No error-rate estimate for the full population is claimed.",
+    "Only the three correction rows attached to sampled example IDs received linguistic review; the other correction rows were checked structurally only.",
+    "Additional-language sentence translations were reviewed only for the 52 sampled rows that supplied them. Missing pairs were not invented or treated as complete.",
+    "All 1,977 example rows and 71 correction rows passed the repository validators and uniqueness checks; these checks establish structure, not language quality.",
+    "The two pronunciation repairs were checked against dictionary sources. No claim is made that every sampled reading was independently dictionary-verified.",
+    "No recorded issue means none was identified in this pass, not that a row is proven error-free.",
+    "The existing 1,234 rows without all additional translations remain a separate known backfill requirement."
+  ]
+}

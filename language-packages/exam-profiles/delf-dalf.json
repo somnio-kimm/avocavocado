@@ -1,0 +1,9 @@
+{
+  "id": "delf-dalf", "targetLanguage": "fr", "title": "DELF / DALF",
+  "levels": ["A1","A2","B1","B2","C1","C2"],
+  "levelKind": "proficiency-level", "vocabularyMembership": "editorial",
+  "exams": [{"id":"delf","levels":["A1","A2","B1","B2"]},{"id":"dalf","levels":["C1","C2"]}],
+  "notice": {"en": "DELF covers A1–B2 and DALF covers C1–C2. Vocabulary membership is an editorial study selection, not an official exhaustive exam list.", "ko": "DELF는 A1~B2, DALF는 C1~C2에 해당합니다. 어휘는 학습을 위해 편집한 것이며 공식 전체 출제 목록이 아닙니다."},
+  "sources": [{"url":"https://www.france-education-international.fr/hub/diplomes-tests?langue=fr","role":"official DELF/DALF levels"}],
+  "checked": "2026-10-15"
+}

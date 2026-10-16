@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-GB" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="package-catalog" content="/language-packages/catalog.json">
+  <meta name="theme-color" content="#f6f0e5">
+  <title>Learn Language</title>
+  <link id="style-de" rel="stylesheet" href="languages/de/styles.css">
+  <link id="style-zh" rel="stylesheet" href="languages/zh/styles.css" disabled>
+  <link rel="stylesheet" href="study-theme.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lexicon.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div id="shell">
+    <header id="header"><button id="back-btn" aria-label="Back to Study" hidden>‹</button><h1 id="header-title">Learn Language</h1></header>
+    <section id="package-status" aria-live="polite"><p id="status"></p><button id="retry" type="button" hidden>Retry download</button></section>
+    <main id="app" tabindex="-1"></main>
+    <nav id="main-nav" aria-label="Main navigation"></nav>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "id": "dele", "targetLanguage": "es", "title": "DELE",
+  "levels": ["A1","A2","B1","B2","C1","C2"],
+  "levelKind": "proficiency-level", "vocabularyMembership": "editorial",
+  "notice": {"en": "Study vocabulary is organised editorially around the DELE/CEFR level framework. Exam names and level descriptions do not grant permission to copy exam papers or commercial preparation books.", "ko": "DELE·CEFR 단계 체계를 참고하여 어휘를 편집했습니다. 시험 명칭과 단계 안내가 시험지나 상업용 교재를 복제할 수 있다는 뜻은 아닙니다."},
+  "sources": [{"url":"https://examenes.cervantes.es/es/presentacion/dele","role":"official A1–C2 exam levels"},{"url":"https://examenes.cervantes.es/es/dele/como","role":"official assessment structure"}],
+  "checked": "2026-10-15"
+}

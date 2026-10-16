@@ -1,0 +1,1880 @@
+{
+  "status": "AI-editorial-sample-review",
+  "nativeSpeakerReview": false,
+  "reviewer": "independent Japanese-authoring agent",
+  "reviewedAt": "2026-10-15T02:20:29.311652+00:00",
+  "scope": {
+    "authoredExamplesFile": "language-packages/sources/examples/fr-authored.jsonl",
+    "correctionsFile": "language-packages/sources/examples/fr-corrections.jsonl",
+    "sourceExampleCount": 1932,
+    "sourceCorrectionCount": 241,
+    "sourceHashesSha256": {
+      "fr-authored.jsonl": "5fa6b108c8db6fc00440963a17a7a5358b7dc8c6525c439bee30a4dea63f1dcf",
+      "fr-corrections.jsonl": "3985e41798d3118fda4e5eee54d7953245bfc214073bc64550a1fa3b546a4f78"
+    },
+    "sampleSize": 120,
+    "selection": "Zero-based indices: first 30 (0..29), last 30 (N-30..N-1), plus 60 evenly spaced interior rows 30 + round(i*(N-61)/59), i=0..59. Interior sampling prevents overlap and yields exactly 120 distinct rows. Python round is used.",
+    "sourceRowIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      62,
+      93,
+      125,
+      157,
+      189,
+      220,
+      252,
+      284,
+      315,
+      347,
+      379,
+      411,
+      442,
+      474,
+      506,
+      537,
+      569,
+      601,
+      633,
+      664,
+      696,
+      728,
+      759,
+      791,
+      823,
+      855,
+      886,
+      918,
+      950,
+      981,
+      1013,
+      1045,
+      1076,
+      1108,
+      1140,
+      1172,
+      1203,
+      1235,
+      1267,
+      1298,
+      1330,
+      1362,
+      1394,
+      1425,
+      1457,
+      1489,
+      1520,
+      1552,
+      1584,
+      1616,
+      1647,
+      1679,
+      1711,
+      1742,
+      1774,
+      1806,
+      1838,
+      1869,
+      1901,
+      1902,
+      1903,
+      1904,
+      1905,
+      1906,
+      1907,
+      1908,
+      1909,
+      1910,
+      1911,
+      1912,
+      1913,
+      1914,
+      1915,
+      1916,
+      1917,
+      1918,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926,
+      1927,
+      1928,
+      1929,
+      1930,
+      1931
+    ],
+    "checks": [
+      "French grammar and naturalness",
+      "alignment to selected sense after applying linked correction",
+      "EN and KO translation meaning, quantity, negation and tense",
+      "DE ES JA ZH translations and meaningDe where present",
+      "target POS, noun gender and article",
+      "exact focus span and current Cloze resolver eligibility"
+    ],
+    "extraLanguageRowsReviewed": 53,
+    "linkedCorrectionRowsReviewed": 21
+  },
+  "summary": {
+    "findings": 14,
+    "affectedSampleRows": 14,
+    "byCategory": {
+      "part-of-speech": 3,
+      "sense-alignment": 3,
+      "translation-alignment": 1,
+      "translation-aspect": 1,
+      "cloze-focus-backfill": 6
+    },
+    "byPriority": {
+      "P2": 12,
+      "P3": 2
+    },
+    "noActionableFindingInSampleRows": 106,
+    "nounArticleFindingCount": 0,
+    "explicitFocusFailureCount": 0,
+    "legacyInflectionFocusBackfillCount": 6,
+    "inputFilesUnchangedDuringReview": true
+  },
+  "findings": [
+    {
+      "findingId": "FR-PEER-01",
+      "entryId": "fr-lex-50940041759787c30121",
+      "word": "tout",
+      "samplePosition": 8,
+      "sourceLine": 9,
+      "category": "part-of-speech",
+      "priority": "P2",
+      "title": "tout is a pronoun in this sentence",
+      "detail": "The object of ranger is tout, meaning everything. The core labels this ID as an adverb. The sentence and translations are natural, but the POS supplied to learners and exercise grouping does not describe this use.",
+      "observedSentence": "J'ai tout rangé dans le même tiroir.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/fr-core-2.0.0.json",
+          "patchByEntryId": {
+            "partOfSpeech": "pronoun"
+          },
+          "entryId": "fr-lex-50940041759787c30121"
+        },
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "everything; all the things",
+            "meaningKo": "모든 것; 전부",
+            "meanings": {
+              "de": "alles",
+              "es": "todo",
+              "ja": "すべてのもの、全部",
+              "zh": "所有东西；全部"
+            }
+          },
+          "entryId": "fr-lex-50940041759787c30121"
+        }
+      ],
+      "references": [
+        "https://vitrinelinguistique.oqlf.gouv.qc.ca/22911/la-grammaire/les-pronoms/pronoms-indefinis/tout-employe-comme-pronom-indefini"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-02",
+      "entryId": "fr-lex-50199d7fc08e5d5d15bc",
+      "word": "bien",
+      "samplePosition": 13,
+      "sourceLine": 14,
+      "category": "part-of-speech",
+      "priority": "P2",
+      "title": "bien modifies va rather than a noun",
+      "detail": "In tout va bien, bien is an adverb of manner. The entry is labelled adjective. Retaining this natural example requires an adverb entry and an adverbial gloss; if this ID must remain adjectival, author a different adjective-sense example instead.",
+      "observedSentence": "Depuis son retour, tout va bien.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/fr-core-2.0.0.json",
+          "patchByEntryId": {
+            "partOfSpeech": "adverb"
+          },
+          "entryId": "fr-lex-50199d7fc08e5d5d15bc"
+        },
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "well; in a satisfactory way or state",
+            "meaningKo": "잘; 만족스럽게 또는 문제없이",
+            "meanings": {
+              "de": "gut; zufriedenstellend",
+              "es": "bien; satisfactoriamente",
+              "ja": "うまく、問題なく",
+              "zh": "好；顺利"
+            }
+          },
+          "entryId": "fr-lex-50199d7fc08e5d5d15bc"
+        }
+      ],
+      "references": [
+        "https://www.dictionnaire-academie.fr/article/A9B1034"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-03",
+      "entryId": "fr-lex-ee7df8e5b4b2cc66863c",
+      "word": "juste",
+      "samplePosition": 22,
+      "sourceLine": 23,
+      "category": "part-of-speech",
+      "priority": "P2",
+      "title": "juste is adverbial before suffisante",
+      "detail": "Here juste modifies the adjective suffisante, meaning just/exactly enough. It does not realise the adjective POS stored in the core. The preferred fix retains the natural sentence and aligns POS and glosses.",
+      "observedSentence": "Cette quantité de riz est juste suffisante pour nous trois.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/fr-core-2.0.0.json",
+          "patchByEntryId": {
+            "partOfSpeech": "adverb"
+          },
+          "entryId": "fr-lex-ee7df8e5b4b2cc66863c"
+        },
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "just; exactly; no more than needed",
+            "meaningKo": "딱; 정확히 필요한 만큼",
+            "meanings": {
+              "de": "genau; gerade ausreichend",
+              "es": "justo; exactamente",
+              "ja": "ちょうど、必要な分だけ",
+              "zh": "恰好；刚好"
+            }
+          },
+          "entryId": "fr-lex-ee7df8e5b4b2cc66863c"
+        }
+      ],
+      "references": [
+        "https://www.dictionnaire-academie.fr/article/A9J0419"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-04",
+      "entryId": "fr-lex-f24275382598396b3c6f",
+      "word": "sincèrement",
+      "samplePosition": 86,
+      "sourceLine": 1807,
+      "category": "sense-alignment",
+      "priority": "P2",
+      "title": "sincèrement means sincerity, not objective factual correctness",
+      "detail": "The authored sentence and every translation express heartfelt gratitude. The retained EN/KO definition instead describes being consistent with facts or reason. No correction row covers this ID in the reviewed snapshot. Add a sincerity gloss while preserving the example.",
+      "observedSentence": "Je vous remercie sincèrement de votre aide.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "sincerely; honestly and without pretence",
+            "meaningKo": "진심으로; 꾸밈이나 거짓 없이 솔직하게",
+            "meanings": {
+              "de": "aufrichtig; ehrlich",
+              "es": "sinceramente",
+              "ja": "心から、誠実に",
+              "zh": "真诚地；诚恳地"
+            }
+          },
+          "entryId": "fr-lex-f24275382598396b3c6f"
+        }
+      ],
+      "references": [
+        "https://www.dictionnaire-academie.fr/article/A9S1716"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-05",
+      "entryId": "fr-lex-3961cc2ff9b5c959b45b",
+      "word": "entente",
+      "samplePosition": 91,
+      "sourceLine": 1904,
+      "category": "sense-alignment",
+      "priority": "P2",
+      "title": "entente example selects harmonious relations",
+      "detail": "Bonne entente between neighbours is mutual understanding or harmony. The retained definition restricts the word to having the same opinion. The French sentence and translations are good; broaden the selected gloss to include the relational sense used here.",
+      "observedSentence": "Une bonne entente règne entre les voisins.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "mutual understanding; harmonious relations or agreement between people",
+            "meaningKo": "화합, 원만한 관계; 서로 이해하고 잘 지내거나 합의함",
+            "meanings": {
+              "de": "Einvernehmen; gutes Verhältnis",
+              "es": "entendimiento; armonía",
+              "ja": "良好な関係、相互理解、合意",
+              "zh": "融洽关系；相互理解；一致"
+            }
+          },
+          "entryId": "fr-lex-3961cc2ff9b5c959b45b"
+        }
+      ],
+      "references": [
+        "https://www.dictionnaire-academie.fr/article/A9E1842"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-06",
+      "entryId": "fr-lex-5e71b07a95e6e223bb07",
+      "word": "enregistrer",
+      "samplePosition": 113,
+      "sourceLine": 1926,
+      "category": "sense-alignment",
+      "priority": "P2",
+      "title": "Korean enregistrer gloss excludes the audio example",
+      "detail": "The sentence records a song and all translations correctly use audio recording. The original Korean definition says 녹화하거나 녹화물을 복사하다, which restricts the sense to video/copying video. Add an audio-inclusive recording correction.",
+      "observedSentence": "Elle veut enregistrer la chanson sur son ordinateur.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-corrections.jsonl",
+          "patchByEntryId": {
+            "meaningEn": "to record sound or images so they can be played back",
+            "meaningKo": "녹음하다, 녹화하다; 소리나 영상을 기록해 다시 재생할 수 있게 하다",
+            "meanings": {
+              "de": "Ton oder Bilder aufnehmen",
+              "es": "grabar sonidos o imágenes",
+              "ja": "音声や映像を記録する、録音・録画する",
+              "zh": "录制声音或影像"
+            }
+          },
+          "entryId": "fr-lex-5e71b07a95e6e223bb07"
+        }
+      ],
+      "references": [
+        "https://www.dictionnaire-academie.fr/article/A9E1751"
+      ],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-07",
+      "entryId": "fr-lex-d0a2227298525c90b42b",
+      "word": "hygiène",
+      "samplePosition": 95,
+      "sourceLine": 1908,
+      "category": "translation-alignment",
+      "priority": "P3",
+      "title": "Chinese turns necessity into an observed attitude",
+      "detail": "The French says hygiene is essential in this kitchen. The Chinese says the kitchen places great importance on hygiene, asserting a practice or attitude rather than the necessity stated by the source.",
+      "observedSentence": "L'hygiène est essentielle dans cette cuisine.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "translations": {
+              "zh": "在这间厨房，卫生至关重要。"
+            }
+          },
+          "entryId": "fr-lex-d0a2227298525c90b42b"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-08",
+      "entryId": "fr-lex-51b1ea9b0b2b933d97c6",
+      "word": "solo",
+      "samplePosition": 68,
+      "sourceLine": 1236,
+      "category": "translation-aspect",
+      "priority": "P3",
+      "title": "Chinese solo translation adds completed aspect",
+      "detail": "The French, English, Korean and other translations use a present or general action. 演奏了一段 adds a completed-event reading in the standalone Chinese sentence. Prefer an unmarked present/general formulation.",
+      "observedSentence": "Le guitariste joue un solo au milieu du morceau.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "translations": {
+              "zh": "吉他手在乐曲中间演奏一段独奏。"
+            }
+          },
+          "entryId": "fr-lex-51b1ea9b0b2b933d97c6"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-09",
+      "entryId": "fr-lex-3e052bad987db890b396",
+      "word": "fait",
+      "samplePosition": 10,
+      "sourceLine": 11,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus faits",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "Le témoin a décrit les faits à la police.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "faits"
+            }
+          },
+          "entryId": "fr-lex-3e052bad987db890b396"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-10",
+      "entryId": "fr-lex-daef7ae089b3d0b26a39",
+      "word": "jour",
+      "samplePosition": 26,
+      "sourceLine": 27,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus jours",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "La réparation prendra trois jours.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "jours"
+            }
+          },
+          "entryId": "fr-lex-daef7ae089b3d0b26a39"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-11",
+      "entryId": "fr-lex-02767909db15513a50c7",
+      "word": "partie",
+      "samplePosition": 30,
+      "sourceLine": 31,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus parties",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "Nous avons joué deux parties de tennis ce matin.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "parties"
+            }
+          },
+          "entryId": "fr-lex-02767909db15513a50c7"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-12",
+      "entryId": "fr-lex-730deae587127dcce072",
+      "word": "obtenir",
+      "samplePosition": 40,
+      "sourceLine": 348,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus obtenu",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "Elle a obtenu une réponse après plusieurs appels.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "obtenu"
+            }
+          },
+          "entryId": "fr-lex-730deae587127dcce072"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-13",
+      "entryId": "fr-lex-b062754792cafd101ee9",
+      "word": "connaître",
+      "samplePosition": 41,
+      "sourceLine": 380,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus connais",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "Je connais bien ce quartier.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "connais"
+            }
+          },
+          "entryId": "fr-lex-b062754792cafd101ee9"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    },
+    {
+      "findingId": "FR-PEER-14",
+      "entryId": "fr-lex-69bae5d3d2b2cc061ed7",
+      "word": "établir",
+      "samplePosition": 59,
+      "sourceLine": 951,
+      "category": "cloze-focus-backfill",
+      "priority": "P2",
+      "title": "Add the surface-form focus établit",
+      "detail": "The current findSentenceFocus function returns null because the sentence contains an inflected form rather than the lemma and no explicit focus is supplied. The sentence is linguistically valid; add the unique surface span so Cloze can include it.",
+      "observedSentence": "Le vendeur établit une facture à mon nom.",
+      "suggestedChanges": [
+        {
+          "file": "language-packages/sources/examples/fr-authored.jsonl",
+          "patchByEntryId": {
+            "focus": {
+              "text": "établit"
+            }
+          },
+          "entryId": "fr-lex-69bae5d3d2b2cc061ed7"
+        }
+      ],
+      "references": [],
+      "status": "applied in sidecars; immutable source edition unchanged; native-review-pending"
+    }
+  ],
+  "reviewedIds": [
+    "fr-lex-918807af7ade04f6a4be",
+    "fr-lex-86f9f616e2347a400f10",
+    "fr-lex-b8a7228a22af4c7ab69e",
+    "fr-lex-a4ec93f527ec6142586f",
+    "fr-lex-a484d72fc0d6ecb013ca",
+    "fr-lex-26e82a0fc3349ee538a0",
+    "fr-lex-0ae71545328de10c3e2d",
+    "fr-lex-7fc73e53988e8cad04dd",
+    "fr-lex-50940041759787c30121",
+    "fr-lex-ef260a283c6df099b788",
+    "fr-lex-3e052bad987db890b396",
+    "fr-lex-e7426f3314160065cc17",
+    "fr-lex-613d5d41054189e95391",
+    "fr-lex-50199d7fc08e5d5d15bc",
+    "fr-lex-5e14c8154eb48e363b1c",
+    "fr-lex-e29032441cf32d2459cc",
+    "fr-lex-0ca90b75a0d6e9ca3c39",
+    "fr-lex-068ddccd395f9a6fb482",
+    "fr-lex-a89a86693f7644e90109",
+    "fr-lex-737a81d3274ea1249e8e",
+    "fr-lex-30cfd12dfc6c7d26c3a9",
+    "fr-lex-554c4591f99501084a33",
+    "fr-lex-ee7df8e5b4b2cc66863c",
+    "fr-lex-4390985de1d55657a076",
+    "fr-lex-d46d88b82bb66c876edf",
+    "fr-lex-a4f61488ca0a033439ec",
+    "fr-lex-daef7ae089b3d0b26a39",
+    "fr-lex-2ac55e41702eff912ebb",
+    "fr-lex-86e3959011b2618e40c1",
+    "fr-lex-64a2fe77764e7ef4c297",
+    "fr-lex-02767909db15513a50c7",
+    "fr-lex-d11415756adfef8bcaf2",
+    "fr-lex-d49fbde885b54deeabb2",
+    "fr-lex-b15dd485b46f41d69e25",
+    "fr-lex-ee9c04348cdccdd6ec00",
+    "fr-lex-56129357af471b2f878e",
+    "fr-lex-4fb9921306fa2ab8eef5",
+    "fr-lex-b0b2da6534a13686ded8",
+    "fr-lex-4b0c955c516fb66549ee",
+    "fr-lex-928c0e0b586c576b47cd",
+    "fr-lex-730deae587127dcce072",
+    "fr-lex-b062754792cafd101ee9",
+    "fr-lex-d51812baa841e0e73d46",
+    "fr-lex-c98f5c4038dc55ef6c1b",
+    "fr-lex-3cc57b5efeacdc3987f7",
+    "fr-lex-41a2c5a4b1cabefa6de0",
+    "fr-lex-109833ba88b3b73d728b",
+    "fr-lex-10fcfcc8232ca564bda4",
+    "fr-lex-367e62662af50b5e4045",
+    "fr-lex-d6b1b3e69363e0bd64de",
+    "fr-lex-68567c5fbe1c0fd54a58",
+    "fr-lex-acf95d0bdcd0b10d628c",
+    "fr-lex-ea4107c0c56835a5a892",
+    "fr-lex-8499c7f37453a2867238",
+    "fr-lex-7b0b20bdb69cce829b20",
+    "fr-lex-c102dd85cd593700cdef",
+    "fr-lex-74a674932fbaf2a45b06",
+    "fr-lex-f3021f392ee46bf2f645",
+    "fr-lex-46eadb335e32dbc715ac",
+    "fr-lex-69bae5d3d2b2cc061ed7",
+    "fr-lex-f28a5e8e740d3e0a41aa",
+    "fr-lex-e8857de9262de6c4233b",
+    "fr-lex-d90af31624f55bb54326",
+    "fr-lex-7c94072b5f9c466c45c9",
+    "fr-lex-2f8033c16185d7c73c65",
+    "fr-lex-479631135b4563c8c2ac",
+    "fr-lex-47b4f4e3a28f223fcf74",
+    "fr-lex-bbc8615ce3f764d0f65e",
+    "fr-lex-51b1ea9b0b2b933d97c6",
+    "fr-lex-3c0a60e1aa08981a8e38",
+    "fr-lex-648427a382ed2790ccf9",
+    "fr-lex-f8b97c5d2c3967de8487",
+    "fr-lex-db84e69c062ed94d930e",
+    "fr-lex-93e30a6625e4aa8ffe80",
+    "fr-lex-52db927925a88f580a76",
+    "fr-lex-83547e43d2ac704aee9d",
+    "fr-lex-68b9f72616c9191b8e58",
+    "fr-lex-54a44f5da2518513347e",
+    "fr-lex-1a9ffb1102172253e55d",
+    "fr-lex-93d3c5b9bce4447846bc",
+    "fr-lex-3c55dfc71384e8c54e82",
+    "fr-lex-3e3fab5ab37434857333",
+    "fr-lex-7fb75592a63fb41facbb",
+    "fr-lex-014b097e8e6a88f0088a",
+    "fr-lex-1eb60cad0ca68b1fbc4f",
+    "fr-lex-e038847ddaebcb77ec0d",
+    "fr-lex-f24275382598396b3c6f",
+    "fr-lex-dc21e144b47a2ed006e0",
+    "fr-lex-774d6fb25685627818ce",
+    "fr-lex-9b6db99c42b1adacdd30",
+    "fr-lex-599322977364e4ddc313",
+    "fr-lex-3961cc2ff9b5c959b45b",
+    "fr-lex-f4cbc215d2e72fb61416",
+    "fr-lex-6b58d6d902fd2446da64",
+    "fr-lex-3c0f97c4fae835c81d07",
+    "fr-lex-d0a2227298525c90b42b",
+    "fr-lex-c6ab4bd93dc8df044bb5",
+    "fr-lex-85010699b196a4bb047f",
+    "fr-lex-c4136067c1b84dca03ad",
+    "fr-lex-180dbf3003de0477362f",
+    "fr-lex-15d56b8e36a5fdf44d9b",
+    "fr-lex-cf15106be79854de73ef",
+    "fr-lex-3afadc9041922ee559f5",
+    "fr-lex-73c2dbfa9717b5b607eb",
+    "fr-lex-1501154d15bd61f18217",
+    "fr-lex-cc35f87468a4bc60ed68",
+    "fr-lex-96455b69da4290cc348d",
+    "fr-lex-65eddd091813c5a70962",
+    "fr-lex-01bbb5fef30f76227cbf",
+    "fr-lex-f1e920abb57290b10951",
+    "fr-lex-122e570b618771f185d5",
+    "fr-lex-465e2794c428e3b25618",
+    "fr-lex-303339cf01435b98607c",
+    "fr-lex-5e71b07a95e6e223bb07",
+    "fr-lex-e29f47f71af00c3a2536",
+    "fr-lex-a77332569017ffb51d7e",
+    "fr-lex-b08c3c53b6075f663848",
+    "fr-lex-ef0d4420b560aebf6909",
+    "fr-lex-1bb466dceb41b047855d",
+    "fr-lex-fbdf2f748af2c6a1f098"
+  ],
+  "reviewedRows": [
+    {
+      "id": "fr-lex-918807af7ade04f6a4be",
+      "word": "la",
+      "sourceLine": 1,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-86f9f616e2347a400f10",
+      "word": "est",
+      "sourceLine": 2,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-b8a7228a22af4c7ab69e",
+      "word": "un",
+      "sourceLine": 3,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-a4ec93f527ec6142586f",
+      "word": "pas",
+      "sourceLine": 4,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-a484d72fc0d6ecb013ca",
+      "word": "sur",
+      "sourceLine": 5,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-26e82a0fc3349ee538a0",
+      "word": "plus",
+      "sourceLine": 6,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-0ae71545328de10c3e2d",
+      "word": "tu",
+      "sourceLine": 7,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-7fc73e53988e8cad04dd",
+      "word": "si",
+      "sourceLine": 8,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-50940041759787c30121",
+      "word": "tout",
+      "sourceLine": 9,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-01"
+      ]
+    },
+    {
+      "id": "fr-lex-ef260a283c6df099b788",
+      "word": "tout",
+      "sourceLine": 10,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3e052bad987db890b396",
+      "word": "fait",
+      "sourceLine": 11,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-09"
+      ]
+    },
+    {
+      "id": "fr-lex-e7426f3314160065cc17",
+      "word": "nous",
+      "sourceLine": 12,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-613d5d41054189e95391",
+      "word": "être",
+      "sourceLine": 13,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-50199d7fc08e5d5d15bc",
+      "word": "bien",
+      "sourceLine": 14,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-02"
+      ]
+    },
+    {
+      "id": "fr-lex-5e14c8154eb48e363b1c",
+      "word": "bien",
+      "sourceLine": 15,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-e29032441cf32d2459cc",
+      "word": "été",
+      "sourceLine": 16,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-0ca90b75a0d6e9ca3c39",
+      "word": "deux",
+      "sourceLine": 17,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-068ddccd395f9a6fb482",
+      "word": "très",
+      "sourceLine": 18,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-a89a86693f7644e90109",
+      "word": "non",
+      "sourceLine": 19,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-737a81d3274ea1249e8e",
+      "word": "alors",
+      "sourceLine": 20,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-30cfd12dfc6c7d26c3a9",
+      "word": "bon",
+      "sourceLine": 21,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-554c4591f99501084a33",
+      "word": "vie",
+      "sourceLine": 22,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-ee7df8e5b4b2cc66863c",
+      "word": "juste",
+      "sourceLine": 23,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-03"
+      ]
+    },
+    {
+      "id": "fr-lex-4390985de1d55657a076",
+      "word": "oui",
+      "sourceLine": 24,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-d46d88b82bb66c876edf",
+      "word": "as",
+      "sourceLine": 25,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-a4f61488ca0a033439ec",
+      "word": "pays",
+      "sourceLine": 26,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-daef7ae089b3d0b26a39",
+      "word": "jour",
+      "sourceLine": 27,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-10"
+      ]
+    },
+    {
+      "id": "fr-lex-2ac55e41702eff912ebb",
+      "word": "cela",
+      "sourceLine": 28,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-86e3959011b2618e40c1",
+      "word": "trois",
+      "sourceLine": 29,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-64a2fe77764e7ef4c297",
+      "word": "ici",
+      "sourceLine": 30,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-02767909db15513a50c7",
+      "word": "partie",
+      "sourceLine": 31,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-11"
+      ]
+    },
+    {
+      "id": "fr-lex-d11415756adfef8bcaf2",
+      "word": "famille",
+      "sourceLine": 63,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-d49fbde885b54deeabb2",
+      "word": "problème",
+      "sourceLine": 94,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-b15dd485b46f41d69e25",
+      "word": "type",
+      "sourceLine": 126,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-ee9c04348cdccdd6ec00",
+      "word": "art",
+      "sourceLine": 158,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-56129357af471b2f878e",
+      "word": "terme",
+      "sourceLine": 190,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-4fb9921306fa2ab8eef5",
+      "word": "mouvement",
+      "sourceLine": 221,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-b0b2da6534a13686ded8",
+      "word": "réseau",
+      "sourceLine": 253,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-4b0c955c516fb66549ee",
+      "word": "université",
+      "sourceLine": 285,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-928c0e0b586c576b47cd",
+      "word": "version",
+      "sourceLine": 316,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-730deae587127dcce072",
+      "word": "obtenir",
+      "sourceLine": 348,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-12"
+      ]
+    },
+    {
+      "id": "fr-lex-b062754792cafd101ee9",
+      "word": "connaître",
+      "sourceLine": 380,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-13"
+      ]
+    },
+    {
+      "id": "fr-lex-d51812baa841e0e73d46",
+      "word": "clair",
+      "sourceLine": 412,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-c98f5c4038dc55ef6c1b",
+      "word": "enquête",
+      "sourceLine": 443,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3cc57b5efeacdc3987f7",
+      "word": "tombe",
+      "sourceLine": 475,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-41a2c5a4b1cabefa6de0",
+      "word": "évidemment",
+      "sourceLine": 507,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-109833ba88b3b73d728b",
+      "word": "front",
+      "sourceLine": 538,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-10fcfcc8232ca564bda4",
+      "word": "mercredi",
+      "sourceLine": 570,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-367e62662af50b5e4045",
+      "word": "énorme",
+      "sourceLine": 602,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-d6b1b3e69363e0bd64de",
+      "word": "conseiller",
+      "sourceLine": 634,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-68567c5fbe1c0fd54a58",
+      "word": "collège",
+      "sourceLine": 665,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-acf95d0bdcd0b10d628c",
+      "word": "séance",
+      "sourceLine": 697,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-ea4107c0c56835a5a892",
+      "word": "publication",
+      "sourceLine": 729,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-8499c7f37453a2867238",
+      "word": "plage",
+      "sourceLine": 760,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-7b0b20bdb69cce829b20",
+      "word": "démocratie",
+      "sourceLine": 792,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-c102dd85cd593700cdef",
+      "word": "aventure",
+      "sourceLine": 824,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-74a674932fbaf2a45b06",
+      "word": "alliance",
+      "sourceLine": 856,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-f3021f392ee46bf2f645",
+      "word": "amitié",
+      "sourceLine": 887,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-46eadb335e32dbc715ac",
+      "word": "trou",
+      "sourceLine": 919,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-69bae5d3d2b2cc061ed7",
+      "word": "établir",
+      "sourceLine": 951,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-14"
+      ]
+    },
+    {
+      "id": "fr-lex-f28a5e8e740d3e0a41aa",
+      "word": "automne",
+      "sourceLine": 982,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-e8857de9262de6c4233b",
+      "word": "autorisation",
+      "sourceLine": 1014,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-d90af31624f55bb54326",
+      "word": "relève",
+      "sourceLine": 1046,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-7c94072b5f9c466c45c9",
+      "word": "paradis",
+      "sourceLine": 1077,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-2f8033c16185d7c73c65",
+      "word": "ingénieur",
+      "sourceLine": 1109,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-479631135b4563c8c2ac",
+      "word": "symbole",
+      "sourceLine": 1141,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-47b4f4e3a28f223fcf74",
+      "word": "folie",
+      "sourceLine": 1173,
+      "hasExtraTranslations": false,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-bbc8615ce3f764d0f65e",
+      "word": "sel",
+      "sourceLine": 1204,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-51b1ea9b0b2b933d97c6",
+      "word": "solo",
+      "sourceLine": 1236,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-08"
+      ]
+    },
+    {
+      "id": "fr-lex-3c0a60e1aa08981a8e38",
+      "word": "leçon",
+      "sourceLine": 1268,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-648427a382ed2790ccf9",
+      "word": "possession",
+      "sourceLine": 1299,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-f8b97c5d2c3967de8487",
+      "word": "bob",
+      "sourceLine": 1331,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-db84e69c062ed94d930e",
+      "word": "recrutement",
+      "sourceLine": 1363,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-93e30a6625e4aa8ffe80",
+      "word": "incapable",
+      "sourceLine": 1395,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-52db927925a88f580a76",
+      "word": "viol",
+      "sourceLine": 1426,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-83547e43d2ac704aee9d",
+      "word": "four",
+      "sourceLine": 1458,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-68b9f72616c9191b8e58",
+      "word": "occident",
+      "sourceLine": 1490,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-54a44f5da2518513347e",
+      "word": "sixième",
+      "sourceLine": 1521,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-1a9ffb1102172253e55d",
+      "word": "constamment",
+      "sourceLine": 1553,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-93d3c5b9bce4447846bc",
+      "word": "permanence",
+      "sourceLine": 1585,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3c55dfc71384e8c54e82",
+      "word": "menu",
+      "sourceLine": 1617,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3e3fab5ab37434857333",
+      "word": "prévenu",
+      "sourceLine": 1648,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-7fb75592a63fb41facbb",
+      "word": "aperçu",
+      "sourceLine": 1680,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-014b097e8e6a88f0088a",
+      "word": "divorce",
+      "sourceLine": 1712,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-1eb60cad0ca68b1fbc4f",
+      "word": "prisonnier",
+      "sourceLine": 1743,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-e038847ddaebcb77ec0d",
+      "word": "puits",
+      "sourceLine": 1775,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-f24275382598396b3c6f",
+      "word": "sincèrement",
+      "sourceLine": 1807,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-04"
+      ]
+    },
+    {
+      "id": "fr-lex-dc21e144b47a2ed006e0",
+      "word": "trophée",
+      "sourceLine": 1839,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-774d6fb25685627818ce",
+      "word": "aire",
+      "sourceLine": 1870,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-9b6db99c42b1adacdd30",
+      "word": "courbe",
+      "sourceLine": 1902,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-599322977364e4ddc313",
+      "word": "dégager",
+      "sourceLine": 1903,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3961cc2ff9b5c959b45b",
+      "word": "entente",
+      "sourceLine": 1904,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-05"
+      ]
+    },
+    {
+      "id": "fr-lex-f4cbc215d2e72fb61416",
+      "word": "examiner",
+      "sourceLine": 1905,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-6b58d6d902fd2446da64",
+      "word": "franchise",
+      "sourceLine": 1906,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3c0f97c4fae835c81d07",
+      "word": "hebdomadaire",
+      "sourceLine": 1907,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-d0a2227298525c90b42b",
+      "word": "hygiène",
+      "sourceLine": 1908,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-07"
+      ]
+    },
+    {
+      "id": "fr-lex-c6ab4bd93dc8df044bb5",
+      "word": "invention",
+      "sourceLine": 1909,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-85010699b196a4bb047f",
+      "word": "inviter",
+      "sourceLine": 1910,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-c4136067c1b84dca03ad",
+      "word": "manifester",
+      "sourceLine": 1911,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-180dbf3003de0477362f",
+      "word": "militant",
+      "sourceLine": 1912,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-15d56b8e36a5fdf44d9b",
+      "word": "observatoire",
+      "sourceLine": 1913,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-cf15106be79854de73ef",
+      "word": "récolte",
+      "sourceLine": 1914,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-3afadc9041922ee559f5",
+      "word": "rénovation",
+      "sourceLine": 1915,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-73c2dbfa9717b5b607eb",
+      "word": "répertoire",
+      "sourceLine": 1916,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-1501154d15bd61f18217",
+      "word": "soumettre",
+      "sourceLine": 1917,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-cc35f87468a4bc60ed68",
+      "word": "sympathique",
+      "sourceLine": 1918,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-96455b69da4290cc348d",
+      "word": "terrasse",
+      "sourceLine": 1919,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-65eddd091813c5a70962",
+      "word": "absurde",
+      "sourceLine": 1920,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-01bbb5fef30f76227cbf",
+      "word": "alarme",
+      "sourceLine": 1921,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-f1e920abb57290b10951",
+      "word": "barrière",
+      "sourceLine": 1922,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-122e570b618771f185d5",
+      "word": "chercheur",
+      "sourceLine": 1923,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-465e2794c428e3b25618",
+      "word": "considérable",
+      "sourceLine": 1924,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-303339cf01435b98607c",
+      "word": "décoration",
+      "sourceLine": 1925,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-5e71b07a95e6e223bb07",
+      "word": "enregistrer",
+      "sourceLine": 1926,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "FR-PEER-06"
+      ]
+    },
+    {
+      "id": "fr-lex-e29f47f71af00c3a2536",
+      "word": "foire",
+      "sourceLine": 1927,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-a77332569017ffb51d7e",
+      "word": "huitième",
+      "sourceLine": 1928,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-b08c3c53b6075f663848",
+      "word": "injuste",
+      "sourceLine": 1929,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-ef0d4420b560aebf6909",
+      "word": "inquiétude",
+      "sourceLine": 1930,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-1bb466dceb41b047855d",
+      "word": "label",
+      "sourceLine": 1931,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": true,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "fr-lex-fbdf2f748af2c6a1f098",
+      "word": "linguistique",
+      "sourceLine": 1932,
+      "hasExtraTranslations": true,
+      "linkedCorrectionReviewed": false,
+      "result": "no-actionable-finding-in-sample",
+      "findingIds": []
+    }
+  ],
+  "reviewedCorrectionIds": [
+    "fr-lex-0ae71545328de10c3e2d",
+    "fr-lex-a89a86693f7644e90109",
+    "fr-lex-4390985de1d55657a076",
+    "fr-lex-ee9c04348cdccdd6ec00",
+    "fr-lex-928c0e0b586c576b47cd",
+    "fr-lex-730deae587127dcce072",
+    "fr-lex-68567c5fbe1c0fd54a58",
+    "fr-lex-2f8033c16185d7c73c65",
+    "fr-lex-db84e69c062ed94d930e",
+    "fr-lex-54a44f5da2518513347e",
+    "fr-lex-93d3c5b9bce4447846bc",
+    "fr-lex-3e3fab5ab37434857333",
+    "fr-lex-c4136067c1b84dca03ad",
+    "fr-lex-15d56b8e36a5fdf44d9b",
+    "fr-lex-3afadc9041922ee559f5",
+    "fr-lex-cc35f87468a4bc60ed68",
+    "fr-lex-65eddd091813c5a70962",
+    "fr-lex-f1e920abb57290b10951",
+    "fr-lex-303339cf01435b98607c",
+    "fr-lex-a77332569017ffb51d7e",
+    "fr-lex-1bb466dceb41b047855d"
+  ],
+  "validatedSpecialCases": [
+    {
+      "id": "fr-lex-a484d72fc0d6ecb013ca",
+      "note": "sur without circumflex is a valid adjective meaning tart/sour; no spelling correction requested.",
+      "reference": "https://www.academie-francaise.fr/sure-ou-sure"
+    },
+    {
+      "id": "fr-lex-3e3fab5ab37434857333",
+      "note": "The correction from uncharged suspect to a French criminal-court defendant is consistent with the cited Academy entry.",
+      "reference": "https://www.dictionnaire-academie.fr/article/A9P4265"
+    }
+  ],
+  "mechanicalVerification": {
+    "focusFunction": "web/js/shared/lexicon-sentences.js:findSentenceFocus",
+    "runtime": "Node v22.17.1",
+    "executedOnSample": 120,
+    "resolvedFocusRows": 114,
+    "unresolvedFocusRows": 6,
+    "note": "Standalone content diagnostic only; no full repository build or supported-toolchain test claim."
+  },
+  "limits": [
+    "This is an AI editorial sample review, not fluent-speaker or native-speaker review.",
+    "Only the listed 120 of 1,932 authored rows and their linked corrections were linguistically reviewed. Other examples and unlinked corrections are not approved by this report.",
+    "The deterministic sample is weighted towards the first and final rows; it does not estimate a population error rate.",
+    "Legacy rows without additional-language translations were checked only in FR/EN/KO; absent backfill was not treated as a mistranslation.",
+    "A no-actionable-finding result means no issue was identified in this pass, not certification of correctness.",
+    "All suggested changes are unapplied. French authored and correction source files were not modified.",
+    "Medical or legal definitions not specifically investigated here are not independently certified."
+  ],
+  "references": {
+    "tout": "https://vitrinelinguistique.oqlf.gouv.qc.ca/22911/la-grammaire/les-pronoms/pronoms-indefinis/tout-employe-comme-pronom-indefini",
+    "bien": "https://www.dictionnaire-academie.fr/article/A9B1034",
+    "juste": "https://www.dictionnaire-academie.fr/article/A9J0419",
+    "sincèrement": "https://www.dictionnaire-academie.fr/article/A9S1716",
+    "entente": "https://www.dictionnaire-academie.fr/article/A9E1842",
+    "enregistrer": "https://www.dictionnaire-academie.fr/article/A9E1751",
+    "sur": "https://www.academie-francaise.fr/sure-ou-sure",
+    "prévenu": "https://www.dictionnaire-academie.fr/article/A9P4265"
+  },
+  "resolution": "All 14 findings applied through authoring/correction records; sampled AI editorial checking only."
+}

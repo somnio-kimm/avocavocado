@@ -1,0 +1,2682 @@
+{
+  "schemaVersion": 1,
+  "status": "AI-editorial-sample-review",
+  "reviewer": "French authoring agent; independent cross-check of Spanish sidecars",
+  "reviewDate": "2026-10-15",
+  "nativeSpeakerReview": false,
+  "sourceSnapshot": {
+    "authoredPath": "language-packages/sources/examples/es-authored.jsonl",
+    "authoredRowCount": 1759,
+    "authoredSha256": "4c0e511a207a150ebb14bd97f003c0277d77947b07a6245d67548f8abcec485d",
+    "correctionsPath": "language-packages/sources/examples/es-corrections.jsonl",
+    "correctionsRowCount": 150,
+    "correctionsSha256": "65ed64d6a316c12db0473ad75dcfcc981ab03df89cc85c1a15199b2da34be541",
+    "corePath": "language-packages/es-core-2.0.0.json",
+    "explanationPaths": [
+      "language-packages/es-en-2.0.0.json",
+      "language-packages/es-ko-2.0.0.json"
+    ],
+    "unchangedAtReportWrite": true
+  },
+  "sampling": {
+    "count": 120,
+    "indexBase": 0,
+    "first30": "indices 0 through 29",
+    "last30": "indices N-30 through N-1",
+    "interior60": "index(j) = 30 + floor(j * (N - 61) / 59), j = 0..59; evenly spaced across the interior to avoid overlap",
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      58,
+      87,
+      116,
+      145,
+      173,
+      202,
+      231,
+      260,
+      289,
+      317,
+      346,
+      375,
+      404,
+      432,
+      461,
+      490,
+      519,
+      548,
+      576,
+      605,
+      634,
+      663,
+      691,
+      720,
+      749,
+      778,
+      807,
+      835,
+      864,
+      893,
+      922,
+      950,
+      979,
+      1008,
+      1037,
+      1066,
+      1094,
+      1123,
+      1152,
+      1181,
+      1209,
+      1238,
+      1267,
+      1296,
+      1325,
+      1353,
+      1382,
+      1411,
+      1440,
+      1468,
+      1497,
+      1526,
+      1555,
+      1584,
+      1612,
+      1641,
+      1670,
+      1699,
+      1728,
+      1729,
+      1730,
+      1731,
+      1732,
+      1733,
+      1734,
+      1735,
+      1736,
+      1737,
+      1738,
+      1739,
+      1740,
+      1741,
+      1742,
+      1743,
+      1744,
+      1745,
+      1746,
+      1747,
+      1748,
+      1749,
+      1750,
+      1751,
+      1752,
+      1753,
+      1754,
+      1755,
+      1756,
+      1757,
+      1758
+    ],
+    "selectionIsRandom": false
+  },
+  "scope": {
+    "reviewedExampleCount": 120,
+    "reviewedFullTranslationMatrixCount": 55,
+    "reviewedCorrectionCount": 6,
+    "unreviewedExampleCount": 1639,
+    "unreviewedCorrectionCount": 144,
+    "checks": [
+      "Spanish grammar and naturalness",
+      "English and Korean sentence meaning",
+      "German, French, Japanese and Chinese translations where present",
+      "Selected meaning and part of speech after correction overrides",
+      "Explicit focus span and inferred Cloze focus",
+      "Local structural validators"
+    ]
+  },
+  "summary": {
+    "findings": 8,
+    "priorityCounts": {
+      "2": 6,
+      "3": 2
+    },
+    "rowsWithFindings": 8,
+    "rowsWithNoActionableFindingObserved": 112,
+    "correctedSampleRowsWithNoCorrectionDefectObserved": 6,
+    "verdict": "Address the listed findings before presenting the sampled rows as checked. This is not native review or approval of the full corpus."
+  },
+  "validation": {
+    "jsonAndSchema": "120 examples and all six corresponding corrections passed validateExampleRecord / validateCorrection",
+    "focus": "findSentenceFocus resolved 119 of 120; tratar/trata requires the explicit span suggested above",
+    "explicitFocusRows": 2,
+    "explicitFocusInvalidRows": 0,
+    "runtimeUsed": "v26.11.1",
+    "sourceFilesModified": false,
+    "fullProjectTestsRun": false,
+    "supportedRuntimeVerified": true,
+    "validatorExamplePassCount": 120,
+    "validatorCorrectionPassCount": 6,
+    "focusResolvedCount": 119
+  },
+  "findings": [
+    {
+      "findingId": "ES-PEER-001",
+      "id": "es-lex-37209c7b728179a490b3",
+      "sourceRow": 2,
+      "sampleIndex": 1,
+      "headword": "no",
+      "category": "inherited-meaning",
+      "priority": 2,
+      "title": "Correct the Korean gloss of no",
+      "problem": "The Korean gloss says the action cannot be performed, importing inability from the Korean source. Spanish no expresses negation; inability in the example comes from puedo, not no. The sentence and its translations are correct.",
+      "suggestedFix": {
+        "correction": {
+          "meaningEn": "not; used to negate an action or statement",
+          "meaningKo": "아니, 않다; 행동이나 진술을 부정할 때 쓰는 말",
+          "meanings": {
+            "de": "nicht; verneint eine Handlung oder Aussage",
+            "fr": "ne… pas ; sert à nier une action ou une affirmation",
+            "ja": "〜ない；動作や内容を否定する語",
+            "zh": "不；用于否定行为或陈述"
+          },
+          "reason": "Remove inability from the definition of the general Spanish negation word."
+        }
+      },
+      "sources": [
+        "https://dle.rae.es/no"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-002",
+      "id": "es-lex-ebc3832f06ac671a20fe",
+      "sourceRow": 14,
+      "sampleIndex": 13,
+      "headword": "estado",
+      "category": "spanish-orthography",
+      "priority": 3,
+      "title": "Capitalise Estado in the sovereign-state sense",
+      "problem": "The selected sense is a sovereign political state. RAE marks these senses of Estado with an initial capital. The current example uses lowercase estado.",
+      "suggestedFix": {
+        "example": {
+          "text": "El Estado mantiene relaciones diplomáticas con sus vecinos.",
+          "focus": {
+            "text": "Estado",
+            "start": 3
+          }
+        }
+      },
+      "sources": [
+        "https://dle.rae.es/estado"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-003",
+      "id": "es-lex-15be2b4cd03e656633c7",
+      "sourceRow": 20,
+      "sampleIndex": 19,
+      "headword": "gobierno",
+      "category": "inherited-meaning-and-orthography",
+      "priority": 2,
+      "title": "Distinguish Gobierno from all branches of the State",
+      "problem": "The inherited gloss combines legislature, judiciary and executive, which describes Estado rather than the ordinary institutional Gobierno sense used in the example. This institutional sense also takes an initial capital.",
+      "suggestedFix": {
+        "example": {
+          "text": "Los ciudadanos piden más transparencia al Gobierno.",
+          "focus": {
+            "text": "Gobierno",
+            "start": 42
+          }
+        },
+        "correction": {
+          "meaningEn": "government; the body directing the executive affairs of a state or political community",
+          "meaningKo": "정부; 국가나 정치 공동체의 행정과 정책을 이끄는 집행 기관",
+          "meanings": {
+            "de": "Regierung; leitendes Organ der Exekutive",
+            "fr": "gouvernement ; organe dirigeant du pouvoir exécutif",
+            "ja": "政府；行政を指揮する機関",
+            "zh": "政府；领导行政事务的机构"
+          },
+          "reason": "Distinguish the executive government from the State as a whole."
+        }
+      },
+      "sources": [
+        "https://dle.rae.es/gobierno",
+        "https://www.fundeu.es/recomendacion/gobierno/"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-004",
+      "id": "es-lex-7bc4d3f98c3d1baba40a",
+      "sourceRow": 26,
+      "sampleIndex": 25,
+      "headword": "sí",
+      "category": "inherited-meaning",
+      "priority": 2,
+      "title": "Remove the age restriction from sí",
+      "problem": "The definition restricts sí to answering an elder. Spanish affirmative or acknowledgement replies are not intrinsically honorific or restricted by age. The teacher dialogue is valid, but it should not teach that restriction. This finding does not request a POS change; the project may retain its interjection taxonomy for the independent reply.",
+      "suggestedFix": {
+        "correction": {
+          "meaningEn": "yes; an affirmative or acknowledging reply",
+          "meaningKo": "네, 응; 긍정하거나 부름에 응답하는 말",
+          "meanings": {
+            "de": "ja; bejahende oder bestätigende Antwort",
+            "fr": "oui ; réponse affirmative ou marquant que l’on a entendu",
+            "ja": "はい、うん；肯定や呼びかけへの返答",
+            "zh": "是，嗯；用于肯定或回应呼唤"
+          },
+          "reason": "Remove Korean-specific age or honorific restrictions from the Spanish reply."
+        }
+      },
+      "sources": [
+        "https://dle.rae.es/s%C3%AD"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-005",
+      "id": "es-lex-86be743c1bfd9dc701ec",
+      "sourceRow": 433,
+      "sampleIndex": 432,
+      "headword": "tratar",
+      "category": "exercise-focus",
+      "priority": 2,
+      "title": "Supply the inflected focus trata",
+      "problem": "The lemma is tratar, but the sentence contains trata and has no explicit focus. The actual findSentenceFocus function returns null, so this otherwise correct example is omitted from Cloze.",
+      "suggestedFix": {
+        "example": {
+          "focus": {
+            "text": "trata",
+            "start": 9
+          }
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-006",
+      "id": "es-lex-b04fb808de175bc40781",
+      "sourceRow": 1747,
+      "sampleIndex": 1746,
+      "headword": "gastar",
+      "category": "inherited-meaning",
+      "priority": 2,
+      "title": "Make gastar an active spending verb",
+      "problem": "The inherited English and Korean glosses describe resources being used, while the target sentence correctly uses gastar transitively with people spending the budget. The passive source wording obscures the required argument structure.",
+      "suggestedFix": {
+        "correction": {
+          "meaningEn": "to spend money, time or other resources on something",
+          "meaningKo": "돈이나 시간, 자원 등을 쓰다",
+          "meanings": {
+            "de": "Geld, Zeit oder andere Mittel für etwas ausgeben oder aufwenden",
+            "fr": "dépenser de l’argent ou consacrer du temps ou des ressources à quelque chose",
+            "ja": "お金や時間などの資源を使う",
+            "zh": "花费金钱、时间或其他资源"
+          },
+          "reason": "Align the definition with the active transitive spending sense."
+        }
+      },
+      "sources": [
+        "https://dle.rae.es/gastar"
+      ],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-007",
+      "id": "es-lex-aa2ed0dbf2657b1b99fc",
+      "sourceRow": 1750,
+      "sampleIndex": 1749,
+      "headword": "inseguridad",
+      "category": "korean-translation",
+      "priority": 2,
+      "title": "Keep uncertainty separate from established job instability",
+      "problem": "The Spanish says uncertainty about her employment prevented planning. Korean 일자리가 불안정해서 asserts that the job itself was unstable, and 계획을 세우기 어려웠어요 weakens prevention to difficulty. Other translations retain the uncertainty.",
+      "suggestedFix": {
+        "example": {
+          "ko": "일자리에 대한 불안 때문에 그 사람은 계획을 세울 수 없었어요."
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    },
+    {
+      "findingId": "ES-PEER-008",
+      "id": "es-lex-159b0b154202e66a5157",
+      "sourceRow": 1757,
+      "sampleIndex": 1756,
+      "headword": "retrato",
+      "category": "korean-translation",
+      "priority": 3,
+      "title": "Attach youth to the grandmother unambiguously",
+      "problem": "그 사람의 젊은 시절 할머니 모습 has an awkward modifier chain that can place the youth in the portrait owner’s life rather than the grandmother’s. The Spanish explicitly depicts the grandmother when young.",
+      "suggestedFix": {
+        "example": {
+          "ko": "그 초상화에는 그 사람의 할머니가 젊었을 때의 모습이 그려져 있어요."
+        }
+      },
+      "sources": [],
+      "status": "applied; native-review-pending"
+    }
+  ],
+  "reviewedIds": [
+    "es-lex-2f7b39d5dc69422be3ef",
+    "es-lex-37209c7b728179a490b3",
+    "es-lex-8e53bd8e57d958cc181f",
+    "es-lex-5008b3aa2631894807c3",
+    "es-lex-32129b9a6d27adf627e3",
+    "es-lex-a93af412dc873df2e3d6",
+    "es-lex-847f3715ba5d9b277f03",
+    "es-lex-f69139f485220c2ea091",
+    "es-lex-6307032dbe2dda1eeae7",
+    "es-lex-21b09b4750826a9342e8",
+    "es-lex-49b9b361d684a337a797",
+    "es-lex-adade21aa9a8b5aa5445",
+    "es-lex-d6871de28ac94440bbf4",
+    "es-lex-ebc3832f06ac671a20fe",
+    "es-lex-11a170e19a206298780b",
+    "es-lex-e0c5e5d9aa5810478616",
+    "es-lex-ec2c9437993f9a99b990",
+    "es-lex-6e5c75c25bfde30285f5",
+    "es-lex-b47f91ab472446224fd8",
+    "es-lex-15be2b4cd03e656633c7",
+    "es-lex-f027ce7d271ef53a4589",
+    "es-lex-7ce446abfd77394d2303",
+    "es-lex-2817b2f35e56e3ea607d",
+    "es-lex-2486e5a3e445b70472ec",
+    "es-lex-5cf93731b7568b4f15c3",
+    "es-lex-7bc4d3f98c3d1baba40a",
+    "es-lex-14195f3a6160de64b055",
+    "es-lex-c358a0a6b9b94e4fe323",
+    "es-lex-8ec4682d8ccb061edaa5",
+    "es-lex-46b1cd9149ba72427618",
+    "es-lex-66d95c8a7094a4e5bd4f",
+    "es-lex-1119ceeef4bdd7294cd5",
+    "es-lex-2aed51951319fa033370",
+    "es-lex-9f2d8bfb4562ee501f56",
+    "es-lex-ec1e0014e59e7e231189",
+    "es-lex-481ed02a56e899532099",
+    "es-lex-0e750306d62bfcd1be73",
+    "es-lex-a6391b428ed5771a3de4",
+    "es-lex-f2a1319d17f3c5b83e85",
+    "es-lex-bf13932743564fe91f9d",
+    "es-lex-08e444280ea60ebbf5eb",
+    "es-lex-cf9fed5be5ca1d211c97",
+    "es-lex-b9524963b3936cdb166f",
+    "es-lex-f8fc81dffe4f28719e6c",
+    "es-lex-86be743c1bfd9dc701ec",
+    "es-lex-05f77a5846e2432705ba",
+    "es-lex-95236ccdcc8c98b605fd",
+    "es-lex-76a623aec0bf03bdfbbb",
+    "es-lex-eacb926841ede0103edd",
+    "es-lex-2527662bdaec4f62aad0",
+    "es-lex-e809d43f962affb84928",
+    "es-lex-2397905cb68c3fe86a08",
+    "es-lex-ce4e63ba407b923f05b3",
+    "es-lex-ae22e65274b0f19eea72",
+    "es-lex-3637badceedb3c35c888",
+    "es-lex-e27e8fc2ae3fcc1ad228",
+    "es-lex-d6d8e9f34c447c35d8ae",
+    "es-lex-3846701448157bd3c8f3",
+    "es-lex-5d7f92c9041b1793b47f",
+    "es-lex-8c33265902a1c2733d4b",
+    "es-lex-b7a84b3b021dd688ea43",
+    "es-lex-43496b2bb698aec920b7",
+    "es-lex-19eff277d4dceb5b7c68",
+    "es-lex-9e5640e1accbc2383094",
+    "es-lex-f6aef701a2a0b07eb533",
+    "es-lex-ec26df465240f8fc8c28",
+    "es-lex-7c50882970b69b1ad288",
+    "es-lex-dea92374f7da152188b9",
+    "es-lex-325fa93cedb7e4f178c2",
+    "es-lex-336f061625b700c666bb",
+    "es-lex-b013d2da8198267207b8",
+    "es-lex-47b3fe4e094ade12dcb8",
+    "es-lex-fbfc32c3d1db4f6905ad",
+    "es-lex-edfd55fed495c35996b0",
+    "es-lex-fc98838d642d0fbd341a",
+    "es-lex-afb30ee62d780ecbcdbc",
+    "es-lex-6cb237afc794dc704c3f",
+    "es-lex-60e647396ae5f01800b5",
+    "es-lex-83378e9251310e7d66cd",
+    "es-lex-0fc3d8fc9808a2fd7b78",
+    "es-lex-9ebb76428cc9af4d1441",
+    "es-lex-a2df267d7cc1ae79b725",
+    "es-lex-e10e4db50887d7bc6cdb",
+    "es-lex-9a145247c8b822908ed1",
+    "es-lex-f60a1f2749645a469397",
+    "es-lex-6f1465115390c1614f1e",
+    "es-lex-14427951ffafed91ca00",
+    "es-lex-3697cced3b2119c42cb5",
+    "es-lex-51acbadb16d86bbe3501",
+    "es-lex-66d4b5d2055481983d63",
+    "es-lex-abed5cb199643b38d166",
+    "es-lex-94b9dacfeeb89c76df60",
+    "es-lex-9b348f77dc8c2691e2c2",
+    "es-lex-e8d5b996e097fd00078f",
+    "es-lex-5c97db46a0fb66648c42",
+    "es-lex-77a471a6f14b91896ae7",
+    "es-lex-33540ca9106c6dbbaa93",
+    "es-lex-73136d4c315832a1461b",
+    "es-lex-b46810b94f68ff6a4a81",
+    "es-lex-4b29daafa9350e50ca10",
+    "es-lex-87617fb7132fe0c284e6",
+    "es-lex-e6dbbf5c296a69920a67",
+    "es-lex-0969f30bd413ea0709fb",
+    "es-lex-6125c8da50bc82b4381e",
+    "es-lex-436a8b3e5b4e2e25f019",
+    "es-lex-06d6255a5428994eafe1",
+    "es-lex-e5083e7b09df35d27e08",
+    "es-lex-b04fb808de175bc40781",
+    "es-lex-6f05041416e41bff9da4",
+    "es-lex-539eac8db0c18efbd985",
+    "es-lex-aa2ed0dbf2657b1b99fc",
+    "es-lex-feee5b95d10f817a1dd3",
+    "es-lex-1ee1048ec3542d0a3f04",
+    "es-lex-12fdab695fe97b0a4eef",
+    "es-lex-26cdcdce90a9f4f3ac0c",
+    "es-lex-1579391f350f5adcb057",
+    "es-lex-6b3332def0f21cfe1ec5",
+    "es-lex-159b0b154202e66a5157",
+    "es-lex-3ca47315bf6934921096",
+    "es-lex-c53e9389b706dd91b9e3"
+  ],
+  "reviewedRows": [
+    {
+      "id": "es-lex-2f7b39d5dc69422be3ef",
+      "sourceRow": 1,
+      "zeroBasedSourceIndex": 0,
+      "sampleGroup": "first30",
+      "headword": "la",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-37209c7b728179a490b3",
+      "sourceRow": 2,
+      "zeroBasedSourceIndex": 1,
+      "sampleGroup": "first30",
+      "headword": "no",
+      "partOfSpeech": "adverb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-001"
+      ]
+    },
+    {
+      "id": "es-lex-8e53bd8e57d958cc181f",
+      "sourceRow": 3,
+      "zeroBasedSourceIndex": 2,
+      "sampleGroup": "first30",
+      "headword": "mi",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-5008b3aa2631894807c3",
+      "sourceRow": 4,
+      "zeroBasedSourceIndex": 3,
+      "sampleGroup": "first30",
+      "headword": "este",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-32129b9a6d27adf627e3",
+      "sourceRow": 5,
+      "zeroBasedSourceIndex": 4,
+      "sampleGroup": "first30",
+      "headword": "sobre",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-a93af412dc873df2e3d6",
+      "sourceRow": 6,
+      "zeroBasedSourceIndex": 5,
+      "sampleGroup": "first30",
+      "headword": "dos",
+      "partOfSpeech": "numeral",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-847f3715ba5d9b277f03",
+      "sourceRow": 7,
+      "zeroBasedSourceIndex": 6,
+      "sampleGroup": "first30",
+      "headword": "ahora",
+      "partOfSpeech": "adverb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-f69139f485220c2ea091",
+      "sourceRow": 8,
+      "zeroBasedSourceIndex": 7,
+      "sampleGroup": "first30",
+      "headword": "solo",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6307032dbe2dda1eeae7",
+      "sourceRow": 9,
+      "zeroBasedSourceIndex": 8,
+      "sampleGroup": "first30",
+      "headword": "día",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-21b09b4750826a9342e8",
+      "sourceRow": 10,
+      "zeroBasedSourceIndex": 9,
+      "sampleGroup": "first30",
+      "headword": "uno",
+      "partOfSpeech": "numeral",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-49b9b361d684a337a797",
+      "sourceRow": 11,
+      "zeroBasedSourceIndex": 10,
+      "sampleGroup": "first30",
+      "headword": "mejor",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-adade21aa9a8b5aa5445",
+      "sourceRow": 12,
+      "zeroBasedSourceIndex": 11,
+      "sampleGroup": "first30",
+      "headword": "mismo",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-d6871de28ac94440bbf4",
+      "sourceRow": 13,
+      "zeroBasedSourceIndex": 12,
+      "sampleGroup": "first30",
+      "headword": "cada",
+      "partOfSpeech": "determiner",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ebc3832f06ac671a20fe",
+      "sourceRow": 14,
+      "zeroBasedSourceIndex": 13,
+      "sampleGroup": "first30",
+      "headword": "estado",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-002"
+      ]
+    },
+    {
+      "id": "es-lex-11a170e19a206298780b",
+      "sourceRow": 15,
+      "zeroBasedSourceIndex": 14,
+      "sampleGroup": "first30",
+      "headword": "menos",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e0c5e5d9aa5810478616",
+      "sourceRow": 16,
+      "zeroBasedSourceIndex": 15,
+      "sampleGroup": "first30",
+      "headword": "lugar",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ec2c9437993f9a99b990",
+      "sourceRow": 17,
+      "zeroBasedSourceIndex": 16,
+      "sampleGroup": "first30",
+      "headword": "cómo",
+      "partOfSpeech": "adverb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6e5c75c25bfde30285f5",
+      "sourceRow": 18,
+      "zeroBasedSourceIndex": 17,
+      "sampleGroup": "first30",
+      "headword": "hecho",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b47f91ab472446224fd8",
+      "sourceRow": 19,
+      "zeroBasedSourceIndex": 18,
+      "sampleGroup": "first30",
+      "headword": "cuenta",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-15be2b4cd03e656633c7",
+      "sourceRow": 20,
+      "zeroBasedSourceIndex": 19,
+      "sampleGroup": "first30",
+      "headword": "gobierno",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-003"
+      ]
+    },
+    {
+      "id": "es-lex-f027ce7d271ef53a4589",
+      "sourceRow": 21,
+      "zeroBasedSourceIndex": 20,
+      "sampleGroup": "first30",
+      "headword": "país",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-7ce446abfd77394d2303",
+      "sourceRow": 22,
+      "zeroBasedSourceIndex": 21,
+      "sampleGroup": "first30",
+      "headword": "casa",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-2817b2f35e56e3ea607d",
+      "sourceRow": 23,
+      "zeroBasedSourceIndex": 22,
+      "sampleGroup": "first30",
+      "headword": "forma",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-2486e5a3e445b70472ec",
+      "sourceRow": 24,
+      "zeroBasedSourceIndex": 23,
+      "sampleGroup": "first30",
+      "headword": "nuevo",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-5cf93731b7568b4f15c3",
+      "sourceRow": 25,
+      "zeroBasedSourceIndex": 24,
+      "sampleGroup": "first30",
+      "headword": "ella",
+      "partOfSpeech": "pronoun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-7bc4d3f98c3d1baba40a",
+      "sourceRow": 26,
+      "zeroBasedSourceIndex": 25,
+      "sampleGroup": "first30",
+      "headword": "sí",
+      "partOfSpeech": "interjection",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-004"
+      ]
+    },
+    {
+      "id": "es-lex-14195f3a6160de64b055",
+      "sourceRow": 27,
+      "zeroBasedSourceIndex": 26,
+      "sampleGroup": "first30",
+      "headword": "tres",
+      "partOfSpeech": "numeral",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-c358a0a6b9b94e4fe323",
+      "sourceRow": 28,
+      "zeroBasedSourceIndex": 27,
+      "sampleGroup": "first30",
+      "headword": "caso",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-8ec4682d8ccb061edaa5",
+      "sourceRow": 29,
+      "zeroBasedSourceIndex": 28,
+      "sampleGroup": "first30",
+      "headword": "bueno",
+      "partOfSpeech": "interjection",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-46b1cd9149ba72427618",
+      "sourceRow": 30,
+      "zeroBasedSourceIndex": 29,
+      "sampleGroup": "first30",
+      "headword": "poder",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-66d95c8a7094a4e5bd4f",
+      "sourceRow": 31,
+      "zeroBasedSourceIndex": 30,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "verdad",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-1119ceeef4bdd7294cd5",
+      "sourceRow": 59,
+      "zeroBasedSourceIndex": 58,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "idea",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-2aed51951319fa033370",
+      "sourceRow": 88,
+      "zeroBasedSourceIndex": 87,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "público",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-9f2d8bfb4562ee501f56",
+      "sourceRow": 117,
+      "zeroBasedSourceIndex": 116,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ec1e0014e59e7e231189",
+      "sourceRow": 146,
+      "zeroBasedSourceIndex": 145,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "voz",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-481ed02a56e899532099",
+      "sourceRow": 174,
+      "zeroBasedSourceIndex": 173,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "común",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-0e750306d62bfcd1be73",
+      "sourceRow": 203,
+      "zeroBasedSourceIndex": 202,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "negro",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-a6391b428ed5771a3de4",
+      "sourceRow": 232,
+      "zeroBasedSourceIndex": 231,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "puerta",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-f2a1319d17f3c5b83e85",
+      "sourceRow": 261,
+      "zeroBasedSourceIndex": 260,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "capacidad",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-bf13932743564fe91f9d",
+      "sourceRow": 290,
+      "zeroBasedSourceIndex": 289,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "sangre",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-08e444280ea60ebbf5eb",
+      "sourceRow": 318,
+      "zeroBasedSourceIndex": 317,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "presencia",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-cf9fed5be5ca1d211c97",
+      "sourceRow": 347,
+      "zeroBasedSourceIndex": 346,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "humano",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b9524963b3936cdb166f",
+      "sourceRow": 376,
+      "zeroBasedSourceIndex": 375,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "pareja",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-f8fc81dffe4f28719e6c",
+      "sourceRow": 405,
+      "zeroBasedSourceIndex": 404,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "comercio",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-86be743c1bfd9dc701ec",
+      "sourceRow": 433,
+      "zeroBasedSourceIndex": 432,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "tratar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-005"
+      ]
+    },
+    {
+      "id": "es-lex-05f77a5846e2432705ba",
+      "sourceRow": 462,
+      "zeroBasedSourceIndex": 461,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "inicio",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-95236ccdcc8c98b605fd",
+      "sourceRow": 491,
+      "zeroBasedSourceIndex": 490,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "papa",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-76a623aec0bf03bdfbbb",
+      "sourceRow": 520,
+      "zeroBasedSourceIndex": 519,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "visión",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-eacb926841ede0103edd",
+      "sourceRow": 549,
+      "zeroBasedSourceIndex": 548,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "fundación",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-2527662bdaec4f62aad0",
+      "sourceRow": 577,
+      "zeroBasedSourceIndex": 576,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "belleza",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e809d43f962affb84928",
+      "sourceRow": 606,
+      "zeroBasedSourceIndex": 605,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "video",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": true,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-2397905cb68c3fe86a08",
+      "sourceRow": 635,
+      "zeroBasedSourceIndex": 634,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "subir",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ce4e63ba407b923f05b3",
+      "sourceRow": 664,
+      "zeroBasedSourceIndex": 663,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "tendencia",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ae22e65274b0f19eea72",
+      "sourceRow": 692,
+      "zeroBasedSourceIndex": 691,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "plataforma",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-3637badceedb3c35c888",
+      "sourceRow": 721,
+      "zeroBasedSourceIndex": 720,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "invierno",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e27e8fc2ae3fcc1ad228",
+      "sourceRow": 750,
+      "zeroBasedSourceIndex": 749,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "apoyar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-d6d8e9f34c447c35d8ae",
+      "sourceRow": 779,
+      "zeroBasedSourceIndex": 778,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "carretera",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-3846701448157bd3c8f3",
+      "sourceRow": 808,
+      "zeroBasedSourceIndex": 807,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "ángel",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-5d7f92c9041b1793b47f",
+      "sourceRow": 836,
+      "zeroBasedSourceIndex": 835,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "árbol",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-8c33265902a1c2733d4b",
+      "sourceRow": 865,
+      "zeroBasedSourceIndex": 864,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "maduro",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b7a84b3b021dd688ea43",
+      "sourceRow": 894,
+      "zeroBasedSourceIndex": 893,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "robo",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-43496b2bb698aec920b7",
+      "sourceRow": 923,
+      "zeroBasedSourceIndex": 922,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "marina",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-19eff277d4dceb5b7c68",
+      "sourceRow": 951,
+      "zeroBasedSourceIndex": 950,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "profundo",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-9e5640e1accbc2383094",
+      "sourceRow": 980,
+      "zeroBasedSourceIndex": 979,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "legislación",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": true,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-f6aef701a2a0b07eb533",
+      "sourceRow": 1009,
+      "zeroBasedSourceIndex": 1008,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "norma",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-ec26df465240f8fc8c28",
+      "sourceRow": 1038,
+      "zeroBasedSourceIndex": 1037,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "castellano",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-7c50882970b69b1ad288",
+      "sourceRow": 1067,
+      "zeroBasedSourceIndex": 1066,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "conclusión",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-dea92374f7da152188b9",
+      "sourceRow": 1095,
+      "zeroBasedSourceIndex": 1094,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "horario",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-325fa93cedb7e4f178c2",
+      "sourceRow": 1124,
+      "zeroBasedSourceIndex": 1123,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "portal",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-336f061625b700c666bb",
+      "sourceRow": 1153,
+      "zeroBasedSourceIndex": 1152,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "carro",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b013d2da8198267207b8",
+      "sourceRow": 1182,
+      "zeroBasedSourceIndex": 1181,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "japonés",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-47b3fe4e094ade12dcb8",
+      "sourceRow": 1210,
+      "zeroBasedSourceIndex": 1209,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "incendio",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-fbfc32c3d1db4f6905ad",
+      "sourceRow": 1239,
+      "zeroBasedSourceIndex": 1238,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "plato",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-edfd55fed495c35996b0",
+      "sourceRow": 1268,
+      "zeroBasedSourceIndex": 1267,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "genio",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-fc98838d642d0fbd341a",
+      "sourceRow": 1297,
+      "zeroBasedSourceIndex": 1296,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "mecanismo",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-afb30ee62d780ecbcdbc",
+      "sourceRow": 1326,
+      "zeroBasedSourceIndex": 1325,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "orgulloso",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6cb237afc794dc704c3f",
+      "sourceRow": 1354,
+      "zeroBasedSourceIndex": 1353,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "totalidad",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-60e647396ae5f01800b5",
+      "sourceRow": 1383,
+      "zeroBasedSourceIndex": 1382,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "explosión",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-83378e9251310e7d66cd",
+      "sourceRow": 1412,
+      "zeroBasedSourceIndex": 1411,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "redacción",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-0fc3d8fc9808a2fd7b78",
+      "sourceRow": 1441,
+      "zeroBasedSourceIndex": 1440,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "té",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-9ebb76428cc9af4d1441",
+      "sourceRow": 1469,
+      "zeroBasedSourceIndex": 1468,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "barato",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-a2df267d7cc1ae79b725",
+      "sourceRow": 1498,
+      "zeroBasedSourceIndex": 1497,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "adquirir",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e10e4db50887d7bc6cdb",
+      "sourceRow": 1527,
+      "zeroBasedSourceIndex": 1526,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "apuesta",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-9a145247c8b822908ed1",
+      "sourceRow": 1556,
+      "zeroBasedSourceIndex": 1555,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "depósito",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-f60a1f2749645a469397",
+      "sourceRow": 1585,
+      "zeroBasedSourceIndex": 1584,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "cobrar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6f1465115390c1614f1e",
+      "sourceRow": 1613,
+      "zeroBasedSourceIndex": 1612,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "diccionario",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-14427951ffafed91ca00",
+      "sourceRow": 1642,
+      "zeroBasedSourceIndex": 1641,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "ola",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-3697cced3b2119c42cb5",
+      "sourceRow": 1671,
+      "zeroBasedSourceIndex": 1670,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "helado",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-51acbadb16d86bbe3501",
+      "sourceRow": 1700,
+      "zeroBasedSourceIndex": 1699,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "preocupado",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-66d4b5d2055481983d63",
+      "sourceRow": 1729,
+      "zeroBasedSourceIndex": 1728,
+      "sampleGroup": "evenlySpacedInterior60",
+      "headword": "mito",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-abed5cb199643b38d166",
+      "sourceRow": 1730,
+      "zeroBasedSourceIndex": 1729,
+      "sampleGroup": "last30",
+      "headword": "monto",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-94b9dacfeeb89c76df60",
+      "sourceRow": 1731,
+      "zeroBasedSourceIndex": 1730,
+      "sampleGroup": "last30",
+      "headword": "pasaporte",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-9b348f77dc8c2691e2c2",
+      "sourceRow": 1732,
+      "zeroBasedSourceIndex": 1731,
+      "sampleGroup": "last30",
+      "headword": "respaldo",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e8d5b996e097fd00078f",
+      "sourceRow": 1733,
+      "zeroBasedSourceIndex": 1732,
+      "sampleGroup": "last30",
+      "headword": "saludable",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-5c97db46a0fb66648c42",
+      "sourceRow": 1734,
+      "zeroBasedSourceIndex": 1733,
+      "sampleGroup": "last30",
+      "headword": "saque",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-77a471a6f14b91896ae7",
+      "sourceRow": 1735,
+      "zeroBasedSourceIndex": 1734,
+      "sampleGroup": "last30",
+      "headword": "adaptación",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-33540ca9106c6dbbaa93",
+      "sourceRow": 1736,
+      "zeroBasedSourceIndex": 1735,
+      "sampleGroup": "last30",
+      "headword": "ajuste",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": true,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-73136d4c315832a1461b",
+      "sourceRow": 1737,
+      "zeroBasedSourceIndex": 1736,
+      "sampleGroup": "last30",
+      "headword": "asesor",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b46810b94f68ff6a4a81",
+      "sourceRow": 1738,
+      "zeroBasedSourceIndex": 1737,
+      "sampleGroup": "last30",
+      "headword": "campus",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-4b29daafa9350e50ca10",
+      "sourceRow": 1739,
+      "zeroBasedSourceIndex": 1738,
+      "sampleGroup": "last30",
+      "headword": "contratar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-87617fb7132fe0c284e6",
+      "sourceRow": 1740,
+      "zeroBasedSourceIndex": 1739,
+      "sampleGroup": "last30",
+      "headword": "coraje",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e6dbbf5c296a69920a67",
+      "sourceRow": 1741,
+      "zeroBasedSourceIndex": 1740,
+      "sampleGroup": "last30",
+      "headword": "cuerda",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-0969f30bd413ea0709fb",
+      "sourceRow": 1742,
+      "zeroBasedSourceIndex": 1741,
+      "sampleGroup": "last30",
+      "headword": "cálculo",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6125c8da50bc82b4381e",
+      "sourceRow": 1743,
+      "zeroBasedSourceIndex": 1742,
+      "sampleGroup": "last30",
+      "headword": "entretenimiento",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-436a8b3e5b4e2e25f019",
+      "sourceRow": 1744,
+      "zeroBasedSourceIndex": 1743,
+      "sampleGroup": "last30",
+      "headword": "esquema",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-06d6255a5428994eafe1",
+      "sourceRow": 1745,
+      "zeroBasedSourceIndex": 1744,
+      "sampleGroup": "last30",
+      "headword": "estética",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-e5083e7b09df35d27e08",
+      "sourceRow": 1746,
+      "zeroBasedSourceIndex": 1745,
+      "sampleGroup": "last30",
+      "headword": "gama",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-b04fb808de175bc40781",
+      "sourceRow": 1747,
+      "zeroBasedSourceIndex": 1746,
+      "sampleGroup": "last30",
+      "headword": "gastar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-006"
+      ]
+    },
+    {
+      "id": "es-lex-6f05041416e41bff9da4",
+      "sourceRow": 1748,
+      "zeroBasedSourceIndex": 1747,
+      "sampleGroup": "last30",
+      "headword": "horno",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-539eac8db0c18efbd985",
+      "sourceRow": 1749,
+      "zeroBasedSourceIndex": 1748,
+      "sampleGroup": "last30",
+      "headword": "inclusión",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-aa2ed0dbf2657b1b99fc",
+      "sourceRow": 1750,
+      "zeroBasedSourceIndex": 1749,
+      "sampleGroup": "last30",
+      "headword": "inseguridad",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": true,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-007"
+      ]
+    },
+    {
+      "id": "es-lex-feee5b95d10f817a1dd3",
+      "sourceRow": 1751,
+      "zeroBasedSourceIndex": 1750,
+      "sampleGroup": "last30",
+      "headword": "justificar",
+      "partOfSpeech": "verb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": true,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-1ee1048ec3542d0a3f04",
+      "sourceRow": 1752,
+      "zeroBasedSourceIndex": 1751,
+      "sampleGroup": "last30",
+      "headword": "maravilla",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": true,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-12fdab695fe97b0a4eef",
+      "sourceRow": 1753,
+      "zeroBasedSourceIndex": 1752,
+      "sampleGroup": "last30",
+      "headword": "miel",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-26cdcdce90a9f4f3ac0c",
+      "sourceRow": 1754,
+      "zeroBasedSourceIndex": 1753,
+      "sampleGroup": "last30",
+      "headword": "naturalmente",
+      "partOfSpeech": "adverb",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-1579391f350f5adcb057",
+      "sourceRow": 1755,
+      "zeroBasedSourceIndex": 1754,
+      "sampleGroup": "last30",
+      "headword": "piano",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-6b3332def0f21cfe1ec5",
+      "sourceRow": 1756,
+      "zeroBasedSourceIndex": 1755,
+      "sampleGroup": "last30",
+      "headword": "preciso",
+      "partOfSpeech": "adjective",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-159b0b154202e66a5157",
+      "sourceRow": 1757,
+      "zeroBasedSourceIndex": 1756,
+      "sampleGroup": "last30",
+      "headword": "retrato",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "findings-recorded",
+      "findingIds": [
+        "ES-PEER-008"
+      ]
+    },
+    {
+      "id": "es-lex-3ca47315bf6934921096",
+      "sourceRow": 1758,
+      "zeroBasedSourceIndex": 1757,
+      "sampleGroup": "last30",
+      "headword": "sabiduría",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    },
+    {
+      "id": "es-lex-c53e9389b706dd91b9e3",
+      "sourceRow": 1759,
+      "zeroBasedSourceIndex": 1758,
+      "sampleGroup": "last30",
+      "headword": "traición",
+      "partOfSpeech": "noun",
+      "languagesReviewed": [
+        "es",
+        "en",
+        "ko",
+        "de",
+        "fr",
+        "ja",
+        "zh"
+      ],
+      "correctionReviewed": false,
+      "result": "no-actionable-finding-observed-in-sample",
+      "findingIds": []
+    }
+  ],
+  "limits": [
+    "This deterministic sample covers 120 of 1759 examples, not the complete Spanish corpus. It is not a random statistical sample and does not support an overall error-rate estimate.",
+    "Only six of 150 correction rows fall within the example sample; all other corrections remain unreviewed here.",
+    "55 sampled examples contain the additional de/fr/ja/zh translations; the remaining 65 were reviewed only in es/en/ko. Missing translations are an acknowledged coverage backlog, not counted as editorial defects in this report.",
+    "No audio, rendered UI, broader dialect consistency or exhaustive dictionary fact audit was performed.",
+    "All judgments are AI editorial judgments; native-speaker and specialist review remain pending.",
+    "Changes above are exact suggestions, not applied edits. Corrected sense definitions must be reviewed before reusing source concept mappings."
+  ],
+  "resolution": "All eight findings applied to authoring/correction records; sampled AI editorial checking only."
+}

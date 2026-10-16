@@ -1,0 +1,108 @@
+German learner vocabulary 3.0.0 — editorial preview
+
+English, German and Korean Wiktionary contributors are credited for the dictionary facts, definitions and usage examples used by each entry. Source article and contributor-history links are preserved per entry. Extraction: Kaikki/Wiktextract, https://kaikki.org/dictionary/rawdata.html . Adapted content is distributed under Creative Commons Attribution-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-sa/4.0/ .
+
+Changes by Learn Language contributors (2026): selected learner headwords; inspected and corrected ambiguous English/Korean sense matches; added original example sentences and translations where suitable reliably translated usage examples were unavailable; assigned study bands; normalised noun display forms; separated study and explanation downloads. New definitions, examples, translations and frequency-based annotations are offered under CC BY-SA 4.0. Original archived MIT material retains its licence below. Local AI assistance was used; no native-speaker review is claimed. This preview needs language review before a production store release.
+
+Goethe-Institut adult A1, A2 and B1 word lists are used only as factual headword/level references. Their publication copyright is not relicensed. No PDF pages or Goethe example sentences are included. Matching uses normalised explicit headwords and thematic groups, not a claim of exhaustive coverage of every productive word family. The earliest matching list determines A1–B1. Unmatched headwords use editorial frequency bands (B2: Zipf >= 4; C1: >= 3; C2: < 3). These upper bands are not official CEFR assessments, exam guarantees or Goethe endorsement.
+A1: https://www.goethe.de/pro/relaunch/prf/de/A1_SD1_Wortliste_02.pdf
+A2: https://www.goethe.de/pro/relaunch/prf/en/Goethe-Zertifikat_A2_Wortliste.pdf
+B1: https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf
+
+Frequency data: wordfreq 3.1.1, Copyright 2022 Robyn Speer, https://github.com/rspeer/wordfreq . Credit also belongs to Marc Brysbaert and the SUBTLEX authors; SUBTLEX is freely available data. Wordfreq contains Google Books Ngrams, Leeds Internet Corpus, Wikipedia, ParaCrawl, OpenSubtitles and SUBTLEX-derived statistics; its complete notice follows. It reflects historical usage, not a current CEFR syllabus.
+
+Translation drafts: Qwen/Qwen3-4B-Instruct-2507 (Apache-2.0), locally run using the mlx-community 4-bit conversion. Model weights and inference libraries are not shipped in the app. Sentence provenance distinguishes source text, original text and model-assisted translation; generated output is not labelled native-speaker reviewed.
+
+The data is available separately without app-store restrictions or technological locks. Recipients may copy, adapt and commercially redistribute CC BY-SA content with attribution, change notices and the same licence. App code remains separately MIT-licensed. No endorsement is implied.
+Data, editable JSON, provenance and full licence texts: https://github.com/somnio-kimm/learn_language/tree/feat/51-goethe-vocabulary/language-packages
+CC BY-SA licence text: credits/CC-BY-SA-4.0.txt
+
+--- Original archived material: MIT ---
+MIT License
+
+Copyright (c) 2026 Kimm Soo Min
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--- Wordfreq attribution notice ---
+wordfreq  
+Copyright 2022 Robyn Speer
+
+# Attribution notes
+
+Robyn Speer must be credited as Robyn Speer, which is her maiden name, used on academic work.
+Crediting her as Elia Robyn Lake (her married name) will make the credit less effective, as it will
+not line up with other work.
+
+Crediting Robyn Speer by a different name than one of the above is a serious violation of the license,
+in which case you do not have permission to use, copy, or redistribute wordfreq.
+
+If you use wordfreq in academic work, you must cite it. See "Citing wordfreq" in README.md.
+
+# Included licenses
+
+`wordfreq` is freely redistributable under the Apache license (see
+`LICENSE.txt`), and it includes data files that may be
+redistributed under a Creative Commons Attribution-ShareAlike 4.0
+license (<https://creativecommons.org/licenses/by-sa/4.0/>).
+
+`wordfreq` contains data extracted from Google Books Ngrams
+(<http://books.google.com/ngrams>) and Google Books Syntactic Ngrams
+(<http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html>).
+The terms of use of this data are:
+
+    Ngram Viewer graphs and data may be freely used for any purpose, although
+    acknowledgement of Google Books Ngram Viewer as the source, and inclusion
+    of a link to http://books.google.com/ngrams, would be appreciated.
+
+`wordfreq` also contains data derived from the following Creative Commons-licensed
+sources:
+
+- The Leeds Internet Corpus, from the University of Leeds Centre for Translation
+  Studies (<http://corpus.leeds.ac.uk/list.html>)
+
+- Wikipedia, the free encyclopedia (<http://www.wikipedia.org>)
+
+- ParaCrawl, a multilingual Web crawl (<https://paracrawl.eu>)
+
+It contains data from OPUS OpenSubtitles 2018
+(<http://opus.nlpl.eu/OpenSubtitles.php>), whose data originates from the
+OpenSubtitles project (<http://www.opensubtitles.org/>) and may be used with
+attribution to OpenSubtitles.
+
+It contains data from various SUBTLEX word lists: SUBTLEX-US, SUBTLEX-UK,
+SUBTLEX-CH, SUBTLEX-DE, and SUBTLEX-NL, created by Marc Brysbaert et al.
+(see citations below) and available at
+<http://crr.ugent.be/programs-data/subtitle-frequencies>.
+
+I (Robyn Speer) have obtained permission by e-mail from Marc Brysbaert to
+distribute these wordlists in wordfreq, to be used for any purpose, not just
+for academic use, under these conditions:
+
+- Wordfreq and code derived from it must credit the SUBTLEX authors.
+- It must remain clear that SUBTLEX is freely available data.
+
+These terms are similar to the Creative Commons Attribution-ShareAlike license.
+
+Some additional data was collected by a custom application that watched the
+streaming Twitter API, in accordance with Twitter's Developer Agreement &
+Policy. This software gives statistics about words that were commonly used on
+Twitter; it does not display or republish any Twitter content, and does not
+contain any content from after Twitter's sale.
+

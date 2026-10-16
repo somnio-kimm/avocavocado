@@ -1,0 +1,81 @@
+{
+  "status": "recovered-AI-editorial-review",
+  "nativeSpeakerReview": false,
+  "reviewer": "spanish_examples",
+  "scope": {
+    "rows": 33,
+    "fields": [
+      "native sentence",
+      "six sentence translations",
+      "focus",
+      "German gloss"
+    ],
+    "excluded": [
+      "new meaning maps",
+      "first 30 rows"
+    ]
+  },
+  "recoveryEvidence": "Recorded review tool call 1245 in Spanish agent session 2026-10-15; original transient hashes were lost and are not reconstructed.",
+  "reviewedIds": [
+    "ko-lex-be70291c69d605ed8a03",
+    "ko-lex-aca5d119cf802aca5483",
+    "ko-lex-dc93e00c3b49c993eab7",
+    "ko-lex-059424ea054abc335066",
+    "ko-lex-6a6fc3b9d6770211f535",
+    "ko-lex-63889cb8d6f787eff229",
+    "ko-lex-b88bce5c0b087ca51e78",
+    "ko-lex-19a78a04245a02501e8b",
+    "ko-lex-0dff93b74bbc3cb34479",
+    "ko-lex-dc5fa40386d54822d8ad",
+    "ko-lex-9dd97f1572ce51163603",
+    "ko-lex-490ae0649666a5b3c4ea",
+    "ko-lex-7bc792209c7fa0c943cc",
+    "ko-lex-c51ed8399bdd3675b729",
+    "ko-lex-6fa8adf21af1b4795f1a",
+    "ko-lex-23b0146e78a522873016",
+    "ko-lex-c64fd16b1f34813b8d63",
+    "ko-lex-ee5b2284bff0aa0982fa",
+    "ko-lex-a07a79847dcb2404c129",
+    "ko-lex-d4ec60fecb69ad520366",
+    "ko-lex-68754068f2ce3105670d",
+    "ko-lex-0af0a69e266d082b6410",
+    "ko-lex-80a74ea58ff840f14111",
+    "ko-lex-8bdb3792e49da7745b24",
+    "ko-lex-240ccd0187ee7ee4661f",
+    "ko-lex-23e162dab5587247a74a",
+    "ko-lex-da83a3872998c3d11ec6",
+    "ko-lex-f4c684c36e2cbdc032b3",
+    "ko-lex-d3b0f24f682ea95c3d9a",
+    "ko-lex-7c049a77fd4a65cf4248",
+    "ko-lex-9edc9b815330efc67401",
+    "ko-lex-151a6a9b714ab811891e",
+    "ko-lex-4fad134b334cbc9345dd"
+  ],
+  "findings": [
+    {
+      "id": "ko-lex-da83a3872998c3d11ec6",
+      "field": "meaningDe",
+      "reason": "Reihenfolge denotes an ordering rather than the following position or item.",
+      "replacement": "das Nächste; die nächste Stelle in einer Abfolge",
+      "resolution": "applied"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "ko-lex-23e162dab5587247a74a",
+      "field": "meaningDe",
+      "replacement": "am …-sten; am meisten (Superlativ)",
+      "resolution": "applied"
+    },
+    {
+      "id": "ko-lex-dc93e00c3b49c993eab7",
+      "field": "translations.es",
+      "replacement": "¿Almorzamos juntos mañana?",
+      "resolution": "applied"
+    }
+  ],
+  "limitations": [
+    "Recovered AI editorial review is not native-speaker certification.",
+    "New six-language meaning maps receive a separate review."
+  ]
+}

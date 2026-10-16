@@ -1,0 +1,463 @@
+[
+  {
+    "path": "web/languages/de/js/core/store.js",
+    "archive": "apps/german/web/js/core/store.js",
+    "originalSha256": "ae788ee0b1f19b6610428e88c9d3767fa72e984783a65c2cf33e80ef9560c1eb"
+  },
+  {
+    "path": "web/languages/de/js/core/assessment.js",
+    "archive": "apps/german/web/js/core/assessment.js",
+    "originalSha256": "ce0ddb19aaedb65c74c5a608350809a7c24f1eee6cf89faaf109b4f9e682beaf"
+  },
+  {
+    "path": "web/languages/de/js/core/wrong-count.js",
+    "archive": "apps/german/web/js/core/wrong-count.js",
+    "originalSha256": "b18aa8cce041c8e57c2005d819b453741856a5779bf74c039b0321f999d29a22"
+  },
+  {
+    "path": "web/languages/de/js/core/question-snapshot.js",
+    "archive": "apps/german/web/js/core/question-snapshot.js",
+    "originalSha256": "d2051582dc938c2f6333fb4043dc810545655da0574105dfcf80722237b4a846",
+    "currentPath": "web/js/shared/question-snapshot.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/core/quiz-modes.js",
+    "archive": "apps/german/web/js/core/quiz-modes.js",
+    "originalSha256": "1a2b53b201e7fb130180123f3dd06390d0231d7183b819feea9d9c1c60b6e44c"
+  },
+  {
+    "path": "web/languages/de/js/app-definition.js",
+    "archive": "apps/german/web/js/app-definition.js",
+    "originalSha256": "0b3cb0641b0c18cfe4944c4e06a9e2688f53924fef6b4334ca2f35ae74435657"
+  },
+  {
+    "path": "web/languages/de/js/views/listening.js",
+    "archive": "apps/german/web/js/views/listening.js",
+    "originalSha256": "027e236f16fd63178b5568626be4218d25d1556a1777facaccaf84ab103efa0a"
+  },
+  {
+    "path": "web/languages/de/js/views/study-components.js",
+    "archive": "apps/german/web/js/views/study-components.js",
+    "originalSha256": "3ddcf92916fa062b54cfe4569625290b903d3d20bf1c40065b95a9152211c01b"
+  },
+  {
+    "path": "web/languages/de/js/core/media.js",
+    "archive": "apps/german/web/js/core/media.js",
+    "originalSha256": "223bed0e11b299ceaf30fdd969ecc9cb5f007b5547ef252f6d23ec0c81059d10"
+  },
+  {
+    "path": "web/languages/de/js/core/device-speech.js",
+    "archive": "apps/german/web/js/core/device-speech.js",
+    "originalSha256": "0086f7b81ee2c027aab3789bce7d851f4bc3c83e3c976e28689f1351eacab4c4",
+    "currentPath": "web/js/shared/device-speech.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/core/word-types.js",
+    "archive": "apps/german/web/js/core/word-types.js",
+    "originalSha256": "270e754a6bfded936f9e89ebb859967ffbf8fb25c846e83cda4a8fbf64460ed1"
+  },
+  {
+    "path": "web/languages/de/js/core/words.js",
+    "archive": "apps/german/web/js/core/words.js",
+    "originalSha256": "694255959a5e3ecf66c81bcbcc202e9037513d1976941ae257285782c3a1488d"
+  },
+  {
+    "path": "web/languages/de/js/core/dictionary.js",
+    "archive": "apps/german/web/js/core/dictionary.js",
+    "originalSha256": "72d6487982b136a5f4cb4ade49abb01da979e6feadeb543c0bf631ebce8cb121"
+  },
+  {
+    "path": "web/languages/de/js/core/ui.js",
+    "archive": "apps/german/web/js/core/ui.js",
+    "originalSha256": "c932fa016d5eec719d01db04b6ec7998f751948bf4d57057dfc39b02e007790b",
+    "currentPath": "web/js/shared/ui.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/core/i18n.js",
+    "archive": "apps/german/web/js/core/i18n.js",
+    "originalSha256": "73040a3dbced110ff78f0de98b531f345560ca71cf11b73eb54f0f473f3de6ba"
+  },
+  {
+    "path": "web/languages/de/js/core/vocabulary-tests.js",
+    "archive": "apps/german/web/js/core/vocabulary-tests.js",
+    "originalSha256": "5f9a8c9a54cd216465f4d06f7603649feca5400add78af8da74604cfa0036f9c"
+  },
+  {
+    "path": "web/languages/de/js/core/listening-tests.js",
+    "archive": "apps/german/web/js/core/listening-tests.js",
+    "originalSha256": "fc06e3363370e510375122dc3bbd20a9feeaf953637e29dd68ef4b4727a54054"
+  },
+  {
+    "path": "web/languages/de/js/core/pinyin-key.js",
+    "archive": "apps/german/web/js/core/pinyin-key.js",
+    "originalSha256": "1e4d6e3be35610996147586d3819e24e1680628eeac438b0d0de89713a104b48",
+    "currentPath": "web/languages/zh/js/services/pinyin-key.js",
+    "change": "Chinese pronunciation utility; no longer duplicated or imported by German."
+  },
+  {
+    "path": "web/languages/de/js/core/listening-view.js",
+    "archive": "apps/german/web/js/core/listening-view.js",
+    "originalSha256": "b254fc31726668a61c7df5acf90543085a79a5f455744942576fc9d34daa72c3",
+    "currentPath": "web/js/shared/listening-view.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/views/sentence-quizzes.js",
+    "archive": "apps/german/web/js/views/sentence-quizzes.js",
+    "originalSha256": "a16ec1552d0d52f2d4546867c575c9a4e2cf41735a087d0dcf3ad0a56a74356d"
+  },
+  {
+    "path": "web/languages/de/js/core/sentence-quizzes.js",
+    "archive": "apps/german/web/js/core/sentence-quizzes.js",
+    "originalSha256": "4bbb5a095eaaba009d405f459a5000f2deaeb37e8931f434de6933cea25d6cd5"
+  },
+  {
+    "path": "web/languages/de/js/views/grammar-quizzes.js",
+    "archive": "apps/german/web/js/views/grammar-quizzes.js",
+    "originalSha256": "82469a0b19d616e03ecaf60d3ea6012b52e4d9ad30d293bd889274991fa2cdca"
+  },
+  {
+    "path": "web/languages/de/js/core/nominal-grammar.js",
+    "archive": "apps/german/web/js/core/nominal-grammar.js",
+    "originalSha256": "d0c6127219323583ec6498db6d76414e7eda57473f70304485c72fc149a562d2"
+  },
+  {
+    "path": "web/languages/de/js/core/grammar-quizzes.js",
+    "archive": "apps/german/web/js/core/grammar-quizzes.js",
+    "originalSha256": "e555bda3162e16857fa58d2c8a8ca45d43ebf8c0bd0e85623cdb9f9037c59d08"
+  },
+  {
+    "path": "web/languages/de/js/core/question-catalog.js",
+    "archive": "apps/german/web/js/core/question-catalog.js",
+    "originalSha256": "5a25b655fd3490638fc713c8d6116007a395488929305cf6da2f8de00a99a884"
+  },
+  {
+    "path": "web/languages/de/js/views/vocabulary-tests.js",
+    "archive": "apps/german/web/js/views/vocabulary-tests.js",
+    "originalSha256": "f80099443dc32afd82132193e9c7b8d31cdc384d3743225f39681446a2c8bf3d"
+  },
+  {
+    "path": "web/languages/de/js/views/flashcards.js",
+    "archive": "apps/german/web/js/views/flashcards.js",
+    "originalSha256": "d8b59be87d1cfa67e104bef5e7b0175e3177d1c15fc5199686bec75a36b6b82e"
+  },
+  {
+    "path": "web/languages/de/js/views/wordlist.js",
+    "archive": "apps/german/web/js/views/wordlist.js",
+    "originalSha256": "cc89ebbeaa5ac5126a63a23010d1547fac5fd3097b4f715fee2bb0643e501aed"
+  },
+  {
+    "path": "web/languages/de/js/core/word-rows.js",
+    "archive": "apps/german/web/js/core/word-rows.js",
+    "originalSha256": "60dd67f66580d7022107a44b4fcef5b5ba4f7d668fa61f75d18869fdb2dffcfa",
+    "currentPath": "web/js/shared/word-rows.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/views/retest.js",
+    "archive": "apps/german/web/js/views/retest.js",
+    "originalSha256": "af8cca325ac53c8a9eee538b11cbc0e5e341f06f4d61d2f915be873655d06ef8"
+  },
+  {
+    "path": "web/languages/de/js/core/retest.js",
+    "archive": "apps/german/web/js/core/retest.js",
+    "originalSha256": "1d16b36b3c6abfba4b4cb1bd4c3ea1571db33ff183a631adbd4fff97896e2b34"
+  },
+  {
+    "path": "web/languages/de/js/views/settings.js",
+    "archive": "apps/german/web/js/views/settings.js",
+    "originalSha256": "4b923dff140c2ea8afd5d9f3014926285d21d738e2b42c176a2cf7ebbca4d7f9",
+    "currentPath": "web/js/shared/settings-view.js",
+    "change": "Replaced by the host-owned Settings renderer and language Settings adapters."
+  },
+  {
+    "path": "web/languages/de/js/core/theme.js",
+    "archive": "apps/german/web/js/core/theme.js",
+    "originalSha256": "1d5c48ba1e9791bd5b77a6e7ee7e8ff21e46b6b5bc50411fd67646a58a9287ba",
+    "currentPath": null,
+    "change": "Removed obsolete archived implementation; theme and package lifecycle are host-owned."
+  },
+  {
+    "path": "web/languages/de/js/core/bug-report.js",
+    "archive": "apps/german/web/js/core/bug-report.js",
+    "originalSha256": "7e524faa482a6752e869b827852a3f25f7918e35a60dd36c43c8066b8026a3d6",
+    "currentPath": "web/js/shared/bug-report.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/core/bug-diagnostics.js",
+    "archive": "apps/german/web/js/core/bug-diagnostics.js",
+    "originalSha256": "a1bc89cdc44764dcc2582abf2eb180ff8abfd86e970afb616f5ca639593f86e5",
+    "currentPath": "web/js/shared/bug-diagnostics.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/core/app-config.js",
+    "archive": "apps/german/web/js/core/app-config.js",
+    "originalSha256": "2baf493c31dd224835487dad07af89a9a74ae81eb9bc83c873833cbea6633eeb",
+    "currentPath": "web/js/shared/app-config.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/js/views/wrong.js",
+    "archive": "apps/german/web/js/views/wrong.js",
+    "originalSha256": "5c8f5e3f3855cffd89f4dc0b746dc1c8d615b5a8083ddf8ece310a52c43a8fea"
+  },
+  {
+    "path": "web/languages/de/js/core/wrong-detail.js",
+    "archive": "apps/german/web/js/core/wrong-detail.js",
+    "originalSha256": "dbe33a058cffdb3934bdd19760138970580ef904692222d2d0cbab4e924cadff"
+  },
+  {
+    "path": "web/languages/de/js/core/wrong.js",
+    "archive": "apps/german/web/js/core/wrong.js",
+    "originalSha256": "e5ed21f738c786ea77503d1ace740f6d8a10c37711d9f1f34e600bb4fa24ec00"
+  },
+  {
+    "path": "web/languages/de/js/core/vocabulary-review.js",
+    "archive": "apps/german/web/js/core/vocabulary-review.js",
+    "originalSha256": "e56b7acfce46b8a885fa5216ade8fa4c88671f0f9280db56a78b68b39de3d9fe"
+  },
+  {
+    "path": "web/languages/de/js/views/home.js",
+    "archive": "apps/german/web/js/views/home.js",
+    "originalSha256": "d94c389bda05e584a17a1ab422b06604d68e726f63c3eb12810f94f560f8d942"
+  },
+  {
+    "path": "web/languages/de/js/core/lazy-view.js",
+    "archive": "apps/german/web/js/core/lazy-view.js",
+    "originalSha256": "ecda734a488ca8a34682da2a5c25589db8f11b042bd2b074c37b23bed2341d44",
+    "currentPath": "web/js/shared/lazy-view.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/de/styles.css",
+    "archive": "apps/german/web/styles.css",
+    "originalSha256": "3f3f0425d8ee5950e13df147c8e7e25d36bd50be9538f24225788040db60d014"
+  },
+  {
+    "path": "web/languages/zh/js/services/lazy-view.js",
+    "archive": "apps/chinese/web/js/services/lazy-view.js",
+    "originalSha256": "ecda734a488ca8a34682da2a5c25589db8f11b042bd2b074c37b23bed2341d44",
+    "currentPath": "web/js/shared/lazy-view.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/app-definition.js",
+    "archive": "apps/chinese/web/js/app-definition.js",
+    "originalSha256": "9226a146072d2197c52cfde8c1a4a3d3bc01793c60d58930f9ef238397862dde"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/listening.js",
+    "archive": "apps/chinese/web/js/quizzes/listening.js",
+    "originalSha256": "b6e63baee80a3e996a89e2cb15e1611c79e1be8b34d23878a70f27941f39092b"
+  },
+  {
+    "path": "web/languages/zh/js/components.js",
+    "archive": "apps/chinese/web/js/components.js",
+    "originalSha256": "eaa7bc4de929b1265925d9171249135db28fb34839944b687f36a4faab5edf81"
+  },
+  {
+    "path": "web/languages/zh/js/services/i18n.js",
+    "archive": "apps/chinese/web/js/services/i18n.js",
+    "originalSha256": "73702483de72179bc79e07e4705f9eb56f06d95129cc63224083857c7367a358"
+  },
+  {
+    "path": "web/languages/zh/js/services/store.js",
+    "archive": "apps/chinese/web/js/services/store.js",
+    "originalSha256": "e7efc9316d9782f94c52016d8e459a024d61cad3944e73be3766a876d6cfe3e0"
+  },
+  {
+    "path": "web/languages/zh/js/services/vocabulary.js",
+    "archive": "apps/chinese/web/js/services/vocabulary.js",
+    "originalSha256": "bfbf56f036ef43c8156b417f7b35f4e0829861fe1983c7194d3745bfe7b87ced"
+  },
+  {
+    "path": "web/languages/zh/js/services/wrong-count.js",
+    "archive": "apps/chinese/web/js/services/wrong-count.js",
+    "originalSha256": "30f26bcfc1968ef331e4e83afca49358b0b0573546c4b935b1db69da8ca97f77"
+  },
+  {
+    "path": "web/languages/zh/js/services/haptic.js",
+    "archive": "apps/chinese/web/js/services/haptic.js",
+    "originalSha256": "9c66d521e216a01870066d54fc197310079b18f1aed2c8b80ee3bccc64aea335"
+  },
+  {
+    "path": "web/languages/zh/js/services/tts.js",
+    "archive": "apps/chinese/web/js/services/tts.js",
+    "originalSha256": "1027cdb538453392c2263f3f68d65d8ad8aee89354621575f3cd4845b7a7a72f"
+  },
+  {
+    "path": "web/languages/zh/js/services/device-speech.js",
+    "archive": "apps/chinese/web/js/services/device-speech.js",
+    "originalSha256": "0086f7b81ee2c027aab3789bce7d851f4bc3c83e3c976e28689f1351eacab4c4",
+    "currentPath": "web/js/shared/device-speech.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/services/pinyin.js",
+    "archive": "apps/chinese/web/js/services/pinyin.js",
+    "originalSha256": "7e2576e990d99f3515dba2e5bccb774439be4d70bf5c170906643f63883e3865"
+  },
+  {
+    "path": "web/languages/zh/js/services/srs.js",
+    "archive": "apps/chinese/web/js/services/srs.js",
+    "originalSha256": "68166a962497f685c6c9d36029045869eb89defd88a6e70504b2aa0c36c71b3e"
+  },
+  {
+    "path": "web/languages/zh/js/services/vocabulary-tests.js",
+    "archive": "apps/chinese/web/js/services/vocabulary-tests.js",
+    "originalSha256": "29074e111654553c953a61bbb2c822d5870903cd79569a04e6950ba89a864494"
+  },
+  {
+    "path": "web/languages/zh/js/services/question-snapshot.js",
+    "archive": "apps/chinese/web/js/services/question-snapshot.js",
+    "originalSha256": "d2051582dc938c2f6333fb4043dc810545655da0574105dfcf80722237b4a846",
+    "currentPath": "web/js/shared/question-snapshot.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/services/listening-tests.js",
+    "archive": "apps/chinese/web/js/services/listening-tests.js",
+    "originalSha256": "66033d5c9d27fa94b7289e9fae0df852d83f0244db2c4bc1dd759f99a175182c"
+  },
+  {
+    "path": "web/languages/zh/js/services/pinyin-key.js",
+    "archive": "apps/chinese/web/js/services/pinyin-key.js",
+    "originalSha256": "1e4d6e3be35610996147586d3819e24e1680628eeac438b0d0de89713a104b48"
+  },
+  {
+    "path": "web/languages/zh/js/services/listening-view.js",
+    "archive": "apps/chinese/web/js/services/listening-view.js",
+    "originalSha256": "b254fc31726668a61c7df5acf90543085a79a5f455744942576fc9d34daa72c3",
+    "currentPath": "web/js/shared/listening-view.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/scramble.js",
+    "archive": "apps/chinese/web/js/quizzes/scramble.js",
+    "originalSha256": "38a325b5103431b1f9fbe5980bfdc08df6a774a4e276aab305c3fa83f9737385"
+  },
+  {
+    "path": "web/languages/zh/js/services/wrong-review.js",
+    "archive": "apps/chinese/web/js/services/wrong-review.js",
+    "originalSha256": "b4f0b5938d20952ab9da5ced44ea570b8fa0edf458e90ed4a705adff311284b4"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/cloze.js",
+    "archive": "apps/chinese/web/js/quizzes/cloze.js",
+    "originalSha256": "eaf57db4e141c66491ac4fdecf8adc3cf3eec6127a484e0f5acc83477f09a7de"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/tone.js",
+    "archive": "apps/chinese/web/js/quizzes/tone.js",
+    "originalSha256": "d35dc41b861889c8b94488eec888391640e0230c5bfb66b3e65ebda63ca500fd"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/pinyin.js",
+    "archive": "apps/chinese/web/js/quizzes/pinyin.js",
+    "originalSha256": "7258499d20b762b10df9ca957d1cddefdd4b641b704aa5114a4f46587305fb2e"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/vocabulary-tests.js",
+    "archive": "apps/chinese/web/js/quizzes/vocabulary-tests.js",
+    "originalSha256": "da757ee51d3ba28a07e2202c5bd8e5b4aa0ab9087f4ef45176e26d2e31a754b2"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/flashcard.js",
+    "archive": "apps/chinese/web/js/quizzes/flashcard.js",
+    "originalSha256": "5690c95bf8260a5ec5661184e246c6ba22906e3b40f95bc77eadbfe1d04cce3f"
+  },
+  {
+    "path": "web/languages/zh/js/quizzes/wordlist.js",
+    "archive": "apps/chinese/web/js/quizzes/wordlist.js",
+    "originalSha256": "3784162d65167323adf52ee46660619d6b9985ad6dbfab026a01a891ed059e8f"
+  },
+  {
+    "path": "web/languages/zh/js/services/word-search.js",
+    "archive": "apps/chinese/web/js/services/word-search.js",
+    "originalSha256": "d81938ac95bccbb326d065ed14023b44e45ae575142565879c9e52bf300813db"
+  },
+  {
+    "path": "web/languages/zh/js/services/word-rows.js",
+    "archive": "apps/chinese/web/js/services/word-rows.js",
+    "originalSha256": "60dd67f66580d7022107a44b4fcef5b5ba4f7d668fa61f75d18869fdb2dffcfa",
+    "currentPath": "web/js/shared/word-rows.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/views/retest.js",
+    "archive": "apps/chinese/web/js/views/retest.js",
+    "originalSha256": "c0f3ecc3606c17f7edec1cc29efad61c6b204fee1aefa8d09223ee4ccfa62415"
+  },
+  {
+    "path": "web/languages/zh/js/router.js",
+    "archive": "apps/chinese/web/js/router.js",
+    "originalSha256": "9aa802e6aaa28f6ed74ca7014aa9977a203d72f54d626be08936b70a9c1961d6"
+  },
+  {
+    "path": "web/languages/zh/js/views/settings.js",
+    "archive": "apps/chinese/web/js/views/settings.js",
+    "originalSha256": "bccdecc4fb059af0e2baa43a9d8044c62784ebfc184960d8fc2b5311d852ba01",
+    "currentPath": "web/js/shared/settings-view.js",
+    "change": "Replaced by the host-owned Settings renderer and language Settings adapters."
+  },
+  {
+    "path": "web/languages/zh/js/services/app-update.js",
+    "archive": "apps/chinese/web/js/services/app-update.js",
+    "originalSha256": "864e0af7f0251814c7cce58752d13964f860d83e3c22ff14ba57ca460d2a90e5",
+    "currentPath": null,
+    "change": "Removed obsolete archived implementation; theme and package lifecycle are host-owned."
+  },
+  {
+    "path": "web/languages/zh/js/services/theme.js",
+    "archive": "apps/chinese/web/js/services/theme.js",
+    "originalSha256": "04ee65bcd5de6f282801dcf7b84df22528644e28b956d063a7b183719b77056a",
+    "currentPath": null,
+    "change": "Removed obsolete archived implementation; theme and package lifecycle are host-owned."
+  },
+  {
+    "path": "web/languages/zh/js/services/bug-report.js",
+    "archive": "apps/chinese/web/js/services/bug-report.js",
+    "originalSha256": "7e524faa482a6752e869b827852a3f25f7918e35a60dd36c43c8066b8026a3d6",
+    "currentPath": "web/js/shared/bug-report.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/services/bug-diagnostics.js",
+    "archive": "apps/chinese/web/js/services/bug-diagnostics.js",
+    "originalSha256": "afdfcbec6342b29f10df0d5e9f435850eba8f29b04606f7527ad00796e6efa50",
+    "currentPath": "web/js/shared/bug-diagnostics.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/services/app-config.js",
+    "archive": "apps/chinese/web/js/services/app-config.js",
+    "originalSha256": "2baf493c31dd224835487dad07af89a9a74ae81eb9bc83c873833cbea6633eeb",
+    "currentPath": "web/js/shared/app-config.js",
+    "change": "Consolidated shared implementation; original import path retained for provenance."
+  },
+  {
+    "path": "web/languages/zh/js/views/wrong.js",
+    "archive": "apps/chinese/web/js/views/wrong.js",
+    "originalSha256": "13b2ce46f78a4bb78167f5ee4ddc1114779e780188853de53e88f531e987548a"
+  },
+  {
+    "path": "web/languages/zh/js/services/vocabulary-review.js",
+    "archive": "apps/chinese/web/js/services/vocabulary-review.js",
+    "originalSha256": "da3e80104ce9179d699f2730c252c9b5d4b58b2e2258254820e91063c3c42f16"
+  },
+  {
+    "path": "web/languages/zh/js/views/home.js",
+    "archive": "apps/chinese/web/js/views/home.js",
+    "originalSha256": "ebdd7948c6f9e0f5bb4da3f53f2dc50463723d4d26fd3493f167a967bee0f587"
+  },
+  {
+    "path": "web/languages/zh/styles.css",
+    "archive": "apps/chinese/web/style.css",
+    "originalSha256": "7ee879aaef771c787457ff0cf64d57d0c5baf2102d1e675aa96fe9e6bbd69ef4"
+  }
+]

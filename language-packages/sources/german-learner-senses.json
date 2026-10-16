@@ -1,0 +1,1993 @@
+{
+  "aalen": {
+    "en": [
+      "to lounge; to bask"
+    ],
+    "ko": [
+      "느긋하게 몸을 뻗고 쉬다"
+    ]
+  },
+  "Ball": {
+    "en": [
+      "ball",
+      "formal dance; ball"
+    ],
+    "ko": [
+      "공",
+      "무도회"
+    ]
+  },
+  "Bluse": {
+    "en": [
+      "blouse"
+    ],
+    "ko": [
+      "블라우스"
+    ]
+  },
+  "Führung": {
+    "en": [
+      "guided tour",
+      "leadership"
+    ],
+    "ko": [
+      "안내 관광",
+      "지도"
+    ]
+  },
+  "Gang": {
+    "en": [
+      "corridor; passage",
+      "movement; course",
+      "gear"
+    ],
+    "ko": [
+      "복도; 통로",
+      "움직임; 과정",
+      "기어"
+    ]
+  },
+  "Hammer": {
+    "en": [
+      "hammer; mallet"
+    ],
+    "ko": [
+      "망치"
+    ]
+  },
+  "Hausmann": {
+    "en": [
+      "househusband",
+      "caretaker"
+    ],
+    "ko": [
+      "살림을 맡는 남편",
+      "관리인"
+    ]
+  },
+  "Knödel": {
+    "en": [
+      "dumpling"
+    ],
+    "ko": [
+      "크뇌델; 경단"
+    ]
+  },
+  "Kloß": {
+    "en": [
+      "dumpling",
+      "lump"
+    ],
+    "ko": [
+      "경단",
+      "덩어리"
+    ]
+  },
+  "Krippe": {
+    "en": [
+      "day nursery",
+      "manger; crib"
+    ],
+    "ko": [
+      "어린이집",
+      "구유"
+    ]
+  },
+  "Laster": {
+    "en": [
+      "lorry",
+      "vice; bad habit"
+    ],
+    "ko": [
+      "화물차",
+      "악습; 나쁜 버릇"
+    ]
+  },
+  "Medien": {
+    "en": [
+      "media"
+    ],
+    "ko": [
+      "미디어; 매체"
+    ]
+  },
+  "Pech": {
+    "en": [
+      "bad luck",
+      "pitch; tar"
+    ],
+    "ko": [
+      "불운",
+      "역청"
+    ]
+  },
+  "Poster": {
+    "en": [
+      "poster"
+    ],
+    "ko": [
+      "포스터"
+    ]
+  },
+  "Rezept": {
+    "en": [
+      "prescription",
+      "recipe"
+    ],
+    "ko": [
+      "처방전",
+      "요리법"
+    ]
+  },
+  "Rolle": {
+    "en": [
+      "role",
+      "roll; reel"
+    ],
+    "ko": [
+      "역할",
+      "두루마리; 실패"
+    ]
+  },
+  "Schnitzel": {
+    "en": [
+      "schnitzel; cutlet",
+      "small piece; scrap"
+    ],
+    "ko": [
+      "슈니첼; 얇은 고기 조각",
+      "작은 조각"
+    ]
+  },
+  "Spot": {
+    "en": [
+      "short commercial; advertising spot"
+    ],
+    "ko": [
+      "짧은 광고 영상"
+    ]
+  },
+  "Stock": {
+    "en": [
+      "floor; storey",
+      "stick"
+    ],
+    "ko": [
+      "층",
+      "막대기"
+    ]
+  },
+  "Tatsache": {
+    "en": [
+      "fact"
+    ],
+    "ko": [
+      "사실"
+    ],
+    "pos": "noun",
+    "article": "die"
+  },
+  "Typ": {
+    "en": [
+      "type",
+      "guy; bloke"
+    ],
+    "ko": [
+      "종류; 유형",
+      "남자; 녀석"
+    ]
+  },
+  "Wiederhören": {
+    "en": [
+      "hearing each other again",
+      "goodbye on the telephone"
+    ],
+    "ko": [
+      "다시 통화함",
+      "전화에서 하는 작별 인사"
+    ]
+  },
+  "Wiedersehen": {
+    "en": [
+      "reunion; seeing each other again",
+      "goodbye"
+    ],
+    "ko": [
+      "재회",
+      "작별 인사"
+    ]
+  },
+  "Zeile": {
+    "en": [
+      "line in a text or table"
+    ],
+    "ko": [
+      "글이나 표의 한 줄"
+    ]
+  },
+  "Zettel": {
+    "en": [
+      "note; slip of paper"
+    ],
+    "ko": [
+      "쪽지; 종이 조각"
+    ]
+  },
+  "bar": {
+    "en": [
+      "in cash"
+    ],
+    "ko": [
+      "현금으로"
+    ],
+    "pos": "functional",
+    "subtype": "adverb"
+  },
+  "aufhören": {
+    "en": [
+      "to stop; to cease"
+    ],
+    "ko": [
+      "그만두다; 멈추다"
+    ]
+  },
+  "ausfallen": {
+    "en": [
+      "to be cancelled",
+      "to fail; to fall out"
+    ],
+    "ko": [
+      "취소되다",
+      "고장 나다; 빠지다"
+    ]
+  },
+  "beschließen": {
+    "en": [
+      "to decide",
+      "to conclude"
+    ],
+    "ko": [
+      "결정하다",
+      "끝내다"
+    ]
+  },
+  "eintragen": {
+    "en": [
+      "to enter; to record"
+    ],
+    "ko": [
+      "기입하다; 기록하다"
+    ]
+  },
+  "erledigen": {
+    "en": [
+      "to complete; to deal with"
+    ],
+    "ko": [
+      "처리하다; 끝내다"
+    ]
+  },
+  "fassen": {
+    "en": [
+      "to grasp; to hold",
+      "to have capacity for"
+    ],
+    "ko": [
+      "붙잡다; 담다",
+      "수용하다"
+    ]
+  },
+  "klappen": {
+    "en": [
+      "to work out",
+      "to fold; to close with a clapping sound"
+    ],
+    "ko": [
+      "잘되다",
+      "접히다; 탁 닫히다"
+    ]
+  },
+  "verhaften": {
+    "en": [
+      "to arrest"
+    ],
+    "ko": [
+      "체포하다"
+    ]
+  },
+  "vorn": {
+    "en": [
+      "at the front; in front"
+    ],
+    "ko": [
+      "앞에; 앞쪽에"
+    ],
+    "pos": "functional",
+    "subtype": "adverb"
+  },
+  "weg": {
+    "en": [
+      "away; gone"
+    ],
+    "ko": [
+      "가 버린; 떨어져"
+    ],
+    "subtype": "adverb"
+  },
+  "vgl.": {
+    "en": [
+      "compare; see also"
+    ],
+    "ko": [
+      "비교하라; 참조하라"
+    ],
+    "pos": "functional",
+    "subtype": "abbreviation"
+  },
+  "überfahren": {
+    "en": [
+      "to run over",
+      "to cross; to drive across"
+    ],
+    "ko": [
+      "차로 치다",
+      "차로 지나가다"
+    ]
+  },
+  "Aktion": {
+    "en": [
+      "campaign",
+      "action"
+    ],
+    "ko": [
+      "행사",
+      "활동"
+    ]
+  },
+  "Angestellter": {
+    "en": [
+      "employee"
+    ],
+    "ko": [
+      "직원",
+      "회사원"
+    ]
+  },
+  "Anruf": {
+    "en": [
+      "telephone call"
+    ],
+    "ko": [
+      "전화"
+    ]
+  },
+  "Aufenthalt": {
+    "en": [
+      "stay",
+      "residence"
+    ],
+    "ko": [
+      "체류",
+      "거주"
+    ]
+  },
+  "Auskunft": {
+    "en": [
+      "information"
+    ],
+    "ko": [
+      "안내",
+      "정보"
+    ]
+  },
+  "Aussage": {
+    "en": [
+      "statement"
+    ],
+    "ko": [
+      "진술",
+      "발언"
+    ]
+  },
+  "Bahn": {
+    "en": [
+      "train",
+      "railway"
+    ],
+    "ko": [
+      "기차",
+      "철도"
+    ]
+  },
+  "Bauer": {
+    "en": [
+      "farmer"
+    ],
+    "ko": [
+      "농부"
+    ]
+  },
+  "Betrieb": {
+    "en": [
+      "business",
+      "operation"
+    ],
+    "ko": [
+      "사업체",
+      "운영"
+    ]
+  },
+  "Bund": {
+    "en": [
+      "federation",
+      "alliance"
+    ],
+    "ko": [
+      "연방",
+      "연합"
+    ]
+  },
+  "Darstellung": {
+    "en": [
+      "depiction",
+      "presentation"
+    ],
+    "ko": [
+      "묘사",
+      "표현"
+    ]
+  },
+  "Direktorin": {
+    "en": [
+      "female director",
+      "headmistress"
+    ],
+    "ko": [
+      "여성 책임자",
+      "여교장"
+    ]
+  },
+  "Droge": {
+    "en": [
+      "drug",
+      "narcotic"
+    ],
+    "ko": [
+      "마약"
+    ]
+  },
+  "Einfluss": {
+    "en": [
+      "influence"
+    ],
+    "ko": [
+      "영향"
+    ]
+  },
+  "Eintritt": {
+    "en": [
+      "admission",
+      "entry"
+    ],
+    "ko": [
+      "입장"
+    ]
+  },
+  "Essen": {
+    "en": [
+      "food",
+      "meal"
+    ],
+    "ko": [
+      "음식",
+      "식사"
+    ]
+  },
+  "Etage": {
+    "en": [
+      "floor",
+      "storey"
+    ],
+    "ko": [
+      "층"
+    ]
+  },
+  "Fach": {
+    "en": [
+      "compartment",
+      "subject"
+    ],
+    "ko": [
+      "칸",
+      "과목"
+    ]
+  },
+  "Fall": {
+    "en": [
+      "case",
+      "instance"
+    ],
+    "ko": [
+      "경우",
+      "사례"
+    ]
+  },
+  "Flur": {
+    "en": [
+      "hallway",
+      "corridor"
+    ],
+    "ko": [
+      "복도"
+    ]
+  },
+  "Golf": {
+    "en": [
+      "golf"
+    ],
+    "ko": [
+      "골프"
+    ],
+    "article": "das"
+  },
+  "Griechin": {
+    "en": [
+      "Greek woman"
+    ],
+    "ko": [
+      "그리스 여성"
+    ]
+  },
+  "Grundstück": {
+    "en": [
+      "plot of land",
+      "property"
+    ],
+    "ko": [
+      "토지",
+      "부지"
+    ]
+  },
+  "Hamburger": {
+    "en": [
+      "hamburger"
+    ],
+    "ko": [
+      "햄버거"
+    ]
+  },
+  "Hof": {
+    "en": [
+      "courtyard",
+      "yard"
+    ],
+    "ko": [
+      "안뜰",
+      "마당"
+    ]
+  },
+  "Imbiss": {
+    "en": [
+      "snack",
+      "snack bar"
+    ],
+    "ko": [
+      "간식",
+      "간이 음식점"
+    ]
+  },
+  "Institut": {
+    "en": [
+      "institute"
+    ],
+    "ko": [
+      "연구소",
+      "기관"
+    ]
+  },
+  "Kanne": {
+    "en": [
+      "jug",
+      "pot"
+    ],
+    "ko": [
+      "주전자"
+    ]
+  },
+  "Killer": {
+    "en": [
+      "killer",
+      "murderer"
+    ],
+    "ko": [
+      "살인자"
+    ]
+  },
+  "Kiste": {
+    "en": [
+      "box",
+      "crate"
+    ],
+    "ko": [
+      "상자"
+    ]
+  },
+  "Klasse": {
+    "en": [
+      "class",
+      "school year"
+    ],
+    "ko": [
+      "학급",
+      "학년"
+    ]
+  },
+  "Lager": {
+    "en": [
+      "camp",
+      "warehouse"
+    ],
+    "ko": [
+      "야영지",
+      "창고"
+    ]
+  },
+  "Leben": {
+    "en": [
+      "life"
+    ],
+    "ko": [
+      "생명",
+      "삶"
+    ]
+  },
+  "Mal": {
+    "en": [
+      "time",
+      "occasion"
+    ],
+    "ko": [
+      "번",
+      "회"
+    ]
+  },
+  "Mangel": {
+    "en": [
+      "lack",
+      "shortage"
+    ],
+    "ko": [
+      "부족",
+      "결핍"
+    ]
+  },
+  "Menge": {
+    "en": [
+      "quantity",
+      "amount"
+    ],
+    "ko": [
+      "양",
+      "수량"
+    ]
+  },
+  "Schild": {
+    "en": [
+      "sign",
+      "notice"
+    ],
+    "ko": [
+      "표지판",
+      "안내판"
+    ]
+  },
+  "Englisch": {
+    "en": [
+      "English language"
+    ],
+    "ko": [
+      "영어"
+    ]
+  },
+  "Mittel": {
+    "en": [
+      "means",
+      "remedy"
+    ],
+    "ko": [
+      "수단",
+      "치료제"
+    ]
+  },
+  "Moderator": {
+    "en": [
+      "presenter",
+      "moderator"
+    ],
+    "ko": [
+      "진행자",
+      "사회자"
+    ]
+  },
+  "Nachwuchs": {
+    "en": [
+      "offspring",
+      "young talent"
+    ],
+    "ko": [
+      "자녀",
+      "후진"
+    ]
+  },
+  "Nagel": {
+    "en": [
+      "nail"
+    ],
+    "ko": [
+      "손톱",
+      "못"
+    ]
+  },
+  "Ofen": {
+    "en": [
+      "oven",
+      "stove"
+    ],
+    "ko": [
+      "오븐",
+      "난로"
+    ]
+  },
+  "Oper": {
+    "en": [
+      "opera"
+    ],
+    "ko": [
+      "오페라"
+    ]
+  },
+  "Pension": {
+    "en": [
+      "guest house"
+    ],
+    "ko": [
+      "하숙집",
+      "소규모 숙박업소"
+    ]
+  },
+  "Pflaster": {
+    "en": [
+      "plaster",
+      "paving"
+    ],
+    "ko": [
+      "반창고",
+      "포장도로"
+    ]
+  },
+  "Plastik": {
+    "en": [
+      "plastic"
+    ],
+    "ko": [
+      "플라스틱"
+    ]
+  },
+  "Praxis": {
+    "en": [
+      "practice",
+      "medical practice"
+    ],
+    "ko": [
+      "실무",
+      "진료소"
+    ]
+  },
+  "Rand": {
+    "en": [
+      "edge",
+      "rim"
+    ],
+    "ko": [
+      "가장자리",
+      "테두리"
+    ]
+  },
+  "Realschule": {
+    "en": [
+      "secondary school with a practical curriculum"
+    ],
+    "ko": [
+      "실업계 중등학교"
+    ]
+  },
+  "Schachtel": {
+    "en": [
+      "box",
+      "carton"
+    ],
+    "ko": [
+      "작은 상자"
+    ]
+  },
+  "Schülerin": {
+    "en": [
+      "female pupil",
+      "schoolgirl"
+    ],
+    "ko": [
+      "여학생"
+    ]
+  },
+  "Star": {
+    "en": [
+      "star",
+      "celebrity"
+    ],
+    "ko": [
+      "인기 연예인",
+      "스타"
+    ]
+  },
+  "Stempel": {
+    "en": [
+      "stamp",
+      "seal"
+    ],
+    "ko": [
+      "도장",
+      "직인"
+    ]
+  },
+  "Stift": {
+    "en": [
+      "pen",
+      "pencil"
+    ],
+    "ko": [
+      "펜",
+      "연필"
+    ]
+  },
+  "Stockwerk": {
+    "en": [
+      "floor",
+      "storey"
+    ],
+    "ko": [
+      "층"
+    ]
+  },
+  "Strom": {
+    "en": [
+      "electricity",
+      "current"
+    ],
+    "ko": [
+      "전기",
+      "전류"
+    ]
+  },
+  "Struktur": {
+    "en": [
+      "structure"
+    ],
+    "ko": [
+      "구조"
+    ]
+  },
+  "Stufe": {
+    "en": [
+      "step",
+      "level"
+    ],
+    "ko": [
+      "계단의 단",
+      "단계"
+    ]
+  },
+  "Tabelle": {
+    "en": [
+      "table",
+      "chart"
+    ],
+    "ko": [
+      "표",
+      "도표"
+    ]
+  },
+  "Tropfen": {
+    "en": [
+      "drop"
+    ],
+    "ko": [
+      "방울"
+    ]
+  },
+  "Unterhaltung": {
+    "en": [
+      "conversation",
+      "entertainment"
+    ],
+    "ko": [
+      "대화",
+      "오락"
+    ]
+  },
+  "Verdacht": {
+    "en": [
+      "suspicion"
+    ],
+    "ko": [
+      "의심",
+      "혐의"
+    ]
+  },
+  "Workshop": {
+    "en": [
+      "workshop",
+      "practical seminar"
+    ],
+    "ko": [
+      "실습 강좌",
+      "워크숍"
+    ]
+  },
+  "Zustand": {
+    "en": [
+      "state",
+      "condition"
+    ],
+    "ko": [
+      "상태"
+    ]
+  },
+  "abnehmen": {
+    "en": [
+      "lose weight",
+      "take off"
+    ],
+    "ko": [
+      "체중이 줄다",
+      "떼어 내다"
+    ]
+  },
+  "allerdings": {
+    "en": [
+      "however",
+      "indeed"
+    ],
+    "ko": [
+      "그러나",
+      "물론"
+    ]
+  },
+  "also": {
+    "en": [
+      "so",
+      "therefore"
+    ],
+    "ko": [
+      "그러므로",
+      "그래서"
+    ]
+  },
+  "anerkennen": {
+    "en": [
+      "recognise",
+      "acknowledge"
+    ],
+    "ko": [
+      "인정하다"
+    ]
+  },
+  "angeben": {
+    "en": [
+      "state",
+      "specify"
+    ],
+    "ko": [
+      "알리다",
+      "기재하다"
+    ]
+  },
+  "anhaben": {
+    "en": [
+      "wear",
+      "have on"
+    ],
+    "ko": [
+      "입고 있다"
+    ]
+  },
+  "auffordern": {
+    "en": [
+      "request",
+      "ask someone to do something"
+    ],
+    "ko": [
+      "요청하다",
+      "요구하다"
+    ]
+  },
+  "aufheben": {
+    "en": [
+      "pick up",
+      "keep"
+    ],
+    "ko": [
+      "집어 올리다",
+      "보관하다"
+    ]
+  },
+  "aufnehmen": {
+    "en": [
+      "record",
+      "take in"
+    ],
+    "ko": [
+      "녹음하다",
+      "받아들이다"
+    ]
+  },
+  "aufwachen": {
+    "en": [
+      "wake up"
+    ],
+    "ko": [
+      "잠에서 깨다"
+    ]
+  },
+  "betrügen": {
+    "en": [
+      "cheat",
+      "deceive"
+    ],
+    "ko": [
+      "속이다",
+      "사기를 치다"
+    ]
+  },
+  "bewegen": {
+    "en": [
+      "move"
+    ],
+    "ko": [
+      "움직이다",
+      "움직이게 하다"
+    ]
+  },
+  "bunt": {
+    "en": [
+      "colourful"
+    ],
+    "ko": [
+      "알록달록한"
+    ]
+  },
+  "dagegen": {
+    "en": [
+      "against it",
+      "in contrast"
+    ],
+    "ko": [
+      "그것에 반대하여",
+      "반면에"
+    ]
+  },
+  "denn": {
+    "en": [
+      "because"
+    ],
+    "ko": [
+      "왜냐하면"
+    ],
+    "pos": "functional",
+    "subtype": "conjunction"
+  },
+  "furchtbar": {
+    "en": [
+      "terribly",
+      "terrible"
+    ],
+    "ko": [
+      "몹시",
+      "끔찍한"
+    ]
+  },
+  "doch": {
+    "en": [
+      "however",
+      "nevertheless"
+    ],
+    "ko": [
+      "하지만",
+      "그럼에도 불구하고"
+    ]
+  },
+  "drüben": {
+    "en": [
+      "over there"
+    ],
+    "ko": [
+      "저쪽에"
+    ]
+  },
+  "ein paar": {
+    "en": [
+      "a few"
+    ],
+    "ko": [
+      "몇몇의"
+    ]
+  },
+  "einfallen": {
+    "en": [
+      "come to mind"
+    ],
+    "ko": [
+      "생각이 떠오르다"
+    ]
+  },
+  "einstellen": {
+    "en": [
+      "hire",
+      "adjust"
+    ],
+    "ko": [
+      "고용하다",
+      "조정하다"
+    ]
+  },
+  "entwickeln": {
+    "en": [
+      "develop"
+    ],
+    "ko": [
+      "개발하다",
+      "발전시키다"
+    ]
+  },
+  "etc.": {
+    "en": [
+      "etcetera",
+      "and so on"
+    ],
+    "ko": [
+      "등등"
+    ]
+  },
+  "etwas": {
+    "en": [
+      "something",
+      "a little"
+    ],
+    "ko": [
+      "무언가",
+      "조금"
+    ]
+  },
+  "extrem": {
+    "en": [
+      "extremely"
+    ],
+    "ko": [
+      "극도로",
+      "매우"
+    ]
+  },
+  "faul": {
+    "en": [
+      "lazy",
+      "rotten"
+    ],
+    "ko": [
+      "게으른",
+      "썩은"
+    ]
+  },
+  "fehlen": {
+    "en": [
+      "be missing",
+      "be absent"
+    ],
+    "ko": [
+      "없다",
+      "빠지다",
+      "결석하다"
+    ]
+  },
+  "gar": {
+    "en": [
+      "cooked",
+      "done"
+    ],
+    "ko": [
+      "다 익은"
+    ]
+  },
+  "gerne": {
+    "en": [
+      "gladly",
+      "with pleasure"
+    ],
+    "ko": [
+      "기꺼이",
+      "즐겨"
+    ],
+    "pos": "functional",
+    "subtype": "adverb"
+  },
+  "glatt": {
+    "en": [
+      "smooth",
+      "slippery"
+    ],
+    "ko": [
+      "매끄러운",
+      "미끄러운"
+    ]
+  },
+  "hageln": {
+    "en": [
+      "hail"
+    ],
+    "ko": [
+      "우박이 내리다"
+    ]
+  },
+  "hinter": {
+    "en": [
+      "behind"
+    ],
+    "ko": [
+      "뒤에"
+    ],
+    "pos": "functional",
+    "subtype": "preposition"
+  },
+  "hinterlassen": {
+    "en": [
+      "leave behind"
+    ],
+    "ko": [
+      "남기다"
+    ]
+  },
+  "insgesamt": {
+    "en": [
+      "in total",
+      "altogether"
+    ],
+    "ko": [
+      "총",
+      "모두 합쳐"
+    ]
+  },
+  "joggen": {
+    "en": [
+      "jog"
+    ],
+    "ko": [
+      "조깅하다"
+    ]
+  },
+  "luxemburgisch": {
+    "en": [
+      "Luxembourgish"
+    ],
+    "ko": [
+      "룩셈부르크의"
+    ]
+  },
+  "mal": {
+    "en": [
+      "just",
+      "a softening modal particle"
+    ],
+    "ko": [
+      "좀",
+      "한번"
+    ]
+  },
+  "nachdenken": {
+    "en": [
+      "think about",
+      "reflect on"
+    ],
+    "ko": [
+      "곰곰이 생각하다"
+    ]
+  },
+  "natürlich": {
+    "en": [
+      "natural",
+      "of course"
+    ],
+    "ko": [
+      "자연스러운",
+      "물론"
+    ],
+    "pos": "adjective",
+    "subtype": null
+  },
+  "nützlich": {
+    "en": [
+      "useful",
+      "helpful"
+    ],
+    "ko": [
+      "유용한",
+      "도움이 되는"
+    ]
+  },
+  "oder": {
+    "en": [
+      "or"
+    ],
+    "ko": [
+      "또는",
+      "아니면"
+    ],
+    "pos": "functional",
+    "subtype": "conjunction"
+  },
+  "offenbar": {
+    "en": [
+      "apparently",
+      "evidently"
+    ],
+    "ko": [
+      "보아하니",
+      "명백히"
+    ]
+  },
+  "prost": {
+    "en": [
+      "cheers"
+    ],
+    "ko": [
+      "건배"
+    ]
+  },
+  "präsentieren": {
+    "en": [
+      "present",
+      "showcase"
+    ],
+    "ko": [
+      "발표하다",
+      "선보이다"
+    ]
+  },
+  "selten": {
+    "en": [
+      "rare",
+      "rarely"
+    ],
+    "ko": [
+      "드문",
+      "드물게"
+    ]
+  },
+  "so": {
+    "en": [
+      "so",
+      "like this"
+    ],
+    "ko": [
+      "그렇게",
+      "이렇게"
+    ]
+  },
+  "sowieso": {
+    "en": [
+      "anyway",
+      "in any case"
+    ],
+    "ko": [
+      "어쨌든",
+      "어차피"
+    ]
+  },
+  "stoßen": {
+    "en": [
+      "push",
+      "bump"
+    ],
+    "ko": [
+      "밀다",
+      "부딪치다"
+    ]
+  },
+  "stumm": {
+    "en": [
+      "unable to speak",
+      "silent"
+    ],
+    "ko": [
+      "말을 못 하는",
+      "말없는"
+    ]
+  },
+  "toll": {
+    "en": [
+      "great",
+      "wonderful"
+    ],
+    "ko": [
+      "멋진",
+      "훌륭한"
+    ]
+  },
+  "tschüss": {
+    "en": [
+      "bye"
+    ],
+    "ko": [
+      "잘 가",
+      "안녕"
+    ]
+  },
+  "unheimlich": {
+    "en": [
+      "extremely",
+      "incredibly"
+    ],
+    "ko": [
+      "엄청나게"
+    ]
+  },
+  "verschieben": {
+    "en": [
+      "move",
+      "postpone"
+    ],
+    "ko": [
+      "옮기다",
+      "연기하다"
+    ]
+  },
+  "verzeihen": {
+    "en": [
+      "forgive"
+    ],
+    "ko": [
+      "용서하다"
+    ]
+  },
+  "vorlesen": {
+    "en": [
+      "read aloud"
+    ],
+    "ko": [
+      "소리 내어 읽다"
+    ]
+  },
+  "vorstellen": {
+    "en": [
+      "introduce",
+      "imagine"
+    ],
+    "ko": [
+      "소개하다",
+      "상상하다"
+    ]
+  },
+  "welche": {
+    "en": [
+      "which"
+    ],
+    "ko": [
+      "어떤"
+    ]
+  },
+  "welcher": {
+    "en": [
+      "which"
+    ],
+    "ko": [
+      "어떤"
+    ]
+  },
+  "weshalb": {
+    "en": [
+      "why",
+      "for what reason"
+    ],
+    "ko": [
+      "왜",
+      "무슨 이유로"
+    ],
+    "pos": "functional",
+    "subtype": "adverb"
+  },
+  "wirklich": {
+    "en": [
+      "really",
+      "actually"
+    ],
+    "ko": [
+      "정말로",
+      "실제로"
+    ]
+  },
+  "öfter": {
+    "en": [
+      "more often"
+    ],
+    "ko": [
+      "더 자주"
+    ]
+  },
+  "überweisen": {
+    "en": [
+      "transfer money"
+    ],
+    "ko": [
+      "송금하다"
+    ]
+  },
+  "Abitur": {
+    "en": [
+      "school-leaving examination"
+    ],
+    "ko": [
+      "대학 입학 자격을 주는 고등학교 졸업 시험"
+    ]
+  },
+  "Anwältin": {
+    "en": [
+      "female lawyer"
+    ],
+    "ko": [
+      "여성 변호사"
+    ]
+  },
+  "Bankomat": {
+    "en": [
+      "cash machine"
+    ],
+    "ko": [
+      "현금 자동 입출금기"
+    ]
+  },
+  "Bewohnerin": {
+    "en": [
+      "female resident"
+    ],
+    "ko": [
+      "여성 거주자"
+    ]
+  },
+  "Coiffeuse": {
+    "en": [
+      "female hairdresser"
+    ],
+    "ko": [
+      "여성 미용사"
+    ]
+  },
+  "Disko": {
+    "en": [
+      "disco"
+    ],
+    "ko": [
+      "디스코장"
+    ]
+  },
+  "Eck": {
+    "en": [
+      "corner"
+    ],
+    "ko": [
+      "모퉁이"
+    ]
+  },
+  "Hausmeisterin": {
+    "en": [
+      "female caretaker"
+    ],
+    "ko": [
+      "여성 건물 관리인"
+    ]
+  },
+  "Häsin": {
+    "en": [
+      "female hare"
+    ],
+    "ko": [
+      "암토끼"
+    ]
+  },
+  "Hühnchen": {
+    "en": [
+      "chicken"
+    ],
+    "ko": [
+      "작은 닭"
+    ]
+  },
+  "Kücken": {
+    "en": [
+      "chick"
+    ],
+    "ko": [
+      "병아리"
+    ]
+  },
+  "Mütterchen": {
+    "en": [
+      "dear mother"
+    ],
+    "ko": [
+      "어머니를 친근하게 부르는 말"
+    ]
+  },
+  "Partnerin": {
+    "en": [
+      "female partner"
+    ],
+    "ko": [
+      "여성 동반자"
+    ]
+  },
+  "Pornographie": {
+    "en": [
+      "pornography"
+    ],
+    "ko": [
+      "음란물"
+    ]
+  },
+  "Stadtpräsidentin": {
+    "en": [
+      "female mayor"
+    ],
+    "ko": [
+      "여성 시장"
+    ]
+  },
+  "Unternehmerin": {
+    "en": [
+      "female entrepreneur"
+    ],
+    "ko": [
+      "여성 기업가"
+    ]
+  },
+  "Verbrecherin": {
+    "en": [
+      "female criminal"
+    ],
+    "ko": [
+      "여성 범죄자"
+    ]
+  },
+  "Vertreterin": {
+    "en": [
+      "female representative"
+    ],
+    "ko": [
+      "여성 대표"
+    ]
+  },
+  "Wismut": {
+    "en": [
+      "bismuth"
+    ],
+    "ko": [
+      "비스무트"
+    ]
+  },
+  "böser Blick": {
+    "en": [
+      "evil eye"
+    ],
+    "ko": [
+      "악의 눈길"
+    ]
+  },
+  "sehr gut": {
+    "en": [
+      "very good"
+    ],
+    "ko": [
+      "아주 좋은"
+    ]
+  },
+  "Meter pro Sekunde": {
+    "en": [
+      "metres per second"
+    ],
+    "ko": [
+      "초속 미터"
+    ]
+  },
+  "Bub": {
+    "en": [
+      "boy"
+    ],
+    "ko": [
+      "남자아이"
+    ]
+  },
+  "Calcium": {
+    "en": [
+      "calcium"
+    ],
+    "ko": [
+      "칼슘"
+    ]
+  },
+  "Einbrecherin": {
+    "en": [
+      "female burglar"
+    ],
+    "ko": [
+      "여성 절도 침입범"
+    ]
+  },
+  "Einwohnerin": {
+    "en": [
+      "female resident"
+    ],
+    "ko": [
+      "여성 주민"
+    ]
+  },
+  "Friede": {
+    "en": [
+      "peace"
+    ],
+    "ko": [
+      "평화"
+    ]
+  },
+  "Fußgängerin": {
+    "en": [
+      "female pedestrian"
+    ],
+    "ko": [
+      "여성 보행자"
+    ]
+  },
+  "Handwerkerin": {
+    "en": [
+      "female craftsperson"
+    ],
+    "ko": [
+      "여성 기능공"
+    ]
+  },
+  "Hauptschule": {
+    "en": [
+      "basic secondary school"
+    ],
+    "ko": [
+      "독일의 기초 중등학교"
+    ]
+  },
+  "Jänner": {
+    "en": [
+      "January"
+    ],
+    "ko": [
+      "일월"
+    ]
+  },
+  "Mail": {
+    "en": [
+      "email"
+    ],
+    "ko": [
+      "이메일"
+    ]
+  },
+  "Moderatorin": {
+    "en": [
+      "female presenter"
+    ],
+    "ko": [
+      "여성 진행자"
+    ]
+  },
+  "Müesli": {
+    "en": [
+      "muesli"
+    ],
+    "ko": [
+      "뮈슬리"
+    ]
+  },
+  "Parfum": {
+    "en": [
+      "perfume"
+    ],
+    "ko": [
+      "향수"
+    ]
+  },
+  "Passagierin": {
+    "en": [
+      "female passenger"
+    ],
+    "ko": [
+      "여성 승객"
+    ]
+  },
+  "Sauce": {
+    "en": [
+      "sauce"
+    ],
+    "ko": [
+      "소스"
+    ]
+  },
+  "Touristin": {
+    "en": [
+      "female tourist"
+    ],
+    "ko": [
+      "여성 관광객"
+    ]
+  },
+  "Zuschauerin": {
+    "en": [
+      "female spectator"
+    ],
+    "ko": [
+      "여성 관객"
+    ]
+  },
+  "einnehmen": {
+    "en": [
+      "take medicine",
+      "occupy"
+    ],
+    "ko": [
+      "약을 복용하다",
+      "차지하다"
+    ]
+  },
+  "lösen": {
+    "en": [
+      "solve",
+      "loosen"
+    ],
+    "ko": [
+      "해결하다",
+      "풀다"
+    ]
+  },
+  "extra": {
+    "en": [
+      "extra",
+      "separately"
+    ],
+    "ko": [
+      "추가로",
+      "별도로"
+    ],
+    "pos": "functional",
+    "subtype": "adverb"
+  },
+  "unterhalten": {
+    "en": [
+      "have a conversation",
+      "entertain",
+      "maintain"
+    ],
+    "ko": [
+      "이야기를 나누다",
+      "즐겁게 하다",
+      "유지하다"
+    ]
+  },
+  "fällig": {
+    "en": [
+      "due"
+    ],
+    "ko": [
+      "기한이 된"
+    ]
+  },
+  "reichen": {
+    "en": [
+      "be sufficient",
+      "reach"
+    ],
+    "ko": [
+      "충분하다",
+      "이르다"
+    ]
+  },
+  "verraten": {
+    "en": [
+      "reveal a secret",
+      "betray"
+    ],
+    "ko": [
+      "비밀을 누설하다",
+      "배신하다"
+    ]
+  },
+  "werden": {
+    "en": [
+      "become",
+      "will (future auxiliary)"
+    ],
+    "ko": [
+      "되다",
+      "미래 시제를 나타내는 조동사"
+    ],
+    "auxiliary": "sein",
+    "forms": {
+      "praesens": {
+        "ich": "werde",
+        "du": "wirst",
+        "er": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie": "werden"
+      },
+      "praeteritum": {
+        "ich": "wurde",
+        "du": "wurdest",
+        "er": "wurde",
+        "wir": "wurden",
+        "ihr": "wurdet",
+        "sie": "wurden"
+      },
+      "konjunktiv_ii": {
+        "ich": "würde",
+        "du": "würdest",
+        "er": "würde",
+        "wir": "würden",
+        "ihr": "würdet",
+        "sie": "würden"
+      },
+      "perfekt": "ist geworden"
+    }
+  },
+  "zusein": {
+    "en": [
+      "be closed"
+    ],
+    "ko": [
+      "닫혀 있다"
+    ],
+    "display_lemma": "zu sein",
+    "pos": "functional",
+    "subtype": "expression"
+  },
+  "nochmal": {
+    "en": [
+      "again"
+    ],
+    "ko": [
+      "다시"
+    ],
+    "display_lemma": "noch mal"
+  }
+}

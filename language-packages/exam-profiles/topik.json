@@ -1,0 +1,48 @@
+{
+  "id": "topik",
+  "targetLanguage": "ko",
+  "title": "TOPIK",
+  "levels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "levelKind": "proficiency-level",
+  "vocabularyMembership": "editorial",
+  "exams": [
+    {
+      "id": "topik-i",
+      "levels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "topik-ii",
+      "levels": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "notice": {
+    "en": "This starter selection uses editorial TOPIK study assignments. NIKL curriculum grades are separate reference material, not an exhaustive TOPIK exam word list; they are not used to certify these entries.",
+    "ko": "이 시작용 자료의 TOPIK 학습 단계는 편집 기준으로 정했습니다. 국립국어원 교육과정 등급은 별도 참고 자료이며 TOPIK 전체 출제 목록이나 이 항목의 공식 등급을 뜻하지 않습니다."
+  },
+  "sources": [
+    {
+      "url": "https://www.topik.go.kr/",
+      "role": "official exam provider"
+    },
+    {
+      "url": "https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=207&report_seq=932",
+      "role": "NIKL curriculum vocabulary grades; KOGL Type 1"
+    }
+  ],
+  "checked": "2026-10-15"
+}

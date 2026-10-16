@@ -1,0 +1,17 @@
+{
+  "status": "editorial-draft; native-speaker-review-pending",
+  "authored": 30,
+  "lastQueueIndex": 31,
+  "deferred": [
+    {
+      "id": "ko-lex-c6c1eb9fb805c00a3429",
+      "word": "일",
+      "reason": "Abbreviated Sunday headword needs a clear calendar context, not an embedded substring of 일요일."
+    },
+    {
+      "id": "ko-lex-75cea66b0b7d1235cc22",
+      "word": "명",
+      "reason": "Life/lifespan sense of 명 is uncommon at this frequency tier; review level and usage before authoring."
+    }
+  ]
+}

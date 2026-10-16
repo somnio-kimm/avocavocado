@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {validateExampleRecord,validateCorrection} from '../scripts/content/example-records.mjs';
+import {STUDY_LANGUAGES} from '../web/js/shared/language-pairs.js';
+const root=new URL('../',import.meta.url);
+const json=async path=>JSON.parse(await readFile(new URL(path,root),'utf8'));
+async function records(path){try{return (await readFile(new URL(path,root),'utf8')).trim().split('\n').filter(Boolean).map(JSON.parse);}catch(error){if(error.code==='ENOENT')return [];throw error;}}
+const catalogue=await json('language-packages/catalog.json');
+for(const language of STUDY_LANGUAGES)test(`${language}: mutable authoring records retain valid IDs, focus and source attribution`,async()=>{
+ const descriptor=catalogue.find(row=>row.id===language+'-core');
+ const core=await json(descriptor.url.slice(1)),entries=new Map(core.entries.map(row=>[row.id,row])),ids=new Set();
+ const folder='language-packages/sources/examples/';
+ for(const row of await records(folder+language+'-authored.jsonl')){
+  assert.ok(!ids.has(row.id),'duplicate authored ID: '+row.id);ids.add(row.id);
+  validateExampleRecord(row,entries.get(row.id),language);
+ }
+ const corrections=new Set();
+ for(const row of await records(folder+language+'-corrections.jsonl')){
+  assert.ok(!corrections.has(row.id),'duplicate correction ID: '+row.id);corrections.add(row.id);
+  validateCorrection(row,entries.get(row.id));
+  assert.ok(ids.has(row.id),'corrected sense needs its matched authored example: '+row.id);
+ }
+});

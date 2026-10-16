@@ -1,0 +1,599 @@
+[
+  {
+    "id": "ja-lex-a3b2162779f190327377",
+    "word": "出し",
+    "status": "resolved-with-authored-example",
+    "reason": "出し is an uncommon spelling for stock; verify reading and preferred learner headword before authoring.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-16487e3b340594b42b8c",
+    "word": "機",
+    "status": "example-authored-reading-tier-review-pending",
+    "reason": "機 as a loom requires the reading はた; the frequency-derived N5 label may concern other uses of the character. Verify the selected reading and level.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-4652a3405d7cb6d2d6ad",
+    "word": "地",
+    "status": "example-authored-reading-tier-review-pending",
+    "reason": "地 as cloth or fabric requires sense and reading review; the frequency tier may concern other uses.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-2347d8346ec197011ec1",
+    "word": "公式",
+    "status": "resolved-with-authored-example",
+    "reason": "The inherited conventional-method gloss needs review against the Japanese formula/official senses before choosing a learner definition.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-d728a169a8cb2e146d66",
+    "word": "真",
+    "status": "resolved-with-authored-example",
+    "reason": "The inherited sincere-heart gloss is insufficiently aligned with the ordinary truth/genuine senses; selected reading and POS need review.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-ef16272c5e520d74fb39",
+    "word": "丸",
+    "status": "resolved-with-authored-example",
+    "reason": "丸 is tagged adjective with a predicative gloss; whole/full use is normally a bound modifier. Review POS and construction before authoring.",
+    "resolution": "Recovered original authored sentence with six translation and meaning locales; explicit imported-sense or reading corrections retained in ja-corrections.jsonl. Editorial frequency tiers are not an official JLPT vocabulary list."
+  },
+  {
+    "id": "ja-lex-0dd1771b00a94daa02d7",
+    "word": "末",
+    "status": "resolved-with-authored-example",
+    "reason": "末 glossed as a youngest sibling needs review: ordinary learner form is 末っ子, while 末 has multiple bound and temporal senses.",
+    "resolution": "The youngest-child sense of 末 read すえ was verified in local Wiktionary facts and the live Japanese dictionary entry. Original example uses 末の弟; source sense and reading retained. Independent review is pending."
+  },
+  {
+    "id": "ja-lex-3e549ac1b7ceb7d7b2b6",
+    "word": "モード",
+    "status": "resolved-with-authored-example",
+    "reason": "モード selected as fashion/style needs usage review; frequency rank may instead concern machine modes.",
+    "resolution": "Selected Japanese sense verified against local Wiktionary facts and preserved in an original sentence with all six translations and meanings. Independent editorial review and native-speaker review are pending."
+  },
+  {
+    "id": "ja-lex-92e57a9207da9a809b53",
+    "word": "隠し",
+    "status": "resolved-with-authored-example",
+    "reason": "隠し glossed as an ordinary pocket is an uncommon/dated use; verify headword construction and register before authoring.",
+    "resolution": "Selected Japanese sense verified against local Wiktionary facts and preserved in an original sentence with all six translations and meanings. Independent editorial review and native-speaker review are pending."
+  },
+  {
+    "id": "ja-lex-bd3f12aacf9102110e1a",
+    "word": "マスター",
+    "status": "resolved-with-authored-example",
+    "reason": "マスター selected as a postgraduate degree is uncommon in ordinary Japanese; verify educational terminology and intended sense.",
+    "resolution": "Selected Japanese sense verified against local Wiktionary facts and preserved in an original sentence with all six translations and meanings. Independent editorial review and native-speaker review are pending."
+  },
+  {
+    "id": "ja-lex-029484651550665add53",
+    "word": "彼氏",
+    "status": "resolved-with-authored-example",
+    "reason": "Duplicate 彼氏 has a Korean-specific absent-husband/boyfriend pronoun gloss. Resolve sense/POS overlap with the corrected ordinary boyfriend noun before adding a separate example.",
+    "resolution": "Selected Japanese sense verified against local Wiktionary facts and preserved in an original sentence with all six translations and meanings. Independent editorial review and native-speaker review are pending."
+  },
+  {
+    "id": "ja-lex-d26fac6225eb18ef1da5",
+    "word": "里",
+    "status": "deferred-review",
+    "reason": "里 inherited as the home of the wife's parents needs reading and sense review against village/home-region and family-home uses."
+  },
+  {
+    "id": "ja-lex-75a06c97fabcefd3da2c",
+    "word": "ファンタジー",
+    "status": "deferred-review",
+    "reason": "ファンタジー selected as a musical fantasia needs specialist terminology verification before authoring, rather than assuming the ordinary fantasy-fiction sense."
+  },
+  {
+    "id": "ja-lex-b7ba2c9091a20f4c839b",
+    "word": "人事",
+    "status": "deferred-review",
+    "reason": "人事 selected as human affairs rather than personnel affairs requires register/sense review before writing a learner example."
+  },
+  {
+    "id": "ja-lex-d8ce369b95d658f38d83",
+    "word": "反映",
+    "status": "deferred-review",
+    "reason": "反映 selected in the literal light-reflection sense needs usage verification; do not silently substitute the common figurative reflection sense."
+  },
+  {
+    "id": "ja-lex-1057a09a75cbb88e3174",
+    "word": "帳",
+    "status": "deferred-review",
+    "reason": "帳 selected as surrounding curtains requires reading and register verification, distinct from a ledger sense."
+  },
+  {
+    "id": "ja-lex-7e246dbee2e97e4c5302",
+    "word": "斗",
+    "status": "deferred-review",
+    "reason": "斗 selected as a wooden measuring vessel requires historical terminology and reading verification."
+  },
+  {
+    "id": "ja-lex-1b53761c668cd0059c8e",
+    "word": "黒人",
+    "status": "source-word-warning",
+    "reason": "Korean provenance sourceWord is a derogatory label. The authored example uses neutral 흑인. Do not propagate the sourceWord into reuse translations."
+  },
+  {
+    "id": "ja-lex-b5e620774efac30d7d88",
+    "word": "覚醒",
+    "status": "deferred-review",
+    "reason": "覚醒 selected as correct understanding needs review against the ordinary awakening and awareness senses before authoring."
+  },
+  {
+    "id": "ja-lex-3d7283112a5882c40b6d",
+    "word": "厨",
+    "status": "deferred-review",
+    "reason": "厨 selected as a kitchen is archaic/reading-sensitive and may be ranked by a separate internet-slang use. Verify reading and register before authoring."
+  },
+  {
+    "status": "source-text-correction",
+    "id": "ja-lex-d196737a4eea7c75b781",
+    "field": "en",
+    "previous": "We scored twice in the second half of the match.",
+    "replacement": "We scored two points in the second half of the match.",
+    "reason": "Japanese 二点 and Korean 이 점 specify two points, not two scoring events.",
+    "review": "AI-editorial-checked; native-speaker-review-pending"
+  },
+  {
+    "status": "source-text-correction",
+    "id": "ja-lex-7d5bf8b9860adc78c157",
+    "field": "ko",
+    "previous": "할아버지는 장기의 귀재라고 불릴 만큼 쇼기를 잘 두세요.",
+    "replacement": "할아버지는 쇼기의 귀재라고 불릴 만큼 쇼기를 잘 두세요.",
+    "reason": "Japanese 将棋 is shogi. The previous Korean line inconsistently called the game 장기 in the nickname and 쇼기 in the same sentence; use 쇼기 consistently.",
+    "review": "AI-editorial-checked; native-speaker-review-pending"
+  },
+  {
+    "kind": "session-recovery-checkpoint",
+    "status": "recovered-and-validated",
+    "recoveredOn": "2026-10-15",
+    "sourceSession": "01a13d17-c52b-7270-8825-7b0a69f5f52f",
+    "sourceSessionLastRecoveredCommandLine": 1824,
+    "nativeSpeakerReview": false,
+    "examples": 2282,
+    "corrections": 251,
+    "recoveredLegacyTranslationRows": 1225,
+    "recoveredStarterRows": 51,
+    "recoveredNewExampleRows": 255,
+    "recoveredFullMeaningRows": 1976,
+    "newSenseCorrections": 172,
+    "completedEditorialLevels": [
+      "N5"
+    ],
+    "remainingWithoutSidecarExample": {
+      "N4": 201,
+      "N3": 552,
+      "N2": 2996,
+      "N1": 5996
+    },
+    "nextCandidateIndex": 255,
+    "sourceFieldsChecked": 1976,
+    "japaneseSourceTextPreserved": true,
+    "originalAuthorshipProvenancePreserved": true,
+    "documentedSourceTextCorrections": [
+      {
+        "id": "ja-lex-d196737a4eea7c75b781",
+        "field": "en",
+        "previous": "We scored twice in the second half of the match.",
+        "replacement": "We scored two points in the second half of the match."
+      },
+      {
+        "id": "ja-lex-7d5bf8b9860adc78c157",
+        "field": "ko",
+        "previous": "할아버지는 장기의 귀재라고 불릴 만큼 쇼기를 잘 두세요.",
+        "replacement": "할아버지는 쇼기의 귀재라고 불릴 만큼 쇼기를 잘 두세요."
+      }
+    ],
+    "validation": {
+      "runtime": "v26.11.1",
+      "examples": 2282,
+      "corrections": 251,
+      "missingMeanings": 0,
+      "errors": [],
+      "focusErrors": [],
+      "missingTranslations": []
+    },
+    "limitations": [
+      "Recovered content is AI-assisted editorial work; native-speaker review remains pending.",
+      "The original session contains no authored example batches beyond candidate 254.",
+      "Coverage is incomplete outside N5. Editorial frequency-derived levels do not establish official JLPT tiers.",
+      "Original deferred reading-specific tier concerns for 機 and 地 remain visible."
+    ]
+  },
+  {
+    "kind": "coverage-checkpoint",
+    "createdOn": "2026-10-15",
+    "status": "author-self-checked",
+    "independentReview": "pending",
+    "nativeSpeakerReview": false,
+    "newExampleCount": 50,
+    "newCorrectionCount": 13,
+    "reviewedIds": [
+      "ja-lex-0dd1771b00a94daa02d7",
+      "ja-lex-0e3889afa2ebb3bcc2e1",
+      "ja-lex-12c6789bf4793980bf2f",
+      "ja-lex-16a787d55a0fb5031bad",
+      "ja-lex-19884044246377ae4b25",
+      "ja-lex-2807ecacb8dbac21ae7d",
+      "ja-lex-2b40bbbe067410d76be2",
+      "ja-lex-2da1fababf9f62a2fe78",
+      "ja-lex-410e2ce293b959942f4b",
+      "ja-lex-4b570e5a719da17d5a0e",
+      "ja-lex-510ce5b020ffa6300d98",
+      "ja-lex-548431c7836ecce64b18",
+      "ja-lex-598b0dc67f0ed41571e7",
+      "ja-lex-61321022984791dd0d3c",
+      "ja-lex-61bce7ce5f5423691d6a",
+      "ja-lex-694a5cca83d2dcf09841",
+      "ja-lex-69d5ce0fe5888d930dad",
+      "ja-lex-6f9326e144b0dd1f88e8",
+      "ja-lex-77b488c16105d1625b96",
+      "ja-lex-78a6174cd9e9bd086e8b",
+      "ja-lex-7acc0973af87620ab49b",
+      "ja-lex-7fb3ed239f18eb6a3001",
+      "ja-lex-829b4b1843b3ee5988c5",
+      "ja-lex-869a799ff62efe02589a",
+      "ja-lex-8b5a16508cef6cfd20cf",
+      "ja-lex-8e4deb4ac1acee6d03b8",
+      "ja-lex-96df43178827b33a905b",
+      "ja-lex-971cf964cb18b6011abb",
+      "ja-lex-9c72a0fd77676dee4a74",
+      "ja-lex-a57a081644ac67e6f216",
+      "ja-lex-a7355526b8627855f9dc",
+      "ja-lex-a78e475355b689b8fcee",
+      "ja-lex-be459f75631531880a32",
+      "ja-lex-be69f08a827adc61f94b",
+      "ja-lex-beef9400080b34bfc988",
+      "ja-lex-c36073da19c5edf0876f",
+      "ja-lex-c76b0599f80944b4be43",
+      "ja-lex-c9080029af55ce7f9081",
+      "ja-lex-c9f7619c8dc2f2fb93e1",
+      "ja-lex-ceb9e804c8e31a6b18d8",
+      "ja-lex-dbf66dec183688372554",
+      "ja-lex-dce98a3fddb47dbc6791",
+      "ja-lex-e1e397b7fb822327026f",
+      "ja-lex-e7b5c7e58e77906fc612",
+      "ja-lex-eb99e44cafabffb249ea",
+      "ja-lex-ee615de9c94674db03e2",
+      "ja-lex-f19f36bfd40b526d9b7a",
+      "ja-lex-f55eb87e5c8c175f8b41",
+      "ja-lex-f8b3e459c6d7413d8442",
+      "ja-lex-f919d47963f8954c3a5b"
+    ],
+    "examples": 2332,
+    "corrections": 264,
+    "candidateIndices": [
+      255,
+      304
+    ],
+    "nextCandidateIndex": 305,
+    "remainingWithoutSidecarExample": {
+      "N4": 151,
+      "N3": 552,
+      "N2": 2996,
+      "N1": 5996
+    },
+    "checks": [
+      "native-sentence target sense",
+      "six-language sentence correspondence",
+      "six-language meaning completeness",
+      "source attribution",
+      "stable IDs",
+      "focus spans"
+    ],
+    "validation": {
+      "runtime": "v26.11.1",
+      "examples": 2332,
+      "corrections": 264,
+      "missingMeanings": 0,
+      "errors": [],
+      "focusErrors": [],
+      "missingTranslations": []
+    },
+    "sources": [
+      "NIKL pinned XML sense data",
+      "Local Wiktionary core-word facts",
+      "https://en.wiktionary.org/wiki/末",
+      "https://en.wiktionary.org/wiki/規模",
+      "https://en.wiktionary.org/wiki/別に",
+      "https://en.wiktionary.org/wiki/バック"
+    ],
+    "limitations": "Author self-check and automated validation only. Independent editorial review and native-speaker review remain pending."
+  },
+  {
+    "kind": "coverage-checkpoint",
+    "createdOn": "2026-10-15",
+    "status": "author-self-checked",
+    "independentReview": "pending",
+    "nativeSpeakerReview": false,
+    "newExampleCount": 50,
+    "newCorrectionCount": 10,
+    "reviewedIds": [
+      "ja-lex-02a76e67b02f31424892",
+      "ja-lex-02c929b884ae53df6b46",
+      "ja-lex-14ed9345cdb7d3f52f6d",
+      "ja-lex-15843d2a18a66dbf3108",
+      "ja-lex-16ce74adb7561bff6d92",
+      "ja-lex-18365baaa05a05f6c564",
+      "ja-lex-1ed87b0b0a8172d665e4",
+      "ja-lex-26aed2da9908337fbb7a",
+      "ja-lex-2917c21e6517229eabc6",
+      "ja-lex-3aac233bc00ab66c7fd1",
+      "ja-lex-3dec08692f6378cc871e",
+      "ja-lex-3e549ac1b7ceb7d7b2b6",
+      "ja-lex-3fb766dba762a78aeef6",
+      "ja-lex-430e675a23088b2e64e3",
+      "ja-lex-4523d4cdd0831778aca1",
+      "ja-lex-4c6388e6ad50b172a62e",
+      "ja-lex-4e255d6bd2f16fbeebb7",
+      "ja-lex-5176f0ea94edd7393914",
+      "ja-lex-541ab67ece27755d5a12",
+      "ja-lex-60de30d3a7a4e79ecedc",
+      "ja-lex-6899106cf47d5d1aa5ff",
+      "ja-lex-6b26e1c2710d4b0307d7",
+      "ja-lex-6fd01f4a22eb660f2d04",
+      "ja-lex-744f50009e5fa62ae3dc",
+      "ja-lex-7558045fb288bf90e16d",
+      "ja-lex-775d7c6ad346449d6c1c",
+      "ja-lex-7bea9a714a88a0d82143",
+      "ja-lex-7df7a8ea45910e77aa64",
+      "ja-lex-825f1cf705fbdd6e69e9",
+      "ja-lex-85b9cea7355d99c13c6f",
+      "ja-lex-9510b9228942de5dab00",
+      "ja-lex-97ac4719145a88c4e773",
+      "ja-lex-9fe3046642c4a9604675",
+      "ja-lex-a33a793f78884493e3a0",
+      "ja-lex-a5b02961b2aaa600ade3",
+      "ja-lex-a72fc39a48066046d9f0",
+      "ja-lex-ab2051664d1cfbbc2a7c",
+      "ja-lex-bb2f2d29c5eb5cba5609",
+      "ja-lex-bc6383a9b1913767f4a0",
+      "ja-lex-cce1fe4fd211da74af0c",
+      "ja-lex-d01e83aef2840772418c",
+      "ja-lex-d3c3942284f9915ab9f2",
+      "ja-lex-d648e1df5cdf4c8213a9",
+      "ja-lex-d6df82a26e6c1803138d",
+      "ja-lex-de22337c8373917b084e",
+      "ja-lex-e4d982d85d52ac18fed2",
+      "ja-lex-f86cf296c4cce13627fa",
+      "ja-lex-f96c1d42eac3abc2a21f",
+      "ja-lex-ff2645f97025600c3051",
+      "ja-lex-ffa1b482007072a0f313"
+    ],
+    "examples": 2382,
+    "corrections": 274,
+    "candidateIndices": [
+      305,
+      354
+    ],
+    "nextCandidateIndex": 355,
+    "remainingWithoutSidecarExample": {
+      "N4": 101,
+      "N3": 552,
+      "N2": 2996,
+      "N1": 5996
+    },
+    "checks": [
+      "native-sentence target sense",
+      "six-language sentence correspondence",
+      "six-language meaning completeness",
+      "source attribution",
+      "stable IDs",
+      "focus spans",
+      "unique source sentences"
+    ],
+    "validation": {
+      "runtime": "v26.11.1",
+      "examples": 2382,
+      "corrections": 274,
+      "missingMeanings": 0,
+      "errors": [],
+      "focusErrors": [],
+      "missingTranslations": []
+    },
+    "sources": [
+      "NIKL pinned XML sense data",
+      "Local Wiktionary core-word facts"
+    ],
+    "limitations": "Author self-check and automated validation only. Independent editorial review and native-speaker review remain pending."
+  },
+  {
+    "kind": "coverage-checkpoint",
+    "createdOn": "2026-10-15",
+    "status": "author-self-checked",
+    "independentReview": "pending",
+    "nativeSpeakerReview": false,
+    "newExampleCount": 50,
+    "newCorrectionCount": 10,
+    "reviewedIds": [
+      "ja-lex-03068c3d4062ea7399aa",
+      "ja-lex-0502f6a1a109accdc8b8",
+      "ja-lex-070d9427f69fa9a2c2b3",
+      "ja-lex-0b0d724194e772bf1b97",
+      "ja-lex-0d3ced629aee823748ef",
+      "ja-lex-1997c3a40fa685b11e61",
+      "ja-lex-1c29cc7e15d92692c30f",
+      "ja-lex-27f214ccc2f126c4484b",
+      "ja-lex-3066c6ff9babba78b4d3",
+      "ja-lex-43eaf1448e3a621d81e3",
+      "ja-lex-455ca96b92b34bd35ed0",
+      "ja-lex-4abd27e5fbbf5ab36bcb",
+      "ja-lex-4fca18ca23db01b3e806",
+      "ja-lex-502c7a1b01909c4ed191",
+      "ja-lex-560f0da3f003728edb95",
+      "ja-lex-57d5fefb2c2391f2305e",
+      "ja-lex-604be4f931bd882d7334",
+      "ja-lex-61016de248572e86cb83",
+      "ja-lex-622c4aac90c9b4b0771f",
+      "ja-lex-6b53fccd2288be67a919",
+      "ja-lex-7074bfa7bff22c9dddb0",
+      "ja-lex-72f7896e99c690a20092",
+      "ja-lex-740540e0439581e13ba9",
+      "ja-lex-7547528e585d44695d15",
+      "ja-lex-7935742c1bff22d4e7be",
+      "ja-lex-8038ee9db505a5051fb4",
+      "ja-lex-882f571ccd4fe54e4f34",
+      "ja-lex-89553e3b9060e68b0f54",
+      "ja-lex-916e138a7ceae289783f",
+      "ja-lex-92e57a9207da9a809b53",
+      "ja-lex-966c166d0b83f754cb7c",
+      "ja-lex-a441c0bbc317771e417d",
+      "ja-lex-a7f55a1d67a62bb2fd27",
+      "ja-lex-ab08c7ccf82a4c2df468",
+      "ja-lex-ab8cfb9214169bf983e8",
+      "ja-lex-abf4d8c1ebb0f98729b5",
+      "ja-lex-b227e6a2b34f0e4dd16a",
+      "ja-lex-bd3f12aacf9102110e1a",
+      "ja-lex-c223bdc3f93fd69731e7",
+      "ja-lex-c5ffa1cf1db656c2570a",
+      "ja-lex-d152727993beee88fe80",
+      "ja-lex-d44f47c238f55683ba22",
+      "ja-lex-d4b0a7a77c54e6780a0b",
+      "ja-lex-df39b3527f35c3cea13b",
+      "ja-lex-e3609d8e6849d372ca35",
+      "ja-lex-e3affea37cb552fd47b7",
+      "ja-lex-ec0e7c9a3718ec29a945",
+      "ja-lex-ecbfcc82025ef9a29729",
+      "ja-lex-f300f3a517a174da6655",
+      "ja-lex-f6a1016012a60a18cc6d"
+    ],
+    "examples": 2432,
+    "corrections": 284,
+    "candidateIndices": [
+      355,
+      404
+    ],
+    "nextCandidateIndex": 405,
+    "remainingWithoutSidecarExample": {
+      "N4": 51,
+      "N3": 552,
+      "N2": 2996,
+      "N1": 5996
+    },
+    "checks": [
+      "native-sentence target sense",
+      "six-language sentence correspondence",
+      "six-language meaning completeness",
+      "source attribution",
+      "stable IDs",
+      "focus spans",
+      "unique source sentences"
+    ],
+    "validation": {
+      "runtime": "v26.11.1",
+      "examples": 2432,
+      "corrections": 284,
+      "missingMeanings": 0,
+      "errors": [],
+      "focusErrors": [],
+      "missingTranslations": []
+    },
+    "sources": [
+      "NIKL pinned XML sense data",
+      "Local Wiktionary core-word facts"
+    ],
+    "limitations": "Author self-check and automated validation only. Independent editorial review and native-speaker review remain pending."
+  },
+  {
+    "kind": "coverage-checkpoint",
+    "createdOn": "2026-10-15",
+    "status": "author-self-checked",
+    "independentReview": "pending",
+    "nativeSpeakerReview": false,
+    "newExampleCount": 51,
+    "newCorrectionCount": 7,
+    "reviewedIds": [
+      "ja-lex-014b5ad6ea1b5cdc0dc8",
+      "ja-lex-029484651550665add53",
+      "ja-lex-07b97ba5f5d4cce9a008",
+      "ja-lex-0b7f70577d0acc0ff5f2",
+      "ja-lex-103db4c7a3de5fedda11",
+      "ja-lex-1cb175ef748b681b7029",
+      "ja-lex-2218ff84fb9c058cb0d5",
+      "ja-lex-2e57dfccb4ebea232528",
+      "ja-lex-335a8dbece20b4340df2",
+      "ja-lex-35b1fcdaa38d05eb57d7",
+      "ja-lex-37576ffdc16b0c95624c",
+      "ja-lex-39a22fd9c2b3ee2ebeb5",
+      "ja-lex-3f40e5d87fc828b13324",
+      "ja-lex-451374e02ee2a752c490",
+      "ja-lex-48f7fc575fdd4c731621",
+      "ja-lex-4cfb06d98419945c37d1",
+      "ja-lex-4f4f199e2a802bfa77bb",
+      "ja-lex-53f6db18bd71a5752f8e",
+      "ja-lex-56f48cadc45e4b262a54",
+      "ja-lex-59229b592e7b420edde8",
+      "ja-lex-5bbd07c286a22126ef3c",
+      "ja-lex-5c4df6c1476036bf7413",
+      "ja-lex-6b8d93091a5163de156b",
+      "ja-lex-6d18faed17d55d50ae26",
+      "ja-lex-6fcb0bdcd08ea667dc0f",
+      "ja-lex-7c52c62c4dd6bb13085d",
+      "ja-lex-7cdfca944108af004f70",
+      "ja-lex-810146fbb92e9fc573c9",
+      "ja-lex-861e98a923382112d077",
+      "ja-lex-862e100cabe17bdc7957",
+      "ja-lex-8997c28a375e4171d6c9",
+      "ja-lex-8f9796dc78c86b972889",
+      "ja-lex-9054aa40ca329d3cdc25",
+      "ja-lex-9172f69f60ba7f36ee04",
+      "ja-lex-987d588cce3f64e87945",
+      "ja-lex-9d1c78117b9bc97e8274",
+      "ja-lex-a0a65260e0273138ae79",
+      "ja-lex-a4eedcb180e8c7811080",
+      "ja-lex-b275b69de151bc05475a",
+      "ja-lex-bc2da7b1561cb2dc9db0",
+      "ja-lex-bc3a9af1182e8652d520",
+      "ja-lex-c20c6ccd3076175d3d19",
+      "ja-lex-c5ad8e356ada53317d13",
+      "ja-lex-cb53e59360b2886c01cb",
+      "ja-lex-d32377b0eb77f99cc3f5",
+      "ja-lex-d8b37ca20dc1d2aa0a01",
+      "ja-lex-df2b6e87eb350a14abd4",
+      "ja-lex-e14d83ca04dad0a8fb9a",
+      "ja-lex-ee839ecd5f60bd25c6fd",
+      "ja-lex-f8613850f292fb5323b4",
+      "ja-lex-fd5a39fb096a5b4abca3"
+    ],
+    "examples": 2483,
+    "corrections": 291,
+    "candidateIndices": [
+      405,
+      455
+    ],
+    "nextCandidateIndex": 456,
+    "remainingWithoutSidecarExample": {
+      "N3": 552,
+      "N2": 2996,
+      "N1": 5996
+    },
+    "checks": [
+      "native-sentence target sense",
+      "six-language sentence correspondence",
+      "six-language meaning completeness",
+      "source attribution",
+      "stable IDs",
+      "focus spans",
+      "unique source sentences"
+    ],
+    "validation": {
+      "runtime": "v26.11.1",
+      "examples": 2483,
+      "corrections": 291,
+      "missingMeanings": 0,
+      "errors": [],
+      "focusErrors": [],
+      "missingTranslations": []
+    },
+    "sources": [
+      "NIKL pinned XML sense data",
+      "Local Wiktionary core-word facts"
+    ],
+    "limitations": "Author self-check and automated validation only. Independent editorial review and native-speaker review remain pending."
+  }
+]

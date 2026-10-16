@@ -1,0 +1,78 @@
+{
+  "version": "3.0.0",
+  "entries": 11288,
+  "distinctSourceHeadwords": 11283,
+  "distinctDisplayHeadwords": 11283,
+  "levels": {
+    "A1": 780,
+    "A2": 672,
+    "B1": 1568,
+    "B2": 662,
+    "C1": 2007,
+    "C2": 5599
+  },
+  "examples": 11291,
+  "exampleSources": {
+    "archived-editorial": 2003,
+    "original-adjective-context-v1": 111,
+    "original-authored-context-v1": 553,
+    "original-neutral-context-frame-v1": 8019,
+    "original-numeral-context-v1": 30,
+    "original-topic-context-v1": 202,
+    "wiktionary-example": 373
+  },
+  "officialCoverage": {
+    "A1": {
+      "matchedHeadwords": 778,
+      "missing": []
+    },
+    "A2": {
+      "matchedHeadwords": 1350,
+      "missing": []
+    },
+    "B1": {
+      "matchedHeadwords": 2719,
+      "missing": []
+    }
+  },
+  "review": {
+    "status": "editorial-preview",
+    "nativeSpeakerReview": "pending",
+    "levelBasis": "A1–B1: earliest matched official Goethe adult headword list; B2–C2: editorial frequency tiers, not official CEFR assessments.",
+    "examplePolicy": "Retain archived examples; use suitable licensed examples; author original examples where no reliably translated example is available."
+  },
+  "packages": [
+    {
+      "id": "de-core",
+      "kind": "study",
+      "targetLanguage": "de",
+      "version": "3.0.0",
+      "url": "/language-packages/de-core-3.0.0.json",
+      "bytes": 15228999,
+      "sha256": "d8c5c049be5f2d88f53b4c2363865015c151512c360331bbfaa0e934e0483afc"
+    },
+    {
+      "id": "de-en",
+      "kind": "explanation",
+      "targetLanguage": "de",
+      "version": "3.0.0",
+      "explanationLanguage": "en",
+      "studyVersion": "3.0.0",
+      "url": "/language-packages/de-en-3.0.0.json",
+      "bytes": 8149546,
+      "sha256": "f02ed46dec96c0cfebce177f853380c5190890f0cffeba7041f634dc369ee032"
+    },
+    {
+      "id": "de-ko",
+      "kind": "explanation",
+      "targetLanguage": "de",
+      "version": "3.0.0",
+      "explanationLanguage": "ko",
+      "studyVersion": "3.0.0",
+      "url": "/language-packages/de-ko-3.0.0.json",
+      "bytes": 7730452,
+      "sha256": "7c79a1d1c66cf97097ad251703aac3ffa3aea03e9cd7d55eff36615aec745318"
+    }
+  ],
+  "preservedLegacyIds": 2000
+}

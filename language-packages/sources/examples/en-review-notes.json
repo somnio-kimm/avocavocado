@@ -1,0 +1,1143 @@
+{
+  "status": "AI-editorial-bounded-checkpoint",
+  "nativeSpeakerReview": false,
+  "createdAt": "2026-10-15T02:38:25.582075+00:00",
+  "selection": "First 100 entries in current package order with neither example nor referenceExamples",
+  "sourceFilesSha256": {
+    "en-core-2.0.0.json": "9c2364a37fc33633c63f9b239b8575c26d569a5d344dadf24338bd84298e0af4",
+    "en-en-2.0.0.json": "1eea30d7135dc391e4f1672e942ddc2a915880cedae99109bb6c4fd9f9fd23fa",
+    "en-ko-2.0.0.json": "04d004e696ece366dfdc237ddfcc74b43ab4d36a6a75d6e2f1b43ef1253887dc"
+  },
+  "sourceMissingCount": 9899,
+  "attemptedCandidates": 100,
+  "authoredExamples": 89,
+  "deferredCandidates": 11,
+  "corrections": 48,
+  "posCorrections": 12,
+  "attempts": [
+    {
+      "candidateIndex": 0,
+      "id": "en-lex-04731d20e31ce8aa94ad",
+      "word": "to",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "preposition",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 1,
+      "id": "en-lex-cb12c8a15cbeef9b61fb",
+      "word": "that",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 2,
+      "id": "en-lex-4566454c9dbd21428716",
+      "word": "that",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun-labelled that is mapped to unspecified things. Ordinary demonstrative uses are already represented by determiner/pronoun entries. A distinct noun sense is not established; defer rather than relabel into a duplicate."
+    },
+    {
+      "candidateIndex": 3,
+      "id": "en-lex-62a91713ba52c75dc039",
+      "word": "that",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 4,
+      "id": "en-lex-8f5d97f290e03b0e2321",
+      "word": "you",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 5,
+      "id": "en-lex-092892d66fe77714fe3f",
+      "word": "it",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 6,
+      "id": "en-lex-64494b56e695d73185ec",
+      "word": "on",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "preposition",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 7,
+      "id": "en-lex-816f32318b8b2b76edb9",
+      "word": "this",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 8,
+      "id": "en-lex-78b7259d42fbf403ca69",
+      "word": "this",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun-labelled this is mapped to unspecified things. Ordinary determiner/pronoun entries already cover the demonstrative. A separate noun sense needs evidence."
+    },
+    {
+      "candidateIndex": 9,
+      "id": "en-lex-b08fafbcb14dbe19498f",
+      "word": "this",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 10,
+      "id": "en-lex-5967a97370f02a39c63c",
+      "word": "but",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "conjunction",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 11,
+      "id": "en-lex-f49179c6bcc12189fa69",
+      "word": "my",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 12,
+      "id": "en-lex-4e01bc35c8922620cbd8",
+      "word": "your",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 13,
+      "id": "en-lex-8b90bfc1bb19b512e511",
+      "word": "all",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 14,
+      "id": "en-lex-bf96d76c22ca690f0589",
+      "word": "all",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 15,
+      "id": "en-lex-5aaa5e7bbf0293adc741",
+      "word": "all",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 16,
+      "id": "en-lex-680b9defa346fefa017d",
+      "word": "so",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 17,
+      "id": "en-lex-7fb34fe8d33aae3f927c",
+      "word": "his",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 18,
+      "id": "en-lex-785b4235d56ba59af098",
+      "word": "one",
+      "originalPartOfSpeech": "numeral",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "numeral",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 19,
+      "id": "en-lex-8e1f4a640752ccfacdae",
+      "word": "can",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 20,
+      "id": "en-lex-ffc5ef26aa852c986972",
+      "word": "just",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 21,
+      "id": "en-lex-1560fd9affb8ee44bbf2",
+      "word": "just",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 22,
+      "id": "en-lex-501263a8feae754e8d95",
+      "word": "about",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "preposition",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 23,
+      "id": "en-lex-b2a31edb56409fc5b134",
+      "word": "up",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun up is incorrectly defined as the upper surface of an object. Legitimate specialised noun uses of up do not establish this selected sense; defer."
+    },
+    {
+      "candidateIndex": 24,
+      "id": "en-lex-4acf1b28b49d1708efc2",
+      "word": "what",
+      "originalPartOfSpeech": "adverb",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "The adverb what is glossed how on earth. This does not identify a reliable ordinary adverb construction distinct from the existing determiner/interjection/pronoun entries; defer."
+    },
+    {
+      "candidateIndex": 25,
+      "id": "en-lex-904921690a0639b6c2d3",
+      "word": "what",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 26,
+      "id": "en-lex-86b1e95239ae6f58efb4",
+      "word": "what",
+      "originalPartOfSpeech": "interjection",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "interjection",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 27,
+      "id": "en-lex-3e080f4e41349dfb384d",
+      "word": "what",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 28,
+      "id": "en-lex-d616c8f7d442c2763f4b",
+      "word": "when",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 29,
+      "id": "en-lex-eb2e691368101535aa82",
+      "word": "more",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 30,
+      "id": "en-lex-f40a860278a824c0465c",
+      "word": "do",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 31,
+      "id": "en-lex-2c0c2b0b1913fba49050",
+      "word": "there",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 32,
+      "id": "en-lex-f47ca84c64403f15f445",
+      "word": "there",
+      "originalPartOfSpeech": "pronoun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": false,
+      "reason": "The pronoun there is mapped to a place near the listener. Locative there is adverbial and already has a separate entry; existential/dummy there would require a deliberate different sense choice."
+    },
+    {
+      "candidateIndex": 33,
+      "id": "en-lex-5d9599eb58be0dde3093",
+      "word": "her",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 34,
+      "id": "en-lex-a683e1a0cad7fed847bc",
+      "word": "which",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 35,
+      "id": "en-lex-135e135daced6775aeba",
+      "word": "she",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 36,
+      "id": "en-lex-21510beae799cbaa72ef",
+      "word": "new",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 37,
+      "id": "en-lex-454fbba9f2bcd172705c",
+      "word": "how",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 38,
+      "id": "en-lex-72642e2d6606166905ea",
+      "word": "also",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 39,
+      "id": "en-lex-ac3cac21ea604aa556da",
+      "word": "other",
+      "originalPartOfSpeech": "adjective",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": false,
+      "reason": "The adjective other is glossed simply not the same. Its ordinary determiner use is already represented separately; the intended distinct adjective sense requires review rather than a duplicate determiner example."
+    },
+    {
+      "candidateIndex": 40,
+      "id": "en-lex-347599d9bc38a5bad153",
+      "word": "other",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 41,
+      "id": "en-lex-4f3b80787f465d550ece",
+      "word": "good",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 42,
+      "id": "en-lex-3fa2619d27631ba444cf",
+      "word": "only",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 43,
+      "id": "en-lex-9616cdeea0f07038a62e",
+      "word": "only",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 44,
+      "id": "en-lex-1b2bf2240daf098f341f",
+      "word": "only",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun only carries a Korean bound-noun style definition. No reliable ordinary noun sense is established; adjective/adverb entries already exist."
+    },
+    {
+      "candidateIndex": 45,
+      "id": "en-lex-552b03cb82ba6d614780",
+      "word": "him",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 46,
+      "id": "en-lex-53d07f16a650e4bd2ccb",
+      "word": "see",
+      "originalPartOfSpeech": "interjection",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "interjection",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 47,
+      "id": "en-lex-874bcb75fc952c581aae",
+      "word": "see",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 48,
+      "id": "en-lex-2746d08ae6192b64ebbd",
+      "word": "two",
+      "originalPartOfSpeech": "numeral",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "numeral",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 49,
+      "id": "en-lex-8669fec2a310f163d231",
+      "word": "make",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 50,
+      "id": "en-lex-d969e46eb176ef294736",
+      "word": "over",
+      "originalPartOfSpeech": "interjection",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "interjection",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 51,
+      "id": "en-lex-9e9f8e8b7df90b0f0c47",
+      "word": "over",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun over is defined as the opposite side. That is not the ordinary noun use. A genuine cricket noun exists but would be a different specialist sense, so it is not substituted here."
+    },
+    {
+      "candidateIndex": 52,
+      "id": "en-lex-4819298023758063067a",
+      "word": "think",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 53,
+      "id": "en-lex-9bb07ab2ec7187420283",
+      "word": "any",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 54,
+      "id": "en-lex-de55332057b6ab6f8339",
+      "word": "then",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 55,
+      "id": "en-lex-9e8a1bd4b74c1631bc0a",
+      "word": "back",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 56,
+      "id": "en-lex-8f3fee0fad2681cb0b28",
+      "word": "want",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 57,
+      "id": "en-lex-82a418d2136fb31bff73",
+      "word": "because",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "conjunction",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 58,
+      "id": "en-lex-f4c77e859990082324f4",
+      "word": "well",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 59,
+      "id": "en-lex-6d221b81722605ef0cb6",
+      "word": "well",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 60,
+      "id": "en-lex-f1bc94ecd3074d721d89",
+      "word": "most",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 61,
+      "id": "en-lex-fb168cab21aa94a28ccb",
+      "word": "most",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 62,
+      "id": "en-lex-fae1193c01a952f43491",
+      "word": "much",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 63,
+      "id": "en-lex-cb83fe9336f85a6d74dd",
+      "word": "very",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 64,
+      "id": "en-lex-046baed8bbda1e111ec9",
+      "word": "where",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 65,
+      "id": "en-lex-8ff3af1ffed7785e858b",
+      "word": "even",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 66,
+      "id": "en-lex-c5df4ac5f7d133b870d1",
+      "word": "should",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 67,
+      "id": "en-lex-639425b81ede8c33a3dd",
+      "word": "may",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 68,
+      "id": "en-lex-766054bdc4dc37145202",
+      "word": "need",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 69,
+      "id": "en-lex-5e9dfb8343ee571cb18d",
+      "word": "really",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 70,
+      "id": "en-lex-ccdcdc33dbc8e98b5fb5",
+      "word": "really",
+      "originalPartOfSpeech": "interjection",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "interjection",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 71,
+      "id": "en-lex-4987607e2d428d0cec82",
+      "word": "right",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 72,
+      "id": "en-lex-586ea38426cbe0b5b31b",
+      "word": "right",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 73,
+      "id": "en-lex-ce2c727d550b85b9861c",
+      "word": "work",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 74,
+      "id": "en-lex-a52dcb0303c95a4f5f07",
+      "word": "years",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 75,
+      "id": "en-lex-e9b47774ab55a6fd6150",
+      "word": "being",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 76,
+      "id": "en-lex-83a5ba4b9de215b769c6",
+      "word": "before",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 77,
+      "id": "en-lex-c795cd9b170529cada88",
+      "word": "before",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun before is defined as the earlier time. Ordinary before is an adverb/preposition/conjunction; marked nominal uses such as a before-and-after comparison need separate editorial justification."
+    },
+    {
+      "candidateIndex": 78,
+      "id": "en-lex-4573cc39b962cb1803f6",
+      "word": "why",
+      "originalPartOfSpeech": "interjection",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "interjection",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 79,
+      "id": "en-lex-c419e96cf9fb0cf32992",
+      "word": "still",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 80,
+      "id": "en-lex-683b167cbbb722ab1864",
+      "word": "take",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 81,
+      "id": "en-lex-5986a38ce0276811dc13",
+      "word": "many",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 82,
+      "id": "en-lex-2ff0c68ffa419a7a26e2",
+      "word": "many",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 83,
+      "id": "en-lex-fdc864e91e711dcb1eb3",
+      "word": "never",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 84,
+      "id": "en-lex-5358d4ed7b741836a05a",
+      "word": "say",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 85,
+      "id": "en-lex-167040e6ac9a6d730b6f",
+      "word": "say",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 86,
+      "id": "en-lex-05f5b387519505d30617",
+      "word": "world",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 87,
+      "id": "en-lex-28a2e861eafdbbbe7916",
+      "word": "last",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 88,
+      "id": "en-lex-6c492b0717001d436521",
+      "word": "last",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun last has an unrelated after-doing-something gloss. A final person/thing and a shoemaking last are different possible senses; do not select one without evidence."
+    },
+    {
+      "candidateIndex": 89,
+      "id": "en-lex-66690e3a462579b7f474",
+      "word": "best",
+      "originalPartOfSpeech": "adjective",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adjective",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 90,
+      "id": "en-lex-0bc944f16fe4fb78824f",
+      "word": "best",
+      "originalPartOfSpeech": "adverb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "adverb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 91,
+      "id": "en-lex-61e1ec12f582637f6dab",
+      "word": "best",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 92,
+      "id": "en-lex-4ead16846790294c859e",
+      "word": "love",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 93,
+      "id": "en-lex-237e585bfc8c529be8fb",
+      "word": "man",
+      "originalPartOfSpeech": "noun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": true,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 94,
+      "id": "en-lex-4def937a26043e4e1541",
+      "word": "something",
+      "originalPartOfSpeech": "noun",
+      "status": "deferred-review",
+      "correctedPartOfSpeech": "noun",
+      "hasSenseCorrection": false,
+      "reason": "The noun something is glossed as an unusual object. A certain something can name an indefinable quality, but that is not established by the imported sense; the ordinary pronoun already has its own entry."
+    },
+    {
+      "candidateIndex": 95,
+      "id": "en-lex-00ad3f8df2958c4cac46",
+      "word": "something",
+      "originalPartOfSpeech": "pronoun",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "pronoun",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 96,
+      "id": "en-lex-dbc71e10e0e11a7364ff",
+      "word": "use",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 97,
+      "id": "en-lex-9953f5494b8381c354a3",
+      "word": "both",
+      "originalPartOfSpeech": "determiner",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "determiner",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 98,
+      "id": "en-lex-1dc9fb35983ecbb677f0",
+      "word": "come",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    },
+    {
+      "candidateIndex": 99,
+      "id": "en-lex-73ad9775e2efca036018",
+      "word": "part",
+      "originalPartOfSpeech": "verb",
+      "status": "authored-editorial-draft",
+      "correctedPartOfSpeech": "verb",
+      "hasSenseCorrection": false,
+      "reason": "Original sentence, all six translations and explicit focus reviewed for the selected sense and POS."
+    }
+  ],
+  "deferrals": [
+    {
+      "candidateIndex": 2,
+      "id": "en-lex-4566454c9dbd21428716",
+      "word": "that",
+      "status": "deferred-review",
+      "reason": "The noun-labelled that is mapped to unspecified things. Ordinary demonstrative uses are already represented by determiner/pronoun entries. A distinct noun sense is not established; defer rather than relabel into a duplicate."
+    },
+    {
+      "candidateIndex": 8,
+      "id": "en-lex-78b7259d42fbf403ca69",
+      "word": "this",
+      "status": "deferred-review",
+      "reason": "The noun-labelled this is mapped to unspecified things. Ordinary determiner/pronoun entries already cover the demonstrative. A separate noun sense needs evidence."
+    },
+    {
+      "candidateIndex": 23,
+      "id": "en-lex-b2a31edb56409fc5b134",
+      "word": "up",
+      "status": "deferred-review",
+      "reason": "The noun up is incorrectly defined as the upper surface of an object. Legitimate specialised noun uses of up do not establish this selected sense; defer."
+    },
+    {
+      "candidateIndex": 24,
+      "id": "en-lex-4acf1b28b49d1708efc2",
+      "word": "what",
+      "status": "deferred-review",
+      "reason": "The adverb what is glossed how on earth. This does not identify a reliable ordinary adverb construction distinct from the existing determiner/interjection/pronoun entries; defer."
+    },
+    {
+      "candidateIndex": 32,
+      "id": "en-lex-f47ca84c64403f15f445",
+      "word": "there",
+      "status": "deferred-review",
+      "reason": "The pronoun there is mapped to a place near the listener. Locative there is adverbial and already has a separate entry; existential/dummy there would require a deliberate different sense choice."
+    },
+    {
+      "candidateIndex": 39,
+      "id": "en-lex-ac3cac21ea604aa556da",
+      "word": "other",
+      "status": "deferred-review",
+      "reason": "The adjective other is glossed simply not the same. Its ordinary determiner use is already represented separately; the intended distinct adjective sense requires review rather than a duplicate determiner example."
+    },
+    {
+      "candidateIndex": 44,
+      "id": "en-lex-1b2bf2240daf098f341f",
+      "word": "only",
+      "status": "deferred-review",
+      "reason": "The noun only carries a Korean bound-noun style definition. No reliable ordinary noun sense is established; adjective/adverb entries already exist."
+    },
+    {
+      "candidateIndex": 51,
+      "id": "en-lex-9e9f8e8b7df90b0f0c47",
+      "word": "over",
+      "status": "deferred-review",
+      "reason": "The noun over is defined as the opposite side. That is not the ordinary noun use. A genuine cricket noun exists but would be a different specialist sense, so it is not substituted here."
+    },
+    {
+      "candidateIndex": 77,
+      "id": "en-lex-c795cd9b170529cada88",
+      "word": "before",
+      "status": "deferred-review",
+      "reason": "The noun before is defined as the earlier time. Ordinary before is an adverb/preposition/conjunction; marked nominal uses such as a before-and-after comparison need separate editorial justification."
+    },
+    {
+      "candidateIndex": 88,
+      "id": "en-lex-6c492b0717001d436521",
+      "word": "last",
+      "status": "deferred-review",
+      "reason": "The noun last has an unrelated after-doing-something gloss. A final person/thing and a shoemaking last are different possible senses; do not select one without evidence."
+    },
+    {
+      "candidateIndex": 94,
+      "id": "en-lex-4def937a26043e4e1541",
+      "word": "something",
+      "status": "deferred-review",
+      "reason": "The noun something is glossed as an unusual object. A certain something can name an indefinable quality, but that is not established by the imported sense; the ordinary pronoun already has its own entry."
+    }
+  ],
+  "verifiedSpecialCases": [
+    {
+      "candidateIndex": 5,
+      "word": "it",
+      "note": "Retained the attested noun for the designated seeker/chaser in children's games.",
+      "reference": "https://www.collinsdictionary.com/us/dictionary/english/it"
+    },
+    {
+      "candidateIndex": 50,
+      "word": "over",
+      "note": "Radio example ends a transmission and invites a reply, rather than ending the whole conversation.",
+      "reference": "https://dictionary.cambridge.org/dictionary/english/over"
+    },
+    {
+      "candidateIndex": 87,
+      "word": "last",
+      "note": "Retained determiner; the final-position use is documented under adjective/determiner by Cambridge.",
+      "reference": "https://dictionary.cambridge.org/dictionary/learner-english/last?q=last_2"
+    }
+  ],
+  "limits": [
+    "Exactly 100 candidates attempted; no claim of full English dictionary coverage.",
+    "All sentences and translations are AI-assisted original editorial drafts, not native-speaker reviewed.",
+    "Core/explanation package files are unchanged; corrections must be applied before publishing these examples.",
+    "Frequency-derived IELTS tiers were not revalidated. Specialised or marked senses such as musical do, game it, literary want, dated why and radio over are intentional.",
+    "Deferred IDs have no authored example or forced replacement sense.",
+    "Pronunciation, audio generation and browser/native behaviour were not tested in this content-only task."
+  ],
+  "validation": {
+    "runtime": "v26.11.1",
+    "exampleRecordValidation": {
+      "passed": 89,
+      "failed": 0,
+      "missingTranslations": 0
+    },
+    "correctionValidation": {
+      "passed": 48,
+      "failed": 0
+    },
+    "focusResolution": {
+      "passed": 89,
+      "failed": 0
+    },
+    "englishSelfTranslationMatches": true
+  }
+}

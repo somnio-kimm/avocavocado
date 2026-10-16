@@ -1,0 +1,725 @@
+{
+  "scope": "staged editorial content; not native-speaker reviewed",
+  "pairCount": 43,
+  "languages": {
+    "de": {
+      "studyLanguage": "de",
+      "entries": 11288,
+      "authoredExamples": 0,
+      "corrections": 0,
+      "primaryExamples": 11288,
+      "exampleSlots": 11291,
+      "levels": {
+        "B2": {
+          "entries": 662,
+          "primaryExamples": 662,
+          "authoredExamples": 0
+        },
+        "C1": {
+          "entries": 2007,
+          "primaryExamples": 2007,
+          "authoredExamples": 0
+        },
+        "B1": {
+          "entries": 1568,
+          "primaryExamples": 1568,
+          "authoredExamples": 0
+        },
+        "A2": {
+          "entries": 672,
+          "primaryExamples": 672,
+          "authoredExamples": 0
+        },
+        "A1": {
+          "entries": 780,
+          "primaryExamples": 780,
+          "authoredExamples": 0
+        },
+        "C2": {
+          "entries": 5599,
+          "primaryExamples": 5599,
+          "authoredExamples": 0
+        }
+      },
+      "pairs": {
+        "en": {
+          "meanings": 11288,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 11291,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 0,
+          "packageComplete": true,
+          "fullExampleCoverage": true
+        },
+        "es": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11288,
+          "missingExampleTranslations": 11291,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11288,
+          "missingExampleTranslations": 11291,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11288,
+          "missingExampleTranslations": 11291,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 11288,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 11291,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 0,
+          "packageComplete": true,
+          "fullExampleCoverage": true
+        },
+        "zh": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11288,
+          "missingExampleTranslations": 11291,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "en": {
+      "studyLanguage": "en",
+      "entries": 12016,
+      "authoredExamples": 114,
+      "corrections": 51,
+      "primaryExamples": 164,
+      "exampleSlots": 164,
+      "levels": {
+        "1.0": {
+          "entries": 501,
+          "primaryExamples": 124,
+          "authoredExamples": 114
+        },
+        "3.0": {
+          "entries": 1501,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "5.0": {
+          "entries": 2501,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "6.5": {
+          "entries": 3005,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "8.0": {
+          "entries": 4508,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 114,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 114,
+          "missingMeanings": 11902,
+          "missingExampleTranslations": 50,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 12016,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 164,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "es": {
+          "meanings": 75,
+          "sourceMeaningCandidates": 11891,
+          "exampleTranslations": 114,
+          "missingMeanings": 11941,
+          "missingExampleTranslations": 50,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 75,
+          "sourceMeaningCandidates": 11891,
+          "exampleTranslations": 114,
+          "missingMeanings": 11941,
+          "missingExampleTranslations": 50,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 75,
+          "sourceMeaningCandidates": 11891,
+          "exampleTranslations": 114,
+          "missingMeanings": 11941,
+          "missingExampleTranslations": 50,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 12016,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 164,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "zh": {
+          "meanings": 75,
+          "sourceMeaningCandidates": 11891,
+          "exampleTranslations": 114,
+          "missingMeanings": 11941,
+          "missingExampleTranslations": 50,
+          "missingPrimaryExamples": 11852,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "es": {
+      "studyLanguage": "es",
+      "entries": 9092,
+      "authoredExamples": 2320,
+      "corrections": 466,
+      "primaryExamples": 2320,
+      "exampleSlots": 2320,
+      "levels": {
+        "A1": {
+          "entries": 598,
+          "primaryExamples": 598,
+          "authoredExamples": 598
+        },
+        "A2": {
+          "entries": 902,
+          "primaryExamples": 902,
+          "authoredExamples": 902
+        },
+        "B1": {
+          "entries": 1502,
+          "primaryExamples": 790,
+          "authoredExamples": 790
+        },
+        "B2": {
+          "entries": 2004,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        },
+        "C1": {
+          "entries": 2010,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        },
+        "C2": {
+          "entries": 2076,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 2320,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2320,
+          "missingMeanings": 6772,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 9092,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2320,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 2320,
+          "sourceMeaningCandidates": 6772,
+          "exampleTranslations": 2320,
+          "missingMeanings": 6772,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 2320,
+          "sourceMeaningCandidates": 6772,
+          "exampleTranslations": 2320,
+          "missingMeanings": 6772,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 9092,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2320,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "zh": {
+          "meanings": 2320,
+          "sourceMeaningCandidates": 6772,
+          "exampleTranslations": 2320,
+          "missingMeanings": 6772,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6772,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "fr": {
+      "studyLanguage": "fr",
+      "entries": 8936,
+      "authoredExamples": 2438,
+      "corrections": 609,
+      "primaryExamples": 2438,
+      "exampleSlots": 2438,
+      "levels": {
+        "A1": {
+          "entries": 597,
+          "primaryExamples": 597,
+          "authoredExamples": 597
+        },
+        "A2": {
+          "entries": 901,
+          "primaryExamples": 901,
+          "authoredExamples": 901
+        },
+        "B1": {
+          "entries": 1507,
+          "primaryExamples": 910,
+          "authoredExamples": 910
+        },
+        "B2": {
+          "entries": 2007,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        },
+        "C1": {
+          "entries": 2009,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        },
+        "C2": {
+          "entries": 1915,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 2438,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2438,
+          "missingMeanings": 6498,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 8936,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2438,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "es": {
+          "meanings": 2438,
+          "sourceMeaningCandidates": 6498,
+          "exampleTranslations": 2438,
+          "missingMeanings": 6498,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 2438,
+          "sourceMeaningCandidates": 6498,
+          "exampleTranslations": 2438,
+          "missingMeanings": 6498,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 8936,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2438,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "zh": {
+          "meanings": 2438,
+          "sourceMeaningCandidates": 6498,
+          "exampleTranslations": 2438,
+          "missingMeanings": 6498,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 6498,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "ja": {
+      "studyLanguage": "ja",
+      "entries": 12027,
+      "authoredExamples": 2483,
+      "corrections": 291,
+      "primaryExamples": 2483,
+      "exampleSlots": 2483,
+      "levels": {
+        "N5": {
+          "entries": 603,
+          "primaryExamples": 603,
+          "authoredExamples": 603
+        },
+        "N4": {
+          "entries": 907,
+          "primaryExamples": 907,
+          "authoredExamples": 907
+        },
+        "N3": {
+          "entries": 1504,
+          "primaryExamples": 952,
+          "authoredExamples": 952
+        },
+        "N2": {
+          "entries": 3007,
+          "primaryExamples": 11,
+          "authoredExamples": 11
+        },
+        "N1": {
+          "entries": 6006,
+          "primaryExamples": 10,
+          "authoredExamples": 10
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 2483,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2483,
+          "missingMeanings": 9544,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 12027,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2483,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "es": {
+          "meanings": 2483,
+          "sourceMeaningCandidates": 9544,
+          "exampleTranslations": 2483,
+          "missingMeanings": 9544,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 2483,
+          "sourceMeaningCandidates": 9544,
+          "exampleTranslations": 2483,
+          "missingMeanings": 9544,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 12027,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 2483,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "zh": {
+          "meanings": 2483,
+          "sourceMeaningCandidates": 9544,
+          "exampleTranslations": 2483,
+          "missingMeanings": 9544,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 9544,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "ko": {
+      "studyLanguage": "ko",
+      "entries": 12026,
+      "authoredExamples": 98,
+      "corrections": 4,
+      "primaryExamples": 158,
+      "exampleSlots": 158,
+      "levels": {
+        "1": {
+          "entries": 649,
+          "primaryExamples": 108,
+          "authoredExamples": 98
+        },
+        "2": {
+          "entries": 1042,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "3": {
+          "entries": 1485,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "4": {
+          "entries": 1985,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "5": {
+          "entries": 2038,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        },
+        "6": {
+          "entries": 4827,
+          "primaryExamples": 10,
+          "authoredExamples": 0
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 98,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 98,
+          "missingMeanings": 11928,
+          "missingExampleTranslations": 60,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 12026,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 158,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": true,
+          "fullExampleCoverage": false
+        },
+        "es": {
+          "meanings": 98,
+          "sourceMeaningCandidates": 11868,
+          "exampleTranslations": 98,
+          "missingMeanings": 11928,
+          "missingExampleTranslations": 60,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 98,
+          "sourceMeaningCandidates": 11868,
+          "exampleTranslations": 98,
+          "missingMeanings": 11928,
+          "missingExampleTranslations": 60,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 98,
+          "sourceMeaningCandidates": 11868,
+          "exampleTranslations": 98,
+          "missingMeanings": 11928,
+          "missingExampleTranslations": 60,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "zh": {
+          "meanings": 98,
+          "sourceMeaningCandidates": 11868,
+          "exampleTranslations": 98,
+          "missingMeanings": 11928,
+          "missingExampleTranslations": 60,
+          "missingPrimaryExamples": 11868,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        }
+      }
+    },
+    "zh": {
+      "studyLanguage": "zh",
+      "entries": 11000,
+      "authoredExamples": 0,
+      "corrections": 0,
+      "primaryExamples": 11000,
+      "exampleSlots": 11000,
+      "levels": {
+        "1": {
+          "entries": 300,
+          "primaryExamples": 300,
+          "authoredExamples": 0
+        },
+        "2": {
+          "entries": 200,
+          "primaryExamples": 200,
+          "authoredExamples": 0
+        },
+        "3": {
+          "entries": 500,
+          "primaryExamples": 500,
+          "authoredExamples": 0
+        },
+        "4": {
+          "entries": 1000,
+          "primaryExamples": 1000,
+          "authoredExamples": 0
+        },
+        "5": {
+          "entries": 1600,
+          "primaryExamples": 1600,
+          "authoredExamples": 0
+        },
+        "6": {
+          "entries": 1800,
+          "primaryExamples": 1800,
+          "authoredExamples": 0
+        },
+        "7": {
+          "entries": 5600,
+          "primaryExamples": 5600,
+          "authoredExamples": 0
+        }
+      },
+      "pairs": {
+        "de": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11000,
+          "missingExampleTranslations": 11000,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "en": {
+          "meanings": 11000,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 11000,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 0,
+          "packageComplete": true,
+          "fullExampleCoverage": true
+        },
+        "es": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11000,
+          "missingExampleTranslations": 11000,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "fr": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11000,
+          "missingExampleTranslations": 11000,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ja": {
+          "meanings": 0,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 0,
+          "missingMeanings": 11000,
+          "missingExampleTranslations": 11000,
+          "missingPrimaryExamples": 0,
+          "packageComplete": false,
+          "fullExampleCoverage": false
+        },
+        "ko": {
+          "meanings": 11000,
+          "sourceMeaningCandidates": 0,
+          "exampleTranslations": 11000,
+          "missingMeanings": 0,
+          "missingExampleTranslations": 0,
+          "missingPrimaryExamples": 0,
+          "packageComplete": true,
+          "fullExampleCoverage": true
+        }
+      }
+    }
+  }
+}

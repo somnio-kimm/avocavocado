@@ -1,0 +1,513 @@
+{
+  "status": "independent-AI-editorial-peer-review",
+  "nativeReview": false,
+  "reviewedAtUtc": "2026-10-15T04:52:30.189290+00:00",
+  "source": "language-packages/sources/examples/ko-authored.jsonl",
+  "sourceSha256": "1a6e52a7aa4a62acae3913e5aa7fa428522a3bcc380bccd756cbd3a08805f087",
+  "scope": {
+    "rows": 63,
+    "locales": [
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "zh"
+    ],
+    "context": [
+      "Korean lemma and part of speech",
+      "Korean original sentence",
+      "Existing English selected-sense definition"
+    ],
+    "existingEnglishPreserved": true
+  },
+  "findings": [],
+  "suggestions": [
+    {
+      "id": "ko-lex-24b35bacccaaaca16690",
+      "word": "제",
+      "lineOneBased": 8,
+      "locale": "de",
+      "severity": "low",
+      "required": false,
+      "observed": "ich; höfliche Form vor der Subjektpartikel 가",
+      "suggested": "ich; bescheidene Selbstbezeichnung vor der Subjektpartikel 가",
+      "reason": "höfliche Form is broadly understandable, but the selected 저/제 form specifically lowers the speaker rather than merely expressing general politeness.",
+      "resolution": "applied"
+    },
+    {
+      "id": "ko-lex-caa75c54b7e3f38ae707",
+      "word": "못",
+      "lineOneBased": 18,
+      "locale": "fr",
+      "severity": "low",
+      "required": false,
+      "observed": "ne pas pouvoir ; l’action est empêchée par les capacités ou les circonstances",
+      "suggested": "ne pas pouvoir ; l’action est impossible par manque de capacité ou en raison des circonstances",
+      "reason": "empêchée par les capacités is understandable in context, but par manque de capacité states the inability sense directly.",
+      "resolution": "applied"
+    }
+  ],
+  "summary": {
+    "requiredCorrections": 0,
+    "optionalWordingSuggestions": 2,
+    "completeMeaningMaps": 63
+  },
+  "reviewedRows": [
+    {
+      "id": "ko-lex-deede044196c7749dd71",
+      "word": "한",
+      "partOfSpeech": "determiner",
+      "sourceLineOneBased": 1,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-f3477d0c31d2fe7fd3e8",
+      "word": "아",
+      "partOfSpeech": "interjection",
+      "sourceLineOneBased": 2,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-cb1c155b3c94e435323e",
+      "word": "와",
+      "partOfSpeech": "interjection",
+      "sourceLineOneBased": 3,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-04468782cf7bde1006c4",
+      "word": "안",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 4,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-aa8331e8ef7a609dd7cb",
+      "word": "안",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 5,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-68c59cfe089aeef90778",
+      "word": "말",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 6,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-a9bcb4aeb908f4529cda",
+      "word": "내",
+      "partOfSpeech": "pronoun",
+      "sourceLineOneBased": 7,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-24b35bacccaaaca16690",
+      "word": "제",
+      "partOfSpeech": "pronoun",
+      "sourceLineOneBased": 8,
+      "result": "optional-wording-suggestion"
+    },
+    {
+      "id": "ko-lex-27555a63a0143ec279f3",
+      "word": "입",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 9,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-3bdfa8cee1f0a40e7727",
+      "word": "더",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 10,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-642c17310810b625ec02",
+      "word": "사람",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 11,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-a86366d258f3f53d5c7a",
+      "word": "우리",
+      "partOfSpeech": "pronoun",
+      "sourceLineOneBased": 12,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-b16b149ea0cdba35a300",
+      "word": "때",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 13,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-f5d3ca7b0f3993ad6945",
+      "word": "네",
+      "partOfSpeech": "determiner",
+      "sourceLineOneBased": 14,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-0b2925961ee9504cbebd",
+      "word": "네",
+      "partOfSpeech": "interjection",
+      "sourceLineOneBased": 15,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-193ac93caf8f36c22504",
+      "word": "저",
+      "partOfSpeech": "interjection",
+      "sourceLineOneBased": 16,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-c10d7ea89d0ad051c7c8",
+      "word": "잘",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 17,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-caa75c54b7e3f38ae707",
+      "word": "못",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 18,
+      "result": "optional-wording-suggestion"
+    },
+    {
+      "id": "ko-lex-99d276bf0f6837b1a38c",
+      "word": "생각",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 19,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-c5f2637ac645ac3c378b",
+      "word": "개",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 20,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-2681691a912c43b8f356",
+      "word": "두",
+      "partOfSpeech": "determiner",
+      "sourceLineOneBased": 21,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-18e2b53f3d74c592f6f5",
+      "word": "분",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 22,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-2a47a9fc7f34584bebfe",
+      "word": "살",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 23,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-e278ded47d4d46a6ea39",
+      "word": "다른",
+      "partOfSpeech": "determiner",
+      "sourceLineOneBased": 24,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-4fa7ce30007378af6cd1",
+      "word": "어서",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 25,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-7e91f1c9fd297be6b32b",
+      "word": "왜",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 26,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-0ceeae9963c992125143",
+      "word": "여자",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 27,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-6c7187203c82bf6c4b02",
+      "word": "뭐",
+      "partOfSpeech": "pronoun",
+      "sourceLineOneBased": 28,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-21d700359b7328e2b99a",
+      "word": "위",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 29,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-45c38f6d6bb042216250",
+      "word": "좀",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 30,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-be70291c69d605ed8a03",
+      "word": "하나",
+      "partOfSpeech": "numeral",
+      "sourceLineOneBased": 31,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-aca5d119cf802aca5483",
+      "word": "후",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 32,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-dc93e00c3b49c993eab7",
+      "word": "같이",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 33,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-059424ea054abc335066",
+      "word": "시작",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 34,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-6a6fc3b9d6770211f535",
+      "word": "사랑",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 35,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-63889cb8d6f787eff229",
+      "word": "그리고",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 36,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-b88bce5c0b087ca51e78",
+      "word": "게임",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 37,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-19a78a04245a02501e8b",
+      "word": "사용",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 38,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-0dff93b74bbc3cb34479",
+      "word": "집",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 39,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-dc5fa40386d54822d8ad",
+      "word": "함께",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 40,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-9dd97f1572ce51163603",
+      "word": "가지",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 41,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-490ae0649666a5b3c4ea",
+      "word": "남자",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 42,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-7bc792209c7fa0c943cc",
+      "word": "또",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 43,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-c51ed8399bdd3675b729",
+      "word": "보다",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 44,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-6fa8adf21af1b4795f1a",
+      "word": "보다",
+      "partOfSpeech": "verb",
+      "sourceLineOneBased": 45,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-23b0146e78a522873016",
+      "word": "너무",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 46,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-c64fd16b1f34813b8d63",
+      "word": "길",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 47,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-ee5b2284bff0aa0982fa",
+      "word": "다시",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 48,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-a07a79847dcb2404c129",
+      "word": "필요",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 49,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-d4ec60fecb69ad520366",
+      "word": "곳",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 50,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-68754068f2ce3105670d",
+      "word": "세",
+      "partOfSpeech": "determiner",
+      "sourceLineOneBased": 51,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-0af0a69e266d082b6410",
+      "word": "아이",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 52,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-80a74ea58ff840f14111",
+      "word": "형",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 53,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-8bdb3792e49da7745b24",
+      "word": "이름",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 54,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-240ccd0187ee7ee4661f",
+      "word": "친구",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 55,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-23e162dab5587247a74a",
+      "word": "가장",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 56,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-da83a3872998c3d11ec6",
+      "word": "다음",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 57,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-f4c684c36e2cbdc032b3",
+      "word": "비",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 58,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-d3b0f24f682ea95c3d9a",
+      "word": "많이",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 59,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-7c049a77fd4a65cf4248",
+      "word": "바로",
+      "partOfSpeech": "adverb",
+      "sourceLineOneBased": 60,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-9edc9b815330efc67401",
+      "word": "음",
+      "partOfSpeech": "interjection",
+      "sourceLineOneBased": 61,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-151a6a9b714ab811891e",
+      "word": "학교",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 62,
+      "result": "no-clear-sense-or-POS-error-observed"
+    },
+    {
+      "id": "ko-lex-4fad134b334cbc9345dd",
+      "word": "앞",
+      "partOfSpeech": "noun",
+      "sourceLineOneBased": 63,
+      "result": "no-clear-sense-or-POS-error-observed"
+    }
+  ],
+  "positiveChecks": [
+    "Distinguished 안 adverb/noun, 네 determiner/interjection, 보다 adverb/verb and 가지 aubergine noun.",
+    "Pronoun 내/제 notes retain the subject-particle context; 우리 retains the selected inclusive sense.",
+    "Native numeral determiners 한/두/세/네 remain distinct from numeral 하나.",
+    "형 includes the male-speaker and older-brother-or-cousin restriction in all five additional gloss languages.",
+    "바로 is the straight/non-crooked sense, and 음 is the assent interjection.",
+    "Repaired 가장 and 다음 German wording is present in the reviewed source."
+  ],
+  "limits": [
+    "AI editorial review is not native-speaker certification.",
+    "No source rows were edited.",
+    "Existing English definitions were retained as requested, including their inherited scope restrictions.",
+    "Concise equivalents are not exhaustive usage or grammatical descriptions."
+  ],
+  "resolutionNote": "Both optional wording refinements applied after the recorded review hash."
+}

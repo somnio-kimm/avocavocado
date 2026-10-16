@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "scope": "Bundled vocabulary and original course text; native runtime notices are separate.",
+  "sources": [
+    {
+      "id": "app-editorial",
+      "title": "Original lessons, explanations and translations",
+      "creator": "learn_german contributors",
+      "role": "original-content",
+      "license": "MIT",
+      "import_allowed": true,
+      "reason": "Original app content prepared with AI assistance; language review remains pending.",
+      "evidence": [
+        "LICENSE"
+      ]
+    },
+    {
+      "id": "manual-augment",
+      "title": "Repository vocabulary",
+      "creator": "learn_german contributors",
+      "role": "original-content",
+      "license": "MIT",
+      "import_allowed": true,
+      "reason": "Original repository content under the existing MIT license; language review remains pending.",
+      "evidence": [
+        "LICENSE"
+      ]
+    }
+  ],
+  "notice": "Third-party content keeps its own license. The app license does not replace it. No affiliation or endorsement is implied.",
+  "reference_dataset": {
+    "license": "CC-BY-SA-4.0",
+    "records": 143457,
+    "sources": [
+      "wiktionary-de",
+      "wiktionary-en",
+      "wiktionary-ko"
+    ],
+    "publication_ready": false,
+    "credits": "data/reference/CREDITS.txt",
+    "license_text": "data/reference/CC-BY-SA-4.0.txt"
+  }
+}

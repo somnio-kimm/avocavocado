@@ -1,0 +1,293 @@
+{
+  "reviewer": "root",
+  "nativeSpeakerReview": false,
+  "scope": "35 Korean candidates inspected in context with all six translations; same-concept matching alone was not acceptance",
+  "rows": [
+    {
+      "id": "ko-lex-8bca9b9de93641d5b253",
+      "word": "손",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-441f00a068344aaf2a63",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-eece006096e3d5e71b9e",
+      "word": "영화",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-b5dcfb82dc007e63becd",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-542de0b57144d4e8477a",
+      "word": "뒤",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-0ff9695f4373005a9a5e",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-397e7c7a2b8c8de379a3",
+      "word": "여기",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-bb7a2dbdc6da6323c02d",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-0e81aaa4637b324763f6",
+      "word": "돈",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-732bd7b17d4479712ea2",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-2965db46279da1fdc509",
+      "word": "어떤",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-36174be2d7176658e5ef",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-4047aec4818ee1d2930a",
+      "word": "눈",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-c78b5d101117d6814f65",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-b165af7682f3ad721851",
+      "word": "이번",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-81e176e125e390b5fdae",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-aa29416f36479a6efeda",
+      "word": "이야기",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-17b58ceff7a98b7d80c9",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-7c0340e9dd609fe675c9",
+      "word": "이유",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-b183ec3cf96badf37f55",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-6ef9ef0e927d48b321c2",
+      "word": "밖",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-c758517aa2b4a8cc598b",
+      "translationChanges": {
+        "de": "Von draußen hören wir das Geräusch eines Motors."
+      },
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-3f9401ab4b8b30324396",
+      "word": "키",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-182d9b3aede3690ee6bd",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-fa1fb84d3ba4c1b26169",
+      "word": "불",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-3813024b1bd3fe216d4c",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-9722ae0416da5ffd1f02",
+      "word": "아직",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-89c8365c13c8bd723639",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-b50d9e3b3ed1f444bbad",
+      "word": "나라",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-f027ce7d271ef53a4589",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-1fb99c9b9577644bca2f",
+      "word": "준비",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-59be441a0c5ac56155ad",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-961c3437a17da785e526",
+      "word": "방",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-9641cf8af74269b23bea",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-8d3588c420efc0ccbfbc",
+      "word": "가족",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-0f2dacd60f4f3f201d99",
+      "translationChanges": {
+        "es": "Toda mi familia se reúne los domingos para almorzar."
+      },
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-dc637c00ddc613d03b3d",
+      "word": "계획",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-9d427ca4c3246c7d505d",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-5de47e770c85c73a297d",
+      "word": "문",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-a6391b428ed5771a3de4",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-c5246f2c33e7cd45c664",
+      "word": "문화",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-51bf3f68d73692e76933",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-fe577386ed4c3fcd0d85",
+      "word": "사이",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-b4df1c9b6d8ca1333c6d",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-60c2d83f479637666e1f",
+      "word": "노래",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-2608de4635c65bbe0e87",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-e25334f0788b1bd9621b",
+      "word": "몸",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-016cf3e12bac442160a3",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-7cf2a32866515943e435",
+      "word": "프로그램",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-f5a4edab57b863d680b1",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-eebfd95a0549104b0482",
+      "word": "글",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-0f6e7851466ea433b761",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-e6de5d32cb674f98eb4f",
+      "word": "머리",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-e68e5a3533a016b89080",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-d1708f9ee3a830095048",
+      "word": "이것",
+      "sourceLanguage": "fr",
+      "sourceEntryId": "fr-lex-bacbbebeb84004e6c4d7",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-0bed27a377e32928fc82",
+      "word": "대학",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-fb443dbd20a158bf36e6",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-30fd6ad11c9eceab7d1c",
+      "word": "하루",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-6307032dbe2dda1eeae7",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-9c23453a9310102301d9",
+      "word": "여러분",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-0fb16972a1e5537332b2",
+      "translationChanges": {
+        "de": "Bitte prüfen Sie alle, ob Sie nichts vergessen haben."
+      },
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-b19c702262e7497e987f",
+      "word": "아버지",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-642fc196a953e22646ce",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-b31a73fb4822b1e3e143",
+      "word": "회사",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-f0f5a141f678bd38e82d",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-47975e11e1109edd1dc1",
+      "word": "인터넷",
+      "sourceLanguage": "ja",
+      "sourceEntryId": "ja-lex-235870274496a8bda945",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    },
+    {
+      "id": "ko-lex-ea4f642545f4a54c3a14",
+      "word": "기분",
+      "sourceLanguage": "es",
+      "sourceEntryId": "es-lex-097b22f56c22aa035c53",
+      "translationChanges": {},
+      "status": "AI-editorial-checked; native-speaker-review-pending"
+    }
+  ]
+}
