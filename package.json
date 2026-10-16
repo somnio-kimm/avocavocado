@@ -1,0 +1,27 @@
+{
+  "name": "avocavocado",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=26.11.1",
+    "npm": ">=12.2.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs && node scripts/shell-assets.mjs --check",
+    "start": "node scripts/dev-server.mjs",
+    "verify:browser": "node scripts/verify-browser.mjs",
+    "mobile:sync": "npm run sync --prefix mobile",
+    "shell:sync": "node scripts/shell-assets.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:somnio-kimm/avocavocado.git"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0"
+  },
+  "packageManager": "npm@12.2.0"
+}

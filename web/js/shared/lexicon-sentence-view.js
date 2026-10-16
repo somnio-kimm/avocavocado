@@ -1,0 +1,14 @@
+import {escapeHtml as e} from './ui.js';
+/** Shared body only; the presentation owns navigation, filters and persisted answers. */
+export function renderLexiconSentence(host,{question:q,feedback,selectedOption,chosenTokens,showTranslation,t},actions){
+ const cloze=q.mode==='cloze',checked=!!feedback,chosen=new Set(chosenTokens);
+ const sentence=cloze?`${e(q.sentence.slice(0,q.focus.start))}<span class="lexicon-blank ${checked?'correct':''}">${checked?e(q.answer):'　'}</span>${e(q.sentence.slice(q.focus.start+q.focus.text.length))}`:checked?e(q.sentence):'';
+ host.innerHTML=`<section class="panel lexicon-question ${feedback||''}" data-question-word="${e(q.word.id)}">${cloze||checked?`<div class="lexicon-sentence" lang="${e(actions.language)}">${sentence}</div>`:''}${!cloze&&!checked?`<div class="lexicon-tile-answer">${chosenTokens.map((id,index)=>`<button class="btn-small" data-return="${index}">${e(q.tokens[id])}</button>`).join('')||'<span aria-hidden="true">　</span>'}</div><div class="lexicon-tile-pool">${q.pool.map(id=>`<button class="btn-small" data-tile="${id}" ${chosen.has(id)?'disabled':''}>${e(q.tokens[id])}</button>`).join('')}</div>`:''}${cloze?`<div class="lexicon-options">${q.options.map(option=>`<button class="option ${checked?(option.id===q.word.id?'correct':option.id===selectedOption?'wrong':''):option.id===selectedOption?'selected':''}" data-cloze-option="${e(option.id)}" ${checked?'disabled':''}><strong>${e(option.text)}</strong>${checked?`<small>${e(option.meaning)}</small>`:''}</button>`).join('')}</div>`:''}${showTranslation||checked?`<p class="lexicon-example-translation">${e(q.example.studyTranslation)}</p>`:''}</section><label class="lexicon-translation-choice"><input type="checkbox" data-show-translation ${showTranslation?'checked':''}>${t('Show Translation')}</label>${checked?`<div class="quiz-next-bar"><button class="primary" data-sentence-next>${t('Next')}</button></div>`:`<div class="quiz-action-bar"><button class="primary submit-pill" data-sentence-submit ${cloze?!selectedOption?'disabled':'':chosenTokens.length!==q.tokens.length?'disabled':''}>${t('Submit')}</button><button class="btn-small" data-sentence-skip>${t('Skip')}</button></div>`}`;
+ host.querySelectorAll('[data-tile]').forEach(button=>button.onclick=()=>actions.choose(Number(button.dataset.tile)));
+ host.querySelectorAll('[data-return]').forEach(button=>button.onclick=()=>actions.remove(Number(button.dataset.return)));
+ host.querySelectorAll('[data-cloze-option]').forEach(button=>button.onclick=()=>actions.select(button.dataset.clozeOption));
+ host.querySelector('[data-show-translation]').onchange=event=>actions.toggle(event.target.checked);
+ host.querySelector('[data-sentence-submit]')?.addEventListener('click',actions.submit);
+ host.querySelector('[data-sentence-skip]')?.addEventListener('click',actions.skip);
+ host.querySelector('[data-sentence-next]')?.addEventListener('click',actions.next);
+}

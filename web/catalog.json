@@ -1,0 +1,208 @@
+[
+  {
+    "id": "de-core",
+    "kind": "study",
+    "targetLanguage": "de",
+    "version": "3.0.0",
+    "url": "/language-packages/de-core-3.0.0.json",
+    "bytes": 15228999,
+    "sha256": "d8c5c049be5f2d88f53b4c2363865015c151512c360331bbfaa0e934e0483afc"
+  },
+  {
+    "id": "de-en",
+    "kind": "explanation",
+    "targetLanguage": "de",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/de-en-3.0.0.json",
+    "bytes": 8149546,
+    "sha256": "f02ed46dec96c0cfebce177f853380c5190890f0cffeba7041f634dc369ee032"
+  },
+  {
+    "id": "de-ko",
+    "kind": "explanation",
+    "targetLanguage": "de",
+    "version": "3.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/de-ko-3.0.0.json",
+    "bytes": 7730452,
+    "sha256": "7c79a1d1c66cf97097ad251703aac3ffa3aea03e9cd7d55eff36615aec745318"
+  },
+  {
+    "id": "en-core",
+    "kind": "study",
+    "targetLanguage": "en",
+    "version": "3.0.0",
+    "url": "/language-packages/en-core-3.0.0.json",
+    "bytes": 14323081,
+    "sha256": "a684ed3f90efc4e6cf955b36ad4450d08af7f2952f5e27c0c5c476170ecbdbca"
+  },
+  {
+    "id": "en-en",
+    "kind": "explanation",
+    "targetLanguage": "en",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/en-en-3.0.0.json",
+    "bytes": 5028834,
+    "sha256": "85d168f2d61d20f8db51b95e422d6ee35c41c5d9daeca2816fa33e2b011fe7f2"
+  },
+  {
+    "id": "en-ko",
+    "kind": "explanation",
+    "targetLanguage": "en",
+    "version": "3.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/en-ko-3.0.0.json",
+    "bytes": 5005086,
+    "sha256": "13ec85dfe9041884b6f30d07d7efbdd22bb8e1a0fc21543a5211545c1b361ee7"
+  },
+  {
+    "id": "es-core",
+    "kind": "study",
+    "targetLanguage": "es",
+    "version": "3.0.0",
+    "url": "/language-packages/es-core-3.0.0.json",
+    "bytes": 10817333,
+    "sha256": "5e0f762058461addbb8b167d5a43a34a3ddf75071ed0a6837465e24217d17f83"
+  },
+  {
+    "id": "es-en",
+    "kind": "explanation",
+    "targetLanguage": "es",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/es-en-3.0.0.json",
+    "bytes": 4337400,
+    "sha256": "e0d0e8921d6949270fa4e53b2fa200e24ae0defd888f4b534354f44a7f9bfb5e"
+  },
+  {
+    "id": "es-ko",
+    "kind": "explanation",
+    "targetLanguage": "es",
+    "version": "3.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/es-ko-3.0.0.json",
+    "bytes": 4339901,
+    "sha256": "b6b728910ec37635a1bd82eebc615989d2105c7d689db0036d6b42ae75645529"
+  },
+  {
+    "id": "fr-core",
+    "kind": "study",
+    "targetLanguage": "fr",
+    "version": "3.0.0",
+    "url": "/language-packages/fr-core-3.0.0.json",
+    "bytes": 10939423,
+    "sha256": "789b4d56a65be68edc35100bfb3e2b811e6480fb5fbfda10b1c73f308df26a5b"
+  },
+  {
+    "id": "fr-en",
+    "kind": "explanation",
+    "targetLanguage": "fr",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/fr-en-3.0.0.json",
+    "bytes": 4331933,
+    "sha256": "3e18d475a05dc1e8021ea64cb9ff9694fa33445104d73e4ca83a9d4f5a1fe6d9"
+  },
+  {
+    "id": "fr-ko",
+    "kind": "explanation",
+    "targetLanguage": "fr",
+    "version": "3.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/fr-ko-3.0.0.json",
+    "bytes": 4331156,
+    "sha256": "475442e61b02052cde4a9235a7a86a0bb6619a2ffd74916a79f9beeb967fae96"
+  },
+  {
+    "id": "ja-core",
+    "kind": "study",
+    "targetLanguage": "ja",
+    "version": "3.0.0",
+    "url": "/language-packages/ja-core-3.0.0.json",
+    "bytes": 15133805,
+    "sha256": "3e667f6f07dd896314a19b3e2e3f931c30a1b110a0cc983e086f59827084cb29"
+  },
+  {
+    "id": "ja-en",
+    "kind": "explanation",
+    "targetLanguage": "ja",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/ja-en-3.0.0.json",
+    "bytes": 5581967,
+    "sha256": "e4c48c7df2e43047b11bca302df34598f28966ed548d19034dc64a8725586361"
+  },
+  {
+    "id": "ja-ko",
+    "kind": "explanation",
+    "targetLanguage": "ja",
+    "version": "3.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/ja-ko-3.0.0.json",
+    "bytes": 5547011,
+    "sha256": "a0862c1d43f5c7764988aa44e3f829511f1422203d1ec14c4c13e56a03ac0f2b"
+  },
+  {
+    "id": "ko-core",
+    "kind": "study",
+    "targetLanguage": "ko",
+    "version": "3.0.0",
+    "url": "/language-packages/ko-core-3.0.0.json",
+    "bytes": 20227959,
+    "sha256": "065d6b28250412730b202b92829cf855c44c1d44e96774be6a24d75f7c6ae3c3"
+  },
+  {
+    "id": "ko-en",
+    "kind": "explanation",
+    "targetLanguage": "ko",
+    "version": "3.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "3.0.0",
+    "url": "/language-packages/ko-en-3.0.0.json",
+    "bytes": 4959496,
+    "sha256": "c647ed2ae24c19730d41fe4415a073f4ff1476a4f978762c354ac460c97c8d29"
+  },
+  {
+    "id": "zh-core",
+    "kind": "study",
+    "targetLanguage": "zh",
+    "version": "2.0.0",
+    "url": "/language-packages/zh-core-2.0.0.json",
+    "bytes": 13266559,
+    "sha256": "cb7c29958b9c201aadf13f7db930e22f4c6a98d83ff476724f8d3de2b0515f6e"
+  },
+  {
+    "id": "zh-en",
+    "kind": "explanation",
+    "targetLanguage": "zh",
+    "version": "2.0.0",
+    "explanationLanguage": "en",
+    "studyVersion": "2.0.0",
+    "url": "/language-packages/zh-en-2.0.0.json",
+    "bytes": 2653371,
+    "sha256": "5325102b4c8b98233c95aa30c4564819b649256965beb4049ed7068f7d947096"
+  },
+  {
+    "id": "zh-ko",
+    "kind": "explanation",
+    "targetLanguage": "zh",
+    "version": "2.0.0",
+    "explanationLanguage": "ko",
+    "studyVersion": "2.0.0",
+    "url": "/language-packages/zh-ko-2.0.0.json",
+    "bytes": 2704099,
+    "sha256": "21abbd4b869dbec6d3d1ab94ec1145bbda90ba7263acf4d756f6dcb59e513b74"
+  }
+]
