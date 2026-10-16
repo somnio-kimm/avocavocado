@@ -4,7 +4,7 @@ One offline-first language-learning app with downloadable study-language package
 
 Choose a **study language** (Chinese, German, Japanese, Korean, English, Spanish or French) and an independent **explanation language** (English or Korean initially). Study cores and explanation pairs are separate downloads: for example, German core + German → Korean. Download German → English separately to switch explanations. Chinese works the same way, and installed pairs remain available offline.
 
-The retired separate-app code and its history are preserved locally outside this repository. Chinese and German content and exercises have been migrated. Every language offers Word List, Flashcards, Cloze, Sentence Scramble and Dictation (Word and Sentence). Existing optional quizzes remain available. See [shared study modes](docs/shared-sentence-practice.md).
+Use this folder as the sole active project. Retired source and history are preserved only in ignored recovery backups; see [workspace layout and generation data](docs/workspace.md). Chinese and German content and exercises have been migrated. Every language offers Word List, Flashcards, Cloze, Sentence Scramble and Dictation (Word and Sentence). Existing optional quizzes remain available. See [shared study modes](docs/shared-sentence-practice.md).
 
 ## Development
 

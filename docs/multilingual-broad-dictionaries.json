@@ -1,0 +1,207 @@
+{
+  "ja": {
+    "entries": 12027,
+    "distinctHeadwords": 11992,
+    "levels": {
+      "N5": 603,
+      "N4": 907,
+      "N3": 1504,
+      "N2": 3007,
+      "N1": 6006
+    },
+    "partsOfSpeech": {
+      "noun": 10226,
+      "pronoun": 32,
+      "verb": 1192,
+      "adjective": 210,
+      "adverb": 317,
+      "expression": 5,
+      "interjection": 31,
+      "numeral": 14
+    },
+    "bilingualExamples": 51,
+    "sourceExamples": 2017,
+    "examplesPending": 11976,
+    "preservedStarterEntries": 51,
+    "review": {
+      "status": "broad-dictionary-preview",
+      "nativeSpeakerReview": "pending",
+      "entries": 12027,
+      "bilingualExamples": 51,
+      "examplesPending": 11976,
+      "preparedSourceSha256": "1737d74a6f032cd7ad6c3016e2ee852a9efa2746fb94ccd231b0279b12ca267b",
+      "levelBasis": "Editorial frequency tiers; not official exam word membership or a score predictor.",
+      "examplePolicy": "Preserve starter examples. Display licensed native source examples separately with missing translations labelled; sentence exercises use only complete bilingual examples."
+    }
+  },
+  "ko": {
+    "entries": 12026,
+    "distinctHeadwords": 11738,
+    "levels": {
+      "1": 649,
+      "2": 1042,
+      "3": 1485,
+      "4": 1985,
+      "5": 2038,
+      "6": 4827
+    },
+    "partsOfSpeech": {
+      "noun": 8438,
+      "pronoun": 43,
+      "verb": 1771,
+      "adjective": 793,
+      "adverb": 693,
+      "expression": 4,
+      "conjunction": 2,
+      "determiner": 143,
+      "interjection": 76,
+      "numeral": 63
+    },
+    "bilingualExamples": 60,
+    "sourceExamples": 23728,
+    "examplesPending": 11966,
+    "preservedStarterEntries": 60,
+    "review": {
+      "status": "broad-dictionary-preview",
+      "nativeSpeakerReview": "pending",
+      "entries": 12026,
+      "bilingualExamples": 60,
+      "examplesPending": 11966,
+      "preparedSourceSha256": "91451e59ed0e2267df383a4644da61a841f1dabee82b94d6fe778c4002495152",
+      "levelBasis": "NIKL headword curriculum matches plus editorial extension; not certified TOPIK membership.",
+      "examplePolicy": "Preserve starter examples. Display licensed native source examples separately with missing translations labelled; sentence exercises use only complete bilingual examples."
+    }
+  },
+  "en": {
+    "entries": 12016,
+    "distinctHeadwords": 10721,
+    "levels": {
+      "1.0": 501,
+      "3.0": 1501,
+      "5.0": 2501,
+      "6.5": 3005,
+      "8.0": 4508
+    },
+    "partsOfSpeech": {
+      "noun": 7617,
+      "pronoun": 29,
+      "verb": 2249,
+      "adjective": 1477,
+      "adverb": 528,
+      "expression": 6,
+      "determiner": 24,
+      "numeral": 22,
+      "interjection": 64
+    },
+    "bilingualExamples": 50,
+    "sourceExamples": 2606,
+    "examplesPending": 11966,
+    "preservedStarterEntries": 50,
+    "review": {
+      "status": "broad-dictionary-preview",
+      "nativeSpeakerReview": "pending",
+      "entries": 12016,
+      "bilingualExamples": 50,
+      "examplesPending": 11966,
+      "preparedSourceSha256": "8fe3673e9e2e8bccf510a87bc410fd1d9ce246b595820e484690bcd18a53bfcc",
+      "levelBasis": "Editorial frequency tiers; not official exam word membership or a score predictor.",
+      "examplePolicy": "Preserve starter examples. Display licensed native source examples separately with missing translations labelled; sentence exercises use only complete bilingual examples."
+    },
+    "tags": {
+      "ielts:shared": 11949,
+      "topic:communication": 432,
+      "topic:general": 7373,
+      "topic:education": 363,
+      "topic:travel": 272,
+      "topic:services": 590,
+      "ielts:general-training": 36,
+      "topic:research": 170,
+      "topic:society": 778,
+      "ielts:academic": 31,
+      "topic:economy": 537,
+      "topic:culture": 402,
+      "topic:housing": 489,
+      "topic:work": 338,
+      "topic:health": 336,
+      "topic:relationships": 195,
+      "topic:environment": 149,
+      "topic:technology": 139
+    }
+  },
+  "es": {
+    "entries": 9092,
+    "distinctHeadwords": 9009,
+    "levels": {
+      "A1": 598,
+      "A2": 902,
+      "B1": 1502,
+      "B2": 2004,
+      "C1": 2010,
+      "C2": 2076
+    },
+    "partsOfSpeech": {
+      "noun": 6068,
+      "pronoun": 8,
+      "verb": 1763,
+      "adjective": 879,
+      "adverb": 326,
+      "expression": 7,
+      "conjunction": 1,
+      "determiner": 13,
+      "interjection": 7,
+      "numeral": 20
+    },
+    "bilingualExamples": 60,
+    "sourceExamples": 864,
+    "examplesPending": 9032,
+    "preservedStarterEntries": 60,
+    "review": {
+      "status": "broad-dictionary-preview",
+      "nativeSpeakerReview": "pending",
+      "entries": 9092,
+      "bilingualExamples": 60,
+      "examplesPending": 9032,
+      "preparedSourceSha256": "8712d9b8aaf66de5c6d2c14e3f44fb0454d94077d4b897d96da68c7d5afb5d16",
+      "levelBasis": "Editorial frequency tiers; not official exam word membership or a score predictor.",
+      "examplePolicy": "Preserve starter examples. Display licensed native source examples separately with missing translations labelled; sentence exercises use only complete bilingual examples."
+    }
+  },
+  "fr": {
+    "entries": 8936,
+    "distinctHeadwords": 8825,
+    "levels": {
+      "A1": 597,
+      "A2": 901,
+      "B1": 1507,
+      "B2": 2007,
+      "C1": 2009,
+      "C2": 1915
+    },
+    "partsOfSpeech": {
+      "noun": 6017,
+      "pronoun": 18,
+      "verb": 1732,
+      "adjective": 828,
+      "adverb": 285,
+      "expression": 6,
+      "conjunction": 2,
+      "numeral": 21,
+      "determiner": 9,
+      "interjection": 18
+    },
+    "bilingualExamples": 60,
+    "sourceExamples": 1415,
+    "examplesPending": 8876,
+    "preservedStarterEntries": 60,
+    "review": {
+      "status": "broad-dictionary-preview",
+      "nativeSpeakerReview": "pending",
+      "entries": 8936,
+      "bilingualExamples": 60,
+      "examplesPending": 8876,
+      "preparedSourceSha256": "4f7e1b01f046390e17498e4d4524de504336f4d7bab581dd151c3034ee8dd9f7",
+      "levelBasis": "Editorial frequency tiers; not official exam word membership or a score predictor.",
+      "examplePolicy": "Preserve starter examples. Display licensed native source examples separately with missing translations labelled; sentence exercises use only complete bilingual examples."
+    }
+  }
+}

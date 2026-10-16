@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "c6c97e8b29351e9a64a7032770d18285ec80cfed",
+  "repository": "git@github.com:somnio-kimm/avocavocado.git",
+  "activeProjectFolders": [
+    "avocavocado"
+  ],
+  "retiredGitHistoriesPreserved": 4,
+  "cloudOnlyFilesPreserved": 34,
+  "databaseSnapshot": {
+    "path": "local-data/generation/content-paused.sqlite",
+    "integrity": "ok",
+    "entries": 76385,
+    "savedDraftResults": 10018
+  },
+  "generation": {
+    "state": "paused-by-user",
+    "order": [
+      "native-examples-all-study-languages",
+      "english-korean-explanations",
+      "remaining-explanations"
+    ],
+    "requiresUserResume": true
+  },
+  "verification": {
+    "unitTests": 210,
+    "browserAndOfflineChecks": 14,
+    "iosSimulatorBuild": "passed",
+    "nativeRemoteSamplesMatchLocal": true,
+    "oldMainLocalUiEditsIncluded": true,
+    "auxiliaryWorktreePatchesAlreadyIntegrated": true
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "version": "2.0.0",
+  "source": "learn_language_legacy_20261014",
+  "counts": {
+    "de": {
+      "contentSha256": "4225109a75b3e4a400d43e4a26b1d21b7764a09331cbcbc9c57695849bceeea2",
+      "entries": 2000,
+      "examples": 2003,
+      "levels": {
+        "A1": 435,
+        "A2": 312,
+        "B1": 324,
+        "B2": 322,
+        "C1": 308,
+        "C2": 299
+      }
+    },
+    "zh": {
+      "contentSha256": "a8fa0aa77d8c7126c4d37efc6e50feb07a76b2dfe7bf2cc4859179bf2c74b905",
+      "entries": 11000,
+      "examples": 11000,
+      "levels": {
+        "1": 300,
+        "2": 200,
+        "3": 500,
+        "4": 1000,
+        "5": 1600,
+        "6": 1800,
+        "7": 5600
+      }
+    }
+  },
+  "sourceFiles": [
+    {
+      "path": "apps/chinese/web/data/content-attribution.json",
+      "sha256": "e89f708ad6bb303214ee904590e9d694b97547f442c24b61d6ab7e1e8af54c94"
+    },
+    {
+      "path": "apps/german/web/data/content-licenses.json",
+      "sha256": "c9b19ad2b210743f6c757073261bc116f66b5433f1470aafb022ee7a93c1f4f4"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/nouns.json",
+      "sha256": "7f49059ce44abad5e8234ea4e9997a0be1ecfcf0d62c89223006a41f22639370"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/verbs.json",
+      "sha256": "366bb30bda7c4676bfb67b73b9e1e5e594bfbdb0ac254d8138919696d874ab07"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/adjectives.json",
+      "sha256": "5d5a3b92c3cede1ca30a82334ea387586db41e0dd6c81ba00d8ae640e1bf460c"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a1/functional.json",
+      "sha256": "846ddcfd7595084520f37d78410b29b24b0c8a2b1f7241b6bf9bc3a02cddb0b6"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/nouns.json",
+      "sha256": "f3bbcec03e717aa5f0a8509a17ff82fd16d1eb45e29f0a7884ac7ca20ba85c82"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/verbs.json",
+      "sha256": "344b177ce8e9a1452cfb049d9abc7d791b0d79d9a6542691061355b12d9d884b"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/adjectives.json",
+      "sha256": "a9f632b1abcdf19abefb558263f05055af71bb760e061796975135cbfd00efbb"
+    },
+    {
+      "path": "apps/german/web/data/cefr-a2/functional.json",
+      "sha256": "5ff7de00293a8a3f9da7ea78db4afa9878c89fdc0bac531212db5262ec853025"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/nouns.json",
+      "sha256": "af1b567a6796b2370f4053497b2a4d961d9153c5acef7476e6057225cc3e5c2b"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/verbs.json",
+      "sha256": "a2054488da99bb22f56cc2bc1ba3b28689d15f74f2b75b931a4754bf9ecc84f9"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/adjectives.json",
+      "sha256": "f826c860a71028dc684f3c990071831d84b6c2c41329115191bb02ce3fde2165"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b1/functional.json",
+      "sha256": "0757facc1426386cf9aa75a12740d9f94014399ba14471ba90375a791842823a"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/nouns.json",
+      "sha256": "62347a7429162ac1c52cf16b817b7da5e473b6bc413886c83a6b24762bf43bd8"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/verbs.json",
+      "sha256": "bc112c8f783fcfbbd13cda07186077273d4b5242c9f2a30e3606f9023e5baa07"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/adjectives.json",
+      "sha256": "5185f140dedec1ec2f19c39e99b7efc0b565ca3c75b046345297ba419a5f9996"
+    },
+    {
+      "path": "apps/german/web/data/cefr-b2/functional.json",
+      "sha256": "6db4fcd8264b71264924ef0211bafa117d1289e05adbce233752db2e20c31101"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/nouns.json",
+      "sha256": "3c879b214b5092945d8e6f893ad220336f0949f858146891aacdffbe0571cd55"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/verbs.json",
+      "sha256": "5f60d2ea9a45e2f647b21d3efdfe0a20eba9a898ec4e665426317a68f32c3586"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/adjectives.json",
+      "sha256": "c4023cea13baf6e9f7871027963a439d437814d85a84b23898c3cee91791e644"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c1/functional.json",
+      "sha256": "045cd491a563fc129e93281d3f6153e593717ba597f0c27b4a92a4bf8b6ee427"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/nouns.json",
+      "sha256": "9651627a1c3bb82c9969f840f94af39d48bf930193065eea72d608f8ca5ad317"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/verbs.json",
+      "sha256": "45014a62700d0858624c94f619a5c5f24c81a27fd71139eb8e141b72e59cf4f6"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/adjectives.json",
+      "sha256": "67f27bca2d48c8f5eac0da03d7790acdf4dd451a36f0d234c2d8b7687b2bc93d"
+    },
+    {
+      "path": "apps/german/web/data/cefr-c2/functional.json",
+      "sha256": "f67fdb87f1dce69c42452598684ee3fcd4a01ca7b281b310e3070a10b0816731"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-1.json",
+      "sha256": "9d543401028a505c2bd774adbd4752f06245c47a2adde5016bb4f41f361b7761"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-2.json",
+      "sha256": "9cd4c09e6d0d1b23fadb2d1178d77d1c0cbf6c32e2f925f190ce5d152f115751"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-3.json",
+      "sha256": "898eb8b2c8105271edf8fef6d8b27ffc88117bbd2fb4ad2d0e297c96776dde8a"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-4.json",
+      "sha256": "27fa4bee1b30e50c2313eff70c3b67b52ee19b0f2ec887b88cefc5afc461edb6"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-5.json",
+      "sha256": "2b0cf83a43fda2f392b9a3c36afd99ea230c754f395aa4a14ef32515f84d6080"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-6.json",
+      "sha256": "53bbf9c66f128de97f5be340677fbd351fbca61dae993a40106146467123130b"
+    },
+    {
+      "path": "apps/chinese/web/data/hsk-7.json",
+      "sha256": "8e047e0873b376fcba81d9b879662a09f4adfe36e8eb66399c53c49063c96ce8"
+    }
+  ],
+  "scope": "Full archived study entries only. The unready German reference corpus is excluded. No language-quality rewrite or new syllabus audit is claimed."
+}

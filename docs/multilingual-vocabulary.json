@@ -1,0 +1,110 @@
+{
+  "ja": {
+    "entries": 51,
+    "levels": {
+      "N5": 10,
+      "N4": 10,
+      "N3": 10,
+      "N2": 11,
+      "N1": 10
+    },
+    "examples": 51,
+    "explanations": [
+      "en",
+      "ko"
+    ],
+    "review": {
+      "status": "editorial-starter",
+      "nativeSpeakerReview": "pending",
+      "scope": "Small starter selection across the exam framework; not exhaustive exam coverage.",
+      "sourceSha256": "a20447e3c50291191c1c450eece798315ab78cfe51903d2052a63c10a629fdfe"
+    }
+  },
+  "ko": {
+    "entries": 60,
+    "levels": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 10,
+      "6": 10
+    },
+    "examples": 60,
+    "explanations": [
+      "en",
+      "ko"
+    ],
+    "review": {
+      "status": "editorial-starter",
+      "nativeSpeakerReview": "pending",
+      "scope": "Small starter selection across the exam framework; not exhaustive exam coverage.",
+      "sourceSha256": "aa6e8c28129cd7220c8639c5a66aa06fab002e7ce22c27441d58a5b40fcb269f"
+    }
+  },
+  "en": {
+    "entries": 50,
+    "levels": {
+      "1.0": 10,
+      "3.0": 10,
+      "5.0": 10,
+      "6.5": 10,
+      "8.0": 10
+    },
+    "examples": 50,
+    "explanations": [
+      "en",
+      "ko"
+    ],
+    "review": {
+      "status": "editorial-starter",
+      "nativeSpeakerReview": "pending",
+      "scope": "Small starter selection across the exam framework; not exhaustive exam coverage.",
+      "sourceSha256": "9cb65697596f3f6230b67d0ec7b154bc76ff8f08d2a51ca16e46a8c078a97bfd"
+    }
+  },
+  "es": {
+    "entries": 60,
+    "levels": {
+      "A1": 10,
+      "A2": 10,
+      "B1": 10,
+      "B2": 10,
+      "C1": 10,
+      "C2": 10
+    },
+    "examples": 60,
+    "explanations": [
+      "en",
+      "ko"
+    ],
+    "review": {
+      "status": "editorial-starter",
+      "nativeSpeakerReview": "pending",
+      "scope": "Small starter selection across the exam framework; not exhaustive exam coverage.",
+      "sourceSha256": "ed3765efa4e829f50e9f494d1b910ebe63332b42d446737d5a6d28f39a3347b1"
+    }
+  },
+  "fr": {
+    "entries": 60,
+    "levels": {
+      "A1": 10,
+      "A2": 10,
+      "B1": 10,
+      "B2": 10,
+      "C1": 10,
+      "C2": 10
+    },
+    "examples": 60,
+    "explanations": [
+      "en",
+      "ko"
+    ],
+    "review": {
+      "status": "editorial-starter",
+      "nativeSpeakerReview": "pending",
+      "scope": "Small starter selection across the exam framework; not exhaustive exam coverage.",
+      "sourceSha256": "3d6ef7206ffd20e6845816b17152d999952237075610a5d3fffcbe18cae20620"
+    }
+  }
+}
