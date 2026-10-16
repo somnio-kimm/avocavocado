@@ -21,3 +21,12 @@ test('renamed app reports retain study-language context',async()=>{
  const url=new URL(prepareBugReport({app:APP_NAME,diagnostics}).url);
  assert.equal(url.searchParams.get('entry.1656822590'),diagnostics);
 });
+
+test('native icon catalogue points to a square opaque 1024px PNG',async()=>{
+ const folder=new URL('../mobile/ios/App/App/Assets.xcassets/AppIcon.appiconset/',import.meta.url);
+ const catalogue=JSON.parse(await readFile(new URL('Contents.json',folder),'utf8'));
+ const icon=await readFile(new URL(catalogue.images[0].filename,folder));
+ assert.equal(icon.subarray(1,4).toString(),'PNG');
+ assert.equal(icon.readUInt32BE(16),1024);assert.equal(icon.readUInt32BE(20),1024);
+ assert.equal(icon[25],2,'App icon must be RGB without an alpha channel');
+});
