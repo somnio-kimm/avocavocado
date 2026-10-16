@@ -7,6 +7,7 @@ export async function shellAssets(directory=root) {
   const paths=[];
   async function walk(relative='') {
     for(const item of await readdir(join(directory,relative),{withFileTypes:true})) {
+      if(item.name==='.DS_Store'||item.name.startsWith('._'))continue;
       const path=relative?`${relative}/${item.name}`:item.name;
       if(item.isDirectory())await walk(path);
       else if(path!=='sw.js')paths.push(path);
