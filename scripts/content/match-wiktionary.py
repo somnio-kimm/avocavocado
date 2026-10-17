@@ -140,7 +140,7 @@ def _identity(wrapper, index):
             'rowDigest': wrapper['rowDigest'], 'senseIndex': index}
 
 
-def _candidate(wrapper, index, text, **fields):
+def _candidate(wrapper, index, text, alignment=None, **fields):
     edition = wrapper['edition']; row = wrapper['row']; snapshot = wrapper['snapshot']
     title = row.get('original_title') or row.get('word')
     provenance = {'kind': 'licensed-source', 'license': 'CC-BY-SA-4.0',
@@ -160,24 +160,31 @@ def _candidate(wrapper, index, text, **fields):
         provenance['modifications'] = ([
             'Joined the source gloss hierarchy with single spaces; individual gloss text unchanged.'
         ] if len(row['senses'][index].get('glosses', [])) > 1 else [])
+    if alignment is not None:
+        provenance['alignment'] = dict(alignment)
+        fields['alignment'] = dict(alignment)
     value = {'text': text, 'provenance': provenance,
              'source_snapshot_sha256': snapshot['sha256'], 'accepted': False, **fields}
     value['source_digest'] = digest(value)
     return value
 
 
-def match_wiktionary(entry, evidence, rows, study_language=None):
+def match_wiktionary(entry, evidence, rows, study_language=None, allow_single_sense_candidates=False):
     """Return source candidates and explicit holds, without mutating inputs.
 
     Exact selected gloss matching is scoped per edition. Multiple matching senses
     in one edition are held, even if their surface gloss strings are identical.
     Native-edition definitions are candidates; their examples remain held until
-    a dedicated usage-example rights adapter exists.
+    a dedicated usage-example rights adapter exists. Opt-in single-sense retrieval
+    supplies unverified candidates for independent review, never sense approval.
     """
     language = study_language or entry.get('studyLanguage') or entry.get('language')
     if language not in EDITIONS: raise ValueError('Explicit supported study language required')
-    result = {'meanings': {}, 'native_examples': [], 'example_translations': {}, 'holds': []}
-    matches = {}
+    result = {'meanings': {}, 'native_examples': [], 'example_translations': {}, 'holds': [],
+              'retrieval_counts': {'exact_selected_senses': 0,
+                                   'unique_source_sense_candidates': 0,
+                                   'ambiguous_source_sense_groups': 0}}
+    matches = {}; eligible = {}; methods = {}
     selected_identity = evidence.get('wiktionarySense')
     def hold(reason, wrapper=None, **detail):
         value = {'reason': reason, **detail}
@@ -208,21 +215,42 @@ def match_wiktionary(entry, evidence, rows, study_language=None):
                         for container in (row, sense)
                         for tag in container.get('tags', []) + container.get('raw_tags', []))):
                 hold('excluded-sense', wrapper, senseIndex=index); continue
+            if sense_gloss(sense):
+                eligible.setdefault(edition, []).append((wrapper, index, sense))
             identity_match = selected_identity == _identity(wrapper, index)
             gloss_match = bool(known_text) and normalise_gloss(known_text) == normalise_gloss(sense_gloss(sense))
             # Explicit recorded identity is authoritative; other senses cannot win.
             if selected_identity and not identity_match: continue
             if not (identity_match or gloss_match): continue
             matches.setdefault(edition, []).append((wrapper, index, sense))
+            methods[edition] = 'recorded-source-sense-identity' if identity_match else 'exact-selected-gloss'
+    if allow_single_sense_candidates and not selected_identity:
+        for edition, options in eligible.items():
+            if edition in matches: continue
+            if len(options) == 1:
+                matches[edition] = options
+                methods[edition] = 'unique-source-sense-candidate'
+            else:
+                result['retrieval_counts']['ambiguous_source_sense_groups'] += 1
+                hold('ambiguous-source-sense-candidates', edition=edition, count=len(options))
     for edition, options in matches.items():
         if len(options) != 1:
             hold('ambiguous-selected-sense', count=len(options), edition=edition); continue
         wrapper, index, sense = options[0]
+        unverified = methods[edition] == 'unique-source-sense-candidate'
+        alignment = {'method': methods[edition],
+                     'status': ('selected-sense-equivalence-unverified' if unverified
+                                else 'selected-sense-source-aligned'),
+                     'review': 'independent-review-required'}
+        result['retrieval_counts']['unique_source_sense_candidates' if unverified else 'exact_selected_senses'] += 1
+        if unverified:
+            hold('selected-sense-equivalence-unverified', wrapper, senseIndex=index,
+                 method=methods[edition], candidateRetrieved=True)
         gloss = sense_gloss(sense)
         if not gloss or not _language_text(gloss, edition):
             hold('invalid-gloss-language', wrapper, senseIndex=index)
         elif edition != language or language == 'en':
-            result['meanings'].setdefault(edition, []).append(_candidate(wrapper, index, gloss))
+            result['meanings'].setdefault(edition, []).append(_candidate(wrapper, index, gloss, alignment=alignment))
         for example_index, example in enumerate(sense.get('examples', [])):
             rights = sources.classify_example(example, edition, sense)
             if rights['status'] != 'candidate':
@@ -244,19 +272,19 @@ def match_wiktionary(entry, evidence, rows, study_language=None):
             if conflict:
                 hold('conflicting-example-translation', wrapper, exampleIndex=example_index)
             elif translation and _sentence(translation, 'en'):
-                known_translations['en'] = _candidate(wrapper, index, translation,
+                known_translations['en'] = _candidate(wrapper, index, translation, alignment=alignment,
                     source_text=text, source_example_index=example_index)
             if focus:
                 phonetic = {}
                 if language == 'zh' and 'Pinyin' in example.get('tags', []) and example.get('roman'):
                     phonetic['pinyin'] = example['roman']
-                result['native_examples'].append(_candidate(wrapper, index, text, focus=focus,
+                result['native_examples'].append(_candidate(wrapper, index, text, alignment=alignment, focus=focus,
                     source_example_index=example_index, known_translations=known_translations, **phonetic))
             else: hold('unverified-focus', wrapper, exampleIndex=example_index)
             if not known_translations: continue
             for existing_index, existing in enumerate(evidence.get('examples', [])):
                 if existing.get('text') != text: continue
-                candidate = _candidate(wrapper, index, translation, source_text=text,
+                candidate = _candidate(wrapper, index, translation, alignment=alignment, source_text=text,
                     source_example_digest=digest(existing), source_example_index=example_index)
                 result['example_translations'].setdefault(str(existing_index), {}).setdefault('en', []).append(candidate)
     if not matches: hold('no-exact-selected-sense')
@@ -267,5 +295,7 @@ if __name__ == '__main__':
     import sys
     payload = json.load(sys.stdin)
     json.dump(match_wiktionary(payload['entry'], payload['evidence'], payload['rows'],
-                             payload.get('studyLanguage')), sys.stdout, ensure_ascii=False)
+                             payload.get('studyLanguage'),
+                             allow_single_sense_candidates=payload.get('allow_single_sense_candidates', False)),
+              sys.stdout, ensure_ascii=False)
     print()

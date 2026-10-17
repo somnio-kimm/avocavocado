@@ -41,7 +41,7 @@ def candidates_for_job(matches, job):
     return matches['example_translations'].get(str(job['example_index']), {}).get(job['locale'], [])
 
 
-def audit_reuse(queue_path, catalog_path, report_path, *, apply=False):
+def audit_reuse(queue_path, catalog_path, report_path, *, apply=False, include_single_sense_candidates=False):
     if Path(report_path).resolve() in {Path(queue_path).resolve(), Path(catalog_path).resolve()}:
         raise ValueError('Report must not replace the queue or source catalogue')
     reader = sources.open_readonly(queue_path)
@@ -55,6 +55,7 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False):
     report = {'schemaVersion': 1, 'createdAt': queue.now(), 'applied': apply,
               'modelGenerationStarted': False, 'entries': entry_count,
               'existingResults': len(previous), 'catalog': str(Path(catalog_path).resolve()),
+              'singleSenseCandidateRetrieval': include_single_sense_candidates,
               'draftsRequireIndependentReview': True, 'languages': counts}
     try:
         for number, row in enumerate(reader.execute('SELECT * FROM entries ORDER BY study_language,entry_id'), 1):
@@ -63,7 +64,8 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False):
             wrappers = sources.find_rows(catalog, lang, entry['word'])
             counts[lang]['entriesAudited'] += 1
             counts[lang]['entriesWithSourceRows'] += bool(wrappers)
-            matches = matcher.match_wiktionary(entry, evidence, wrappers, lang)
+            matches = matcher.match_wiktionary(entry, evidence, wrappers, lang,
+                allow_single_sense_candidates=include_single_sense_candidates)
             holds.update(h['reason'] for h in matches['holds'])
             # Force the entry index: the ready-language index otherwise scans
             # an entire language's pending queue once for every headword.
@@ -78,11 +80,15 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False):
                 if not candidate:
                     if candidates: counts[lang]['conflictingFieldCandidates'] += 1
                     continue
+                if candidate.get('alignment', {}).get('method') == 'unique-source-sense-candidate' and payload.get('candidate'):
+                    counts[lang]['existingSourceCandidatePreserved'] += 1
+                    continue
                 # Draft translations from earlier work may address a different sentence.
                 if job['task'] == 'example_translation' and candidate.get('source_example_digest') != queue.digest(payload.get('source_example')):
                     counts[lang]['differentSentenceCandidates'] += 1
                     continue
                 counts[lang]['reusable_' + job['task']] += 1
+                counts[lang]['alignment_' + candidate.get('alignment', {}).get('method', 'exact-selected-sense')] += 1
                 if writer:
                     if writer.execute('SELECT entry_digest FROM entries WHERE study_language=? AND entry_id=?',(lang, entry_id)).fetchone()[0] != row['entry_digest']:
                         raise ValueError('Entry changed during source audit')
@@ -138,8 +144,11 @@ def main():
     parser.add_argument('--catalog', required=True, type=Path)
     parser.add_argument('--report', required=True, type=Path)
     parser.add_argument('--apply', action='store_true')
+    parser.add_argument('--include-single-sense-candidates', action='store_true',
+        help='Retrieve uniquely eligible source senses as unapproved drafts; semantic equivalence still needs review')
     args = parser.parse_args()
-    print(json.dumps(audit_reuse(args.queue, args.catalog, args.report, apply=args.apply), ensure_ascii=False))
+    print(json.dumps(audit_reuse(args.queue, args.catalog, args.report, apply=args.apply,
+        include_single_sense_candidates=args.include_single_sense_candidates), ensure_ascii=False))
 
 
 if __name__ == '__main__':

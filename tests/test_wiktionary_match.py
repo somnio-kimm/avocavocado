@@ -222,6 +222,66 @@ class WiktionaryMatchingTests(unittest.TestCase):
                 self.assertFalse(result['meanings'])
                 self.assertEqual(result['holds'][0]['reason'], 'excluded-sense')
 
+    def test_unique_source_sense_requires_explicit_optin_and_stays_unverified(self):
+        entry, evidence = inputs(); row = source(gloss='consume food', examples=[japanese_example()])
+        strict = m.match_wiktionary(entry, evidence, [row])
+        self.assertFalse(strict['meanings'])
+        self.assertFalse(strict['native_examples'])
+        result = m.match_wiktionary(entry, evidence, [row], allow_single_sense_candidates=True)
+        candidate = result['meanings']['en'][0]
+        self.assertEqual(candidate['text'], 'consume food')
+        self.assertFalse(candidate['accepted'])
+        self.assertEqual(candidate['alignment'], {
+            'method': 'unique-source-sense-candidate',
+            'status': 'selected-sense-equivalence-unverified',
+            'review': 'independent-review-required'})
+        self.assertEqual(candidate['provenance']['alignment'], candidate['alignment'])
+        native = result['native_examples'][0]
+        self.assertEqual(native['alignment'], candidate['alignment'])
+        self.assertEqual(native['known_translations']['en']['alignment'], candidate['alignment'])
+        self.assertEqual(result['retrieval_counts']['unique_source_sense_candidates'], 1)
+        self.assertIn('selected-sense-equivalence-unverified', [h['reason'] for h in result['holds']])
+        self.assertEqual(candidate['source_digest'], m.digest({k: v for k, v in candidate.items() if k != 'source_digest'}))
+
+    def test_optin_does_not_choose_between_multiple_source_senses(self):
+        entry, evidence = inputs(); row = source(gloss='consume food')
+        row['row']['senses'].append({'glosses': ['earn a living']})
+        result = m.match_wiktionary(entry, evidence, [row], allow_single_sense_candidates=True)
+        self.assertFalse(result['meanings'])
+        self.assertEqual(result['retrieval_counts']['ambiguous_source_sense_groups'], 1)
+        self.assertIn('ambiguous-source-sense-candidates', [h['reason'] for h in result['holds']])
+
+    def test_optin_does_not_bypass_wrong_pos_reading_or_reference(self):
+        entry, evidence = inputs()
+        for mismatch in ('pos', 'reading', 'reference'):
+            with self.subTest(mismatch=mismatch):
+                row = source(gloss='consume food'); selected = dict(entry)
+                if mismatch == 'pos': row['row']['pos'] = 'noun'
+                elif mismatch == 'reading':
+                    selected['reading'] = 'くう'
+                    row['row']['forms'] = [{'form': '食べる', 'tags': ['canonical'], 'ruby': [['食', 'た']]}]
+                else: row['row']['senses'][0]['refs'] = ['Book']
+                result = m.match_wiktionary(selected, evidence, [row], allow_single_sense_candidates=True)
+                self.assertFalse(result['meanings'])
+                self.assertFalse(result['native_examples'])
+                self.assertEqual(result['retrieval_counts']['unique_source_sense_candidates'], 0)
+
+    def test_optin_never_falls_back_after_explicit_identity_mismatch(self):
+        entry, evidence = inputs(); row = source(gloss='consume food')
+        evidence['wiktionarySense'] = {'edition': 'en', 'snapshotSha256': 'b' * 64,
+                                      'rowDigest': row['rowDigest'], 'senseIndex': 0}
+        result = m.match_wiktionary(entry, evidence, [row], allow_single_sense_candidates=True)
+        self.assertFalse(result['meanings'])
+        self.assertEqual(result['retrieval_counts']['unique_source_sense_candidates'], 0)
+
+    def test_exact_match_keeps_priority_over_optional_retrieval(self):
+        entry, evidence = inputs(); row = source()
+        row['row']['senses'].append({'glosses': ['earn a living']})
+        result = m.match_wiktionary(entry, evidence, [row], allow_single_sense_candidates=True)
+        self.assertEqual(result['meanings']['en'][0]['alignment']['method'], 'exact-selected-gloss')
+        self.assertEqual(result['retrieval_counts']['exact_selected_senses'], 1)
+        self.assertEqual(result['retrieval_counts']['unique_source_sense_candidates'], 0)
+
     def test_does_not_mutate_evidence(self):
         entry, evidence = inputs(); rows = [source(examples=[japanese_example()])]
         before = copy.deepcopy((entry, evidence, rows))

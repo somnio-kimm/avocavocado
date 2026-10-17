@@ -60,6 +60,15 @@ python3 scripts/content/reuse-wiktionary.py \
 
 `--replace` explicitly rebuilds a catalogue atomically. A hash mismatch leaves
 an existing catalogue intact. A repeated import skips already completed fields.
+The optional `--include-single-sense-candidates` flag on the audit/import command
+also retrieves a source sense when it is the only eligible sense for that exact
+lemma, part of speech and reading in an edition. This handles different wording
+between dictionaries without pretending it proves semantic equivalence. Such
+drafts explicitly retain `selected-sense-equivalence-unverified` alignment and
+must pass the same independent meaning review before use. Multiple possible
+senses remain held, and an existing licensed definition candidate takes priority
+over this weaker retrieval method. Without the flag, matching stays exact.
+
 Repair jobs marked as requiring generation or revision are preserved. Each
 import retains the original entry/sentence digest and adds a separately bound
 source candidate; it does not rewrite the whole entry evidence and invalidate

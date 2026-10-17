@@ -89,5 +89,20 @@ class WiktionaryReuseTests(unittest.TestCase):
         self.assertEqual(result['languages']['de']['editorialRepairPreserved'],1)
         self.assertEqual(q.get_job(self.conn,repair).status,'pending')
 
+    def test_single_sense_retrieval_is_opt_in_and_stays_unreviewed(self):
+        row=self.conn.execute('SELECT * FROM entries').fetchone()
+        entry,evidence=json.loads(row['entry_json']),json.loads(row['evidence_json'])
+        evidence['meanings']['en']['text']='A round fruit with firm flesh.'
+        entry_digest=q.digest({'entry':entry,'evidence':evidence})
+        self.conn.execute('UPDATE entries SET evidence_json=?,entry_digest=?',(q.encoded(evidence),entry_digest))
+        q.enqueue_job(self.conn,'de','de-apple','native_example','de',dict(q._context(self.conn,'de','de-apple'),source_digest=entry_digest,candidate=None),example_index=0)
+        strict=m.audit_reuse(self.db,self.catalog,self.report)
+        self.assertEqual(strict['languages']['de'].get('reusable_native_example',0),0)
+        draft=m.audit_reuse(self.db,self.catalog,self.report,apply=True,include_single_sense_candidates=True)
+        self.assertEqual(draft['resultsAfter'],2)
+        for row in self.conn.execute('SELECT output_json FROM results'):
+            self.assertEqual(json.loads(row[0])['provenance']['alignment']['status'],'selected-sense-equivalence-unverified')
+        self.assertEqual(self.conn.execute("SELECT count(*) FROM jobs WHERE status='checked'").fetchone()[0],0)
+
 
 if __name__=='__main__':unittest.main()
