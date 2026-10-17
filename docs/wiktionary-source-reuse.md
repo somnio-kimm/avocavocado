@@ -110,6 +110,24 @@ existing complete-entry release gates. A source import never marks itself as
 native-speaker reviewed and never publishes or changes installed packages.
 Model generation remains governed by the user's pause/resume decision.
 
+## Observed import on 17 October 2026
+
+The [full inventory report](wiktionary-reuse-2026-10-17.json) records the audit of
+all 76,385 entries. The seven source editions provided 360,240 matching raw
+records and 430,775 example candidates. The import added 20,159 definition
+drafts, 1,190 native-example drafts and 676 exact source sentence translations.
+All 10,018 earlier results and all entry digests were preserved; SQLite integrity
+and every new candidate/output binding were verified.
+
+These 22,025 additions are unapproved source drafts. Most were retrieved from a
+unique eligible sense, which still needs semantic checking. There are 41,923
+native examples and 683,123 total text fields still missing, including deferred
+translations of those missing examples. Models remain paused and no packages
+were published. The standalone local Drive-folder snapshot is
+`local-data/generation/content-wiktionary-2026-10-17.sqlite`; its verification
+metadata is beside it. Local saving does not establish that Drive has completed
+its cloud upload.
+
 ## Attribution and commercial distribution
 
 The applicable Wiktionary text is reused under **CC BY-SA 4.0**. Preserve the
