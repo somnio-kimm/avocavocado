@@ -149,7 +149,8 @@ def _candidate(wrapper, index, text, **fields):
         'url': 'https://' + edition + '.wiktionary.org/wiki/' + quote(title, safe=''),
         'history': 'https://' + edition + '.wiktionary.org/w/index.php?title=' + quote(title, safe='') + '&action=history',
         'sourceIdentity': _identity(wrapper, index), 'sourceLine': wrapper.get('rowIndex'),
-        'sourceSnapshot': snapshot, 'review': 'independent-review-required'}
+        'sourceSnapshot': {key: value for key, value in snapshot.items() if key != 'path'},
+        'review': 'independent-review-required'}
     if 'source_example_index' in fields:
         provenance['sourceExampleIndex'] = fields['source_example_index']
         provenance['modifications'] = ([

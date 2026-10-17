@@ -28,6 +28,13 @@ def japanese_example():
 
 
 class WiktionaryMatchingTests(unittest.TestCase):
+    def test_public_attribution_excludes_local_cache_path(self):
+        entry, evidence = inputs(); row = source()
+        row['snapshot']['path'] = '/private/local/cache/en.jsonl.gz'
+        candidate = m.match_wiktionary(entry, evidence, [row])['meanings']['en'][0]
+        self.assertNotIn('path', candidate['provenance']['sourceSnapshot'])
+        self.assertEqual(candidate['provenance']['sourceSnapshot']['sha256'], 'a' * 64)
+
     def test_unique_exact_selected_gloss_returns_attributed_draft(self):
         entry, evidence = inputs()
         result = m.match_wiktionary(entry, evidence, [source()])
