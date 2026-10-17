@@ -64,6 +64,17 @@ class WiktionaryReuseTests(unittest.TestCase):
             m.audit_reuse(self.db,self.catalog,self.db,apply=True)
         self.assertEqual(q.get_job(self.conn,self.job).status,'pending')
 
+    def test_entry_batches_cover_languages_without_holding_read_snapshot(self):
+        self.conn.execute("INSERT INTO entries SELECT 'en','en-apple',entry_digest,entry_json,evidence_json,updated_at FROM entries LIMIT 1")
+        reader=m.sources.open_readonly(self.db)
+        entries=m.iter_entries(reader,batch_size=1)
+        self.assertEqual(next(entries)['entry_id'],'de-apple')
+        self.conn.execute("UPDATE entries SET updated_at='changed' WHERE entry_id='en-apple'")
+        self.assertEqual(self.conn.execute('PRAGMA wal_checkpoint(TRUNCATE)').fetchone()[0],0)
+        remaining=list(entries)
+        self.assertEqual([(row['entry_id'],row['updated_at']) for row in remaining],[('en-apple','changed')])
+        reader.close()
+
     def test_native_and_source_translation_import_is_atomic(self):
         with patch.object(m, 'import_native_translations', side_effect=ValueError('interrupted')):
             with self.assertRaisesRegex(ValueError, 'interrupted'):

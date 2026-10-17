@@ -42,6 +42,20 @@ def candidates_for_job(matches, job):
     return matches['example_translations'].get(str(job['example_index']), {}).get(job['locale'], [])
 
 
+def iter_entries(conn, batch_size=256):
+    """Release each read cursor before writes so SQLite can checkpoint its WAL."""
+    after = None
+    while True:
+        if after is None:
+            rows = conn.execute('SELECT * FROM entries ORDER BY study_language,entry_id LIMIT ?', (batch_size,)).fetchall()
+        else:
+            rows = conn.execute('SELECT * FROM entries WHERE (study_language,entry_id)>(?,?) ORDER BY study_language,entry_id LIMIT ?', (*after, batch_size)).fetchall()
+        if not rows:
+            return
+        after = (rows[-1]['study_language'], rows[-1]['entry_id'])
+        yield from rows
+
+
 def audit_reuse(queue_path, catalog_path, report_path, *, apply=False, include_single_sense_candidates=False):
     if Path(report_path).resolve() in {Path(queue_path).resolve(), Path(catalog_path).resolve()}:
         raise ValueError('Report must not replace the queue or source catalogue')
@@ -67,7 +81,7 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False, include_s
               'sourceReviewExclusionsDigest': queue.digest(exclusions),
               'draftsRequireIndependentReview': True, 'languages': counts}
     try:
-        for number, row in enumerate(reader.execute('SELECT * FROM entries ORDER BY study_language,entry_id'), 1):
+        for number, row in enumerate(iter_entries(reader), 1):
             lang, entry_id = row['study_language'], row['entry_id']
             entry, evidence = json.loads(row['entry_json']), json.loads(row['evidence_json'])
             evidence = {**evidence, 'wiktionaryExcludedSenses': excluded.get((lang, entry_id, row['entry_digest']), [])}
