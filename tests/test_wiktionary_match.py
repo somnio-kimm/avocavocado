@@ -28,6 +28,14 @@ def japanese_example():
 
 
 class WiktionaryMatchingTests(unittest.TestCase):
+    def test_reviewed_sense_mismatch_cannot_be_retrieved(self):
+        entry, evidence = inputs(); row = source(examples=[japanese_example()])
+        evidence['wiktionaryExcludedSenses'] = [m._identity(row, 0)]
+        result = m.match_wiktionary(entry, evidence, [row], allow_single_sense_candidates=True)
+        self.assertFalse(result['native_examples'])
+        self.assertFalse(result['meanings'])
+        self.assertIn('reviewed-source-sense-mismatch', [item['reason'] for item in result['holds']])
+
     def test_public_attribution_excludes_local_cache_path(self):
         entry, evidence = inputs(); row = source()
         row['snapshot']['path'] = '/private/local/cache/en.jsonl.gz'

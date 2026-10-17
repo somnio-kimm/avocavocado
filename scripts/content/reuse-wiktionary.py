@@ -22,6 +22,7 @@ def load_module(name, filename):
 sources = load_module('reuse_wiktionary_sources', 'wiktionary-sources.py')
 matcher = load_module('reuse_wiktionary_match', 'match-wiktionary.py')
 queue = load_module('reuse_wiktionary_queue', 'prepare-gpu-jobs.py')
+EXCLUSIONS = Path(__file__).resolve().parents[2] / 'language-packages/sources/wiktionary-review-exclusions.json'
 
 
 def choose_candidate(candidates, task):
@@ -49,6 +50,13 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False, include_s
     writer = queue.open_queue(queue_path) if apply else None
     counts = {lang: Counter() for lang in queue.LANGUAGES}
     holds = Counter()
+    exclusions = json.loads(EXCLUSIONS.read_text(encoding='utf-8'))
+    if exclusions.get('schemaVersion') != 1:
+        raise ValueError('Unsupported source review exclusions')
+    excluded = {}
+    for decision in exclusions['exclusions']:
+        key = (decision['studyLanguage'], decision['entryId'], decision['entryDigest'])
+        excluded.setdefault(key, []).append(decision['sourceIdentity'])
     # Snapshot the old result digests. All old result IDs must survive unchanged.
     previous = dict(reader.execute('SELECT job_id,output_digest FROM results'))
     entry_count = reader.execute('SELECT count(*) FROM entries').fetchone()[0]
@@ -56,11 +64,13 @@ def audit_reuse(queue_path, catalog_path, report_path, *, apply=False, include_s
               'modelGenerationStarted': False, 'entries': entry_count,
               'existingResults': len(previous), 'catalog': str(Path(catalog_path).resolve()),
               'singleSenseCandidateRetrieval': include_single_sense_candidates,
+              'sourceReviewExclusionsDigest': queue.digest(exclusions),
               'draftsRequireIndependentReview': True, 'languages': counts}
     try:
         for number, row in enumerate(reader.execute('SELECT * FROM entries ORDER BY study_language,entry_id'), 1):
             lang, entry_id = row['study_language'], row['entry_id']
             entry, evidence = json.loads(row['entry_json']), json.loads(row['evidence_json'])
+            evidence = {**evidence, 'wiktionaryExcludedSenses': excluded.get((lang, entry_id, row['entry_digest']), [])}
             wrappers = sources.find_rows(catalog, lang, entry['word'])
             counts[lang]['entriesAudited'] += 1
             counts[lang]['entriesWithSourceRows'] += bool(wrappers)

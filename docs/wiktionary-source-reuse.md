@@ -69,6 +69,13 @@ must pass the same independent meaning review before use. Multiple possible
 senses remain held, and an existing licensed definition candidate takes priority
 over this weaker retrieval method. Without the flag, matching stays exact.
 
+Editorial source exclusions are recorded in
+`language-packages/sources/wiktionary-review-exclusions.json`, bound to the exact
+entry digest and source snapshot/row/sense. This keeps an observed mismatch out
+of subsequent imports without rewriting entry evidence or discarding saved
+drafts. The first audit excluded the adverb *raw* source sense that conflicted
+with the existing uncooked-food meaning. Spot checks are not full-corpus review.
+
 Repair jobs marked as requiring generation or revision are preserved. Each
 import retains the original entry/sentence digest and adds a separately bound
 source candidate; it does not rewrite the whole entry evidence and invalidate

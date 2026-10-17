@@ -205,6 +205,8 @@ def match_wiktionary(entry, evidence, rows, study_language=None, allow_single_se
         known = evidence.get('meanings', {}).get(edition, {})
         known_text = known.get('text') if isinstance(known, dict) else known
         for index, sense in enumerate(row.get('senses', [])):
+            if _identity(wrapper, index) in evidence.get('wiktionaryExcludedSenses', []):
+                hold('reviewed-source-sense-mismatch', wrapper, senseIndex=index); continue
             tags = set(row.get('tags', [])) | set(sense.get('tags', []))
             if (sense.get('form_of') or sense.get('alt_of') or tags & BLOCKED or
                     any(sense.get(key) or row.get(key) for key in
